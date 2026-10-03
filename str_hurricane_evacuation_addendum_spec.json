@@ -1,0 +1,219 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "HURRICANE EVACUATION ADDENDUM \u2014 SHORT TERM RENTAL (FLORIDA)",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "HURRICANE EVACUATION ADDENDUM \u2014 FLORIDA SHORT TERM RENTAL",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Addendum applies to properties located in Florida and is attached to the Short Term Rental Agreement dated {{agreement_date}} between {{host_name}} (\"Host\") and {{guest_name}} (\"Guest\").",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "1. HURRICANE PREPAREDNESS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Florida is subject to hurricanes and tropical storms. Guest acknowledges the risks associated with hurricane season (June 1 through November 30) and agrees to the following:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Guest will monitor weather forecasts and heed all warnings issued by the National Weather Service, National Hurricane Center, and local emergency management.",
+        "Guest will comply with all evacuation orders issued by local, state, or federal authorities.",
+        "Guest has identified an evacuation route and destination in advance of any storm.",
+        "Guest has a personal emergency plan and supplies (water, food, medications, documents, etc.).",
+        "{{hurricane_preparedness_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "2. EVACUATION ORDER PROTOCOL",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "If a mandatory evacuation order is issued for the area where the property is located:",
+      "style": "BT"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Guest must evacuate the property immediately upon issuance of the order, or as soon as practicable.",
+        "Guest will notify Host of their evacuation plan and destination if possible.",
+        "Host is not responsible for Guest's safety, transportation, or accommodations during or after evacuation.",
+        "If Guest fails to evacuate, Guest assumes all risks associated with remaining in the area, including but not limited to: injury, death, property damage, loss of personal belongings, and lack of emergency services.",
+        "{{evacuation_protocol_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "3. CANCELLATION AND REFUND POLICY FOR HURRICANES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "The following cancellation and refund policy applies to hurricanes and tropical storms:",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Scenario",
+        "Refund Treatment"
+      ],
+      "rows": [
+        [
+          "Hurricane watch or warning issued before guest's arrival \u2014 guest chooses not to travel",
+          "{{hurricane_pre_arrival_refund}} (Full refund / Partial refund / No refund \u2014 per the cancellation policy)"
+        ],
+        [
+          "Hurricane watch or warning issued before guest's arrival \u2014 Host cancels the booking",
+          "{{hurricane_host_cancel_pre_arrival}} (Full refund + compensation)"
+        ],
+        [
+          "Hurricane makes landfall during the stay \u2014 guest evacuates and leaves early",
+          "{{hurricane_early_departure}} (Prorated refund for remaining nights / No refund / Other)"
+        ],
+        [
+          "Hurricane makes landfall during the stay \u2014 property is damaged and uninhabitable",
+          "{{hurricane_property_damage}} (Full refund for remaining nights / Full refund of entire stay / Other)"
+        ],
+        [
+          "Mandatory evacuation order issued during the stay",
+          "{{hurricane_evacuation_refund}} (Full refund of remaining nights / Full refund / No refund \u2014 Guest must comply with evacuation order regardless)"
+        ],
+        [
+          "Guest chooses not to evacuate despite mandatory evacuation order",
+          "{{hurricane_no_evacuation}} (No refund / No accommodation / Guest assumes all risks)"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "paragraph",
+      "text": "Force majeure provisions in the main Short Term Rental Agreement apply to hurricane events. However, this Addendum provides specific guidance for hurricane-related situations.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "4. PROPERTY PROTECTION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "If time permits before a hurricane:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Guest should secure loose items on the patio, deck, or balcony.",
+        "Guest should close and lock all windows and doors.",
+        "Guest should not tape windows (this does not prevent breakage and creates larger shards).",
+        "Guest should unplug sensitive electronics.",
+        "Guest should not stay in the property if an evacuation order is issued.",
+        "{{property_protection_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "5. POST-STORM",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "After a hurricane or tropical storm:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Guest should not return to the property until it is safe to do so and any evacuation order has been lifted.",
+        "Guest should inspect the property for damage before occupying it.",
+        "Guest should report any damage to Host promptly.",
+        "Guest should not attempt to repair damage themselves.",
+        "Guest should be aware that utilities (electricity, water, internet) may be out for an extended period.",
+        "{{post_storm_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "6. GUEST ACKNOWLEDGMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Guest acknowledges having read, understood, and agreed to this Hurricane Evacuation Addendum. Guest understands the risks of hurricane season in Florida and agrees to comply with all evacuation orders and safety procedures.",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Guest",
+          "_____________________________",
+          "{{guest_date}}"
+        ],
+        [
+          "Host",
+          "_____________________________",
+          "{{host_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

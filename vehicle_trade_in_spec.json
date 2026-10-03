@@ -1,0 +1,253 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "VEHICLE TRADE-IN AGREEMENT",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "VEHICLE TRADE-IN AGREEMENT",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Vehicle Trade-In Agreement (\"Trade-In Agreement\") is made as of {{trade_in_date}} between:",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "{{dealership_name}}, located at {{dealership_address}} (\"Dealer\")",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "{{trade_in_owner_name}}, located at {{trade_in_owner_address}} (\"Trade-In Owner\")",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "1. TRADE-IN VEHICLE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Make",
+          "{{trade_in_make}}"
+        ],
+        [
+          "Model",
+          "{{trade_in_model}}"
+        ],
+        [
+          "Year",
+          "{{trade_in_year}}"
+        ],
+        [
+          "VIN",
+          "{{trade_in_vin}}"
+        ],
+        [
+          "Odometer",
+          "{{trade_in_odometer}} miles"
+        ],
+        [
+          "Color",
+          "{{trade_in_color}}"
+        ],
+        [
+          "Title Number",
+          "{{trade_in_title_number}}"
+        ],
+        [
+          "Current License Plate",
+          "{{trade_in_plate}}"
+        ],
+        [
+          "Condition",
+          "{{trade_in_condition}} (Excellent / Good / Fair / Poor)"
+        ],
+        [
+          "Known Damage / Defects",
+          "{{trade_in_damage}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "2. TRADE-IN ALLOWANCE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Item",
+        "Amount / Details"
+      ],
+      "rows": [
+        [
+          "Trade-In Allowance (credit toward purchase)",
+          "{{trade_in_allowance}}",
+          "Applied as credit at purchase closing."
+        ],
+        [
+          "Allowance Basis",
+          "{{allowance_basis}}",
+          "Fair market value / Offered value / Net value after reconditioning."
+        ],
+        [
+          "Reconditioning / Processing Fee",
+          "{{reconditioning_fee}}",
+          "Deducted from allowance if applicable."
+        ],
+        [
+          "Net Trade-In Credit",
+          "{{net_trade_in_credit}}",
+          "Amount actually applied to new vehicle purchase."
+        ],
+        [
+          "Refund Due to Trade-In Owner (if allowance > purchase price)",
+          "{{trade_in_refund}}",
+          "Paid by {{refund_method}} on {{refund_date}}."
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "3. TRADE-IN OWNER REPRESENTATIONS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Trade-In Owner is the legal owner of the Trade-In Vehicle and has full authority to trade it in.",
+        "The Trade-In Vehicle is free of all liens and encumbrances, except as disclosed.",
+        "Trade-In Owner will deliver a valid, properly assigned title to Dealer at closing.",
+        "Trade-In Owner has not previously sold, offered to sell, or contracted to sell the Trade-In Vehicle to any other person.",
+        "Trade-In Owner has disclosed all known material defects to Dealer.",
+        "Trade-In Vehicle has not been declared a total loss, salvaged, reconstructed, or flood-damaged (unless disclosed).",
+        "{{trade_in_owner_reps}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "4. CONDITION AND \"AS-IS\"",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Trade-In Vehicle is accepted by Dealer \"as-is\" with no warranties from Trade-In Owner, except as stated in writing. Dealer may inspect and adjust the allowance based on inspection results.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "5. TITLE TRANSFER",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Trade-In Owner will deliver the Trade-In Vehicle and its title to Dealer on or before {{title_delivery_date}}. Dealer will handle DMV transfer paperwork. Title transfer to Dealer is a condition of the allowance.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "6. RELATIONSHIP TO PURCHASE AGREEMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Trade-In Agreement is part of and subject to the Vehicle Purchase Agreement dated {{purchase_agreement_date}} between Trade-In Owner (as Buyer) and Dealer (for the new vehicle). The trade-in allowance is contingent on the successful closing of the Purchase Agreement.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "7. CANCELLATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "If the Purchase Agreement is cancelled or not consummated, this Trade-In Agreement is void. Trade-In Owner may reclaim the Trade-In Vehicle in its current condition, and any allowance offered is withdrawn.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Dealer",
+        "Trade-In Owner"
+      ],
+      "rows": [
+        [
+          "Signature",
+          "_____________________________",
+          "_____________________________"
+        ],
+        [
+          "Printed Name",
+          "{{dealership_name}}",
+          "{{trade_in_owner_name}}"
+        ],
+        [
+          "Date",
+          "{{dealer_date}}",
+          "{{owner_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

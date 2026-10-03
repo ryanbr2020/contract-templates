@@ -1,0 +1,318 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "TRIP RECEIPT / TRIP SUMMARY \u2014 RIDE SHARE",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "TRIP RECEIPT / TRIP SUMMARY",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Trip Receipt is generated for the ride indicated below. It serves as documentation of the trip for both the Driver and Passenger.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "TRIP DETAILS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Trip ID / Reference #",
+          "{{trip_id}}"
+        ],
+        [
+          "Date of Trip",
+          "{{trip_date}}"
+        ],
+        [
+          "Time of Trip",
+          "{{trip_time}} (Pickup: {{pickup_time}} / Drop-off: {{dropoff_time}})"
+        ],
+        [
+          "Pickup Location",
+          "{{pickup_location}}"
+        ],
+        [
+          "Drop-off Location",
+          "{{dropoff_location}}"
+        ],
+        [
+          "Route / Distance",
+          "{{route_description}} \u2014 {{trip_distance}} miles"
+        ],
+        [
+          "Duration",
+          "{{trip_duration}} (estimated) / {{actual_duration}} (actual)"
+        ],
+        [
+          "Driver Name",
+          "{{driver_name}}"
+        ],
+        [
+          "Driver Vehicle",
+          "{{driver_vehicle}} ({{vehicle_make}} {{vehicle_model}} {{vehicle_year}}, Plate: {{license_plate}})"
+        ],
+        [
+          "Passenger Name",
+          "{{passenger_name}}"
+        ],
+        [
+          "Platform / App",
+          "{{platform_name}}"
+        ],
+        [
+          "Transaction / Payment Reference",
+          "{{payment_reference}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "FARE BREAKDOWN",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Component",
+        "Amount",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "Base Fare",
+          "{{base_fare}}",
+          "Per-mile and per-minute rate applied."
+        ],
+        [
+          "Distance Charge",
+          "{{distance_charge}}",
+          "{{trip_distance}} miles \u00d7 {{per_mile_rate}} = {{distance_calc}}"
+        ],
+        [
+          "Time Charge",
+          "{{time_charge}}",
+          "{{trip_duration_minutes}} minutes \u00d7 {{per_minute_rate}} = {{time_calc}}"
+        ],
+        [
+          "Booking / Service Fee",
+          "{{booking_fee}}",
+          "Platform service fee."
+        ],
+        [
+          "Surge / Demand Pricing (if applicable)",
+          "{{surge_charge}}",
+          "Multiplied by {{surge_multiplier}}x during high demand."
+        ],
+        [
+          "Tolls / Fees",
+          "{{tolls_charge}}",
+          "{{tolls_details}}"
+        ],
+        [
+          "Extra Passenger Fee (if applicable)",
+          "{{extra_passenger_fee}}",
+          "{{extra_passenger_details}}"
+        ],
+        [
+          "Other Charges",
+          "{{other_charges}}",
+          "{{other_charges_details}}"
+        ],
+        [
+          "Subtotal",
+          "{{subtotal}}",
+          ""
+        ],
+        [
+          "Tax / VAT (if applicable)",
+          "{{tax_charge}}",
+          "{{tax_rate}}% on subtotal."
+        ],
+        [
+          "Tip (if added)",
+          "{{tip_amount}}",
+          "Added by Passenger at {{tip_time}}."
+        ],
+        [
+          "TOTAL FARE",
+          "{{total_fare}}",
+          "Paid by {{payment_method}} on {{payment_date}}."
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "PAYMENT INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Payment Method",
+          "{{payment_method}} (Credit Card / Debit Card / Cash / Platform Balance / Other)"
+        ],
+        [
+          "Card Last 4 (if applicable)",
+          "{{card_last4}}"
+        ],
+        [
+          "Payment Status",
+          "{{payment_status}} (Completed / Pending / Refunded / Disputed)"
+        ],
+        [
+          "Payment Date",
+          "{{payment_date}}"
+        ],
+        [
+          "Payment Time",
+          "{{payment_time}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "DRIVER'S EARNINGS (for Driver's records)",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Component",
+        "Amount",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "Total Fare Collected",
+          "{{total_fare}}",
+          ""
+        ],
+        [
+          "Platform Commission / Service Fee",
+          "{{platform_commission}}",
+          "{{platform_commission_percent}}% of fare."
+        ],
+        [
+          "Driver's Net Earnings",
+          "{{driver_earnings}}",
+          "Amount paid to Driver."
+        ],
+        [
+          "Tip (if any)",
+          "{{tip_amount}}",
+          "100% to Driver."
+        ],
+        [
+          "Driver's Total for This Trip",
+          "{{driver_total}}",
+          "Net earnings + tip."
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "RATINGS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Rating Type",
+        "Rating",
+        "Comments"
+      ],
+      "rows": [
+        [
+          "Passenger rated Driver",
+          "{{passenger_rating_driver}} / 5",
+          "{{passenger_rating_driver_comments}}"
+        ],
+        [
+          "Driver rated Passenger",
+          "{{driver_rating_passenger}} / 5",
+          "{{driver_rating_passenger_comments}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "NOTES / SPECIAL INSTRUCTIONS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "{{trip_notes}}",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "If there are any issues with this trip (incorrect fare, route deviation, safety concern, lost item, etc.), please contact the Platform within {{dispute_window}} at {{platform_support_contact}}.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This receipt is generated automatically and may not reflect manual adjustments. The Platform's records are the final authority on fare and payment details.",
+      "style": "BT"
+    }
+  ]
+}

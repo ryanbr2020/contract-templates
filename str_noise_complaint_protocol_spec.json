@@ -1,0 +1,183 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "NOISE COMPLAINT AND NEIGHBOR DISPUTE PROTOCOL \u2014 SHORT TERM RENTAL",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "NOISE COMPLAINT AND NEIGHBOR DISPUTE PROTOCOL",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Protocol is attached to the Short Term Rental Agreement dated {{agreement_date}} between {{host_name}} (\"Host\") and {{guest_name}} (\"Guest\").",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "1. QUIET HOURS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Quiet hours are: {{quiet_hours}} (e.g., 10:00 PM to 7:00 AM daily). During quiet hours, noise must not be audible outside the property.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Quiet hours may be extended by local noise ordinance. Guest must comply with all local noise regulations.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "2. NOISE STANDARDS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Music and television volume must be kept at a level that does not disturb neighbors.",
+        "Parties and gatherings must not create excessive noise. If a neighbor complains about noise, Guest must immediately reduce the noise level.",
+        "Heavy footsteps, running, jumping, and other impact noises should be minimized, especially during quiet hours.",
+        "Doors, windows, and gates should be closed gently.",
+        "Pets should not bark excessively or create noise disturbances.",
+        "Outdoor equipment (lawn mowers, leaf blowers, power tools) may not be used during quiet hours.",
+        "{{noise_standards_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "3. NOISE COMPLAINT PROCEDURE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "If a neighbor, HOA, or other party complains about noise from the property:",
+      "style": "BT"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Host will contact Guest to address the complaint. Guest will be given an opportunity to explain or correct the issue.",
+        "If the noise is clearly excessive or violates quiet hours, Guest must immediately stop or reduce the noise.",
+        "If the noise is not corrected within {{noise_correction_time}} minutes, Host may take further action as described in Section 4.",
+        "Host will document the complaint, the response, and any action taken.",
+        "{{noise_complaint_procedure_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "4. CONSEQUENCES OF REPEATED NOISE VIOLATIONS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Noise violations are taken seriously. Consequences escalate as follows:",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Violation #",
+        "Consequence"
+      ],
+      "rows": [
+        [
+          "First complaint (same stay)",
+          "Warning from Host. Guest must correct the issue immediately."
+        ],
+        [
+          "Second complaint (same stay)",
+          "Second warning. Guest may be asked to reduce activities that cause noise. Additional fee of {{second_violation_fee}} may apply."
+        ],
+        [
+          "Third complaint (same stay)",
+          "Host may terminate the stay without refund. Guest must vacate by {{termination_deadline}}. Host may also assess a termination fee of {{termination_fee}}."
+        ],
+        [
+          "Severe / egregious noise (e.g., party with excessive noise late at night, repeated intentional violations)",
+          "Immediate termination of stay without refund. Host may contact law enforcement if necessary. Guest may be banned from future bookings."
+        ],
+        [
+          "Noise violation resulting in HOA fine or citation",
+          "Guest is responsible for the full amount of the fine. Host will charge the guest's payment method on file. Additional administrative fee of {{hho_fine_admin_fee}} applies."
+        ],
+        [
+          "Noise complaint reported to law enforcement",
+          "Guest is responsible for any fines, penalties, or legal costs. Host may terminate the stay and assess all associated costs."
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "5. GUEST ACKNOWLEDGMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Guest acknowledges having read, understood, and agreed to this Noise Complaint and Neighbor Dispute Protocol. Guest agrees to comply with quiet hours and noise standards and understands the consequences of violations.",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Guest",
+          "_____________________________",
+          "{{guest_date}}"
+        ],
+        [
+          "Host",
+          "_____________________________",
+          "{{host_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

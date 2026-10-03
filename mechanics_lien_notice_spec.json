@@ -1,0 +1,257 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "MECHANIC'S LIEN NOTICE",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "MECHANIC'S LIEN NOTICE",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Mechanic's Lien Notice is provided by {{mechanic_shop_name}} (\"Shop\") to {{vehicle_owner_name}} (\"Owner\") on {{lien_notice_date}}.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "VEHICLE INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Make",
+          "{{vehicle_make}}"
+        ],
+        [
+          "Model",
+          "{{vehicle_model}}"
+        ],
+        [
+          "Year",
+          "{{vehicle_year}}"
+        ],
+        [
+          "VIN",
+          "{{vehicle_vin}}"
+        ],
+        [
+          "Odometer",
+          "{{odometer}} miles"
+        ],
+        [
+          "License Plate",
+          "{{license_plate}}"
+        ],
+        [
+          "Vehicle Location",
+          "{{vehicle_location}} (Shop address or location where vehicle is stored)"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "LIEN INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Date Services Began",
+          "{{service_start_date}}"
+        ],
+        [
+          "Date Services Completed / Vehicle Ready",
+          "{{service_completion_date}}"
+        ],
+        [
+          "Date This Notice is Provided",
+          "{{lien_notice_date}}"
+        ],
+        [
+          "Shop Name",
+          "{{mechanic_shop_name}}"
+        ],
+        [
+          "Shop Address",
+          "{{mechanic_shop_address}}"
+        ],
+        [
+          "Shop Phone",
+          "{{mechanic_shop_phone}}"
+        ],
+        [
+          "Shop License / Registration #",
+          "{{shop_license_number}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "SERVICES AND CHARGES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "#",
+        "Date",
+        "Service / Part Description",
+        "Amount"
+      ],
+      "rows": [
+        [
+          "1",
+          "{{service_1_date}}",
+          "{{service_1_description}}",
+          "{{service_1_amount}}"
+        ],
+        [
+          "2",
+          "{{service_2_date}}",
+          "{{service_2_description}}",
+          "{{service_2_amount}}"
+        ],
+        [
+          "3",
+          "{{service_3_date}}",
+          "{{service_3_description}}",
+          "{{service_3_amount}}"
+        ],
+        [
+          "4",
+          "{{service_4_date}}",
+          "{{service_4_description}}",
+          "{{service_4_amount}}"
+        ],
+        [
+          "5",
+          "{{service_5_date}}",
+          "{{service_5_description}}",
+          "{{service_5_amount}}"
+        ],
+        [
+          "",
+          "",
+          "TOTAL CHARGES",
+          "{{total_charges}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "OWNER'S RIGHT TO CURE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "This is a notice of intent to file a mechanic's lien on the Vehicle. Owner has the right to pay the total charges listed above within {{cure_period_days}} days of receiving this notice to prevent the lien from being filed.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Payment must be made to: {{mechanic_shop_name}}, {{mechanic_shop_address}}. Payment methods: {{payment_methods}}. If payment is received within the cure period, this notice is void.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "If Owner does not pay within the cure period, Shop may file a mechanic's lien on the Vehicle with the appropriate county or state agency. Once the lien is filed, Owner may need to pay additional filing fees and may need to pursue legal action to clear the lien.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "LEGAL NOTICE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "This notice is provided in accordance with {{state}} mechanic's lien law. If you have questions about your rights, you may wish to consult with an attorney. This notice does not constitute legal advice.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Shop Authorization",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Shop Signature",
+          "_____________________________",
+          "{{lien_notice_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{shop_owner_name}}",
+          ""
+        ],
+        [
+          "Title",
+          "{{shop_owner_title}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

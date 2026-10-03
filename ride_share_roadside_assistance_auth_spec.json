@@ -1,0 +1,314 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "RIDE-SHARE ROADSIDE ASSISTANCE AUTHORIZATION",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "RIDE-SHARE ROADSIDE ASSISTANCE AUTHORIZATION",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Roadside Assistance Authorization is part of the Ride-Share Driver Agreement dated {{agreement_date}} between {{platform_name}} (\"Platform\") and {{driver_name}} (\"Driver\").",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "PURPOSE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Authorization allows Driver to request roadside assistance for the Vehicle during a ride-share trip or while the Vehicle is being used for ride-share operations.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "ROADSIDE ASSISTANCE PROGRAM PARTICIPATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Driver {{participates_in_roadside_program}} (Yes / No) in the following roadside assistance program:",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Roadside Assistance Provider",
+          "{{roadside_provider_name}}"
+        ],
+        [
+          "Provider Phone / Hotline",
+          "{{roadside_provider_phone}}"
+        ],
+        [
+          "Provider Account / Membership #",
+          "{{roadside_provider_account}}"
+        ],
+        [
+          "Coverage Type",
+          "{{roadside_coverage_type}} (Towing / Tire change / Jump start / Lockout service / Fuel delivery / Other)"
+        ],
+        [
+          "Coverage Limits",
+          "{{roadside_coverage_limits}} (maximum towing distance, driving radius, number of service calls per year)"
+        ],
+        [
+          "Coverage Effective Date",
+          "{{roadside_coverage_effective}}"
+        ],
+        [
+          "Coverage Expiration Date",
+          "{{roadside_coverage_expiration}}"
+        ],
+        [
+          "Driver Pays Deductible?",
+          "{{driver_pays_deductible}} (Deductible Amount: {{roadside_deductible}})"
+        ],
+        [
+          "Platform-Provided Roadside Assistance?",
+          "{{platform_provides_roadside}} (Platform Program: {{platform_roadside_program}} \u2014 Contact: {{platform_roadside_contact}})"
+        ],
+        [
+          "How to Request Service",
+          "{{how_to_request_service}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "IF VEHICLE BREAKS DOWN OR REQUIRES ASSISTANCE DURING A TRIP",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "If the Vehicle experiences a mechanical failure, flat tire, lockout, fuel depletion, or other issue requiring roadside assistance during a ride-share trip, Driver must:",
+      "style": "BT"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "{{roadside_step_1}}",
+        "{{roadside_step_2}}",
+        "{{roadside_step_3}}",
+        "{{roadside_step_4}}",
+        "{{roadside_step_5}}",
+        "{{roadside_step_6}}",
+        "{{roadside_step_7}}",
+        "{{additional_roadside_steps}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "VEHICLE LOCKOUT / KEY LOSS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "If Driver is locked out of the Vehicle or loses the keys during a trip:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "{{lockout_step_1}}",
+        "{{lockout_step_2}}",
+        "{{lockout_step_3}}",
+        "{{lockout_response}}",
+        "{{key_loss_response}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "EMERGENCY CONTACTS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Contact",
+        "Phone / Contact Info",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "Roadside Assistance Provider",
+          "{{roadside_provider_phone}}",
+          "{{roadside_provider_notes}}"
+        ],
+        [
+          "Platform Support / Dispatch",
+          "{{platform_support_phone}}",
+          "{{platform_support_notes}}"
+        ],
+        [
+          "Emergency (Police, Fire, EMS)",
+          "911",
+          "In case of emergency, injury, or immediate danger"
+        ],
+        [
+          "Local Tow Truck (if not using provider)",
+          "{{local_tow_phone}}",
+          "{{local_tow_notes}}"
+        ],
+        [
+          "Vehicle Owner (if Driver is not Owner)",
+          "{{owner_phone}}",
+          "{{owner_notes}}"
+        ],
+        [
+          "Driver's Emergency Contact",
+          "{{driver_emergency_contact_phone}}",
+          "{{driver_emergency_contact_notes}}"
+        ],
+        [
+          "Insurance Company",
+          "{{insurance_phone}}",
+          "{{insurance_notes}}"
+        ],
+        [
+          "Other: {{other_contact_type}}",
+          "{{other_contact_phone}}",
+          "{{other_contact_notes}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "COST AND PAYMENT RESPONSIBILITY",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Driver acknowledges and agrees that:",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Scenario",
+        "Responsible Party",
+        "Payment / Cost"
+      ],
+      "rows": [
+        [
+          "Roadside assistance within coverage limits and for covered events",
+          "{{cost_responsible_1_party}}",
+          "Covered by roadside assistance program. Deductible: {{roadside_deductible}} (if applicable)."
+        ],
+        [
+          "Roadside assistance outside coverage limits or for excluded events",
+          "{{cost_responsible_2_party}}",
+          "Driver is responsible for the full cost of service, unless Platform agrees otherwise in writing."
+        ],
+        [
+          "Roadside assistance due to Driver negligence or violation of policy",
+          "{{cost_responsible_3_party}}",
+          "Driver is responsible for all costs."
+        ],
+        [
+          "Towing beyond coverage limit",
+          "{{cost_responsible_4_party}}",
+          "Driver is responsible for costs beyond the coverage limit."
+        ],
+        [
+          "Key replacement / reprogramming",
+          "{{cost_responsible_5_party}}",
+          "{{key_replacement_cost_details}}."
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "DRIVER ACKNOWLEDGMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Driver acknowledges having read and understood this Roadside Assistance Authorization. Driver agrees to follow the procedures outlined above and to maintain adequate roadside assistance coverage for the Vehicle.",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Driver",
+          "_____________________________",
+          "{{driver_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{driver_name}}",
+          ""
+        ],
+        [
+          "Platform Representative",
+          "_____________________________",
+          "{{platform_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{platform_rep_name}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

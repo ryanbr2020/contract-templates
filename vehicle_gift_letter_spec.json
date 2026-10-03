@@ -1,0 +1,218 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "VEHICLE GIFT LETTER \u2014 OWNERSHIP TRANSFER (NON-SALE)",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "VEHICLE GIFT LETTER \u2014 OWNERSHIP TRANSFER (NON-SALE)",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Gift Letter is made on {{gift_date}} by {{donor_name}}, residing at {{donor_address}} (\"Donor\"), to {{recipient_name}}, residing at {{recipient_address}} (\"Recipient\").",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "VEHICLE IDENTIFICATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Make",
+          "{{vehicle_make}}"
+        ],
+        [
+          "Model",
+          "{{vehicle_model}}"
+        ],
+        [
+          "Year",
+          "{{vehicle_year}}"
+        ],
+        [
+          "VIN",
+          "{{vehicle_vin}}"
+        ],
+        [
+          "Odometer",
+          "{{odometer}} miles"
+        ],
+        [
+          "Color",
+          "{{vehicle_color}}"
+        ],
+        [
+          "Title Number",
+          "{{title_number}}"
+        ],
+        [
+          "License Plate",
+          "{{license_plate}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "GIFT STATEMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "DONOR'S STATEMENT:",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "I, {{donor_name}}, hereby confirm that I am the legal owner of the vehicle described above, free and clear of all liens and encumbrances. I hereby give, transfer, and donate the vehicle to {{recipient_name}} as a GIFT, without any monetary consideration. No money has been paid or will be paid by the Recipient to the Donor for this vehicle.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This is a bona fide gift. The transfer is not a sale, trade, or exchange for value.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "DONOR REPRESENTATIONS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Donor is the legal owner of the Vehicle and has full authority to gift it.",
+        "The Vehicle is free of all liens and encumbrances. No loan or lien is outstanding.",
+        "Donor has not previously sold, offered to sell, or contracted to sell the Vehicle to any person.",
+        "Donor has disclosed all known material defects to Recipient.",
+        "Donor makes no warranties regarding the Vehicle's condition. The Vehicle is transferred \"as-is.\"",
+        "The gift is not conditional on any obligation of the Recipient.",
+        "{{donor_gift_reps}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "DONOR'S TAX DISCLOSURE (if applicable)",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "This gift may be subject to gift tax reporting requirements. Donor should consult a tax professional. Estimated fair market value at time of gift: {{estimated_fair_market_value}}. This Gift Letter does not constitute tax advice.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "DONOR'S CERTIFICATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Donor certifies that the statements in this Gift Letter are true and correct to the best of Donor's knowledge.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "RECIPIENT'S ACKNOWLEDGMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Recipient acknowledges:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Receiving the Vehicle as a gift with no monetary consideration.",
+        "Understanding that the Vehicle is transferred \"as-is\" with no warranties.",
+        "Accepting responsibility for all future costs, taxes, registration, insurance, and liabilities associated with ownership.",
+        "Understanding that the DMV may require additional forms, taxes, or fees to complete the title transfer.",
+        "{{recipient_gift_ack}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Donor",
+        "Recipient"
+      ],
+      "rows": [
+        [
+          "Signature",
+          "_____________________________",
+          "_____________________________"
+        ],
+        [
+          "Printed Name",
+          "{{donor_name}}",
+          "{{recipient_name}}"
+        ],
+        [
+          "Date",
+          "{{donor_date}}",
+          "{{recipient_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "paragraph",
+      "text": "Note: This Gift Letter does not transfer title. The title must be properly assigned and submitted to the DMV, along with any required gift tax forms, odometer disclosure, and registration application.",
+      "style": "BT"
+    }
+  ]
+}

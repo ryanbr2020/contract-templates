@@ -1,0 +1,564 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "RIDE-SHARE INCIDENT REPORT FORM",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "RIDE-SHARE INCIDENT REPORT FORM",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Incident Report is completed by {{reporter_name}} (\"Reporter\") on {{report_date}} to document an incident involving a ride-share trip, Vehicle, or Platform operations.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Reporter is: {{reporter_role}} (Driver / Passenger / Witness / Vehicle Owner / Other).",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "REPORTER INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Reporter Full Name",
+          "{{reporter_name}}"
+        ],
+        [
+          "Reporter Phone",
+          "{{reporter_phone}}"
+        ],
+        [
+          "Reporter Email",
+          "{{reporter_email}}"
+        ],
+        [
+          "Reporter Role",
+          "{{reporter_role}}"
+        ],
+        [
+          "Platform Account / Driver ID (if applicable)",
+          "{{reporter_account_id}}"
+        ],
+        [
+          "Date of Report",
+          "{{report_date}}"
+        ],
+        [
+          "Time of Report",
+          "{{report_time}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "INCIDENT INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Date of Incident",
+          "{{incident_date}}"
+        ],
+        [
+          "Time of Incident",
+          "{{incident_time}}"
+        ],
+        [
+          "Exact Location of Incident",
+          "{{incident_location}} (street address, intersection, GPS coordinates)"
+        ],
+        [
+          "General Area",
+          "{{incident_area}} (City, State)"
+        ],
+        [
+          "Type of Incident",
+          "{{incident_type}} (Collision / Near-collision / Passenger incident / Driver altercation / Vehicle damage / Theft / Vandalism / Harassment / Assault / Medical emergency / Road rage / Violation of law / Other)"
+        ],
+        [
+          "Brief Description of Incident",
+          "{{incident_description}} (who, what, when, where, how)"
+        ],
+        [
+          "Severity of Incident",
+          "{{incident_severity}} (Minor / Moderate / Serious / Severe / Emergency)"
+        ],
+        [
+          "Were there injuries?",
+          "{{injuries_present}} (Yes / No \u2014 If Yes: {{injuries_description}} \u2014 Medical assistance obtained: {{medical_assistance}})"
+        ],
+        [
+          "Was law enforcement involved?",
+          "{{law_enforcement_involved}} (Agency: {{law_enforcement_agency}} \u2014 Report Number: {{police_report_number}})"
+        ],
+        [
+          "Was the Vehicle damaged?",
+          "{{vehicle_damaged}} (Yes / No \u2014 If Yes: {{vehicle_damage_description}} \u2014 Photos taken: {{vehicle_damage_photos}})"
+        ],
+        [
+          "Was any other property damaged?",
+          "{{property_damaged}} (Yes / No \u2014 If Yes: {{property_damage_description}} \u2014 Property Owner: {{property_owner}})"
+        ],
+        [
+          "Was any personal property lost or damaged?",
+          "{{personal_property_affected}} (Yes / No \u2014 If Yes: {{personal_property_description}})"
+        ],
+        [
+          "Trip ID / Ride ID (if applicable)",
+          "{{trip_id}}"
+        ],
+        [
+          "Driver Name / Account",
+          "{{driver_name}} \u2014 {{driver_account_id}}"
+        ],
+        [
+          "Passenger Name(s) / Account(s)",
+          "{{passenger_names}} \u2014 {{passenger_account_ids}}"
+        ],
+        [
+          "Other Parties Involved",
+          "{{other_parties_involved}}"
+        ],
+        [
+          "Witnesses",
+          "{{witnesses_info}}"
+        ],
+        [
+          "Photos / Video Taken?",
+          "{{media_taken}} (Photos: {{photo_count}} \u2014 Video: {{video_count}} \u2014 Submitted: {{media_submission_status}})"
+        ],
+        [
+          "Platform Notified?",
+          "{{platform_notified}} (Date/Time: {{platform_notification_date_time}} \u2014 Method: {{platform_notification_method}})"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "DETAILED NARRATIVE ACCOUNT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Provide a detailed, chronological account of the incident. Include what happened before, during, and after.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Narrative:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "{{narrative_paragraph_1}}",
+        "{{narrative_paragraph_2}}",
+        "{{narrative_paragraph_3}}",
+        "{{narrative_paragraph_4}}",
+        "{{narrative_paragraph_5}}",
+        "{{additional_narrative}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "CAUSE / CONTRIBUTING FACTORS (if known)",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Possible Factor",
+        "Present? (Y/N)",
+        "Notes / Details"
+      ],
+      "rows": [
+        [
+          "Weather conditions contributed",
+          "{{factor_weather}}",
+          "{{factor_weather_notes}}"
+        ],
+        [
+          "Road conditions contributed",
+          "{{factor_road}}",
+          "{{factor_road_notes}}"
+        ],
+        [
+          "Traffic congestion contributed",
+          "{{factor_traffic}}",
+          "{{factor_traffic_notes}}"
+        ],
+        [
+          "Driver fatigue / distraction contributed",
+          "{{factor_fatigue}}",
+          "{{factor_fatigue_notes}}"
+        ],
+        [
+          "Driver impairment contributed",
+          "{{factor_impairment}}",
+          "{{factor_impairment_notes}}"
+        ],
+        [
+          "Vehicle mechanical issue contributed",
+          "{{factor_vehicle_mech}}",
+          "{{factor_vehicle_mech_notes}}"
+        ],
+        [
+          "Passenger behavior contributed",
+          "{{factor_passenger}}",
+          "{{factor_passenger_notes}}"
+        ],
+        [
+          "Other driver behavior contributed",
+          "{{factor_other_driver}}",
+          "{{factor_other_driver_notes}}"
+        ],
+        [
+          "Speeding / reckless driving contributed",
+          "{{factor_speeding}}",
+          "{{factor_speeding_notes}}"
+        ],
+        [
+          "Other factor",
+          "{{factor_other}}",
+          "{{factor_other_notes}}"
+        ],
+        [
+          "Unknown / Under investigation",
+          "{{factor_unknown}}",
+          "{{factor_unknown_notes}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "IMMEDIATE ACTIONS TAKEN",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Actions taken immediately after the incident:",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "#",
+        "Action Taken",
+        "By Whom",
+        "Time",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "1",
+          "{{action_1}}",
+          "{{action_1_by}}",
+          "{{action_1_time}}",
+          "{{action_1_notes}}"
+        ],
+        [
+          "2",
+          "{{action_2}}",
+          "{{action_2_by}}",
+          "{{action_2_time}}",
+          "{{action_2_notes}}"
+        ],
+        [
+          "3",
+          "{{action_3}}",
+          "{{action_3_by}}",
+          "{{action_3_time}}",
+          "{{action_3_notes}}"
+        ],
+        [
+          "4",
+          "{{action_4}}",
+          "{{action_4_by}}",
+          "{{action_4_time}}",
+          "{{action_4_notes}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "EVIDENCE AND DOCUMENTATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Attached / Available? (Y/N)",
+        "File Name / Reference",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "Photos of scene",
+          "{{evidence_1_att}}",
+          "{{evidence_1_ref}}",
+          "{{evidence_1_notes}}"
+        ],
+        [
+          "Photos of vehicles",
+          "{{evidence_2_att}}",
+          "{{evidence_2_ref}}",
+          "{{evidence_2_notes}}"
+        ],
+        [
+          "Photos of damage",
+          "{{evidence_3_att}}",
+          "{{evidence_3_ref}}",
+          "{{evidence_3_notes}}"
+        ],
+        [
+          "Photos of injuries",
+          "{{evidence_4_att}}",
+          "{{evidence_4_ref}}",
+          "{{evidence_4_notes}}"
+        ],
+        [
+          "Video footage",
+          "{{evidence_5_att}}",
+          "{{evidence_5_ref}}",
+          "{{evidence_5_notes}}"
+        ],
+        [
+          "Dashcam footage",
+          "{{evidence_6_att}}",
+          "{{evidence_6_ref}}",
+          "{{evidence_6_notes}}"
+        ],
+        [
+          "Police report / citation",
+          "{{evidence_7_att}}",
+          "{{evidence_7_ref}}",
+          "{{evidence_7_notes}}"
+        ],
+        [
+          "Witness statements (written)",
+          "{{evidence_8_att}}",
+          "{{evidence_8_ref}}",
+          "{{evidence_8_notes}}"
+        ],
+        [
+          "Medical records / bills",
+          "{{evidence_9_att}}",
+          "{{evidence_9_ref}}",
+          "{{evidence_9_notes}}"
+        ],
+        [
+          "Trip receipt / ride record",
+          "{{evidence_10_att}}",
+          "{{evidence_10_ref}}",
+          "{{evidence_10_notes}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "REPORTING PARTY'S STATEMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "I, {{reporter_name}}, make the following statements:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "I witnessed / was involved in the incident described above.",
+        "The information I have provided is true and accurate to the best of my knowledge.",
+        "I am reporting this incident to {{platform_name}} and/or law enforcement to ensure an appropriate investigation.",
+        "I am willing to cooperate with any investigation by Platform, law enforcement, or insurance parties.",
+        "{{reporter_additional_statement}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "PLATFORM USE ONLY",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Incident Report ID",
+          "{{platform_report_id}}"
+        ],
+        [
+          "Date Received",
+          "{{platform_received_date}}"
+        ],
+        [
+          "Received By",
+          "{{platform_received_by}}"
+        ],
+        [
+          "Incident Category (Platform classification)",
+          "{{platform_category}}"
+        ],
+        [
+          "Priority Level",
+          "{{platform_priority}} (Low / Medium / High / Critical / Emergency)"
+        ],
+        [
+          "Assigned To",
+          "{{platform_assigned_to}}"
+        ],
+        [
+          "Investigation Status",
+          "{{platform_investigation_status}} (Open / Under Investigation / Pending Info / Closed / Referred to Law Enforcement)"
+        ],
+        [
+          "Investigation Notes",
+          "{{platform_investigation_notes}}"
+        ],
+        [
+          "Platform Action Taken",
+          "{{platform_action_taken}}"
+        ],
+        [
+          "Date of Action",
+          "{{platform_action_date}}"
+        ],
+        [
+          "Resolution",
+          "{{platform_resolution}}"
+        ],
+        [
+          "Resolution Date",
+          "{{platform_resolution_date}}"
+        ],
+        [
+          "Follow-Up Required?",
+          "{{platform_followup_required}} (Yes / No \u2014 Follow-up Date: {{platform_followup_date}})"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Date",
+        "Time"
+      ],
+      "rows": [
+        [
+          "Reporting Party",
+          "_____________________________",
+          "{{report_date}}",
+          "{{report_time}}"
+        ],
+        [
+          "Printed Name",
+          "{{reporter_name}}",
+          "",
+          ""
+        ],
+        [
+          "Witness Signature (if applicable)",
+          "_____________________________",
+          "{{witness_date}}",
+          "{{witness_time}}"
+        ],
+        [
+          "Witness Printed Name",
+          "{{witness_name}}",
+          "",
+          ""
+        ],
+        [
+          "Platform Representative",
+          "_____________________________",
+          "{{platform_signature_date}}",
+          "{{platform_signature_time}}"
+        ],
+        [
+          "Platform Representative Printed Name",
+          "{{platform_rep_name}}",
+          "",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

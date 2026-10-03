@@ -1,0 +1,374 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "P2P CAR RENTAL \u2014 GUEST FOLLOW-UP LOG",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "P2P CAR RENTAL \u2014 GUEST FOLLOW-UP LOG",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This log is used to track follow-up actions with guests after each rental.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "TRIP INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Trip ID / Reference #",
+          "{{trip_id}}"
+        ],
+        [
+          "Guest Name",
+          "{{guest_name}}"
+        ],
+        [
+          "Guest Email",
+          "{{guest_email}}"
+        ],
+        [
+          "Guest Phone",
+          "{{guest_phone}}"
+        ],
+        [
+          "Trip Start Date",
+          "{{trip_start_date}}"
+        ],
+        [
+          "Trip End Date",
+          "{{trip_end_date}}"
+        ],
+        [
+          "Vehicle Used",
+          "{{vehicle_make}} {{vehicle_model}} {{vehicle_year}}"
+        ],
+        [
+          "Trip Rating (from platform)",
+          "{{trip_rating}} / 5"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "GUEST FEEDBACK AND FOLLOW-UP",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Review platform feedback, guest messages, and trip details within 48 hours of trip end. Record any follow-up actions needed.",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Date of Review",
+          "{{review_date}}"
+        ],
+        [
+          "Reviewed By",
+          "{{reviewer_name}}"
+        ],
+        [
+          "Guest Rating Received",
+          "{{guest_rating_received}} / 5 (if available)"
+        ],
+        [
+          "Guest Feedback Comments",
+          "{{guest_feedback_comments}}"
+        ],
+        [
+          "Any Issues or Complaints Raised?",
+          "{{issues_raised}} (Yes / No)"
+        ],
+        [
+          "If Yes \u2014 Issue Description",
+          "{{issue_description}}"
+        ],
+        [
+          "Issue Resolved?",
+          "{{issue_resolved}} (Yes / No / In progress)"
+        ],
+        [
+          "Date Resolved",
+          "{{issue_resolved_date}} (if applicable)"
+        ],
+        [
+          "Resolution Method",
+          "{{resolution_method}}"
+        ],
+        [
+          "Follow-up Action Needed?",
+          "{{followup_needed}} (Yes / No)"
+        ],
+        [
+          "Follow-up Action Description",
+          "{{followup_action_description}}"
+        ],
+        [
+          "Follow-up Due Date",
+          "{{followup_due_date}} (if applicable)"
+        ],
+        [
+          "Follow-up Completed?",
+          "{{followup_completed}} (Yes / No / N/A)"
+        ],
+        [
+          "Follow-up Completion Date",
+          "{{followup_completion_date}} (if applicable)"
+        ],
+        [
+          "Notes / Additional Comments",
+          "{{followup_notes}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "GUEST COMMUNICATION LOG",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Date",
+        "Time",
+        "Type (Message / Email / Call / Platform)",
+        "From / To",
+        "Subject / Summary",
+        "Action Taken"
+      ],
+      "rows": [
+        [
+          "{{comm_log_1_date}}",
+          "{{comm_log_1_time}}",
+          "{{comm_log_1_type}}",
+          "{{comm_log_1_from_to}}",
+          "{{comm_log_1_subject}}",
+          "{{comm_log_1_action}}"
+        ],
+        [
+          "{{comm_log_2_date}}",
+          "{{comm_log_2_time}}",
+          "{{comm_log_2_type}}",
+          "{{comm_log_2_from_to}}",
+          "{{comm_log_2_subject}}",
+          "{{comm_log_2_action}}"
+        ],
+        [
+          "{{comm_log_3_date}}",
+          "{{comm_log_3_time}}",
+          "{{comm_log_3_type}}",
+          "{{comm_log_3_from_to}}",
+          "{{comm_log_3_subject}}",
+          "{{comm_log_3_action}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "FOLLOW-UP ACTIONS LOG",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "#",
+        "Date Identified",
+        "Action Needed",
+        "Priority (High / Medium / Low)",
+        "Responsible Person",
+        "Due Date",
+        "Completed Date",
+        "Status",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "1",
+          "{{action_1_date}}",
+          "{{action_1_description}}",
+          "{{action_1_priority}}",
+          "{{action_1_person}}",
+          "{{action_1_due_date}}",
+          "{{action_1_completion}}",
+          "{{action_1_status}}",
+          "{{action_1_notes}}"
+        ],
+        [
+          "2",
+          "{{action_2_date}}",
+          "{{action_2_description}}",
+          "{{action_2_priority}}",
+          "{{action_2_person}}",
+          "{{action_2_due_date}}",
+          "{{action_2_completion}}",
+          "{{action_2_status}}",
+          "{{action_2_notes}}"
+        ],
+        [
+          "3",
+          "{{action_3_date}}",
+          "{{action_3_description}}",
+          "{{action_3_priority}}",
+          "{{action_3_person}}",
+          "{{action_3_due_date}}",
+          "{{action_3_completion}}",
+          "{{action_3_status}}",
+          "{{action_3_notes}}"
+        ],
+        [
+          "4",
+          "{{action_4_date}}",
+          "{{action_4_description}}",
+          "{{action_4_priority}}",
+          "{{action_4_person}}",
+          "{{action_4_due_date}}",
+          "{{action_4_completion}}",
+          "{{action_4_status}}",
+          "{{action_4_notes}}"
+        ],
+        [
+          "5",
+          "{{action_5_date}}",
+          "{{action_5_description}}",
+          "{{action_5_priority}}",
+          "{{action_5_person}}",
+          "{{action_5_due_date}}",
+          "{{action_5_completion}}",
+          "{{action_5_status}}",
+          "{{action_5_notes}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "GUEST RETENTION / FUTURE BOOKING",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Guest likely to book again?",
+          "{{guest_will_book_again}} (Yes / Maybe / No)"
+        ],
+        [
+          "Guest added to marketing list?",
+          "{{guest_added_to_marketing}} (Yes / No)"
+        ],
+        [
+          "Guest added to loyalty / rewards program?",
+          "{{guest_loyalty_added}} (Yes / No / N/A)"
+        ],
+        [
+          "Any special notes for future bookings?",
+          "{{future_booking_notes}}"
+        ],
+        [
+          "Thank-you message sent?",
+          "{{thankyou_sent}} (Yes / No \u2014 date: {{thankyou_date}})"
+        ],
+        [
+          "Discount or incentive offered for future booking?",
+          "{{future_discount_offered}} (Yes / No \u2014 details: {{future_discount_details}})"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "REVIEWER'S SIGNATURE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Reviewer",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Reviewer Signature",
+          "_____________________________",
+          "{{review_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{reviewer_name}}",
+          ""
+        ],
+        [
+          "Title / Role",
+          "{{reviewer_title}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

@@ -1,0 +1,418 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "VEHICLE POOLING / CARPOOL AGREEMENT",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "VEHICLE POOLING / CARPOOL AGREEMENT",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Carpool Agreement (\"Agreement\") is made as of {{carpool_date}} between:",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Driver: {{driver_name}}, residing at {{driver_address}} (\"Driver\")",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rider(s): {{rider_names}}, residing at {{rider_addresses}} (\"Riders\")",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Group may be referred to as the \"Carpool Group.\"",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "1. COMMUTE / ROUTE DETAILS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Commute Route / Corridor",
+          "{{commute_route}} (e.g., Suburban Town to Downtown Office Park)"
+        ],
+        [
+          "Primary Pickup Location(s)",
+          "{{pickup_locations}}"
+        ],
+        [
+          "Primary Drop-off Location(s)",
+          "{{dropoff_locations}}"
+        ],
+        [
+          "Commute Schedule",
+          "{{commute_schedule}} (e.g., Monday\u2013Friday, departure at 7:30 AM, return at 5:30 PM)"
+        ],
+        [
+          "Expected Travel Time (one way)",
+          "{{travel_time}}"
+        ],
+        [
+          "Vehicle Description",
+          "{{vehicle_description}} ({{vehicle_make}} {{vehicle_model}} {{vehicle_year}})"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "2. PARTICIPANTS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "#",
+        "Name",
+        "Role",
+        "Pickup Location",
+        "Contact Phone",
+        "Contact Email"
+      ],
+      "rows": [
+        [
+          "1",
+          "{{driver_name}}",
+          "Driver",
+          "{{driver_pickup}}",
+          "{{driver_phone}}",
+          "{{driver_email}}"
+        ],
+        [
+          "2",
+          "{{rider_1_name}}",
+          "Rider",
+          "{{rider_1_pickup}}",
+          "{{rider_1_phone}}",
+          "{{rider_1_email}}"
+        ],
+        [
+          "3",
+          "{{rider_2_name}}",
+          "Rider",
+          "{{rider_2_pickup}}",
+          "{{rider_2_phone}}",
+          "{{rider_2_email}}"
+        ],
+        [
+          "4",
+          "{{rider_3_name}}",
+          "Rider",
+          "{{rider_3_pickup}}",
+          "{{rider_3_phone}}",
+          "{{rider_3_email}}"
+        ],
+        [
+          "5",
+          "{{rider_4_name}}",
+          "Rider",
+          "{{rider_4_pickup}}",
+          "{{rider_4_phone}}",
+          "{{rider_4_email}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "3. COST SHARING ARRANGEMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "The cost sharing arrangement for this carpool is:",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Cost Sharing Model",
+          "{{cost_model}} (Equal split per ride / Equal split per month / Per-mile allocation / Other)"
+        ],
+        [
+          "Costs to be shared",
+          "{{costs_shared}} (gas, tolls, parking, maintenance contribution, insurance contribution, other)"
+        ],
+        [
+          "Estimated Monthly Cost per Person",
+          "{{estimated_monthly_cost}}"
+        ],
+        [
+          "Payment Method",
+          "{{payment_method}} (Venmo / Zelle / Cash / Bank transfer / Other)"
+        ],
+        [
+          "Payment Frequency",
+          "{{payment_frequency}} (per ride / weekly / monthly)"
+        ],
+        [
+          "Payment Due Date",
+          "{{payment_due_date}}"
+        ],
+        [
+          "If Driver uses the Vehicle for non-carpool purposes (personal trips, weekends), those costs are NOT shared."
+        ],
+        [
+          "If a Rider is absent on a given day, the Rider still pays their share if the Driver departs as scheduled (no \"ghost ride\" refund unless agreed)."
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "4. DRIVER RESPONSIBILITIES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Provide a safe, reliable, and fuel-efficient Vehicle in good working condition.",
+        "Maintain valid driver's license, vehicle registration, and auto insurance.",
+        "Comply with all traffic laws and regulations.",
+        "Arrive at pickup locations at the scheduled time. Wait {{wait_time_carpool}} minutes for late Riders.",
+        "Not engage in distracted driving, aggressive driving, or driving under the influence.",
+        "Maintain a smoke-free, pet-free (unless agreed), and clean Vehicle.",
+        "Communicate any schedule changes, vehicle issues, or route changes to the Carpool Group in advance.",
+        "Not make unauthorized stops or detours.",
+        "{{driver_carpool_reps}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "5. RIDER RESPONSIBILITIES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Be ready at the pickup location at the scheduled time. The Driver will wait {{wait_time_carpool}} minutes.",
+        "Notify the Driver/Group in advance if unable to ride on a given day (by {{absence_notice_time}}).",
+        "Pay their share of costs as agreed.",
+        "Treat the Driver and Vehicle with respect.",
+        "Not engage in disruptive, unsafe, or illegal behavior during rides.",
+        "Not damage or vandalize the Vehicle.",
+        "Not exceed the maximum passenger capacity of the Vehicle.",
+        "Share the vehicle appropriately (backseat preferred for non-driver adults, seatbelt use required).",
+        "Not bring unauthorized additional passengers without group consent.",
+        "{{rider_carpool_reps}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "6. SCHEDULE CHANGES AND FLEXIBILITY",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The Carpool Group agrees to a regular schedule as described in Section 1.",
+        "Schedule changes (holidays, sick days, working from home, early departures) should be communicated as early as possible.",
+        "The Driver may occasionally need to adjust the schedule or route due to traffic, vehicle issues, or personal circumstances. The Driver will notify Riders in advance when possible.",
+        "Riders may occasionally need to be picked up or dropped off at alternate locations. This should be arranged in advance and may affect schedule and costs.",
+        "No Rider is guaranteed a ride. The Driver retains discretion over which Riders to transport, subject to the principles of this Agreement."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "7. ABSENCE AND MAKE-UP POLICY",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "{{absence_policy_1}}",
+        "{{absence_policy_2}}",
+        "{{absence_policy_3}}",
+        "If a Rider is absent, the Rider's share of costs for that day may be redistributed among present Riders or waived, depending on the cost sharing model.",
+        "If the Driver is absent, the Driver is not obligated to provide a substitute driver. Riders are responsible for their own transportation on Driver-absent days."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "8. VEHICLE MAINTENANCE AND CLEANLINESS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Driver is responsible for routine vehicle maintenance (oil changes, tire rotation, etc.) at Driver's expense.",
+        "Riders contribute to fuel and wear-and-tear costs as agreed in Section 3.",
+        "Riders should not eat messy foods, drink open containers, or create excessive mess in the Vehicle.",
+        "Riders must clean up after themselves (trash, spills, etc.).",
+        "If a Rider causes significant damage to the Vehicle beyond normal wear and tear, the Rider is responsible for repair costs.",
+        "{{maintenance_cleanliness_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "9. LIABILITY AND DISCLAIMER",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "This is a private cost-sharing arrangement among individuals. It is NOT a commercial transportation service. The Driver is not a common carrier, taxi service, or ride-sharing platform driver.",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Each Participant assumes the risks inherent in riding in a motor vehicle.",
+        "The Driver is not liable for injuries or damages arising from the carriage, except to the extent caused by the Driver's gross negligence or willful misconduct.",
+        "Each Participant is encouraged to maintain their own personal auto injury insurance.",
+        "If a Participant is injured, their own insurance (health, auto, disability) is the primary source of coverage.",
+        "{{liability_carpool_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "10. TERMINATION AND EXPIRATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "This Agreement continues until terminated by any Party with {{termination_notice_carpool}} days written notice to the Carpool Group.",
+        "The Agreement also terminates if the Driver sells or replaces the Vehicle, moves out of the carpool corridor, or is unable to drive.",
+        "Upon termination, no Party owes any continuing obligation to the others, except for unpaid cost shares incurred before termination.",
+        "The Parties may agree to a new carpool arrangement on different terms at any time."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "11. DISPUTE RESOLUTION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Parties agree to resolve any disputes through good-faith discussion first. If discussion fails, the Parties agree to {{dispute_resolution_carpool}}.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "12. GOVERNING LAW",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Agreement is governed by the laws of {{governing_state}}.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "By signing below, each Party acknowledges having read, understood, and agreed to this Carpool Agreement.",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Name",
+        "Role",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "{{driver_name}}",
+          "Driver",
+          "_____________________________",
+          "{{driver_date}}"
+        ],
+        [
+          "{{rider_1_name}}",
+          "Rider",
+          "_____________________________",
+          "{{rider_1_date}}"
+        ],
+        [
+          "{{rider_2_name}}",
+          "Rider",
+          "_____________________________",
+          "{{rider_2_date}}"
+        ],
+        [
+          "{{rider_3_name}}",
+          "Rider",
+          "_____________________________",
+          "{{rider_3_date}}"
+        ],
+        [
+          "{{rider_4_name}}",
+          "Rider",
+          "_____________________________",
+          "{{rider_4_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

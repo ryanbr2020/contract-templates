@@ -1,0 +1,470 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "FLEET MANAGEMENT AGREEMENT",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "FLEET MANAGEMENT AGREEMENT",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Fleet Management Agreement (\"Agreement\") is made as of {{agreement_date}} between:",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "{{fleet_owner_name}}, located at {{fleet_owner_address}} (\"Fleet Owner\")",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "{{fleet_manager_name}}, located at {{fleet_manager_address}} (\"Fleet Manager\")",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "1. FLEET DESCRIPTION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "The fleet covered by this Agreement consists of the following vehicles:",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Vehicle #",
+        "Make",
+        "Model",
+        "Year",
+        "VIN",
+        "License Plate",
+        "Current Mileage",
+        "Status"
+      ],
+      "rows": [
+        [
+          "{{vehicle_1_id}}",
+          "{{vehicle_1_make}}",
+          "{{vehicle_1_model}}",
+          "{{vehicle_1_year}}",
+          "{{vehicle_1_vin}}",
+          "{{vehicle_1_plate}}",
+          "{{vehicle_1_mileage}}",
+          "{{vehicle_1_status}}"
+        ],
+        [
+          "{{vehicle_2_id}}",
+          "{{vehicle_2_make}}",
+          "{{vehicle_2_model}}",
+          "{{vehicle_2_year}}",
+          "{{vehicle_2_vin}}",
+          "{{vehicle_2_plate}}",
+          "{{vehicle_2_mileage}}",
+          "{{vehicle_2_status}}"
+        ],
+        [
+          "{{vehicle_3_id}}",
+          "{{vehicle_3_make}}",
+          "{{vehicle_3_model}}",
+          "{{vehicle_3_year}}",
+          "{{vehicle_3_vin}}",
+          "{{vehicle_3_plate}}",
+          "{{vehicle_3_mileage}}",
+          "{{vehicle_3_status}}"
+        ],
+        [
+          "{{vehicle_4_id}}",
+          "{{vehicle_4_make}}",
+          "{{vehicle_4_model}}",
+          "{{vehicle_4_year}}",
+          "{{vehicle_4_vin}}",
+          "{{vehicle_4_plate}}",
+          "{{vehicle_4_mileage}}",
+          "{{vehicle_4_status}}"
+        ],
+        [
+          "{{vehicle_5_id}}",
+          "{{vehicle_5_make}}",
+          "{{vehicle_5_model}}",
+          "{{vehicle_5_year}}",
+          "{{vehicle_5_vin}}",
+          "{{vehicle_5_plate}}",
+          "{{vehicle_5_mileage}}",
+          "{{vehicle_5_status}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Fleet Owner may add or remove vehicles from the fleet by written notice to the Fleet Manager. Changes take effect on {{fleet_change_effective_date}}.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "2. FLEET MANAGER'S RESPONSIBILITIES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Fleet Manager shall:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Maintain a fleet management system to track vehicle locations, assignments, mileage, fuel usage, and status.",
+        "Schedule and coordinate vehicle maintenance, repairs, and inspections.",
+        "Manage vehicle acquisition, disposal, and trade-in decisions in consultation with Fleet Owner.",
+        "Maintain records of all vehicle-related expenses, fuel purchases, tolls, and parking.",
+        "Manage driver qualifications, training, and recordkeeping (license verification, MVR checks, etc.).",
+        "Ensure compliance with all applicable regulations (USDOT, FMCSA, state transportation, environmental).",
+        "Manage fuel cards, toll accounts, and parking arrangements.",
+        "Handle insurance claims and coordinate with insurance carriers.",
+        "Provide monthly fleet reports to Fleet Owner including: mileage, fuel usage, maintenance costs, repairs, incidents, and compliance status.",
+        "{{fleet_manager_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "3. FLEET OWNER'S RESPONSIBILITIES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Provide the vehicles to Fleet Manager for management pursuant to this Agreement.",
+        "Maintain ownership of all vehicles in the fleet.",
+        "Approve major maintenance, repair, and replacement decisions as specified in this Agreement.",
+        "Maintain fleet insurance (or ensure Fleet Manager maintains it, per this Agreement).",
+        "{{fleet_owner_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "4. VEHICLE OPERATIONS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Who operates the vehicles?",
+          "{{operation_model}} (Fleet Owner's employees / Fleet Manager's drivers / Lease to third parties / Rental to external customers / Other)"
+        ],
+        [
+          "Driver qualifications",
+          "{{driver_qualifications}}"
+        ],
+        [
+          "Allowable operating territory",
+          "{{operating_territory}}"
+        ],
+        [
+          "Daily mileage limits",
+          "{{daily_mileage_limit}} per vehicle"
+        ],
+        [
+          "Maximum vehicle age",
+          "{{max_vehicle_age}} years"
+        ],
+        [
+          "Vehicle use restrictions",
+          "{{use_restrictions}} (no personal use, no illegal activities, etc.)"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "5. MAINTENANCE AND REPAIRS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Routine maintenance schedule",
+          "{{maintenance_schedule}} (oil change every {{oil_change_interval}} miles, tire rotation every {{tire_rotation_interval}} miles, etc.)"
+        ],
+        [
+          "Who performs maintenance?",
+          "{{maintenance_provider}} (Fleet Manager's in-house shop / Contracted service provider / Owner's designated shop)"
+        ],
+        [
+          "Major repair approval threshold",
+          "{{repair_approval_threshold}} \u2014 Fleet Manager may approve repairs up to this amount without Owner's prior approval."
+        ],
+        [
+          "Vehicle inspection frequency",
+          "{{inspection_frequency}} (annual DOT inspection, pre-trip inspections, etc.)"
+        ],
+        [
+          "Tire replacement policy",
+          "{{tire_policy}}"
+        ],
+        [
+          "Vehicle retirement criteria",
+          "{{retirement_criteria}} (mileage, age, repair cost threshold, etc.)"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "6. FUEL MANAGEMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Fuel card provider",
+          "{{fuel_card_provider}}"
+        ],
+        [
+          "Fuel card assignment",
+          "{{fuel_card_assignment}} (one card per driver / one card per vehicle / other)"
+        ],
+        [
+          "Fuel purchase restrictions",
+          "{{fuel_restrictions}} (no cash advances, no non-fuel purchases, etc.)"
+        ],
+        [
+          "Fuel efficiency reporting",
+          "Fleet Manager will track and report fuel efficiency (MPG) by vehicle monthly."
+        ],
+        [
+          "Alternative fuel / EV charging",
+          "{{ev_charging_details}} (if applicable)"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "7. SAFETY AND COMPLIANCE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Fleet Manager will ensure all drivers have valid licenses and meet qualifications.",
+        "Fleet Manager will conduct motor vehicle record (MVR) checks on all drivers: {{mvr_frequency}}.",
+        "Fleet Manager will maintain a driver safety program including: {{safety_program}}.",
+        "Fleet Manager will ensure vehicles pass all required inspections.",
+        "Fleet Manager will maintain DOT required records (if applicable): driver logs, HOS records, vehicle inspection reports, etc.",
+        "Fleet Manager will report any accidents, incidents, or violations to Fleet Owner within {{incident_reporting_hours}} hours.",
+        "{{safety_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "8. INSURANCE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Insurance type",
+          "{{insurance_type}} (Commercial auto liability / Physical damage / Cargo / Umbrella / Other)"
+        ],
+        [
+          "Coverage limits",
+          "{{insurance_limits}}"
+        ],
+        [
+          "Who maintains insurance?",
+          "{{insurance_maintainer}} (Fleet Owner / Fleet Manager)"
+        ],
+        [
+          "Insurance carrier(s)",
+          "{{insurance_carrier}}"
+        ],
+        [
+          "Policy #",
+          "{{policy_number}}"
+        ],
+        [
+          "Loss run reporting",
+          "Fleet Manager will provide annual loss runs to Fleet Owner upon request."
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "9. FEES AND PAYMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Fleet Management Fee",
+          "{{fleet_mgmt_fee}} (flat monthly fee / percentage of fleet costs / per-vehicle fee / other)"
+        ],
+        [
+          "Payment terms",
+          "{{payment_terms}} days from receipt of invoice."
+        ],
+        [
+          "Expenses reimbursable to Fleet Manager",
+          "{{reimbursable_expenses}} (minor repairs, fuel, tolls, parking, etc., as pre-approved)."
+        ],
+        [
+          "Expense reporting",
+          "Fleet Manager will provide monthly expense reports with receipts."
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "10. VEHICLE DISPOSAL",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "When a vehicle is retired from the fleet:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Fleet Manager will prepare the vehicle for sale or auction (cleaning, minor repairs if needed).",
+        "Fleet Owner will approve the disposal method and minimum sale price.",
+        "Proceeds from sale (less any lien payoff and sale expenses) will be remitted to Fleet Owner.",
+        "Fleet Manager's commission on sale: {{sale_commission}}% of sale price (if applicable)."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "11. TERM AND TERMINATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Agreement commences on {{start_date}} and continues for {{term_length}} (or until terminated). Either Party may terminate with {{termination_notice}} days written notice. Fleet Owner may terminate immediately for cause.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Upon termination, Fleet Manager will return all vehicles, records, and equipment to Fleet Owner in good condition.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "12. GOVERNING LAW",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Agreement is governed by the laws of {{governing_state}}.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Fleet Owner",
+        "Fleet Manager"
+      ],
+      "rows": [
+        [
+          "Signature",
+          "_____________________________",
+          "_____________________________"
+        ],
+        [
+          "Printed Name",
+          "{{fleet_owner_name}}",
+          "{{fleet_manager_name}}"
+        ],
+        [
+          "Date",
+          "{{owner_date}}",
+          "{{manager_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

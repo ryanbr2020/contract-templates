@@ -1,0 +1,284 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "HAZARDOUS MATERIALS / DANGEROUS GOODS ADDENDUM TO EQUIPMENT RENTAL AGREEMENT",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "HAZARDOUS MATERIALS / DANGEROUS GOODS ADDENDUM",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Addendum is attached to the Equipment Rental Agreement dated {{agreement_date}} between {{renter_name}} (\"Renter\") and {{owner_name}} (\"Owner\"). This Addendum applies if the Equipment will be used with, store, transport, or come into contact with hazardous materials or dangerous goods.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "1. DEFINITION OF HAZARDOUS MATERIALS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "For purposes of this Addendum, \"Hazardous Materials\" includes but is not limited to:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Flammable or combustible liquids, solids, or gases (gasoline, diesel, propane, acetylene, solvents, paints, etc.).",
+        "Corrosive materials (acids, bases, cleaning agents, battery acid, etc.).",
+        "Toxic or poisonous materials (pesticides, herbicides, industrial chemicals, etc.).",
+        "Radioactive materials.",
+        "Explosive or reactive materials.",
+        "Compressed gases (oxygen, argon, nitrogen, etc.).",
+        "Biohazardous or infectious materials.",
+        "Asbestos-containing materials.",
+        "Lead-based paint or lead-containing materials.",
+        "Materials regulated by OSHA, EPA, DOT, or state hazardous materials regulations.",
+        "{{hazmat_definition_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "2. RENTER'S REPRESENTATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Renter represents that:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "{{hazmat_rep_1}}",
+        "{{hazmat_rep_2}}",
+        "{{hazmat_rep_3}}",
+        "Renter has identified and labeled all hazardous materials that will be used with, stored in, or transported by the Equipment.",
+        "Renter has the necessary permits, licenses, and approvals to possess, use, store, or transport the hazardous materials.",
+        "Renter has reviewed the Safety Data Sheets (SDS/MSDS) for all hazardous materials that will be used.",
+        "Renter understands the hazards associated with the materials and has taken appropriate precautions.",
+        "{{hazmat_rep_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "3. REQUIREMENTS FOR HAZARDOUS MATERIAL USE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "If Renter uses hazardous materials with the Equipment, Renter must:",
+      "style": "BT"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Provide Owner with a list of all hazardous materials that will be used, including: product name, manufacturer, SDS/MSDS reference, quantity, and intended use.",
+        "Ensure all containers are properly labeled with the product identifier and hazard warnings.",
+        "Store hazardous materials in approved containers and in a safe location, away from heat, sparks, open flames, and incompatible materials.",
+        "Use appropriate PPE (gloves, goggles, respirator, protective clothing, etc.) as required by the SDS.",
+        "Have spill containment and cleanup materials available and know how to use them.",
+        "Follow all applicable laws, regulations, and permit requirements (OSHA, EPA, DOT, state, local).",
+        "Not mix incompatible chemicals or materials.",
+        "Not dispose of hazardous materials in the Equipment, on the ground, in drains, or in any manner not permitted by law.",
+        "Immediately clean up any spills using appropriate methods and materials.",
+        "Notify Owner immediately of any spill, release, fire, exposure, or other incident involving hazardous materials.",
+        "{{hazmat_requirements_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "4. OWNER'S DISCLAIMER AND EXCEPTIONS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Owner makes no representation about the compatibility of the Equipment with any hazardous material.",
+        "Owner is not responsible for any injury, illness, damage, or liability arising from Renter's use, storage, or disposal of hazardous materials.",
+        "Owner's insurance does not cover hazardous material spills, releases, or exposures unless specifically included in the policy.",
+        "Renter's use of hazardous materials may void any warranty on the Equipment.",
+        "If the Equipment is contaminated by hazardous materials, Renter is responsible for the full cost of decontamination, testing, and disposal.",
+        "{{owner_hazmat_disclaimer_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "5. PROHIBITED ACTIVITIES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "The following are prohibited without Owner's prior written consent:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Using the Equipment to store, mix, or react hazardous materials in a manner for which the Equipment was not designed.",
+        "Transporting hazardous materials in the Equipment in violation of DOT or state regulations.",
+        "Disposing of hazardous materials in, on, or through the Equipment.",
+        "Using the Equipment in an environment with hazardous atmosphere (confined space, oxygen-deficient atmosphere, explosive atmosphere) without appropriate precautions and equipment.",
+        "Using the Equipment with materials that would cause contamination or corrosion of the Equipment.",
+        "{{hazmat_prohibited_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "6. INDEMNIFICATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Renter agrees to indemnify, defend, and hold harmless Owner from and against any and all claims, losses, damages, liabilities, costs, and expenses (including attorney fees) arising from or related to Renter's use, storage, transport, or disposal of hazardous materials, including but not limited to:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Personal injury or illness to any person.",
+        "Damage to property.",
+        "Environmental contamination or remediation costs.",
+        "Fines, penalties, or citations from regulatory agencies.",
+        "Costs of cleanup, decontamination, testing, or disposal.",
+        "Third-party claims.",
+        "{{indemnity_hazmat_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "7. EMERGENCY PROCEDURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "In the event of a spill, release, fire, or exposure:",
+      "style": "BT"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Stop using the Equipment immediately.",
+        "Evacuate the area if necessary.",
+        "Call 911 if there is a fire, serious injury, or immediate danger.",
+        "Contain the spill if it can be done safely.",
+        "Notify Owner immediately: {{owner_emergency_contact}}.",
+        "Notify the appropriate regulatory agency if required by law (EPA National Response Center: 1-800-424-8802 for oil/chemical spills; state environmental agency; local health department).",
+        "Do not resume use of the Equipment until it has been inspected and cleared by a qualified person.",
+        "{{emergency_procedures_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "8. SIGNAGE AND LABELING",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Renter must ensure that:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "All hazardous material containers are properly labeled.",
+        "The work area is posted with appropriate hazard warnings.",
+        "Emergency contact information and SDS are available at the work site.",
+        "Appropriate warning signs are posted if required by regulation.",
+        "{{signage_labeling_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "9. GOVERNING LAW",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Addendum is governed by the laws of {{governing_state}}, plus any applicable federal hazardous materials regulations.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "10. ACKNOWLEDGMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "By signing below, Renter acknowledges having read, understood, and agreed to this Hazardous Materials Addendum. Renter confirms that it has the necessary knowledge, training, permits, and equipment to handle hazardous materials safely.",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Renter",
+        "Owner"
+      ],
+      "rows": [
+        [
+          "Signature",
+          "_____________________________",
+          "_____________________________"
+        ],
+        [
+          "Printed Name",
+          "{{renter_name}}",
+          "{{owner_name}}"
+        ],
+        [
+          "Date",
+          "{{renter_date}}",
+          "{{owner_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "VEHICLE IMPOUND RELEASE FORM",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "VEHICLE IMPOUND RELEASE FORM",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Impound Release Form is completed by {{impound_agency_name}} (\"Agency\") to release the Vehicle described below to {{vehicle_owner_name}} (\"Owner\") on {{release_date}}.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "VEHICLE INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Make",
+          "{{vehicle_make}}"
+        ],
+        [
+          "Model",
+          "{{vehicle_model}}"
+        ],
+        [
+          "Year",
+          "{{vehicle_year}}"
+        ],
+        [
+          "VIN",
+          "{{vehicle_vin}}"
+        ],
+        [
+          "Odometer at Release",
+          "{{odometer}} miles"
+        ],
+        [
+          "License Plate",
+          "{{license_plate}}"
+        ],
+        [
+          "Color",
+          "{{vehicle_color}}"
+        ],
+        [
+          "Impound Lot / Facility",
+          "{{impound_lot_name}}, located at {{impound_lot_address}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "IMPOUND INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Date of Impound",
+          "{{impound_date}}"
+        ],
+        [
+          "Time of Impound",
+          "{{impound_time}}"
+        ],
+        [
+          "Reason for Impound",
+          "{{impound_reason}} (Police seizure / Traffic violation / Accident / Abandoned / Illegal parking / Other)"
+        ],
+        [
+          "Impounding Agency / Officer",
+          "{{impounding_officer}} (Badge #{{officer_badge_number}})"
+        ],
+        [
+          "Case / Ticket Number",
+          "{{case_number}}"
+        ],
+        [
+          "Number of Impound Days",
+          "{{impound_days}} days"
+        ],
+        [
+          "Storage Start Date",
+          "{{storage_start_date}}"
+        ],
+        [
+          "Storage End Date",
+          "{{storage_end_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "RELEASE CONDITIONS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Vehicle will be released to the Owner upon satisfaction of the following conditions:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Payment of all impound and storage fees: {{total_impound_fees}}.",
+        "Payment of any fines, citations, or penalties associated with the impound: {{fines_penalties}}.",
+        "Proof of ownership: {{proof_of_ownership_requirement}}.",
+        "Proof of valid driver's license: {{driver_license_requirement}}.",
+        "Proof of current vehicle registration and insurance: {{registration_insurance_requirement}}.",
+        "Any required inspection or verification: {{inspection_requirement}}.",
+        "{{release_condition_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "RELEASE CERTIFICATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Agency certifies that the Vehicle described above has been released to the Owner on {{release_date}} at {{release_time}}, upon satisfaction of all release conditions.",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Agency Certification",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Released To (Name)",
+          "{{vehicle_owner_name}}"
+        ],
+        [
+          "Released To (Signature)",
+          "_____________________________"
+        ],
+        [
+          "Released To (Relationship to Owner)",
+          "{{releasee_relationship}}"
+        ],
+        [
+          "Release Date",
+          "{{release_date}}"
+        ],
+        [
+          "Release Time",
+          "{{release_time}}"
+        ],
+        [
+          "Agency Representative Name",
+          "{{agency_rep_name}}"
+        ],
+        [
+          "Agency Representative Signature",
+          "_____________________________"
+        ],
+        [
+          "Agency Representative Title",
+          "{{agency_rep_title}}"
+        ],
+        [
+          "Badge / ID Number",
+          "{{agency_rep_badge}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "paragraph",
+      "text": "Owner acknowledges receipt of the Vehicle in its current condition. Owner is responsible for the Vehicle from the time of release. Agency is not responsible for any pre-existing damage.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "OWNER'S ACKNOWLEDGMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "I, {{vehicle_owner_name}}, acknowledge that I have received the Vehicle described above from {{impound_agency_name}} on {{release_date}}. I confirm that:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "I am the legal owner or authorized agent of the Vehicle.",
+        "I have paid all fees required for release: {{fees_paid}}.",
+        "I have inspected the Vehicle and accept it in its current condition.",
+        "The Agency is released from liability for any damage existing at the time of release.",
+        "I will not make any claim against the Agency for damage that existed before release.",
+        "{{owner_impound_ack}}"
+      ]
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Owner",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Owner Signature",
+          "_____________________________",
+          "{{release_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{vehicle_owner_name}}",
+          ""
+        ],
+        [
+          "Date",
+          "{{owner_signature_date}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

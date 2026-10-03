@@ -1,0 +1,562 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "EQUIPMENT INCIDENT / ACCIDENT REPORT FORM",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "EQUIPMENT INCIDENT / ACCIDENT REPORT FORM",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Complete this form immediately after any incident, accident, near-miss, or safety event involving the Equipment. Submit to the Owner within {{report_timeframe}} hours of the incident.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "REPORT PREPARER INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Reporter Name",
+          "{{reporter_name}}"
+        ],
+        [
+          "Reporter Role",
+          "{{reporter_role}} (Operator / Owner / Witness / Other)"
+        ],
+        [
+          "Reporter Phone",
+          "{{reporter_phone}}"
+        ],
+        [
+          "Reporter Email",
+          "{{reporter_email}}"
+        ],
+        [
+          "Date of Report",
+          "{{report_date}}"
+        ],
+        [
+          "Time of Report",
+          "{{report_time}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "EQUIPMENT INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Equipment Type / Model",
+          "{{equipment_type}} \u2014 {{equipment_model}}"
+        ],
+        [
+          "Serial Number",
+          "{{equipment_serial}}"
+        ],
+        [
+          "Equipment ID / Asset Tag",
+          "{{equipment_asset_tag}}"
+        ],
+        [
+          "Rental / Job Site",
+          "{{job_site_location}}"
+        ],
+        [
+          "Rental Agreement Reference",
+          "{{rental_agreement_ref}}"
+        ],
+        [
+          "Operator Name",
+          "{{operator_name}}"
+        ],
+        [
+          "Operator Certification #",
+          "{{operator_cert_number}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "INCIDENT DETAILS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Date of Incident",
+          "{{incident_date}}"
+        ],
+        [
+          "Time of Incident",
+          "{{incident_time}}"
+        ],
+        [
+          "Location of Incident",
+          "{{incident_location}} (be specific: address, GPS coordinates, or site location)"
+        ],
+        [
+          "Weather Conditions",
+          "{{weather_conditions}}"
+        ],
+        [
+          "Ground / Surface Conditions",
+          "{{ground_conditions}} (level, uneven, wet, icy, muddy, etc.)"
+        ],
+        [
+          "Was the equipment being used for its intended purpose?",
+          "{{intended_use}} (Yes / No \u2014 if No, explain: {{unintended_use_explanation}})"
+        ],
+        [
+          "Was the operator certified / trained for this equipment?",
+          "{{operator_trained}} (Yes / No)"
+        ],
+        [
+          "Was the pre-operation safety checklist completed?",
+          "{{safety_checklist_done}} (Yes / No \u2014 if No, explain: {{checklist_not_done_reason}})"
+        ],
+        [
+          "Was PPE being worn?",
+          "{{ppe_worn}} (Yes / No \u2014 specify: {{ppe_details}})"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "INCIDENT DESCRIPTION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Describe what happened in detail. Include:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "What the operator was doing at the time of the incident.",
+        "What went wrong (mechanical failure, operator error, external factor, etc.).",
+        "The sequence of events leading up to the incident.",
+        "The immediate outcome (equipment stopped, person injured, property damaged, near-miss, etc.).",
+        "Any corrective action taken immediately after the incident.",
+        "{{incident_description}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "INJURY INFORMATION (if any)",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Was anyone injured?",
+          "{{injury_occurred}} (Yes / No)"
+        ],
+        [
+          "If Yes \u2014 Number of persons injured",
+          "{{injury_count}}"
+        ],
+        [
+          "Injured Person 1 \u2014 Name",
+          "{{injured_person_1_name}}"
+        ],
+        [
+          "Injured Person 1 \u2014 Role",
+          "{{injured_person_1_role}} (Operator / Bystander / Other)"
+        ],
+        [
+          "Injured Person 1 \u2014 Injury Description",
+          "{{injured_person_1_injury}}"
+        ],
+        [
+          "Injured Person 1 \u2014 Medical Treatment",
+          "{{injured_person_1_treatment}} (First aid only / Treated at hospital / Transported to ER / Other)"
+        ],
+        [
+          "Injured Person 1 \u2014 Medical Provider",
+          "{{injured_person_1_provider}}"
+        ],
+        [
+          "Injured Person 1 \u2014 Date of Treatment",
+          "{{injured_person_1_treatment_date}}"
+        ],
+        [
+          "Injured Person 2 \u2014 Name",
+          "{{injured_person_2_name}} (if applicable)"
+        ],
+        [
+          "Injured Person 2 \u2014 Injury Description",
+          "{{injured_person_2_injury}} (if applicable)"
+        ],
+        [
+          "Injured Person 2 \u2014 Medical Treatment",
+          "{{injured_person_2_treatment}} (if applicable)"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "DAMAGE / LOSS INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Was the equipment damaged?",
+          "{{equipment_damage}} (Yes / No / Unknown)"
+        ],
+        [
+          "If Yes \u2014 Describe damage to equipment",
+          "{{equipment_damage_description}}"
+        ],
+        [
+          "If Yes \u2014 Estimated repair cost",
+          "{{estimated_repair_cost}}"
+        ],
+        [
+          "If Yes \u2014 Equipment is operable?",
+          "{{equipment_operable}} (Yes / No / Unknown \u2014 do not operate if No)"
+        ],
+        [
+          "Was any other property damaged?",
+          "{{property_damage}} (Yes / No)"
+        ],
+        [
+          "If Yes \u2014 Describe other property damage",
+          "{{property_damage_description}}"
+        ],
+        [
+          "If Yes \u2014 Estimated property damage cost",
+          "{{estimated_property_damage_cost}}"
+        ],
+        [
+          "Was any cargo / material / product damaged?",
+          "{{cargo_damage}} (Yes / No)"
+        ],
+        [
+          "If Yes \u2014 Describe cargo damage",
+          "{{cargo_damage_description}}"
+        ],
+        [
+          "If Yes \u2014 Estimated cargo damage value",
+          "{{estimated_cargo_damage_value}}"
+        ],
+        [
+          "Total estimated damage / loss",
+          "{{total_estimated_damage}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "WITNESS INFORMATION (if any)",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Witness #",
+        "Full Name",
+        "Phone",
+        "Email",
+        "Statement Summary"
+      ],
+      "rows": [
+        [
+          "1",
+          "{{witness_1_name}}",
+          "{{witness_1_phone}}",
+          "{{witness_1_email}}",
+          "{{witness_1_statement}}"
+        ],
+        [
+          "2",
+          "{{witness_2_name}}",
+          "{{witness_2_phone}}",
+          "{{witness_2_email}}",
+          "{{witness_2_statement}}"
+        ],
+        [
+          "3",
+          "{{witness_3_name}}",
+          "{{witness_3_phone}}",
+          "{{witness_3_email}}",
+          "{{witness_3_statement}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "EMERGENCY RESPONSE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Was emergency services called?",
+          "{{emergency_services_called}} (Yes / No)"
+        ],
+        [
+          "If Yes \u2014 What was called?",
+          "{{emergency_services_type}} (911 / Fire / Ambulance / Police / Other)"
+        ],
+        [
+          "Time emergency services contacted",
+          "{{emergency_contact_time}}"
+        ],
+        [
+          "Emergency services arrival time",
+          "{{emergency_arrival_time}}"
+        ],
+        [
+          "Was a police report filed?",
+          "{{police_report_filed}} (Yes / No)"
+        ],
+        [
+          "Police Report Number (if filed)",
+          "{{police_report_number}}"
+        ],
+        [
+          "Police Department",
+          "{{police_department}}"
+        ],
+        [
+          "Was the area secured / made safe?",
+          "{{area_secured}} (Yes / No \u2014 describe: {{area_securing_details}})"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "PHOTO DOCUMENTATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Attach photos of the equipment, the incident scene, any injuries, and any property damage. List all photo files below:",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Photo #",
+        "File Name / Reference",
+        "Description of What Photo Shows",
+        "Date/Time Taken"
+      ],
+      "rows": [
+        [
+          "1",
+          "",
+          "",
+          ""
+        ],
+        [
+          "2",
+          "",
+          "",
+          ""
+        ],
+        [
+          "3",
+          "",
+          "",
+          ""
+        ],
+        [
+          "4",
+          "",
+          "",
+          ""
+        ],
+        [
+          "5",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "INSURANCE INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Operator's Insurance Company",
+          "{{operator_insurance_company}}"
+        ],
+        [
+          "Operator's Policy Number",
+          "{{operator_policy_number}}"
+        ],
+        [
+          "Operator's Claim Number (if filed)",
+          "{{operator_claim_number}}"
+        ],
+        [
+          "Owner's Insurance Company",
+          "{{owner_insurance_company}}"
+        ],
+        [
+          "Owner's Policy Number",
+          "{{owner_policy_number}}"
+        ],
+        [
+          "Platform Claim Reference (if applicable)",
+          "{{platform_claim_reference}}"
+        ],
+        [
+          "Insurance adjuster contacted?",
+          "{{adjuster_contacted}} (Yes / No \u2014 adjuster name: {{adjuster_name}}, contact: {{adjuster_contact}})"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "REPORTER'S CERTIFICATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "I, {{reporter_name}}, certify that the information provided in this report is true and accurate to the best of my knowledge. I understand that this report may be used for insurance, legal, and safety investigation purposes.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Report Preparer",
+          "_____________________________",
+          "{{report_date}}"
+        ],
+        [
+          "Operator (if different from reporter)",
+          "_____________________________",
+          "{{operator_report_date}}"
+        ],
+        [
+          "Owner / Supervisor (if different)",
+          "_____________________________",
+          "{{owner_report_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "paragraph",
+      "text": "Submit this form to: {{submission_method}} | Questions: {{support_contact}}",
+      "style": "BT"
+    }
+  ]
+}

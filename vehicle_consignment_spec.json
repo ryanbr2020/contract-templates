@@ -1,0 +1,351 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "VEHICLE CONSIGNMENT AGREEMENT",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "VEHICLE CONSIGNMENT AGREEMENT",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Vehicle Consignment Agreement (\"Consignment Agreement\") is made as of {{consignment_date}} between:",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Consignment Dealer: {{dealer_name}}, located at {{dealer_address}} (\"Dealer\")",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Consignor (Vehicle Owner): {{owner_name}}, located at {{owner_address}} (\"Owner\")",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "1. CONSIGNED VEHICLE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Make",
+          "{{vehicle_make}}"
+        ],
+        [
+          "Model",
+          "{{vehicle_model}}"
+        ],
+        [
+          "Year",
+          "{{vehicle_year}}"
+        ],
+        [
+          "VIN",
+          "{{vehicle_vin}}"
+        ],
+        [
+          "Odometer",
+          "{{odometer}} miles"
+        ],
+        [
+          "Color",
+          "{{vehicle_color}}"
+        ],
+        [
+          "Title Number",
+          "{{title_number}}"
+        ],
+        [
+          "Current Condition",
+          "{{vehicle_condition}}"
+        ],
+        [
+          "Asking Price",
+          "{{asking_price}}"
+        ],
+        [
+          "Minimum Acceptable Price (floor)",
+          "{{minimum_price}} \u2014 Dealer cannot sell below this price without Owner's written consent."
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "2. CONSENT TO SELL",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Owner grants Dealer the exclusive right to sell the Vehicle on Owner's behalf for {{consignment_term}} days (the \"Consignment Period\"), from {{consignment_start_date}} to {{consignment_end_date}}.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dealer may list the Vehicle on its lot, website, and third-party marketplaces (AutoTrader, Cars.com, etc.). Dealer may set the listing price up to {{listing_price_max}} or {{listing_price_percent}}% above the asking price.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "3. COMMISSION AND FEES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Item",
+        "Amount / Details"
+      ],
+      "rows": [
+        [
+          "Dealer Commission (on sale price)",
+          "{{commission_percent}}% of sale price",
+          "Paid from sale proceeds at closing."
+        ],
+        [
+          "Consignment / Marketing Fee",
+          "{{consignment_fee}}",
+          "Non-refundable; covers photography, listing, marketing."
+        ],
+        [
+          "Reconditioning / Prep Fee",
+          "{{reconditioning_fee}}",
+          "Deducted from sale proceeds if Dealer performs reconditioning."
+        ],
+        [
+          "Detailing / Cleaning Fee",
+          "{{detailing_fee}}",
+          "If Dealer cleans the Vehicle before sale."
+        ],
+        [
+          "Extended Consignment Fee",
+          "{{extension_fee}}",
+          "If Consignment Period is extended by mutual agreement."
+        ],
+        [
+          "Total Estimated Fees",
+          "{{total_estimated_fees}}",
+          "Deducted from sale proceeds."
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "4. SALE PROCEEDS DISTRIBUTION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "When the Vehicle sells, proceeds are distributed in this order:",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Priority",
+        "Recipient",
+        "Amount"
+      ],
+      "rows": [
+        [
+          "1",
+          "Owner \u2014 Title and ownership transfer",
+          "Remaining balance after fees"
+        ],
+        [
+          "2",
+          "Dealer \u2014 Commission",
+          "{{commission_percent}}% of sale price"
+        ],
+        [
+          "3",
+          "Dealer \u2014 Consignment / Marketing Fee",
+          "{{consignment_fee}}"
+        ],
+        [
+          "4",
+          "Dealer \u2014 Reconditioning / Prep Fee",
+          "{{reconditioning_fee}} (if applicable)"
+        ],
+        [
+          "5",
+          "Dealer \u2014 Detailing Fee",
+          "{{detailing_fee}} (if applicable)"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dealer provides Owner with a settlement statement within {{settlement_statement_days}} days of sale. Net proceeds paid to Owner by {{payment_method}} within {{payment_timeline}} of sale closing.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "5. OWNER REPRESENTATIONS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Owner is the legal owner with full authority to consign the Vehicle.",
+        "The Vehicle is free of all liens. If there is an outstanding loan, Owner has disclosed the lender and loan balance.",
+        "Owner will deliver a valid title to Dealer. If there is an outstanding loan, Owner will provide a lien release or pay off the loan before sale.",
+        "Owner has disclosed all known material defects to Dealer.",
+        "The Vehicle has not been declared a total loss, salvaged, or flooded (unless disclosed).",
+        "{{owner_consignment_reps}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "6. VEHICLE CONDITION AND WARRANTY",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dealer sells the Vehicle \"as-is\" on behalf of Owner. Owner makes no warranties to the buyer, except any warranties explicitly stated in the sale documents. Dealer is not responsible for the Vehicle's condition.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "7. VEHICLE DELIVERY TO DEALER",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Owner will deliver the Vehicle to Dealer at {{dealer_location}} on or before {{vehicle_delivery_date}}. At delivery, Dealer will inspect and note the Vehicle's condition on a delivery checklist. Owner acknowledges the condition noted at delivery.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "8. TITLE AND DMV HANDLING",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dealer handles DMV paperwork for the sale: title transfer, registration, and tax collection from the buyer. Dealer remits title to Buyer after sale. Owner receives net proceeds after all fees and commissions are deducted.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "9. INSURANCE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Owner maintains insurance on the Vehicle until sale closing. If the Vehicle is damaged while in Dealer's possession, Owner's insurance is primary. Dealer's insurance covers damage caused by Dealer's negligence.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "10. TERMINATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Either Party may terminate with {{termination_notice}} days written notice.",
+        "If Owner terminates, Owner must pick up the Vehicle within {{pickup_period}} days. Fees already incurred are not refundable.",
+        "If Dealer terminates, Dealer must return the Vehicle to Owner or hold it for Owner's pickup.",
+        "If the Vehicle does not sell by the end of the Consignment Period, the Parties may agree to extend."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "11. GOVERNING LAW",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Agreement is governed by the laws of {{governing_state}}.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Dealer",
+        "Owner"
+      ],
+      "rows": [
+        [
+          "Signature",
+          "_____________________________",
+          "_____________________________"
+        ],
+        [
+          "Printed Name",
+          "{{dealer_name}}",
+          "{{owner_name}}"
+        ],
+        [
+          "Date",
+          "{{dealer_date}}",
+          "{{owner_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

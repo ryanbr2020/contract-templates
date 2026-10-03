@@ -1,0 +1,189 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    },
+    {
+      "name": "FL",
+      "font": "Calibri",
+      "size_pt": 11,
+      "bold": true
+    }
+  ],
+  "header": "AMENDMENT / CHANGE ORDER FORM",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "AMENDMENT / CHANGE ORDER FORM",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Amendment (\"Amendment\") modifies the Agreement dated {{original_agreement_date}} between {{party_a_name}} (\"{{party_a_label}}\") and {{party_b_name}} (\"{{party_b_label}}\"). The original Agreement is referred to as the \"Original Agreement.\"",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "By signing below, both Parties agree to modify the Original Agreement as follows:",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "SECTION BEING AMENDED",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Original Section(s) affected: {{amended_sections}}",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "{{amended_section_description}}",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "PROPOSED CHANGE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Parties agree to modify the Original Agreement as follows. Text in ~~strikethrough~~ is deleted. Text in bold is added or replaces deleted text.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "DELETED TEXT (remove from Original Agreement)",
+      "level": 3,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "{{deleted_text}}",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "ADDED / REPLACEMENT TEXT (insert into Original Agreement)",
+      "level": 3,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "{{added_text}}",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "EFFECTIVE DATE AND SCOPE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Effective Date of Amendment",
+          "{{amendment_effective_date}}"
+        ],
+        [
+          "Does this Amendment affect the entire Agreement or only specific sections?",
+          "{{amendment_scope}}"
+        ],
+        [
+          "Does this Amendment supersede any prior amendments?",
+          "{{supersedes_prior}} (Yes / No)"
+        ],
+        [
+          "Is this Amendment the final and complete modification, or are further amendments anticipated?",
+          "{{further_amendments}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "INTEGRATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Except as expressly modified by this Amendment, all terms and conditions of the Original Agreement remain in full force and effect. In the event of a conflict between the Original Agreement and this Amendment, the terms of this Amendment control.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Amendment may only be modified in writing, signed by both Parties.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Printed Name",
+        "Date"
+      ],
+      "rows": [
+        [
+          "{{party_a_label}}",
+          "_____________________________",
+          "{{party_a_name}}",
+          "{{party_a_date}}"
+        ],
+        [
+          "{{party_b_label}}",
+          "_____________________________",
+          "{{party_b_name}}",
+          "{{party_b_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

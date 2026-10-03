@@ -1,0 +1,342 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "P2P CAR RENTAL \u2014 VEHICLE DELIVERY / PICKUP AUTHORIZATION",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "P2P CAR RENTAL \u2014 VEHICLE DELIVERY / PICKUP AUTHORIZATION",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Authorization is completed by {{owner_name}} (\"Owner\") on {{authorization_date}} to authorize the delivery or pickup of the Vehicle to/from {{renter_name}} (\"Renter\") for the rental period {{rental_start_date}} to {{rental_end_date}}.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "VEHICLE INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Vehicle Make/Model/Year",
+          "{{vehicle_make}} {{vehicle_model}} {{vehicle_year}}"
+        ],
+        [
+          "VIN",
+          "{{vehicle_vin}}"
+        ],
+        [
+          "License Plate",
+          "{{license_plate}}"
+        ],
+        [
+          "Color",
+          "{{vehicle_color}}"
+        ],
+        [
+          "Current Odometer",
+          "{{current_odometer}} miles"
+        ],
+        [
+          "Current Fuel Level",
+          "{{current_fuel_level}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "DELIVERY / PICKUP DETAILS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Delivery / Pickup Method",
+          "{{delivery_method}} (In-person handoff by Owner / In-person handoff by third party / Vehicle delivered to Renter's location / Renter picks up from Owner's location / Remote key handoff / Lockbox / Other)"
+        ],
+        [
+          "Delivery / Pickup Location",
+          "{{delivery_location}}"
+        ],
+        [
+          "Delivery / Pickup Date",
+          "{{delivery_date}}"
+        ],
+        [
+          "Delivery / Pickup Time",
+          "{{delivery_time}} (Window: {{delivery_time_window}})"
+        ],
+        [
+          "Delivery / Pickup Person",
+          "{{delivery_person}} (Owner / Renter / Third party \u2014 name: {{delivery_person_name}}, contact: {{delivery_person_contact}})"
+        ],
+        [
+          "If third-party delivery \u2014 Third party name",
+          "{{third_party_name}}"
+        ],
+        [
+          "Third party contact",
+          "{{third_party_contact}}"
+        ],
+        [
+          "Third party authorization",
+          "{{third_party_authorization}} (Owner authorizes third party to deliver/pick up Vehicle on Owner's behalf)"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "KEYS / ACCESS METHOD",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Number of keys provided",
+          "{{key_count}}"
+        ],
+        [
+          "Key type(s)",
+          "{{key_type}} (Traditional key / Smart key / Key fob / Remote key)"
+        ],
+        [
+          "Key handoff method",
+          "{{key_handoff_method}} (Physical handoff / Lockbox code / Smart lock code / Remote app / Other)"
+        ],
+        [
+          "If lockbox \u2014 Lockbox code",
+          "{{lockbox_code}} (valid from {{code_valid_from}} to {{code_valid_to}})"
+        ],
+        [
+          "If smart lock \u2014 Access code / credential",
+          "{{access_credential}} (valid from {{access_valid_from}} to {{access_valid_to}})"
+        ],
+        [
+          "If key handoff \u2014 Key handoff location",
+          "{{key_handoff_location}}"
+        ],
+        [
+          "Owner confirms keys delivered?",
+          "{{keys_delivered}} (Yes / No \u2014 if No, explain: {{keys_not_delivered_reason}})"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "VEHICLE CONDITION AT DELIVERY / PICKUP",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Owner certifies the Vehicle condition at the time of delivery/pickup:",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Condition",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "Exterior condition",
+          "{{exterior_condition}}",
+          "{{exterior_condition_notes}}"
+        ],
+        [
+          "Interior condition",
+          "{{interior_condition}}",
+          "{{interior_condition_notes}}"
+        ],
+        [
+          "Mechanical condition",
+          "{{mechanical_condition}}",
+          "{{mechanical_condition_notes}}"
+        ],
+        [
+          "Fuel level",
+          "{{fuel_level}}",
+          ""
+        ],
+        [
+          "Odometer",
+          "{{odometer}} miles",
+          ""
+        ],
+        [
+          "Any pre-existing damage?",
+          "{{pre_existing_damage}} (Yes / No \u2014 details: {{pre_existing_damage_details}})",
+          ""
+        ],
+        [
+          "Photos taken?",
+          "{{photos_taken}} (Yes / No \u2014 photos attached / uploaded to {{photo_storage}})",
+          ""
+        ],
+        [
+          "Vehicle is clean?",
+          "{{vehicle_clean}} (Yes / No \u2014 if No, note: {{vehicle_not_clean_notes}})",
+          ""
+        ],
+        [
+          "Any warning lights on dashboard?",
+          "{{warning_lights}} (Yes / No \u2014 describe: {{warning_lights_details}})",
+          ""
+        ],
+        [
+          "All accessories present?",
+          "{{accessories_present}} (Yes / No \u2014 if No, list missing: {{missing_accessories}})",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "OWNER'S AUTHORIZATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Owner authorizes the delivery/pickup of the Vehicle as described above. Owner confirms that:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Owner is the legal owner of the Vehicle and has the right to rent it to Renter.",
+        "The Vehicle is in the condition described above at the time of delivery/pickup.",
+        "Owner has disclosed all known defects and issues with the Vehicle.",
+        "The keys/access method described above is the only method by which Renter is authorized to access the Vehicle.",
+        "Renter is authorized to operate the Vehicle only for the rental period and within the terms of the rental agreement.",
+        "Any loss, damage, or theft of keys/access devices during the rental period is Renter's responsibility as per the rental agreement.",
+        "{{owner_delivery_auth_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "RENTER'S ACKNOWLEDGMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Renter acknowledges:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Receiving the Vehicle and keys/access as described above.",
+        "The Vehicle condition as described by Owner (or as observed by Renter).",
+        "Any pre-existing damage noted by Owner or Renter.",
+        "That Renter is responsible for the Vehicle from the time of delivery/pickup.",
+        "That Renter will not share keys, codes, or access with any unauthorized person.",
+        "{{renter_delivery_ack_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Owner",
+        "Renter (if present)",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Owner Signature",
+          "_____________________________",
+          "",
+          "{{authorization_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{owner_name}}",
+          "",
+          ""
+        ],
+        [
+          "Renter Signature",
+          "",
+          "_____________________________",
+          "{{authorization_date}} (if present)"
+        ],
+        [
+          "Printed Name",
+          "",
+          "{{renter_name}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

@@ -1,0 +1,365 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "SERVICE LEVEL AGREEMENT (SLA)",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "SERVICE LEVEL AGREEMENT (SLA)",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Service Level Agreement (\"SLA\") is attached to and made part of the {{parent_agreement_name}} dated {{parent_agreement_date}} between {{provider_name}} (\"Service Provider\") and {{customer_name}} (\"Customer\").",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "1. SERVICES COVERED",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "This SLA applies to the following services:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "{{service_1}}",
+        "{{service_2}}",
+        "{{service_3}}",
+        "{{service_4}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "2. SERVICE AVAILABILITY",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Metric",
+        "Target",
+        "Measurement",
+        "Remedy if Breached"
+      ],
+      "rows": [
+        [
+          "Service Uptime",
+          "{{uptime_target}} (e.g., 99.9% per month)",
+          "Calculated as: (Total Minutes in Month \u2014 Downtime Minutes) / Total Minutes in Month \u00d7 100",
+          "Service credit per below."
+        ],
+        [
+          "Planned Maintenance Window",
+          "{{planned_maintenance_window}} (e.g., Sundays 2:00 AM \u2013 6:00 AM)",
+          "Scheduled in advance with {{notice_hours}} hours notice.",
+          "No penalty for scheduled maintenance within the allowed window."
+        ],
+        [
+          "Unscheduled Downtime",
+          "Must be resolved within {{resolution_target}} (e.g., 4 hours)",
+          "Measured from time incident is reported to time service is restored.",
+          "Service credit per below + root cause analysis."
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "3. PERFORMANCE STANDARDS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Metric",
+        "Target",
+        "Measurement",
+        "Remedy if Breached"
+      ],
+      "rows": [
+        [
+          "Response Time (average)",
+          "{{response_time_target}} (e.g., < 2 seconds)",
+          "Measured at the 95th percentile over each month.",
+          "Service credit per below."
+        ],
+        [
+          "Response Time (maximum)",
+          "{{max_response_time}} (e.g., < 5 seconds)",
+          "Measured at the 99th percentile.",
+          "Service credit per below."
+        ],
+        [
+          "Throughput / Capacity",
+          "{{throughput_target}} (e.g., 1000 requests/second)",
+          "Measured as average over the month.",
+          "Service credit per below."
+        ],
+        [
+          "Error Rate",
+          "{{error_rate_target}} (e.g., < 0.1% of requests)",
+          "Measured as percentage of failed requests.",
+          "Service credit per below."
+        ],
+        [
+          "First Response Time (support)",
+          "{{support_response_time}} (e.g., within 1 business hour)",
+          "Measured from ticket creation to first response.",
+          "Service credit per below."
+        ],
+        [
+          "Resolution Time (support)",
+          "{{support_resolution_time}} (e.g., within 24 hours for P1 issues)",
+          "Measured from ticket creation to resolution.",
+          "Service credit per below."
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "4. SUPPORT LEVELS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Priority",
+        "Definition",
+        "Response Time",
+        "Resolution Target"
+      ],
+      "rows": [
+        [
+          "P1 \u2014 Critical",
+          "Service is unavailable or severely degraded. Customer operations are blocked.",
+          "{{p1_response_time}}",
+          "{{p1_resolution_time}}"
+        ],
+        [
+          "P2 \u2014 High",
+          "Service is degraded but functional. Significant impact on customer.",
+          "{{p2_response_time}}",
+          "{{p2_resolution_time}}"
+        ],
+        [
+          "P3 \u2014 Medium",
+          "Minor issue. Workaround exists. Limited impact.",
+          "{{p3_response_time}}",
+          "{{p3_resolution_time}}"
+        ],
+        [
+          "P4 \u2014 Low",
+          "Cosmetic issue, minor inconvenience, or feature request.",
+          "{{p4_response_time}}",
+          "{{p4_resolution_time}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "5. MONITORING AND REPORTING",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Service Provider will monitor service availability and performance continuously using {{monitoring_tool}}.",
+        "Service Provider will provide Customer with a monthly service report including: uptime percentage, performance metrics, incidents, and service credits earned.",
+        "Customer may request a copy of the monitoring data at any time.",
+        "Service Provider will conduct a quarterly service review meeting with Customer to review performance and discuss improvements."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "6. SERVICE CREDITS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "If Service Provider fails to meet the service levels defined above, Customer is entitled to the following service credits, applied to the next invoice:",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Service Level Breached",
+        "Credit (% of monthly service fee)"
+      ],
+      "rows": [
+        [
+          "Uptime below {{uptime_target}} but above {{uptime_threshold_2}}",
+          "{{credit_tier_1}}%"
+        ],
+        [
+          "Uptime below {{uptime_threshold_2}} but above {{uptime_threshold_3}}",
+          "{{credit_tier_2}}%"
+        ],
+        [
+          "Uptime below {{uptime_threshold_3}}",
+          "{{credit_tier_3}}%"
+        ],
+        [
+          "Response time target missed (per incident)",
+          "{{response_credit}} per incident"
+        ],
+        [
+          "P1 support ticket not responded to within target",
+          "{{p1_missed_credit}} per incident"
+        ],
+        [
+          "P2 support ticket not resolved within target",
+          "{{p2_missed_credit}} per incident"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "paragraph",
+      "text": "To request a service credit, Customer must submit a written request within {{credit_request_window}} days of the end of the month in which the breach occurred. Service Provider will review and apply or deny the credit within {{credit_response_time}} days.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Total service credits in any month shall not exceed {{max_credit_cap}} of the monthly service fee. Service credits are the sole and exclusive remedy for service level breaches.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "7. FORCE MAJEURE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Service Provider is not liable for any failure to meet service levels caused by events beyond its reasonable control, including: natural disasters, acts of God, war, terrorism, riots, government orders, internet or telecommunications outages, attacks by third parties (including hackers and DDoS attacks), or failures of third-party services. Service Provider will use commercially reasonable efforts to restore service as quickly as possible.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "8. CUSTOMER OBLIGATIONS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Customer will provide accurate and complete information needed for the services.",
+        "Customer will use the services in accordance with the documentation and acceptable use policy.",
+        "Customer will report issues promptly and provide necessary information for troubleshooting.",
+        "Customer will not engage in activities that degrade service performance or compromise security.",
+        "{{customer_obligations_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "9. CHANGE MANAGEMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Service Provider will notify Customer of any planned changes to the services that may affect service levels at least {{change_notification}} in advance. Emergency changes required for security or critical bug fixes may be made with shorter notice.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "10. TERM AND TERMINATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "This SLA remains in effect for the duration of the parent agreement. Either Party may terminate this SLA with {{sla_termination_notice}} days notice if the other Party materially breaches the SLA and fails to cure within {{sla_cure_period}} days.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "11. GOVERNING LAW",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "This SLA is governed by the laws of {{governing_state}}.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Service Provider",
+        "Customer"
+      ],
+      "rows": [
+        [
+          "Signature",
+          "_____________________________",
+          "_____________________________"
+        ],
+        [
+          "Printed Name",
+          "{{provider_name}}",
+          "{{customer_name}}"
+        ],
+        [
+          "Date",
+          "{{provider_date}}",
+          "{{customer_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

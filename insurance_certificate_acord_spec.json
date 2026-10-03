@@ -1,0 +1,370 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "INSURANCE CERTIFICATE \u2014 ACORD FORM REFERENCE",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "INSURANCE CERTIFICATE",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This document references the Insurance Certificate (ACORD Form 25) provided by {{insured_name}} (\"Insured\") to {{certificate_holder_name}} (\"Certificate Holder\") on {{certificate_date}}.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "The actual ACORD 25 form should be attached to this document. This document serves as a summary and cover sheet for the certificate.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "INSURED INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Insured Name",
+          "{{insured_name}}"
+        ],
+        [
+          "Insured Address",
+          "{{insured_address}}"
+        ],
+        [
+          "Insured Contact",
+          "{{insured_contact}}"
+        ],
+        [
+          "Insured Phone",
+          "{{insured_phone}}"
+        ],
+        [
+          "Insured Email",
+          "{{insured_email}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "CERTIFICATE HOLDER INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Certificate Holder Name",
+          "{{certificate_holder_name}}"
+        ],
+        [
+          "Certificate Holder Address",
+          "{{certificate_holder_address}}"
+        ],
+        [
+          "Certificate Holder Contact",
+          "{{certificate_holder_contact}}"
+        ],
+        [
+          "Certificate Holder Phone",
+          "{{certificate_holder_phone}}"
+        ],
+        [
+          "Certificate Holder Email",
+          "{{certificate_holder_email}}"
+        ],
+        [
+          "Certificate Holder Requirements",
+          "{{certificate_holder_requirements}} (e.g., additional insured, waiver of subrogation, primary & non-contributory, etc.)"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "INSURANCE COVERAGES (per attached ACORD 25)",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Coverage",
+        "Policy #",
+        "Carrier",
+        "Limits",
+        "Effective Date",
+        "Expiration Date",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "Commercial Auto Liability",
+          "{{auto_liability_policy}}",
+          "{{auto_liability_carrier}}",
+          "{{auto_liability_limits}}",
+          "{{auto_liability_effective}}",
+          "{{auto_liability_expiration}}",
+          "{{auto_liability_notes}}"
+        ],
+        [
+          "Collision",
+          "{{collision_policy}}",
+          "{{collision_carrier}}",
+          "{{collision_limits}}",
+          "{{collision_effective}}",
+          "{{collision_expiration}}",
+          "{{collision_notes}}"
+        ],
+        [
+          "Comprehensive",
+          "{{comprehensive_policy}}",
+          "{{comprehensive_carrier}}",
+          "{{comprehensive_limits}}",
+          "{{comprehensive_effective}}",
+          "{{comprehensive_expiration}}",
+          "{{comprehensive_notes}}"
+        ],
+        [
+          "General Liability",
+          "{{general_liability_policy}}",
+          "{{general_liability_carrier}}",
+          "{{general_liability_limits}}",
+          "{{general_liability_effective}}",
+          "{{general_liability_expiration}}",
+          "{{general_liability_notes}}"
+        ],
+        [
+          "Workers' Compensation",
+          "{{workers_comp_policy}}",
+          "{{workers_comp_carrier}}",
+          "{{workers_comp_limits}}",
+          "{{workers_comp_effective}}",
+          "{{workers_comp_expiration}}",
+          "{{workers_comp_notes}}"
+        ],
+        [
+          "Employer's Liability",
+          "{{employers_liability_policy}}",
+          "{{employers_liability_carrier}}",
+          "{{employers_liability_limits}}",
+          "{{employers_liability_effective}}",
+          "{{employers_liability_expiration}}",
+          "{{employers_liability_notes}}"
+        ],
+        [
+          "Umbrella / Excess Liability",
+          "{{umbrella_policy}}",
+          "{{umbrella_carrier}}",
+          "{{umbrella_limits}}",
+          "{{umbrella_effective}}",
+          "{{umbrella_expiration}}",
+          "{{umbrella_notes}}"
+        ],
+        [
+          "Equipment Floater / Inland Marine",
+          "{{equipment_policy}}",
+          "{{equipment_carrier}}",
+          "{{equipment_limits}}",
+          "{{equipment_effective}}",
+          "{{equipment_expiration}}",
+          "{{equipment_notes}}"
+        ],
+        [
+          "Hired / Non-Owned Auto",
+          "{{hired_nonowned_policy}}",
+          "{{hired_nonowned_carrier}}",
+          "{{hired_nonowned_limits}}",
+          "{{hired_nonowned_effective}}",
+          "{{hired_nonowned_expiration}}",
+          "{{hired_nonowned_notes}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "ADDITIONAL PROVISIONS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Provision",
+        "Included? (Y/N)",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Additional Insured \u2014 Certificate Holder",
+          "{{additional_insured}}",
+          "{{additional_insured_details}}"
+        ],
+        [
+          "Waiver of Subrogation \u2014 Certificate Holder",
+          "{{waiver_subrogation}}",
+          "{{waiver_subrogation_details}}"
+        ],
+        [
+          "Primary and Non-Contributory \u2014 Certificate Holder",
+          "{{primary_noncontributory}}",
+          "{{primary_noncontributory_details}}"
+        ],
+        [
+          "Customary Fire, Theft, and Combined Additional Coverage",
+          "{{customary_coverage}}",
+          "{{customary_coverage_details}}"
+        ],
+        [
+          "Legal Name of Insurer(s)",
+          "{{insurer_names}}",
+          "All coverage is provided by duly licensed insurers."
+        ],
+        [
+          "No Admission of Coverage",
+          "{{no_admission}}",
+          "This certificate does not amend, expand, or alter the coverage afforded by the policies. The policies control."
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "POLICY INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Self-Insured?",
+          "{{self_insured}} (Yes / No)"
+        ],
+        [
+          "Reinsurance?",
+          "{{reinsurance}} (Yes / No \u2014 if Yes, reinsurer: {{reinsurer_name}})"
+        ],
+        [
+          "Financial Responsibility Bond?",
+          "{{financial_responsibility_bond}} (if applicable)"
+        ],
+        [
+          "Proof of Coverage",
+          "Attached ACORD 25 form, plus copies of policy declarations."
+        ],
+        [
+          "Broker / Agent",
+          "{{broker_agent_name}}, {{broker_agent_contact}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "NOTICE OF CANCELLATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "In accordance with the policy terms, the insurer will provide the Certificate Holder with at least {{cancellation_notice_period}} days' written notice of cancellation, non-renewal, or material change to the policies listed above (or {{cancellation_notice_period_short}} days for non-payment of premium, if required by state law).",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Notice of cancellation will be sent to: {{cancellation_notice_address}}.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Insured certifies that the information provided above is true and correct to the best of the Insured's knowledge as of {{certificate_date}}.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Insured / Authorized Representative",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Signature",
+          "_____________________________",
+          "{{certificate_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{insured_name}}",
+          ""
+        ],
+        [
+          "Title",
+          "{{insured_title}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

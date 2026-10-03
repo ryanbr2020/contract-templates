@@ -1,0 +1,444 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "P2P CAR RENTAL \u2014 MAINTENANCE DUE TRACKER",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "P2P CAR RENTAL \u2014 MAINTENANCE DUE TRACKER",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This tracker is used to monitor and schedule maintenance for each Vehicle in the P2P car rental fleet. Update after each rental and maintenance event.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "VEHICLE OVERVIEW",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Vehicle Make/Model/Year",
+          "{{vehicle_make}} {{vehicle_model}} {{vehicle_year}}"
+        ],
+        [
+          "VIN",
+          "{{vehicle_vin}}"
+        ],
+        [
+          "License Plate",
+          "{{license_plate}}"
+        ],
+        [
+          "Owner Name",
+          "{{owner_name}}"
+        ],
+        [
+          "Current Odometer",
+          "{{current_odometer}} miles (as of {{odometer_date}})"
+        ],
+        [
+          "Total Miles Driven in Last 30 Days",
+          "{{miles_last_30_days}} miles"
+        ],
+        [
+          "Number of Rentals in Last 30 Days",
+          "{{rentals_last_30_days}}"
+        ],
+        [
+          "Next Scheduled Maintenance Due At",
+          "{{next_maint_due_odometer}} miles or {{next_maint_due_date}}"
+        ],
+        [
+          "Days Until Next Maintenance Due",
+          "{{days_until_maint_due}} days"
+        ],
+        [
+          "Maintenance Status",
+          "{{maintenance_status}} (On schedule / Approaching / Overdue / Completed)"
+        ],
+        [
+          "Current Maintenance Notes",
+          "{{maintenance_notes}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "ROUTINE MAINTENANCE SCHEDULE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Maintenance Type",
+        "Interval",
+        "Last Done",
+        "Mileage at Last Done",
+        "Next Due (Mileage)",
+        "Next Due (Date)",
+        "Status",
+        "Notes / Vendor"
+      ],
+      "rows": [
+        [
+          "Oil Change",
+          "{{oil_change_interval}} miles or {{oil_change_interval_months}} months",
+          "{{oil_change_last_date}}",
+          "{{oil_change_last_mileage}}",
+          "{{oil_change_next_mileage}}",
+          "{{oil_change_next_date}}",
+          "{{oil_change_status}}",
+          "{{oil_change_vendor}}"
+        ],
+        [
+          "Tire Rotation",
+          "{{tire_rotation_interval}} miles",
+          "{{tire_rotation_last_date}}",
+          "{{tire_rotation_last_mileage}}",
+          "{{tire_rotation_next_mileage}}",
+          "{{tire_rotation_next_date}}",
+          "{{tire_rotation_status}}",
+          "{{tire_rotation_vendor}}"
+        ],
+        [
+          "Tire Inspection / Pressure Check",
+          "Every oil change or {{tire_inspection_interval}} miles",
+          "{{tire_insp_last_date}}",
+          "{{tire_insp_last_mileage}}",
+          "{{tire_insp_next_mileage}}",
+          "{{tire_insp_next_date}}",
+          "{{tire_insp_status}}",
+          "{{tire_insp_notes}}"
+        ],
+        [
+          "Brake Inspection",
+          "Every {{brake_inspection_interval}} miles or {{brake_inspection_interval_months}} months",
+          "{{brake_insp_last_date}}",
+          "{{brake_insp_last_mileage}}",
+          "{{brake_insp_next_mileage}}",
+          "{{brake_insp_next_date}}",
+          "{{brake_insp_status}}",
+          "{{brake_insp_notes}}"
+        ],
+        [
+          "Air Filter Replacement",
+          "{{air_filter_interval}} miles or annually",
+          "{{air_filter_last_date}}",
+          "{{air_filter_last_mileage}}",
+          "{{air_filter_next_mileage}}",
+          "{{air_filter_next_date}}",
+          "{{air_filter_status}}",
+          "{{air_filter_vendor}}"
+        ],
+        [
+          "Cabin Air Filter Replacement",
+          "{{cabin_filter_interval}} miles or annually",
+          "{{cabin_filter_last_date}}",
+          "{{cabin_filter_last_mileage}}",
+          "{{cabin_filter_next_mileage}}",
+          "{{cabin_filter_next_date}}",
+          "{{cabin_filter_status}}",
+          "{{cabin_filter_vendor}}"
+        ],
+        [
+          "Transmission Fluid Change",
+          "{{transmission_fluid_interval}} miles",
+          "{{transmission_fluid_last_date}}",
+          "{{transmission_fluid_last_mileage}}",
+          "{{transmission_fluid_next_mileage}}",
+          "{{transmission_fluid_next_date}}",
+          "{{transmission_fluid_status}}",
+          "{{transmission_fluid_vendor}}"
+        ],
+        [
+          "Coolant Flush",
+          "{{coolant_flush_interval}} miles or every {{coolant_flush_interval_years}} years",
+          "{{coolant_flush_last_date}}",
+          "{{coolant_flush_last_mileage}}",
+          "{{coolant_flush_next_mileage}}",
+          "{{coolant_flush_next_date}}",
+          "{{coolant_flush_status}}",
+          "{{coolant_flush_vendor}}"
+        ],
+        [
+          "Brake Fluid Flush",
+          "{{brake_fluid_interval}} miles or every {{brake_fluid_interval_years}} years",
+          "{{brake_fluid_last_date}}",
+          "{{brake_fluid_last_mileage}}",
+          "{{brake_fluid_next_mileage}}",
+          "{{brake_fluid_next_date}}",
+          "{{brake_fluid_status}}",
+          "{{brake_fluid_vendor}}"
+        ],
+        [
+          "Power Steering Fluid",
+          "{{power_steering_interval}} miles or as needed",
+          "{{power_steering_last_date}}",
+          "{{power_steering_last_mileage}}",
+          "{{power_steering_next_mileage}}",
+          "{{power_steering_next_date}}",
+          "{{power_steering_status}}",
+          "{{power_steering_vendor}}"
+        ],
+        [
+          "Spark Plugs",
+          "{{spark_plug_interval}} miles",
+          "{{spark_plug_last_date}}",
+          "{{spark_plug_last_mileage}}",
+          "{{spark_plug_next_mileage}}",
+          "{{spark_plug_next_date}}",
+          "{{spark_plug_status}}",
+          "{{spark_plug_vendor}}"
+        ],
+        [
+          "Battery Check / Test",
+          "Every {{battery_check_interval}} months or at each oil change",
+          "{{battery_check_last_date}}",
+          "{{battery_check_last_mileage}}",
+          "{{battery_check_next_mileage}}",
+          "{{battery_check_next_date}}",
+          "{{battery_check_status}}",
+          "{{battery_check_vendor}}"
+        ],
+        [
+          "Wiper Blade Replacement",
+          "Every {{wiper_replacement_interval}} months or as needed",
+          "{{wiper_last_date}}",
+          "{{wiper_last_mileage}}",
+          "{{wiper_next_mileage}}",
+          "{{wiper_next_date}}",
+          "{{wiper_status}}",
+          "{{wiper_vendor}}"
+        ],
+        [
+          "PCV Valve",
+          "{{pcv_interval}} miles or annually",
+          "{{pcv_last_date}}",
+          "{{pcv_last_mileage}}",
+          "{{pcv_next_mileage}}",
+          "{{pcv_next_date}}",
+          "{{pcv_status}}",
+          "{{pcv_vendor}}"
+        ],
+        [
+          "Inspect Belts and Hoses",
+          "Every {{belts_hoses_interval}} months or at each oil change",
+          "{{belts_hoses_last_date}}",
+          "{{belts_hoses_last_mileage}}",
+          "{{belts_hoses_next_mileage}}",
+          "{{belts_hoses_next_date}}",
+          "{{belts_hoses_status}}",
+          "{{belts_hoses_notes}}"
+        ],
+        [
+          "Inspect Suspension and Steering",
+          "Every {{suspension_interval}} months or at each oil change",
+          "{{suspension_last_date}}",
+          "{{suspension_last_mileage}}",
+          "{{suspension_next_mileage}}",
+          "{{suspension_next_date}}",
+          "{{suspension_status}}",
+          "{{suspension_notes}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "MAINTENANCE HISTORY (last 12 months)",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Date",
+        "Type of Service",
+        "Mileage",
+        "Vendor / Shop",
+        "Cost",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "{{maint_history_1_date}}",
+          "{{maint_history_1_type}}",
+          "{{maint_history_1_mileage}}",
+          "{{maint_history_1_vendor}}",
+          "{{maint_history_1_cost}}",
+          "{{maint_history_1_notes}}"
+        ],
+        [
+          "{{maint_history_2_date}}",
+          "{{maint_history_2_type}}",
+          "{{maint_history_2_mileage}}",
+          "{{maint_history_2_vendor}}",
+          "{{maint_history_2_cost}}",
+          "{{maint_history_2_notes}}"
+        ],
+        [
+          "{{maint_history_3_date}}",
+          "{{maint_history_3_type}}",
+          "{{maint_history_3_mileage}}",
+          "{{maint_history_3_vendor}}",
+          "{{maint_history_3_cost}}",
+          "{{maint_history_3_notes}}"
+        ],
+        [
+          "{{maint_history_4_date}}",
+          "{{maint_history_4_type}}",
+          "{{maint_history_4_mileage}}",
+          "{{maint_history_4_vendor}}",
+          "{{maint_history_4_cost}}",
+          "{{maint_history_4_notes}}"
+        ],
+        [
+          "{{maint_history_5_date}}",
+          "{{maint_history_5_type}}",
+          "{{maint_history_5_mileage}}",
+          "{{maint_history_5_vendor}}",
+          "{{maint_history_5_cost}}",
+          "{{maint_history_5_notes}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "UPCOMING / SCHEDULED MAINTENANCE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Date Scheduled",
+        "Type of Service",
+        "Mileage at Service",
+        "Vendor / Shop",
+        "Estimated Cost",
+        "Status"
+      ],
+      "rows": [
+        [
+          "{{upcoming_1_date}}",
+          "{{upcoming_1_type}}",
+          "{{upcoming_1_mileage}}",
+          "{{upcoming_1_vendor}}",
+          "{{upcoming_1_cost}}",
+          "{{upcoming_1_status}}"
+        ],
+        [
+          "{{upcoming_2_date}}",
+          "{{upcoming_2_type}}",
+          "{{upcoming_2_mileage}}",
+          "{{upcoming_2_vendor}}",
+          "{{upcoming_2_cost}}",
+          "{{upcoming_2_status}}"
+        ],
+        [
+          "{{upcoming_3_date}}",
+          "{{upcoming_3_type}}",
+          "{{upcoming_3_mileage}}",
+          "{{upcoming_3_vendor}}",
+          "{{upcoming_3_cost}}",
+          "{{upcoming_3_status}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "MAINTENANCE ALERTS AND NOTES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "{{maintenance_alert_1}}",
+        "{{maintenance_alert_2}}",
+        "{{maintenance_alert_3}}",
+        "{{general_maintenance_notes}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "REVIEWER'S SIGNATURE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Reviewer",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Reviewer Signature",
+          "_____________________________",
+          "{{review_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{reviewer_name}}",
+          ""
+        ],
+        [
+          "Title / Role",
+          "{{reviewer_title}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

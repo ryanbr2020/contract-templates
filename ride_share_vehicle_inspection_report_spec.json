@@ -1,0 +1,548 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "RIDE-SHARE VEHICLE INSPECTION REPORT",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "RIDE-SHARE VEHICLE INSPECTION REPORT",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Vehicle Inspection Report is completed by {{inspector_name}} (\"Inspector\") on {{inspection_date}} for Vehicle: {{vehicle_make}} {{vehicle_model}} {{vehicle_year}}, VIN: {{vehicle_vin}}, License Plate: {{license_plate}}.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Inspection is conducted for {{platform_name}} (the \"Platform\") in accordance with the Ride-Share Driver Agreement dated {{agreement_date}} between {{platform_name}} and {{driver_name}}.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "VEHICLE IDENTIFICATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Vehicle Make",
+          "{{vehicle_make}}"
+        ],
+        [
+          "Vehicle Model",
+          "{{vehicle_model}}"
+        ],
+        [
+          "Vehicle Year",
+          "{{vehicle_year}}"
+        ],
+        [
+          "VIN",
+          "{{vehicle_vin}}"
+        ],
+        [
+          "License Plate",
+          "{{license_plate}}"
+        ],
+        [
+          "State of Registration",
+          "{{registration_state}}"
+        ],
+        [
+          "Vehicle Color",
+          "{{vehicle_color}}"
+        ],
+        [
+          "Current Odometer Reading",
+          "{{odometer}} miles (as of {{odometer_date}})"
+        ],
+        [
+          "Dashboard Photos Taken",
+          "{{dashboard_photos}} (photo reference: {{photo_reference}})"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "INSPECTION CRITERIA",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Each item must be checked. If any item is not in compliance, note the deficiency.",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "#",
+        "Inspection Item",
+        "Pass (\u2713)",
+        "Fail (\u2713)",
+        "Not Applicable",
+        "Notes / Deficiency Description"
+      ],
+      "rows": [
+        [
+          "1",
+          "Valid inspection sticker / registration displayed (if required)",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{insp_1_notes}}"
+        ],
+        [
+          "2",
+          "Headlights (low beam and high beam) functional",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{insp_2_notes}}"
+        ],
+        [
+          "3",
+          "Taillights and brake lights functional",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{insp_3_notes}}"
+        ],
+        [
+          "4",
+          "Turn signals (front and rear) functional",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{insp_4_notes}}"
+        ],
+        [
+          "5",
+          "Hazard lights functional",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{insp_5_notes}}"
+        ],
+        [
+          "6",
+          "License plate light functional",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{insp_6_notes}}"
+        ],
+        [
+          "7",
+          "All exterior lights clean and unobstructed",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{insp_7_notes}}"
+        ],
+        [
+          "8",
+          "Horn functional",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{insp_8_notes}}"
+        ],
+        [
+          "9",
+          "Windshield and windows \u2014 no cracks, chips, or defects impairing visibility",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{insp_9_notes}}"
+        ],
+        [
+          "10",
+          "Windshield wipers functional and blades in good condition",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{insp_10_notes}}"
+        ],
+        [
+          "11",
+          "Windshield washer fluid reservoir full",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{insp_11_notes}}"
+        ],
+        [
+          "12",
+          "Rearview and side mirrors present, clean, adjustable",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{insp_12_notes}}"
+        ],
+        [
+          "13",
+          "Tires have adequate tread depth (\u2265 2/32 inch)",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{insp_13_notes}}"
+        ],
+        [
+          "14",
+          "Tires have no visible damage, bulges, or exposed cords",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{insp_14_notes}}"
+        ],
+        [
+          "15",
+          "Tire pressure within manufacturer specifications",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{insp_15_notes}}"
+        ],
+        [
+          "16",
+          "Spare tire present and in good condition (if applicable)",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{insp_16_notes}}"
+        ],
+        [
+          "17",
+          "Jack, lug wrench, and required tools present",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{insp_17_notes}}"
+        ],
+        [
+          "18",
+          "Brakes \u2014 pedal feels normal, no unusual noise or pulling",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{insp_18_notes}}"
+        ],
+        [
+          "19",
+          "Parking brake functional",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{insp_19_notes}}"
+        ],
+        [
+          "20",
+          "Steering \u2014 no excessive play, stiffness, or looseness",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{insp_20_notes}}"
+        ],
+        [
+          "21",
+          "Suspension \u2014 no unusual bouncing, noise, or leaning",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{insp_21_notes}}"
+        ],
+        [
+          "22",
+          "All doors open and close properly",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{insp_22_notes}}"
+        ],
+        [
+          "23",
+          "Seat belts \u2014 all present, functional, good condition",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{insp_23_notes}}"
+        ],
+        [
+          "24",
+          "No warning lights illuminated on dashboard",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{insp_24_notes}}"
+        ],
+        [
+          "25",
+          "Engine starts without difficulty",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{insp_25_notes}}"
+        ],
+        [
+          "26",
+          "No unusual noises from engine or exhaust",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{insp_26_notes}}"
+        ],
+        [
+          "27",
+          "No unusual smells (burning, gasoline, coolant, etc.)",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{insp_27_notes}}"
+        ],
+        [
+          "28",
+          "Exhaust system \u2014 no excessive noise, leaks, or holes",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{insp_28_notes}}"
+        ],
+        [
+          "29",
+          "Oil level adequate",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{insp_29_notes}}"
+        ],
+        [
+          "30",
+          "Coolant level adequate",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{insp_30_notes}}"
+        ],
+        [
+          "31",
+          "Brake fluid level adequate",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{insp_31_notes}}"
+        ],
+        [
+          "32",
+          "Fuel level adequate (minimum {{fuel_min_level}})",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{insp_32_notes}}"
+        ],
+        [
+          "33",
+          "Air conditioning functional (if equipped)",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{insp_33_notes}}"
+        ],
+        [
+          "34",
+          "Heating functional (if equipped)",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{insp_34_notes}}"
+        ],
+        [
+          "35",
+          "Vehicle clean and free of excessive odors",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{insp_35_notes}}"
+        ],
+        [
+          "36",
+          "Driver and front passenger seating area clear of obstructions",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{insp_36_notes}}"
+        ],
+        [
+          "37",
+          "GPS / trip device mount installed safely (if required)",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{insp_37_notes}}"
+        ],
+        [
+          "38",
+          "All required documentation in vehicle (registration, insurance, etc.)",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{insp_38_notes}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "OVERALL INSPECTION RESULT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Result",
+        "Select",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "PASS",
+          "\u2610",
+          "Vehicle meets all inspection criteria and is approved for ride-share operations."
+        ],
+        [
+          "CONDITIONAL PASS",
+          "\u2610",
+          "Vehicle meets most criteria. Items requiring attention: {{conditional_pass_items}}. May be used until {{conditional_pass_deadline}}. Owner must correct by deadline."
+        ],
+        [
+          "FAIL",
+          "\u2610",
+          "Vehicle does not meet criteria. Items requiring attention: {{fail_items}}. Vehicle may NOT be used until deficiencies corrected and re-inspection passed."
+        ],
+        [
+          "OTHER / NOTES",
+          "\u2610",
+          "{{other_inspection_result}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "INSPECTOR'S CERTIFICATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "I certify that I have inspected the Vehicle described above and that my findings are true and accurate to the best of my knowledge.",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Inspector",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Inspector Signature",
+          "_____________________________",
+          "{{inspection_date}}"
+        ],
+        [
+          "Inspector Printed Name",
+          "{{inspector_name}}",
+          ""
+        ],
+        [
+          "Inspector Title / Role",
+          "{{inspector_title}}",
+          ""
+        ],
+        [
+          "Inspector Contact",
+          "{{inspector_contact}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "DRIVER / VEHICLE OWNER ACKNOWLEDGMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "I acknowledge receipt of this Vehicle Inspection Report and understand the results and any necessary corrective actions.",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Driver/Owner",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Driver/Owner Signature",
+          "_____________________________",
+          "{{owner_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{driver_name}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

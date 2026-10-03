@@ -1,0 +1,342 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "CERTIFICATE OF TITLE APPLICATION / TRANSFER \u2014 DMV FORM ATTACHMENT",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "CERTIFICATE OF TITLE APPLICATION / TRANSFER",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This form documents the transfer of title for the Vehicle described below. This form is intended to accompany the official DMV title application form. Submit this form and the official DMV form together.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "VEHICLE INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Make",
+          "{{vehicle_make}}"
+        ],
+        [
+          "Model",
+          "{{vehicle_model}}"
+        ],
+        [
+          "Year",
+          "{{vehicle_year}}"
+        ],
+        [
+          "VIN",
+          "{{vehicle_vin}}"
+        ],
+        [
+          "Odometer",
+          "{{odometer}} miles"
+        ],
+        [
+          "License Plate (if retained)",
+          "{{license_plate}}"
+        ],
+        [
+          "Color",
+          "{{vehicle_color}}"
+        ],
+        [
+          "Title Number (current)",
+          "{{current_title_number}}"
+        ],
+        [
+          "Current Title State",
+          "{{current_title_state}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "TRANSFER TYPE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "This transfer is a:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "{{transfer_type}} (Sale / Gift / Inheritance / Court Order / Lien Release / Name Change / Correction / Other)"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "SELLER / TRANSFEROR INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Seller / Transferor Full Name",
+          "{{seller_name}}"
+        ],
+        [
+          "Seller Address",
+          "{{seller_address}}"
+        ],
+        [
+          "Seller Driver's License / ID #",
+          "{{seller_id_number}}"
+        ],
+        [
+          "Seller Phone",
+          "{{seller_phone}}"
+        ],
+        [
+          "Seller Email",
+          "{{seller_email}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "BUYER / TRANSFEREE INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Buyer / Transferee Full Name",
+          "{{buyer_name}}"
+        ],
+        [
+          "Buyer Address",
+          "{{buyer_address}}"
+        ],
+        [
+          "Buyer Driver's License / ID #",
+          "{{buyer_id_number}}"
+        ],
+        [
+          "Buyer Phone",
+          "{{buyer_phone}}"
+        ],
+        [
+          "Buyer Email",
+          "{{buyer_email}}"
+        ],
+        [
+          "Buyer's Entity Type (if applicable)",
+          "{{buyer_entity_type}} (Individual / LLC / Corporation / Trust / Other)"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "SELLER'S CERTIFICATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Seller certifies that:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Seller is the legal owner of the Vehicle and has the right to transfer title.",
+        "The Vehicle is free of all liens and encumbrances, except as disclosed on the title.",
+        "If there is an outstanding loan, the lender has provided a lien release or the loan has been paid off.",
+        "The odometer reading stated above is true and accurate to the best of Seller's knowledge.",
+        "The Vehicle has not been salvaged, rebuilt, or flooded (unless disclosed on the title).",
+        "Seller has disclosed all known material defects to Buyer.",
+        "Seller is not responsible for any tickets, tolls, or violations occurring after the date of transfer.",
+        "{{seller_title_cert_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "ODOMETER DISCLOSURE STATEMENT (federal requirement)",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "FEDERAL ODOMETER DISCLOSURE:",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "I hereby certify that the odometer reading stated above is:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The actual mileage of the Vehicle.",
+        "Exceeds the mechanical limits of the odometer (odometer rollover \u2014 actual mileage unknown).",
+        "Not the actual mileage (odometer is broken, disconnected, or altered \u2014 mileage is fraudulent).",
+        "I understand that falsifying the odometer reading is a federal offense."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "BUYER'S ACKNOWLEDGMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Buyer acknowledges:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Receiving the Vehicle in its current condition \"as-is.\"",
+        "Having inspected the Vehicle or having had it inspected.",
+        "That the title has been properly assigned by Seller.",
+        "That Buyer is responsible for submitting the title application to the DMV within {{dmv_submission_deadline}} days of the transfer.",
+        "That Buyer is responsible for paying any applicable title fees, registration fees, sales tax, and use tax.",
+        "{{buyer_title_ack}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Seller / Transferor",
+        "Buyer / Transferee"
+      ],
+      "rows": [
+        [
+          "Signature",
+          "_____________________________",
+          "_____________________________"
+        ],
+        [
+          "Printed Name",
+          "{{seller_name}}",
+          "{{buyer_name}}"
+        ],
+        [
+          "Date",
+          "{{seller_date}}",
+          "{{buyer_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "NOTARY ACKNOWLEDGMENT (if required by state)",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "State: {{notary_state}}",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "County: {{notary_county}}",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This record was acknowledged before me on {{notary_date}} by {{seller_name}} and {{buyer_name}}.",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Notary Public",
+        "Commission Expires"
+      ],
+      "rows": [
+        [
+          "Notary Signature: _____________________________",
+          "____________________________________"
+        ],
+        [
+          "Printed Name: {{notary_name}}",
+          ""
+        ],
+        [
+          "Seal / Stamp:",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

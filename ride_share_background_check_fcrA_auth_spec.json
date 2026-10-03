@@ -1,0 +1,215 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "DRIVER BACKGROUND CHECK AUTHORIZATION \u2014 FAIR CREDIT REPORTING ACT (FCRA)",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "DRIVER BACKGROUND CHECK AUTHORIZATION",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "heading",
+      "text": "FAIR CREDIT REPORTING ACT (FCRA) DISCLOSURE AND AUTHORIZATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Background Check Authorization is part of the Ride-Share Driver Agreement dated {{agreement_date}} between {{platform_name}} (\"Platform\") and {{driver_name}} (\"Driver\").",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "PURPOSE OF BACKGROUND CHECK",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Platform intends to obtain a consumer report and/or an investigative consumer report about Driver for the purpose of evaluating Driver's qualifications for employment as a Ride-Share Driver. The report may include information about Driver's character, general reputation, personal characteristics, and mode of living, including but not limited to:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Criminal history (felony and misdemeanor convictions)",
+        "Driving record (traffic violations, accidents, license suspensions, DUIs, reckless driving)",
+        "Identity verification",
+        "Employment history and verification",
+        "Education verification",
+        "Professional licenses and certifications",
+        "Sex offender registry status",
+        "Terrorist watch list / OFAC screening",
+        "{{background_check_scopes_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "FCRA RIGHTS NOTICE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "You have the following rights under the Fair Credit Reporting Act (15 U.S.C. \u00a7 1681 et seq.):",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "You must authorize this background check. Your signature below constitutes your authorization.",
+        "You have the right to receive a summary of your rights under the FCRA.",
+        "If any information in the report is used adversely against you, you will receive an adverse action notice.",
+        "You have the right to dispute inaccurate or incomplete information in your report with the consumer reporting agency.",
+        "You have the right to request a description of the nature of any investigative consumer report.",
+        "You have the right to sue for violations of the FCRA.",
+        "{{fcrA_rights_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "AUTHORIZATION AND CONSENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "By signing below, Driver authorizes Platform and its agents (including consumer reporting agencies and third-party background check vendors) to obtain consumer reports and/or investigative consumer reports from any consumer reporting agency or other source as defined under the FCRA. Driver consents to the release of information from such reports to Platform for purposes of evaluating Driver's qualifications for employment.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Driver further certifies that the information provided by Driver to Platform in the application and other documents is true, accurate, and complete.",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Driver Full Legal Name",
+          "{{driver_full_name}}"
+        ],
+        [
+          "Driver Date of Birth",
+          "{{driver_dob}}"
+        ],
+        [
+          "Driver Social Security Number",
+          "{{driver_ssn}}"
+        ],
+        [
+          "Driver Current Address",
+          "{{driver_address}}"
+        ],
+        [
+          "Driver Phone",
+          "{{driver_phone}}"
+        ],
+        [
+          "Driver Email",
+          "{{driver_email}}"
+        ],
+        [
+          "Platform Name",
+          "{{platform_name}}"
+        ],
+        [
+          "Platform Contact",
+          "{{platform_contact}}"
+        ],
+        [
+          "Background Check Provider",
+          "{{background_check_provider}}"
+        ],
+        [
+          "Authorization Date",
+          "{{authorization_date}}"
+        ],
+        [
+          "Driver Acknowledges FCRA Rights",
+          "{{driver_fcrA_acknowledgment}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "DRIVER CERTIFICATION AND SIGNATURE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Signature / Entry"
+      ],
+      "rows": [
+        [
+          "Driver Signature",
+          "_____________________________"
+        ],
+        [
+          "Printed Name",
+          "{{driver_full_name}}"
+        ],
+        [
+          "Date",
+          "{{driver_date}}"
+        ],
+        [
+          "Platform Representative Signature",
+          "_____________________________"
+        ],
+        [
+          "Printed Name",
+          "{{platform_rep_name}}"
+        ],
+        [
+          "Date",
+          "{{platform_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

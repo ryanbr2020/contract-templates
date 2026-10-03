@@ -1,0 +1,183 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "SMOKE ALARM NOTICE \u2014 TEXAS PROPERTY CODE \u00a7 92.008",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "SMOKE ALARM NOTICE \u2014 TEXAS PROPERTY CODE \u00a7 92.008",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Smoke Alarm Notice is provided to {{guest_name}} (\"Guest\") by {{host_name}} (\"Host\") on {{notice_date}} for the property located at {{property_address}}.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This notice is provided in compliance with Texas Property Code \u00a7 92.008 and applicable regulations.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "SMOKE ALARM INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Property Address",
+          "{{property_address}}"
+        ],
+        [
+          "Number of Smoke Alarms",
+          "{{smoke_alarm_count}}"
+        ],
+        [
+          "Location of Smoke Alarms",
+          "{{smoke_alarm_locations}} (e.g., inside each bedroom, outside each sleeping area, on each level)"
+        ],
+        [
+          "Type of Smoke Alarms",
+          "{{smoke_alarm_type}} (Hardwired with battery backup / Battery-operated / Combination smoke/CO alarm)"
+        ],
+        [
+          "Date of Last Test",
+          "{{last_test_date}} (by Host or maintenance)"
+        ],
+        [
+          "Date of Last Battery Replacement",
+          "{{last_battery_replacement_date}} (if battery-operated)"
+        ],
+        [
+          "Alarm Manufacturer / Model",
+          "{{alarm_manufacturer}} (if known)"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "GUEST'S RESPONSIBILITIES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Guest acknowledges and agrees that:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Smoke alarms are provided for Guest's safety. Guest should test each smoke alarm upon arrival to ensure it is functioning.",
+        "If a smoke alarm is not functioning, Guest should notify Host immediately. Host will repair or replace the alarm.",
+        "Guest should not disable, remove, tamper with, or cover any smoke alarm.",
+        "If a smoke alarm chirps intermittently (low battery), Guest should notify Host for battery replacement. Do not remove the battery.",
+        "If a smoke alarm sounds, Guest should evacuate the property immediately and call 911 if there is a fire or emergency.",
+        "Guest is responsible for any damage to or tampering with smoke alarms.",
+        "{{guest_smoke_responsibilities_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "FIRE SAFETY INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "In addition to smoke alarms, Guest should be aware of the following fire safety information:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Fire extinguisher location: {{fire_extinguisher_location}}.",
+        "Carbon monoxide alarm location(s): {{co_alarm_locations}} (if applicable).",
+        "Emergency exit routes: {{emergency_exit_routes}}.",
+        "Emergency number: 911.",
+        "Host emergency contact: {{host_emergency_contact}}.",
+        "Nearest hospital: {{nearest_hospital}}.",
+        "{{fire_safety_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "TEXAS PROPERTY CODE \u00a7 92.008 COMPLIANCE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "In accordance with Texas Property Code \u00a7 92.008, the landlord of a residential dwelling unit must install a smoke alarm in each bedroom and each hallway leading to a bedroom, and must provide a notice to the tenant regarding smoke alarms. This notice is provided to Guest in compliance with that requirement.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Guest acknowledges receipt of this Smoke Alarm Notice.",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Guest",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Guest Signature",
+          "_____________________________",
+          "{{guest_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{guest_name}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

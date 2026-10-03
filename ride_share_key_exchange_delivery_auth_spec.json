@@ -1,0 +1,358 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "RIDE-SHARE KEY EXCHANGE AND VEHICLE DELIVERY AUTHORIZATION",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "RIDE-SHARE KEY EXCHANGE AND VEHICLE DELIVERY AUTHORIZATION",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Key Exchange and Delivery Authorization is completed on {{exchange_date}} between {{owner_name}} (\"Owner\") and {{driver_name}} (\"Driver\") for Vehicle: {{vehicle_make}} {{vehicle_model}} {{vehicle_year}}, VIN: {{vehicle_vin}}, License Plate: {{license_plate}}.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Authorization documents the physical transfer of the Vehicle and keys from Owner to Driver for use in ride-share operations under the Ride-Share Driver Agreement dated {{agreement_date}}.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "VEHICLE AND KEY INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Vehicle Make/Model/Year",
+          "{{vehicle_make}} {{vehicle_model}} {{vehicle_year}}"
+        ],
+        [
+          "VIN",
+          "{{vehicle_vin}}"
+        ],
+        [
+          "License Plate",
+          "{{license_plate}}"
+        ],
+        [
+          "Vehicle Color",
+          "{{vehicle_color}}"
+        ],
+        [
+          "Number of Keys / Fobs Provided",
+          "{{key_count}}"
+        ],
+        [
+          "Key / Fob Type(s)",
+          "{{key_type}} (Traditional / Smart key / Key fob / Remote key)"
+        ],
+        [
+          "Key / Fob Serial or ID Numbers",
+          "{{key_serial_numbers}}"
+        ],
+        [
+          "Key Handoff Location",
+          "{{key_handoff_location}}"
+        ],
+        [
+          "Key Handoff Date and Time",
+          "{{key_handoff_date}} at {{key_handoff_time}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "VERIFICATION OF VEHICLE CONDITION AT HANDOFF",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Owner and Driver jointly inspect the Vehicle and verify its condition at the time of handoff. Any existing damage, defects, or issues are noted below.",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "#",
+        "Inspection Item",
+        "Condition",
+        "Notes / Observations"
+      ],
+      "rows": [
+        [
+          "1",
+          "Exterior condition (body, paint, glass)",
+          "{{ext_condition}}",
+          "{{ext_notes}}"
+        ],
+        [
+          "2",
+          "Interior condition (seats, carpets, dash, panels)",
+          "{{int_condition}}",
+          "{{int_notes}}"
+        ],
+        [
+          "3",
+          "Engine and mechanical condition",
+          "{{mech_condition}}",
+          "{{mech_notes}}"
+        ],
+        [
+          "4",
+          "Fuel level",
+          "{{fuel_level}}",
+          "{{fuel_notes}}"
+        ],
+        [
+          "5",
+          "Odometer reading",
+          "{{odometer}} miles",
+          "{{odometer_notes}}"
+        ],
+        [
+          "6",
+          "Tires (all, including spare if present)",
+          "{{tires_condition}}",
+          "{{tires_notes}}"
+        ],
+        [
+          "7",
+          "Brakes",
+          "{{brakes_condition}}",
+          "{{brakes_notes}}"
+        ],
+        [
+          "8",
+          "Lights and signals",
+          "{{lights_condition}}",
+          "{{lights_notes}}"
+        ],
+        [
+          "9",
+          "Wipers and washers",
+          "{{wipers_condition}}",
+          "{{wipers_notes}}"
+        ],
+        [
+          "10",
+          "Seat belts (all)",
+          "{{seatbelts_condition}}",
+          "{{seatbelts_notes}}"
+        ],
+        [
+          "11",
+          "Dashboard warning lights",
+          "{{warning_lights_condition}}",
+          "{{warning_lights_notes}}"
+        ],
+        [
+          "12",
+          "Windows and mirrors",
+          "{{windows_condition}}",
+          "{{windows_notes}}"
+        ],
+        [
+          "13",
+          "Any existing damage or defects",
+          "{{existing_damage}} (None / Described below)",
+          "{{existing_damage_notes}}"
+        ],
+        [
+          "14",
+          "Vehicle documents present (registration, insurance, inspection)",
+          "{{docs_present}}",
+          "{{docs_notes}}"
+        ],
+        [
+          "15",
+          "All accessories present (key fobs, owner's manual, etc.)",
+          "{{accessories_present}}",
+          "{{accessories_notes}}"
+        ],
+        [
+          "16",
+          "Vehicle is clean",
+          "{{cleanliness}}",
+          "{{cleanliness_notes}}"
+        ],
+        [
+          "17",
+          "Photos of vehicle condition taken",
+          "{{photos_taken}} (Yes / No \u2014 Photo reference: {{photo_reference}})",
+          "{{photos_notes}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "KEYS ACKNOWLEDGMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Owner provides the following keys/fobs to Driver:",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Key / Fob #",
+        "Description",
+        "Condition",
+        "Handed to Driver? (Y/N)",
+        "Driver Acknowledgment (initials)",
+        "Time"
+      ],
+      "rows": [
+        [
+          "1",
+          "{{key1_desc}}",
+          "{{key1_condition}}",
+          "{{key1_handed}}",
+          "{{key1_driver_init}}",
+          "{{key1_time}}"
+        ],
+        [
+          "2",
+          "{{key2_desc}}",
+          "{{key2_condition}}",
+          "{{key2_handed}}",
+          "{{key2_driver_init}}",
+          "{{key2_time}}"
+        ],
+        [
+          "3",
+          "{{key3_desc}}",
+          "{{key3_condition}}",
+          "{{key3_handed}}",
+          "{{key3_driver_init}}",
+          "{{key3_time}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "paragraph",
+      "text": "Driver acknowledges receipt of all keys/fobs and agrees to:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Maintain keys/fobs in safe condition and not lose them.",
+        "Not duplicate keys/fobs without Owner's written consent.",
+        "Not allow any unauthorized person to possess or use the keys/fobs.",
+        "Return all keys/fobs to Owner at the end of the agreement or upon demand.",
+        "Report any lost, stolen, or damaged keys/fobs to Owner immediately.",
+        "Pay for replacement or reprogramming of lost/stolen keys/fobs as specified in the Driver Agreement.",
+        "{{key_ack_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "OWNER AND DRIVER ACKNOWLEDGMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Both parties acknowledge that the Vehicle and keys have been transferred as described above, that the Vehicle condition has been inspected and any existing damage has been noted, and that Driver accepts responsibility for the Vehicle from the time of handoff in accordance with the Ride-Share Driver Agreement.",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Date",
+        "Time"
+      ],
+      "rows": [
+        [
+          "Owner",
+          "_____________________________",
+          "{{exchange_date}}",
+          "{{key_handoff_time}}"
+        ],
+        [
+          "Printed Name",
+          "{{owner_name}}",
+          "",
+          ""
+        ],
+        [
+          "Driver",
+          "_____________________________",
+          "{{exchange_date}}",
+          "{{key_handoff_time}}"
+        ],
+        [
+          "Printed Name",
+          "{{driver_name}}",
+          "",
+          ""
+        ],
+        [
+          "Witness (if applicable)",
+          "_____________________________",
+          "{{witness_date}}",
+          "{{witness_time}}"
+        ],
+        [
+          "Printed Name",
+          "{{witness_name}}",
+          "",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

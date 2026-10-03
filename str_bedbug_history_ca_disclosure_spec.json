@@ -1,0 +1,149 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "BEDBUG HISTORY DISCLOSURE \u2014 CALIFORNIA SHORT TERM RENTAL",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "BEDBUG HISTORY DISCLOSURE \u2014 CALIFORNIA SHORT TERM RENTAL",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Bedbug History Disclosure is provided to {{guest_name}} (\"Guest\") by {{host_name}} (\"Host\") on {{disclosure_date}} for the property located at {{property_address}}, in compliance with California law.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "BEDBUG HISTORY",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Host discloses the following regarding bedbug history at the property:",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Has the property ever had a bedbug infestation?",
+          "{{bedbug_infestation_history}} (Yes \u2014 details below / No / Unknown)"
+        ],
+        [
+          "If yes, date(s) of infestation",
+          "{{bedbug_infestation_dates}}"
+        ],
+        [
+          "If yes, date(s) of treatment",
+          "{{bedbug_treatment_dates}}"
+        ],
+        [
+          "If yes, treatment method used",
+          "{{bedbug_treatment_method}}"
+        ],
+        [
+          "If yes, was treatment performed by a licensed pest control company?",
+          "{{bedbug_treatment_professional}} (Yes / No)"
+        ],
+        [
+          "If yes, name of pest control company",
+          "{{bedbug_pesticide_company}}"
+        ],
+        [
+          "If yes, was the treatment successful?",
+          "{{bedbug_treatment_success}} (Yes / Ongoing / Unknown)"
+        ],
+        [
+          "Current bedbug status",
+          "{{current_bedbug_status}} (No known infestation / Under treatment / Unknown)"
+        ],
+        [
+          "Host's policy on bedbugs",
+          "{{bedbug_host_policy}} (Host will promptly investigate and treat any reported bedbug concerns / Guest should report any suspected bedbugs immediately)"
+        ],
+        [
+          "Guest's responsibility",
+          "Guest should inspect bedding, mattress seams, and furniture for signs of bedbugs upon arrival. Guest should report any suspected bedbugs to Host immediately. Guest is responsible for any damage caused by bedbugs introduced by Guest."
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "CALIFORNIA LAW COMPLIANCE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "California law requires landlords to provide information about bedbug history and to disclose any known bedbug infestations. This disclosure is provided in compliance with applicable California law (California Code of Regulations, Title 24, \u00a7 1000 et seq. and related local ordinances).",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Guest acknowledges having received this Bedbug History Disclosure and understands the importance of promptly reporting any suspected bedbug activity.",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Guest",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Guest Signature",
+          "_____________________________",
+          "{{guest_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{guest_name}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

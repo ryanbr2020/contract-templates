@@ -1,0 +1,368 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "INDEPENDENT CONTRACTOR AGREEMENT",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "INDEPENDENT CONTRACTOR AGREEMENT",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Independent Contractor Agreement (\"Agreement\") is made as of {{agreement_date}} between:",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "{{client_name}}, located at {{client_address}} (\"Client\")",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "{{contractor_name}}, located at {{contractor_address}} (\"Contractor\")",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "1. ENGAGEMENT AND SERVICES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Client engages Contractor to perform the following services (the \"Services\"):",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "{{services_1}}",
+        "{{services_2}}",
+        "{{services_3}}",
+        "{{services_4}}",
+        "Services may be modified by mutual written agreement of the Parties."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The Services shall be performed in a professional and workmanlike manner, consistent with industry standards, and in accordance with all applicable laws and regulations.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "2. INDEPENDENT CONTRACTOR STATUS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Contractor is an independent contractor, not an employee, agent, partner, or joint venturer of Client. Contractor:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Is solely responsible for all taxes, insurance, benefits, and other obligations arising from the performance of the Services.",
+        "Sets their own schedule and work methods, subject to meeting the deadlines and deliverables agreed upon.",
+        "May provide services to other clients during the term of this Agreement, unless restricted by a non-compete or exclusivity clause.",
+        "Is not entitled to any employee benefits, including health insurance, retirement benefits, paid time off, or workers' compensation.",
+        "Uses their own tools, equipment, and materials to perform the Services, unless Client provides specific equipment as stated in this Agreement.",
+        "{{independent_contractor_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "3. COMPENSATION AND PAYMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Compensation Type",
+          "{{compensation_type}} (Fixed fee: {{fixed_fee}} / Hourly: {{hourly_rate}} per hour / Per project milestone / Retainer: {{retainer_amount}} per month / Other)"
+        ],
+        [
+          "Invoice Schedule",
+          "{{invoice_schedule}} (upon completion / monthly / per milestone / weekly)"
+        ],
+        [
+          "Payment Terms",
+          "{{payment_terms}} days from receipt of invoice."
+        ],
+        [
+          "Payment Method",
+          "{{payment_method}}"
+        ],
+        [
+          "Expenses reimbursable",
+          "{{reimbursable_expenses}} (pre-approved in writing by Client)."
+        ],
+        [
+          "Late payment interest",
+          "{{late_payment_interest}}% per month on overdue invoices."
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "4. TERM AND TERMINATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Start Date",
+          "{{start_date}}"
+        ],
+        [
+          "Expected Completion",
+          "{{expected_completion_date}}"
+        ],
+        [
+          "Term",
+          "{{term_length}} (Fixed term / Until completion of Services / Ongoing / Other)"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "paragraph",
+      "text": "Either Party may terminate this Agreement with {{termination_notice}} days written notice to the other Party.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Client may terminate this Agreement immediately for cause, including: (a) Contractor's material breach of this Agreement, (b) Contractor's failure to perform the Services in a timely or professional manner, (c) Contractor's violation of any law or regulation.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Upon termination, Contractor will be paid for all Services performed and expenses incurred up to the termination date. Client will withhold payment for any incomplete or unsatisfactory work.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "5. CONFIDENTIALITY",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Contractor acknowledges that during the engagement, Contractor may have access to confidential information of Client (\"Confidential Information\"). Confidential Information includes business plans, customer lists, financial information, trade secrets, proprietary processes, and any other information marked as confidential or that would reasonably be understood to be confidential.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Contractor agrees:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "To keep all Confidential Information confidential and not to disclose it to any third party without Client's prior written consent.",
+        "To use Confidential Information solely for the purpose of performing the Services.",
+        "To return or destroy all Confidential Information upon termination of this Agreement.",
+        "This confidentiality obligation survives termination of this Agreement for {{confidentiality_term}} years."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "6. INTELLECTUAL PROPERTY",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "All work product, inventions, designs, code, documents, and other deliverables created by Contractor in the course of performing the Services (\"Work Product\") shall be the property of Client, and Contractor hereby assigns all rights, title, and interest in the Work Product to Client. This assignment includes all intellectual property rights.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Contractor agrees to execute any documents necessary to perfect Client's ownership of the Work Product.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This assignment does not apply to pre-existing work or tools that Contractor uses to perform the Services, unless Client specifically purchases those rights.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "7. NON-SOLICITATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "During the term of this Agreement and for {{non_solicitation_term}} months thereafter, Contractor agrees not to:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Solicit or hire any employee or contractor of Client.",
+        "Solicit any customer or client of Client for the purpose of providing competing services.",
+        "{{non_solicitation_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "8. INSURANCE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Contractor shall maintain, at Contractor's own expense:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "{{insurance_requirement_1}}",
+        "{{insurance_requirement_2}}",
+        "{{insurance_requirement_3}}",
+        "Contractor shall provide Client with certificates of insurance upon request."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "9. INDEMNIFICATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Contractor agrees to indemnify, defend, and hold harmless Client and its officers, directors, employees, and agents from and against any and all claims, losses, damages, liabilities, costs, and expenses (including attorney fees) arising from or related to:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Contractor's negligent or wrongful acts or omissions in performing the Services.",
+        "Contractor's breach of this Agreement.",
+        "Any claim that the Work Product infringes the intellectual property rights of a third party.",
+        "Any injury to person or damage to property caused by Contractor's acts or omissions.",
+        "{{indemnification_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "10. DISPUTE RESOLUTION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Any disputes arising from this Agreement shall be resolved through {{dispute_resolution}} (negotiation / mediation / arbitration / litigation) in {{governing_state}}.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "11. GOVERNING LAW",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Agreement is governed by the laws of {{governing_state}}, without regard to conflict of law principles.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "12. ENTIRE AGREEMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Agreement constitutes the entire agreement between the Parties and supersedes all prior negotiations, representations, and agreements relating to the subject matter hereof.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Client",
+        "Contractor"
+      ],
+      "rows": [
+        [
+          "Signature",
+          "_____________________________",
+          "_____________________________"
+        ],
+        [
+          "Printed Name",
+          "{{client_name}}",
+          "{{contractor_name}}"
+        ],
+        [
+          "Title (if applicable)",
+          "{{client_title}}",
+          "{{contractor_title}}"
+        ],
+        [
+          "Date",
+          "{{client_date}}",
+          "{{contractor_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

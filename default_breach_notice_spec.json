@@ -1,0 +1,226 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    },
+    {
+      "name": "FL",
+      "font": "Calibri",
+      "size_pt": 11,
+      "bold": true
+    }
+  ],
+  "header": "NOTICE OF DEFAULT / BREACH LETTER",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "NOTICE OF DEFAULT / BREACH",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Notice of Default is sent by {{sender_name}} (\"Sender\") to {{recipient_name}} (\"Recipient\") on {{notice_date}}.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "VIA: {{delivery_method}} (Email / Certified Mail / Personal Delivery / Platform Messaging / Other)",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "REFERENCE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Agreement Date",
+          "{{agreement_date}}"
+        ],
+        [
+          "Agreement Title",
+          "{{agreement_title}}"
+        ],
+        [
+          "Agreement Between",
+          "{{party_a}} and {{party_b}}"
+        ],
+        [
+          "Recipient's Role in Agreement",
+          "{{recipient_role}}"
+        ],
+        [
+          "Sender's Role in Agreement",
+          "{{sender_role}}"
+        ],
+        [
+          "Specific Contract Section(s) Allegedly Breached",
+          "{{breached_sections}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "DESCRIPTION OF DEFAULT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sender hereby notifies Recipient that Recipient is in default of the Agreement as follows:",
+      "style": "BT"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "{{default_description_item_1}}",
+        "{{default_description_item_2}}",
+        "{{default_description_item_3}}",
+        "The above constitutes a material breach of the Agreement."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "DEMAND AND CURE PERIOD",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sender demands that Recipient cure the above default within {{cure_period_days}} days of receipt of this Notice (the \"Cure Period\"). To cure, Recipient must:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "{{cure_requirement_1}}",
+        "{{cure_requirement_2}}",
+        "{{cure_requirement_3}}"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "If Recipient fails to cure the default within the Cure Period, Sender reserves the right to:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Terminate the Agreement.",
+        "Retain any payments, deposits, or fees as liquidated damages or as compensation for the breach.",
+        "Pursue legal remedies for damages, including actual damages, consequential damages, and attorney's fees (if recoverable under the Agreement).",
+        "Take any other action permitted under the Agreement or applicable law."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "PRESERVATION OF RIGHTS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Notice is not an exhaustive statement of all defaults. Sender reserves the right to assert additional defaults at a later date. Sending this Notice does not waive any rights or remedies available to Sender under the Agreement or applicable law.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "CONTACT FOR RESPONSE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Contact",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Sender's Contact",
+          "{{sender_contact_name}}, {{sender_contact_email}}, {{sender_contact_phone}}"
+        ],
+        [
+          "Recipient should respond by",
+          "{{response_deadline}}"
+        ],
+        [
+          "Recipient should address response to",
+          "{{response_address}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "ACKNOWLEDGMENT OF RECEIPT (optional)",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Recipient may acknowledge receipt of this Notice by signing below:",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Recipient",
+          "_____________________________",
+          ""
+        ],
+        [
+          "Received by (if delivered personally)",
+          "_____________________________",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

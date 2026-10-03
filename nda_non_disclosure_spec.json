@@ -1,0 +1,256 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "NON-DISCLOSURE AGREEMENT (NDA)",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "NON-DISCLOSURE AGREEMENT",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Non-Disclosure Agreement (\"NDA\") is made as of {{nda_date}} between:",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "{{disclosing_party_name}}, located at {{disclosing_party_address}} (\"Disclosing Party\")",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "{{receiving_party_name}}, located at {{receiving_party_address}} (\"Receiving Party\")",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Parties may be referred to individually as a \"Party\" and collectively as the \"Parties.\"",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "1. PURPOSE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Disclosing Party intends to disclose certain confidential and proprietary information to the Receiving Party for the purpose of: {{nda_purpose}} (evaluating a potential business relationship / exploring a joint venture / discussing a possible investment / hiring the Receiving Party / other: {{nda_purpose_other}}). The Parties agree to protect the confidentiality of this information as set forth below.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "2. DEFINITION OF CONFIDENTIAL INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Confidential Information\" means any information, in any form, that is disclosed by the Disclosing Party to the Receiving Party and that is marked as confidential or that would reasonably be understood to be confidential given the nature of the information and the circumstances of disclosure. Confidential Information includes, but is not limited to:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Business plans, strategies, and forecasts.",
+        "Financial information, including revenue, costs, margins, and projections.",
+        "Customer lists, supplier lists, and contact information.",
+        "Technical information, including designs, specifications, formulas, algorithms, source code, and know-how.",
+        "Product plans, features, roadmaps, and unreleased products.",
+        "Marketing and sales strategies and materials.",
+        "Patents, patent applications, and pending intellectual property.",
+        "Trade secrets and proprietary processes.",
+        "Any notes, analyses, compilations, studies, or other documents prepared by the Receiving Party that contain or reflect the Disclosing Party's Confidential Information.",
+        "{{nda_confidential_info_extra}}"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Confidential Information does NOT include information that:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Is or becomes publicly known through no fault of the Receiving Party.",
+        "Was already known to the Receiving Party before disclosure by the Disclosing Party, as evidenced by written records.",
+        "Is independently developed by the Receiving Party without use of or reference to the Disclosing Party's Confidential Information.",
+        "Is rightfully received by the Receiving Party from a third party without restriction on disclosure.",
+        "Is required to be disclosed by law, regulation, or court order, provided the Receiving Party gives the Disclosing Party prompt notice and an opportunity to seek a protective order.",
+        "{{nda_exclusions_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "3. OBLIGATIONS OF RECEIVING PARTY",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Receiving Party agrees to:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Hold all Confidential Information in strict confidence and take reasonable precautions to protect it (at least as great as the precautions the Receiving Party takes to protect its own confidential information).",
+        "Use the Confidential Information solely for the Purpose stated in Section 1.",
+        "Not disclose the Confidential Information to any third party without the Disclosing Party's prior written consent.",
+        "Limit access to the Confidential Information to those of its employees, contractors, and advisors who have a need to know and who are bound by confidentiality obligations at least as restrictive as this NDA.",
+        "Not reverse engineer, decompile, or disassemble any prototype, software, or other item provided by the Disclosing Party, unless permitted by law.",
+        "Return or destroy all Confidential Information upon the Disclosing Party's request or upon termination of the business relationship.",
+        "{{nda_obligations_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "4. TERM",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "This NDA shall remain in effect for {{nda_term}} years from the date of this NDA. The confidentiality obligations shall survive termination of this NDA for {{nda_survival_term}} years. Confidential Information that constitutes a trade secret shall be protected for as long as it remains a trade secret under applicable law.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "5. RETURN OF INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Upon the written request of the Disclosing Party, or upon termination of the business relationship between the Parties, the Receiving Party shall promptly return or destroy all copies of Confidential Information in its possession or control and certify in writing that it has done so. The Receiving Party may retain one archival copy for legal compliance purposes, subject to the continuing confidentiality obligations.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "6. NO LICENSE OR OBLIGATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nothing in this NDA grants the Receiving Party any license, right, or interest in the Disclosing Party's Confidential Information or intellectual property. This NDA does not obligate either Party to enter into any further agreement or business relationship.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "7. REMEDIES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Receiving Party acknowledges that a breach of this NDA may cause irreparable harm to the Disclosing Party for which monetary damages would be inadequate. Accordingly, the Disclosing Party shall be entitled to seek injunctive relief and specific performance, in addition to any other remedies available at law or in equity.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "8. NO WARRANTY",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Disclosing Party makes no representations or warranties regarding the accuracy, completeness, or reliability of the Confidential Information. The Confidential Information is provided \"as-is.\"",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "9. GOVERNING LAW",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "This NDA is governed by the laws of {{governing_state}}.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "10. ENTIRE AGREEMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "This NDA constitutes the entire agreement between the Parties regarding the subject matter hereof and supersedes all prior agreements and understandings.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Disclosing Party",
+        "Receiving Party"
+      ],
+      "rows": [
+        [
+          "Signature",
+          "_____________________________",
+          "_____________________________"
+        ],
+        [
+          "Printed Name",
+          "{{disclosing_party_name}}",
+          "{{receiving_party_name}}"
+        ],
+        [
+          "Title (if applicable)",
+          "{{disclosing_party_title}}",
+          "{{receiving_party_title}}"
+        ],
+        [
+          "Date",
+          "{{disclosing_party_date}}",
+          "{{receiving_party_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

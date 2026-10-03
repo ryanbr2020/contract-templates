@@ -1,0 +1,436 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "RIDE-SHARE DRIVER \u2014 TRIP INSPECTION AND PRE-TRIP CHECKLIST",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "RIDE-SHARE DRIVER \u2014 TRIP INSPECTION AND PRE-TRIP CHECKLIST",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Driver must complete this checklist at the beginning of each shift or before accepting the first trip of the day.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "DRIVER AND SHIFT INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Driver Name",
+          "{{driver_name}}"
+        ],
+        [
+          "Date",
+          "{{checklist_date}}"
+        ],
+        [
+          "Shift Start Time",
+          "{{shift_start_time}}"
+        ],
+        [
+          "Vehicle Make/Model/Year",
+          "{{vehicle_make}} {{vehicle_model}} {{vehicle_year}}"
+        ],
+        [
+          "VIN",
+          "{{vehicle_vin}}"
+        ],
+        [
+          "License Plate",
+          "{{license_plate}}"
+        ],
+        [
+          "Odometer at Start of Shift",
+          "{{odometer_start}} miles"
+        ],
+        [
+          "Fuel Level at Start of Shift",
+          "{{fuel_start_level}}"
+        ],
+        [
+          "Pre-Shift Inspection Completed",
+          "{{pre_shift_inspection_done}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "PRE-TRIP VEHICLE SAFETY CHECK",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "#",
+        "Check Item",
+        "OK",
+        "Needs Attention",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "1",
+          "Walk around vehicle \u2014 check for new damage, obstacles, or hazards",
+          "\u2610",
+          "\u2610",
+          "{{check_1_notes}}"
+        ],
+        [
+          "2",
+          "Tires \u2014 visual check, no obvious damage or low pressure",
+          "\u2610",
+          "\u2610",
+          "{{check_2_notes}}"
+        ],
+        [
+          "3",
+          "All lights \u2014 headlights, brake lights, turn signals, hazard lights",
+          "\u2610",
+          "\u2610",
+          "{{check_3_notes}}"
+        ],
+        [
+          "4",
+          "License plate and inspection sticker visible and current",
+          "\u2610",
+          "\u2610",
+          "{{check_4_notes}}"
+        ],
+        [
+          "5",
+          "Fuel level adequate for shift (minimum {{fuel_min_for_shift}})",
+          "\u2610",
+          "\u2610",
+          "{{check_5_notes}}"
+        ],
+        [
+          "6",
+          "No warning lights on dashboard",
+          "\u2610",
+          "\u2610",
+          "{{check_6_notes}}"
+        ],
+        [
+          "7",
+          "Brakes \u2014 test at low speed before first passenger pickup",
+          "\u2610",
+          "\u2610",
+          "{{check_7_notes}}"
+        ],
+        [
+          "8",
+          "Steering \u2014 test at low speed",
+          "\u2610",
+          "\u2610",
+          "{{check_8_notes}}"
+        ],
+        [
+          "9",
+          "Horn \u2014 test",
+          "\u2610",
+          "\u2610",
+          "{{check_9_notes}}"
+        ],
+        [
+          "10",
+          "Windshield and windows \u2014 clean and unobstructed",
+          "\u2610",
+          "\u2610",
+          "{{check_10_notes}}"
+        ],
+        [
+          "11",
+          "Wipers and washer fluid \u2014 functional",
+          "\u2610",
+          "\u2610",
+          "{{check_11_notes}}"
+        ],
+        [
+          "12",
+          "Mirrors \u2014 clean, properly adjusted",
+          "\u2610",
+          "\u2610",
+          "{{check_12_notes}}"
+        ],
+        [
+          "13",
+          "Seat belts \u2014 all functional, no damage",
+          "\u2610",
+          "\u2610",
+          "{{check_13_notes}}"
+        ],
+        [
+          "14",
+          "Doors \u2014 all open and close properly",
+          "\u2610",
+          "\u2610",
+          "{{check_14_notes}}"
+        ],
+        [
+          "15",
+          "Vehicle is clean (seats, floors, dash, mirrors)",
+          "\u2610",
+          "\u2610",
+          "{{check_15_notes}}"
+        ],
+        [
+          "16",
+          "No strong odors (smoke, pets, food, musty)",
+          "\u2610",
+          "\u2610",
+          "{{check_16_notes}}"
+        ],
+        [
+          "17",
+          "GPS / trip device charged and ready",
+          "\u2610",
+          "\u2610",
+          "{{check_17_notes}}"
+        ],
+        [
+          "18",
+          "Driver documents (license, insurance, registration) in vehicle",
+          "\u2610",
+          "\u2610",
+          "{{check_18_notes}}"
+        ],
+        [
+          "19",
+          "Platform app logged in and ready",
+          "\u2610",
+          "\u2610",
+          "{{check_19_notes}}"
+        ],
+        [
+          "20",
+          "Trip device / tablet placed in proper mount (if used)",
+          "\u2610",
+          "\u2610",
+          "{{check_20_notes}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "INTERIOR READINESS CHECK",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "#",
+        "Check Item",
+        "OK",
+        "Needs Attention",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "1",
+          "Driver's seat position comfortable and safe",
+          "\u2610",
+          "\u2610",
+          "{{interior_1_notes}}"
+        ],
+        [
+          "2",
+          "Front passenger seat clear and clean",
+          "\u2610",
+          "\u2610",
+          "{{interior_2_notes}}"
+        ],
+        [
+          "3",
+          "Back seats clean, clear, functional seat belts",
+          "\u2610",
+          "\u2610",
+          "{{interior_3_notes}}"
+        ],
+        [
+          "4",
+          "No clutter, trash, or personal items visible to passengers",
+          "\u2610",
+          "\u2610",
+          "{{interior_4_notes}}"
+        ],
+        [
+          "5",
+          "Temperature controls working",
+          "\u2610",
+          "\u2610",
+          "{{interior_5_notes}}"
+        ],
+        [
+          "6",
+          "Phone / distractions minimized \u2014 set to do-not-disturb as appropriate",
+          "\u2610",
+          "\u2610",
+          "{{interior_6_notes}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "DRIVER READINESS CHECK",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "#",
+        "Check Item",
+        "OK",
+        "Needs Attention",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "1",
+          "Driver feels fit and alert to drive safely",
+          "\u2610",
+          "\u2610",
+          "{{driver_r_1_notes}}"
+        ],
+        [
+          "2",
+          "Driver has had adequate rest (not fatigued)",
+          "\u2610",
+          "\u2610",
+          "{{driver_r_2_notes}}"
+        ],
+        [
+          "3",
+          "Driver has not consumed alcohol or impairing substances",
+          "\u2610",
+          "\u2610",
+          "{{driver_r_3_notes}}"
+        ],
+        [
+          "4",
+          "Driver understands current platform policies and any updates",
+          "\u2610",
+          "\u2610",
+          "{{driver_r_4_notes}}"
+        ],
+        [
+          "5",
+          "Driver is aware of any weather, traffic, or safety advisories",
+          "\u2610",
+          "\u2610",
+          "{{driver_r_5_notes}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "SHIFT NOTES / CONCERNS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Any issues or concerns noted during pre-trip inspection:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "{{shift_notes_1}}",
+        "{{shift_notes_2}}",
+        "{{general_shift_notes}}"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "If any safety-critical issue was identified, Driver should not use the Vehicle until the issue is corrected.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "CERTIFICATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "By signing below, Driver certifies that they have completed this pre-trip inspection and that the Vehicle is in safe working condition for ride-share operations, to the best of their knowledge.",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Driver",
+        "Signature",
+        "Date",
+        "Time"
+      ],
+      "rows": [
+        [
+          "Driver Signature",
+          "_____________________________",
+          "{{checklist_date}}",
+          "{{shift_start_time}}"
+        ],
+        [
+          "Printed Name",
+          "{{driver_name}}",
+          "",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

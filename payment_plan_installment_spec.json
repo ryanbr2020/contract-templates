@@ -1,0 +1,303 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "PAYMENT PLAN / INSTALLMENT AGREEMENT",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "PAYMENT PLAN / INSTALLMENT AGREEMENT",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Payment Plan Agreement (\"Agreement\") is made as of {{plan_date}} between:",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Creditor: {{creditor_name}}, located at {{creditor_address}} (\"Creditor\")",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Debtor: {{debtor_name}}, located at {{debtor_address}} (\"Debtor\")",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "1. DEBT BEING REPAID",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Original Debt / Invoice #",
+          "{{original_debt_ref}}"
+        ],
+        [
+          "Original Amount Due",
+          "{{original_amount_due}}"
+        ],
+        [
+          "Date Original Payment Was Due",
+          "{{original_due_date}}"
+        ],
+        [
+          "Accrued Interest / Late Fees",
+          "{{accrued_fees}} (at {{interest_rate}}% per {{interest_period}})"
+        ],
+        [
+          "Total Amount to be Repaid (Principal + Accrued)",
+          "{{total_repayment_amount}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "2. PAYMENT PLAN TERMS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "#",
+        "Due Date",
+        "Amount Due",
+        "Cumulative Paid",
+        "Remaining Balance",
+        "Paid? (\u2713)"
+      ],
+      "rows": [
+        [
+          "1",
+          "{{installment_1_date}}",
+          "{{installment_1_amount}}",
+          "{{cum_1}}",
+          "{{remaining_1}}",
+          "\u2610"
+        ],
+        [
+          "2",
+          "{{installment_2_date}}",
+          "{{installment_2_amount}}",
+          "{{cum_2}}",
+          "{{remaining_2}}",
+          "\u2610"
+        ],
+        [
+          "3",
+          "{{installment_3_date}}",
+          "{{installment_3_amount}}",
+          "{{cum_3}}",
+          "{{remaining_3}}",
+          "\u2610"
+        ],
+        [
+          "4",
+          "{{installment_4_date}}",
+          "{{installment_4_amount}}",
+          "{{cum_4}}",
+          "{{remaining_4}}",
+          "\u2610"
+        ],
+        [
+          "5",
+          "{{installment_5_date}}",
+          "{{installment_5_amount}}",
+          "{{cum_5}}",
+          "{{remaining_5}}",
+          "\u2610"
+        ],
+        [
+          "6",
+          "{{installment_6_date}}",
+          "{{installment_6_amount}}",
+          "{{cum_6}}",
+          "{{remaining_6}}",
+          "\u2610"
+        ],
+        [
+          "7",
+          "{{installment_7_date}}",
+          "{{installment_7_amount}}",
+          "{{cum_7}}",
+          "{{remaining_7}}",
+          "\u2610"
+        ],
+        [
+          "8",
+          "{{installment_8_date}}",
+          "{{installment_8_amount}}",
+          "{{cum_8}}",
+          "{{remaining_8}}",
+          "\u2610"
+        ],
+        [
+          "",
+          "TOTAL",
+          "{{total_plan_amount}}",
+          "{{total_cum}}",
+          "$0.00",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "paragraph",
+      "text": "Payments shall be made by {{payment_method}} to {{payment_destination}}. Each payment is due on the date listed above.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "3. DEFAULT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Debtor is in default if:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Debtor fails to make a payment within {{grace_period}} days of the due date.",
+        "Debtor fails to make any payment at all.",
+        "Debtor files for bankruptcy or becomes insolvent.",
+        "Debtor breaches any other term of this Agreement."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Upon default, Creditor may:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Declare the entire remaining balance immediately due and payable (acceleration).",
+        "Accrue additional interest / late fees at {{default_interest_rate}}% per month on the unpaid balance.",
+        "{{default_consequences_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "4. PREPAYMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Debtor may prepay the remaining balance at any time without penalty. Any prepayment shall be applied first to any accrued interest or fees, then to the principal balance.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "5. CREDIT REPORTING (optional)",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "{{credit_reporting_permission}} (Creditor may report debtor's payment history to credit bureaus. / Creditor will not report payment history to credit bureaus.)",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "6. GOVERNING LAW",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Agreement is governed by the laws of {{governing_state}}.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "7. ENTIRE AGREEMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Agreement constitutes the entire agreement between the Parties regarding the payment plan and supersedes all prior agreements, understandings, and payment arrangements.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Creditor",
+        "Debtor"
+      ],
+      "rows": [
+        [
+          "Signature",
+          "_____________________________",
+          "_____________________________"
+        ],
+        [
+          "Printed Name",
+          "{{creditor_name}}",
+          "{{debtor_name}}"
+        ],
+        [
+          "Date",
+          "{{creditor_date}}",
+          "{{debtor_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

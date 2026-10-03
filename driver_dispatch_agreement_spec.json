@@ -1,0 +1,287 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "DRIVER DISPATCH AGREEMENT",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "DRIVER DISPATCH AGREEMENT",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Driver Dispatch Agreement (\"Agreement\") is made as of {{agreement_date}} between:",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "{{dispatch_company_name}}, located at {{dispatch_company_address}} (\"Dispatch Company\")",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "{{driver_name}}, located at {{driver_address}} (\"Driver\")",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "1. DISPATCH SERVICES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dispatch Company will dispatch Driver to perform transportation services as follows:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Dispatch Company will provide Driver with trip assignments, including: pick-up location, drop-off location, passenger/cargo details, and scheduled pickup time.",
+        "Driver will accept or decline trip assignments as provided by Dispatch Company.",
+        "Driver will complete assigned trips in accordance with the instructions provided.",
+        "Driver may use the Dispatch Company's dispatching app, radio, or other communication method as agreed.",
+        "{{dispatch_services_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "2. DRIVER REQUIREMENTS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Driver must hold a valid driver's license: {{driver_license_type}} issued by {{license_jurisdiction}}.",
+        "Driver must maintain a clean driving record with no major violations in the past {{driving_record_period}}.",
+        "Driver must pass a background check as required by Dispatch Company.",
+        "Driver must maintain valid auto insurance on the Vehicle used for dispatch trips.",
+        "Driver must maintain the Vehicle in good mechanical condition.",
+        "Driver must wear a seatbelt and comply with all traffic laws.",
+        "{{driver_dispatch_reqs}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "3. FARES AND PAYMENTS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Fare Settlement Method",
+          "{{fare_settlement}} (Dispatch Company collects fare from passenger and pays Driver / Driver collects fare directly from passenger and pays Dispatch Company a commission / Hybrid)"
+        ],
+        [
+          "Driver's Payment per Trip",
+          "{{driver_per_trip}} (flat rate / percentage of fare / hourly rate + mileage)"
+        ],
+        [
+          "Dispatch Company's Commission / Fee",
+          "{{dispatch_commission}}% of fare or {{dispatch_fee}} per trip"
+        ],
+        [
+          "Payment Schedule",
+          "{{payment_schedule}} (per trip / weekly / bi-weekly / monthly)"
+        ],
+        [
+          "Payment Method",
+          "{{payment_method}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "4. DRIVER RESPONSIBILITIES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Driver will appear at the pick-up location at the scheduled time.",
+        "Driver will wait {{wait_time}} minutes for the passenger/cargo.",
+        "Driver will not refuse assigned trips based on discriminatory grounds.",
+        "Driver will provide safe, professional, and courteous service.",
+        "Driver will not deviate from the assigned route without dispatch authorization.",
+        "Driver will not carry unauthorized additional passengers or cargo.",
+        "Driver will not use the Vehicle for personal errands during dispatch assignments.",
+        "Driver will communicate with Dispatch Company regarding trip status, delays, or issues.",
+        "{{driver_dispatch_duties}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "5. INDEPENDENT CONTRACTOR",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Driver is an independent contractor. Driver is responsible for all taxes, insurance, and benefits. Driver may provide services to other dispatch companies during the term of this Agreement, subject to any exclusivity provisions.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "6. VEHICLE REQUIREMENTS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Vehicle must be registered and titled in Driver's name or Driver has written consent from the registered owner.",
+        "Vehicle must be no older than {{vehicle_age_max}} years.",
+        "Vehicle must be in good mechanical condition with all safety equipment functioning.",
+        "Vehicle must be clean, tidy, and free of odors.",
+        "{{dispatch_vehicle_reqs}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "7. INSURANCE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Driver must maintain personal auto insurance covering the Vehicle.",
+        "Dispatch Company may maintain secondary insurance that covers certain situations.",
+        "Driver must provide proof of insurance to Dispatch Company and keep it current.",
+        "{{dispatch_insurance_terms}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "8. SAFETY",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Driver must not operate the Vehicle while under the influence of alcohol or drugs.",
+        "Driver must not engage in reckless, distracted, or aggressive driving.",
+        "Driver must comply with all traffic laws and regulations.",
+        "Either Party may terminate a trip immediately if they feel unsafe.",
+        "{{dispatch_safety_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "9. LIABILITY",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Driver is responsible for any damage caused by Driver's negligence during dispatch trips.",
+        "Dispatch Company is not liable for accidents, injuries, or damages arising from dispatch trips, except as required by law or as provided in Dispatch Company's insurance policy.",
+        "Any claims related to dispatch trips should be reported to Dispatch Company within {{claim_reporting_hours}} hours.",
+        "{{dispatch_liability_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "10. TERMINATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Either Party may terminate this Agreement with {{termination_notice}} days written notice.",
+        "Dispatch Company may terminate immediately for cause, including safety violations, breach of terms, or illegal activity.",
+        "Driver may terminate at any time by ceasing to accept dispatch assignments.",
+        "{{dispatch_termination_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "11. GOVERNING LAW",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Agreement is governed by the laws of {{governing_state}}.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Dispatch Company",
+        "Driver"
+      ],
+      "rows": [
+        [
+          "Signature",
+          "_____________________________",
+          "_____________________________"
+        ],
+        [
+          "Printed Name",
+          "{{dispatch_company_name}}",
+          "{{driver_name}}"
+        ],
+        [
+          "Date",
+          "{{dispatch_date}}",
+          "{{driver_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "RELEASE OF CLAIM AND SETTLEMENT AGREEMENT",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "RELEASE OF CLAIM AND SETTLEMENT AGREEMENT",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Release of Claim and Settlement Agreement (\"Agreement\") is made as of {{release_date}} between:",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "{{releasee_name}}, located at {{releasee_address}} (\"Releasee\")",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "{{releasor_name}}, located at {{releasor_address}} (\"Releasor\")",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Collectively referred to as the \"Parties.\"",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "1. BACKGROUND",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Agreement resolves the dispute between the Parties described below:",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "{{dispute_background}}",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Parties have engaged in good-faith negotiations and have reached the following settlement.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "2. SETTLEMENT AMOUNT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Settlement Amount",
+          "{{settlement_amount}}"
+        ],
+        [
+          "Payment Method",
+          "{{payment_method}} (check / wire transfer / cash / installment / other)"
+        ],
+        [
+          "Payment Due Date",
+          "{{payment_due_date}}"
+        ],
+        [
+          "Payment Installments (if applicable)",
+          "{{installment_details}} ({{installment_count}} installments of {{installment_amount}} due on {{installment_dates}})"
+        ],
+        [
+          "Interest on Late Payments",
+          "{{late_payment_interest}}% per month on any unpaid installment."
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "3. RELEASE OF CLAIMS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "In consideration of the settlement amount and the mutual promises contained herein, Releasor hereby releases, waives, and forever discharges Releasee, and Releasee's officers, directors, employees, agents, affiliates, successors, assigns, and insurers (collectively, the \"Released Parties\"), from any and all claims, demands, actions, causes of action, liabilities, damages, losses, costs, and expenses of any kind whatsoever, whether known or unknown, suspected or unsuspected, that Releasor ever had, now has, or hereafter may have against the Released Parties, arising from or related to:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "{{released_claims_1}}",
+        "{{released_claims_2}}",
+        "{{released_claims_3}}",
+        "{{released_claims_extra}}"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "This release includes, but is not limited to, claims for personal injury, property damage, economic loss, intentional torts, negligence, gross negligence, and violations of statute. Releasor expressly waives any rights under California Civil Code \u00a7 1542 (or any similar provision in any jurisdiction), which provides: \"A general release does not extend to claims that the creditor or releasing party does not know or suspect to exist in his or her favor at the time of executing the release and that, if known by him or her, would have materially affected his or her settlement with the debtor or released party.\"",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "4. NO ADMISSION OF LIABILITY",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Agreement is a compromise of a disputed claim. Neither Party admits liability or fault. The settlement amount is not an admission of liability by Releasee.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "5. CONFIDENTIALITY",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Parties agree to keep the terms and existence of this Agreement confidential. Neither Party shall disclose the terms to any third party, except:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "As required by law, regulation, or court order.",
+        "To the Parties' attorneys, accountants, financial advisors, and insurance carriers, who are bound by confidentiality.",
+        "To the extent necessary to enforce this Agreement.",
+        "{{confidentiality_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "6. NO FURTHER CLAIMS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Each Party represents that they have not assigned, transferred, or otherwise disposed of any claim covered by this release to any third party. Each Party agrees not to file, initiate, or prosecute any claim covered by this release against the other Party.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "7. DISPUTE RESOLUTION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "If a dispute arises from this Agreement, the Parties agree to resolve it through {{dispute_resolution}} in {{governing_state}}.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "8. GOVERNING LAW",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Agreement is governed by the laws of {{governing_state}}.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "9. ENTIRE AGREEMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Agreement constitutes the entire settlement of all claims between the Parties arising from the dispute described above. The Parties agree that this Agreement supersedes all prior negotiations, discussions, and agreements.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "10. SEVERABILITY",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "If any provision of this Agreement is held invalid or unenforceable, the remaining provisions shall remain in full force and effect.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Releasor",
+        "Releasee"
+      ],
+      "rows": [
+        [
+          "Signature",
+          "_____________________________",
+          "_____________________________"
+        ],
+        [
+          "Printed Name",
+          "{{releasor_name}}",
+          "{{releasee_name}}"
+        ],
+        [
+          "Date",
+          "{{releasor_date}}",
+          "{{releasee_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "DRIVER BACKGROUND CHECK AUTHORIZATION \u2014 FCRA CONSENT FORM",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "DRIVER BACKGROUND CHECK AUTHORIZATION",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "*** THIS FORM IS USED TO OBTAIN YOUR CONSENT TO A BACKGROUND CHECK. READ CAREFULLY. ***",
+      "style": "WT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Background Check Authorization and Consent Form (\"Form\") is provided by {{platform_name}} (\"Platform\") to {{driver_name}} (\"Driver\") on {{form_date}}.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "PLATFORM INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Platform Name",
+          "{{platform_name}}"
+        ],
+        [
+          "Platform Address",
+          "{{platform_address}}"
+        ],
+        [
+          "Platform Contact",
+          "{{platform_contact}}"
+        ],
+        [
+          "Purpose of Background Check",
+          "To evaluate Driver's qualifications for providing ride-sharing services through the Platform."
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "DRIVER INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Driver Full Name",
+          "{{driver_name}}"
+        ],
+        [
+          "Driver Address",
+          "{{driver_address}}"
+        ],
+        [
+          "Driver Date of Birth",
+          "{{driver_dob}}"
+        ],
+        [
+          "Driver Social Security Number (last 4 digits only on this form)",
+          "{{driver_ssn_last4}}"
+        ],
+        [
+          "Driver Phone",
+          "{{driver_phone}}"
+        ],
+        [
+          "Driver Email",
+          "{{driver_email}}"
+        ],
+        [
+          "Driver License Number",
+          "{{driver_license_number}}"
+        ],
+        [
+          "Driver License State",
+          "{{driver_license_state}}"
+        ],
+        [
+          "Driver License Expiration",
+          "{{driver_license_expiration}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "CONSENT AND AUTHORIZATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Driver hereby authorizes Platform to obtain a consumer report and/or investigative consumer report about Driver from a consumer reporting agency (\"CRA\"), including but not limited to:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Criminal history (county, state, and federal criminal records).",
+        "Motor vehicle records (driving history, violations, suspensions, license status).",
+        "Credit report (if applicable for insurance purposes).",
+        "Employment and education verification.",
+        "Sex offender registry check.",
+        "Social Security Number trace and alias check.",
+        "{{bg_check_extra_consent}}"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Driver understands that the consumer report may contain information about Driver's character, general reputation, personal characteristics, and mode of living.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "FCRA DISCLOSURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "In accordance with the Fair Credit Reporting Act (FCRA), 15 U.S.C. \u00a7 1681 et seq., Driver is advised of the following:",
+      "style": "BT"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "The information contained in the consumer report may be used by Platform as a factor in determining Driver's eligibility to participate in the Platform's ride-sharing program.",
+        "Driver has the right to request a copy of the consumer report from the CRA. Driver may request this by contacting the CRA directly. Contact information for the CRA will be provided after the report is obtained.",
+        "If Platform takes adverse action (denial, suspension, termination) based in whole or in part on the consumer report, Platform will provide Driver with an adverse action notice that includes: (a) the name, address, and phone number of the CRA that provided the report; (b) a statement that the CRA did not make the decision; (c) notice of Driver's right to obtain a free copy of the report within 60 days; and (d) notice of Driver's right to dispute the accuracy or completeness of the report.",
+        "Driver has the right to dispute the accuracy or completeness of any information in the consumer report. Driver may contact the CRA directly to initiate a dispute.",
+        "Driver's rights under the FCRA are outlined in the CFPB's \"A Summary of Your Rights Under the Fair Credit Reporting Act\" document.",
+        "{{fcra_extra_disclosures}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "DRIVER'S CONSENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "By signing below, Driver:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Acknowledges having read and understood this Form and the FCRA disclosures.",
+        "Consents to the background check described above.",
+        "Authorizes Platform to obtain consumer reports and investigative consumer reports as described.",
+        "Releases the CRA and Platform from liability for obtaining the consumer report, except in cases of willful or negligent noncompliance with the FCRA.",
+        "Understands that providing this consent is a condition of participation in the Platform's ride-sharing program.",
+        "Understands that consent is voluntary but that failure to consent will result in inability to participate."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "EXPIRATION OF CONSENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "This consent is valid for {{consent_validity_period}} from the date of signature. If Driver's application is not processed within this period, a new consent form may be required.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Driver",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Driver Signature",
+          "_____________________________",
+          "{{driver_signature_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{driver_name}}",
+          ""
+        ],
+        [
+          "Date of Birth",
+          "{{driver_dob}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "paragraph",
+      "text": "Platform Representative (optional):",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Platform Representative"
+      ],
+      "rows": [
+        [
+          "Signature",
+          "_____________________________"
+        ],
+        [
+          "Printed Name",
+          "{{platform_rep_name}}"
+        ],
+        [
+          "Date",
+          "{{platform_rep_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

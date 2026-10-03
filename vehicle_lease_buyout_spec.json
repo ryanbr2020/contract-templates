@@ -1,0 +1,246 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "VEHICLE LEASE BUYOUT AGREEMENT",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "VEHICLE LEASE BUYOUT AGREEMENT",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Vehicle Lease Buyout Agreement (\"Buyout Agreement\") is made as of {{buyout_date}} between:",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lessor (Lease Company): {{lessor_name}}, located at {{lessor_address}} (\"Lessor\")",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lessee (Current Lessee): {{lessee_name}}, located at {{lessee_address}} (\"Lessee\")",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "1. VEHICLE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Make",
+          "{{vehicle_make}}"
+        ],
+        [
+          "Model",
+          "{{vehicle_model}}"
+        ],
+        [
+          "Year",
+          "{{vehicle_year}}"
+        ],
+        [
+          "VIN",
+          "{{vehicle_vin}}"
+        ],
+        [
+          "Current Odometer",
+          "{{odometer}} miles"
+        ],
+        [
+          "Original Lease Term",
+          "{{original_lease_term}} months"
+        ],
+        [
+          "Original Lease Start Date",
+          "{{original_lease_start}}"
+        ],
+        [
+          "Original Lease End Date",
+          "{{original_lease_end}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "2. BUYOUT PRICE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Amount",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "Purchase Option Price (per original lease)",
+          "{{purchase_option_price}}",
+          "As stated in original lease agreement."
+        ],
+        [
+          "Remaining Lease Payments (if any)",
+          "{{remaining_lease_payments}}",
+          "Payments due between buyout date and original lease end."
+        ],
+        [
+          "Excess Mileage Charges (if applicable)",
+          "{{excess_mileage_charges}}",
+          "Based on {{monthly_mileage_limit}} miles/month allowance."
+        ],
+        [
+          "Excess Wear and Tear Charges (if applicable)",
+          "{{excess_wear_charges}}",
+          "Per Lessor's inspection."
+        ],
+        [
+          "Acquisition / Processing Fee",
+          "{{acquisition_fee}}",
+          "Lessor's fee for processing the buyout."
+        ],
+        [
+          "Sales Tax (if applicable)",
+          "{{sales_tax}}",
+          "Rate: {{tax_rate}}% on purchase price."
+        ],
+        [
+          "Total Buyout Amount Due",
+          "{{total_buyout_amount}}",
+          "Due by {{buyout_payment_due_date}}."
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "3. LEASE PAYMENT WAIVER",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Upon receipt of the full Buyout Amount, Lessor waives all remaining lease payments, early termination fees, and other charges under the original lease, except those explicitly listed in Section 2.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "4. TITLE TRANSFER",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Upon full payment, Lessor will:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Release its lien on the Vehicle's title.",
+        "Assign the title to Lessee (or Lessee's designated owner).",
+        "Provide all necessary DMV transfer documents.",
+        "Complete these within {{title_transfer_period}} days of receiving payment."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "5. VEHICLE CONDITION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lessee acknowledges the Vehicle is accepted in its current condition \"as-is.\" Lessor makes no warranties. Lessee has the right to a pre-buyout inspection. Damage identified in the inspection may increase the Buyout Amount.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "6. CANCELLATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lessee may cancel this Buyout Agreement within {{cancellation_period}} days of signing for a full refund of any payments made, less a cancellation fee of {{cancellation_fee}}. After {{cancellation_period}} days, the Buyout Amount is non-refundable and Lessor retains all payments made.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Lessor",
+        "Lessee"
+      ],
+      "rows": [
+        [
+          "Signature",
+          "_____________________________",
+          "_____________________________"
+        ],
+        [
+          "Printed Name",
+          "{{lessor_name}}",
+          "{{lessee_name}}"
+        ],
+        [
+          "Date",
+          "{{lessor_date}}",
+          "{{lessee_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

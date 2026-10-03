@@ -1,0 +1,455 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "RIDE-SHARE DAMAGE CLAIM FORM",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "RIDE-SHARE DAMAGE CLAIM FORM",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Damage Claim Form is submitted to {{platform_name}} (\"Platform\") by {{claimant_name}} (\"Claimant\") on {{claim_date}} to report damage related to a ride-share trip or Vehicle.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "CLAIMANT INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Claimant Full Name",
+          "{{claimant_name}}"
+        ],
+        [
+          "Claimant Email",
+          "{{claimant_email}}"
+        ],
+        [
+          "Claimant Phone",
+          "{{claimant_phone}}"
+        ],
+        [
+          "Claimant Role",
+          "{{claimant_role}} (Driver / Passenger / Vehicle Owner / Other)"
+        ],
+        [
+          "Platform Account / Driver ID",
+          "{{claimant_account_id}} (if applicable)"
+        ],
+        [
+          "Date of Claim Submission",
+          "{{claim_date}}"
+        ],
+        [
+          "Time of Claim Submission",
+          "{{claim_time}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "INCIDENT / DAMAGE INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Date of Incident / Damage",
+          "{{incident_date}}"
+        ],
+        [
+          "Time of Incident / Damage",
+          "{{incident_time}}"
+        ],
+        [
+          "Location of Incident / Damage",
+          "{{incident_location}}"
+        ],
+        [
+          "Type of Damage",
+          "{{damage_type}} (Collision / Impact / Scratch / Dent / Broken / Stolen / Vandalism / Weather / Other)"
+        ],
+        [
+          "Damage Description",
+          "{{damage_description}}"
+        ],
+        [
+          "Vehicle Make/Model/Year",
+          "{{vehicle_make}} {{vehicle_model}} {{vehicle_year}}"
+        ],
+        [
+          "License Plate",
+          "{{license_plate}}"
+        ],
+        [
+          "VIN",
+          "{{vehicle_vin}}"
+        ],
+        [
+          "Driver Name (if different from Claimant)",
+          "{{driver_of_vehicle}}"
+        ],
+        [
+          "Trip ID / Ride ID",
+          "{{trip_id}} (if applicable)"
+        ],
+        [
+          "Other Vehicle / Property Involved?",
+          "{{other_vehicle_involved}} (Yes / No \u2014 details: {{other_vehicle_details}})"
+        ],
+        [
+          "Police Report Filed?",
+          "{{police_report_filed}} (Report Number: {{police_report_number}})"
+        ],
+        [
+          "Photos Taken?",
+          "{{photos_taken}} (Photo count: {{photo_count}})"
+        ],
+        [
+          "Witnesses?",
+          "{{witnesses_present}} (Witness Names/Contact: {{witness_details}})"
+        ],
+        [
+          "Insurance Claim Filed?",
+          "{{insurance_claim_filed}} (Claim Number: {{insurance_claim_number}})"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "DAMAGES / LOSSES CLAIMED",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "#",
+        "Item Damaged or Lost",
+        "Description of Damage / Loss",
+        "Estimated Repair/Replacement Cost",
+        "Receipt / Estimate Attached?",
+        "Other Details"
+      ],
+      "rows": [
+        [
+          "1",
+          "{{damage_item_1}}",
+          "{{damage_item_1_desc}}",
+          "{{damage_item_1_cost}}",
+          "{{damage_item_1_receipt}}",
+          "{{damage_item_1_details}}"
+        ],
+        [
+          "2",
+          "{{damage_item_2}}",
+          "{{damage_item_2_desc}}",
+          "{{damage_item_2_cost}}",
+          "{{damage_item_2_receipt}}",
+          "{{damage_item_2_details}}"
+        ],
+        [
+          "3",
+          "{{damage_item_3}}",
+          "{{damage_item_3_desc}}",
+          "{{damage_item_3_cost}}",
+          "{{damage_item_3_receipt}}",
+          "{{damage_item_3_details}}"
+        ],
+        [
+          "4",
+          "{{damage_item_4}}",
+          "{{damage_item_4_desc}}",
+          "{{damage_item_4_cost}}",
+          "{{damage_item_4_receipt}}",
+          "{{damage_item_4_details}}"
+        ],
+        [
+          "5",
+          "{{damage_item_5}}",
+          "{{damage_item_5_desc}}",
+          "{{damage_item_5_cost}}",
+          "{{damage_item_5_receipt}}",
+          "{{damage_item_5_details}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Total Estimated Claim Amount",
+          "{{total_claim_amount}}"
+        ],
+        [
+          "Loss of Use / Lost Income Claimed?",
+          "{{loss_of_use_claimed}} (Amount: {{loss_of_use_amount}})"
+        ],
+        [
+          "Rental Car / Substitute Vehicle Needed?",
+          "{{rental_car_needed}} (Company: {{rental_car_company}} \u2014 Days: {{rental_car_days}} \u2014 Cost: {{rental_car_cost}})"
+        ],
+        [
+          "Medical Injury Claimed?",
+          "{{medical_claimed}} (Description: {{medical_description}} \u2014 Treatment Cost: {{medical_cost}})"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "RESPONSIBILITY / LIABILITY STATEMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Claimant states that:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "{{responsibility_statement_1}}",
+        "{{responsibility_statement_2}}",
+        "Claimant believes that the damage was caused by: {{claimed_cause_of_damage}}.",
+        "Claimant believes that {{party_believed_responsible}} is responsible for the damage.",
+        "Claimant is submitting this claim in good faith and believes the information provided is true and accurate.",
+        "{{responsibility_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "SUPPORTING DOCUMENTATION CHECKLIST",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Document",
+        "Attached? (Y/N)",
+        "File Name / Reference",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Photos of damage",
+          "{{doc_photo_attached}}",
+          "{{doc_photo_ref}}",
+          "{{doc_photo_date}}"
+        ],
+        [
+          "Police report",
+          "{{doc_police_report}}",
+          "{{doc_police_report_ref}}",
+          "{{doc_police_report_date}}"
+        ],
+        [
+          "Insurance claim documentation",
+          "{{doc_insurance_claim}}",
+          "{{doc_insurance_claim_ref}}",
+          "{{doc_insurance_claim_date}}"
+        ],
+        [
+          "Repair estimate(s) / invoices",
+          "{{doc_repair_estimate}}",
+          "{{doc_repair_estimate_ref}}",
+          "{{doc_repair_estimate_date}}"
+        ],
+        [
+          "Receipts for repairs / replacements",
+          "{{doc_receipts}}",
+          "{{doc_receipts_ref}}",
+          "{{doc_receipts_date}}"
+        ],
+        [
+          "Medical records / bills (if applicable)",
+          "{{doc_medical_records}}",
+          "{{doc_medical_records_ref}}",
+          "{{doc_medical_records_date}}"
+        ],
+        [
+          "Witness statements",
+          "{{doc_witness_statements}}",
+          "{{doc_witness_statements_ref}}",
+          "{{doc_witness_statements_date}}"
+        ],
+        [
+          "Trip details / ride receipt",
+          "{{doc_trip_details}}",
+          "{{doc_trip_details_ref}}",
+          "{{doc_trip_details_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "CLAIMANT'S CERTIFICATION AND SIGNATURE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "I certify that the information provided in this claim is true, accurate, and complete to the best of my knowledge.",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Claimant Signature",
+          "_____________________________",
+          "{{claim_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{claimant_name}}",
+          ""
+        ],
+        [
+          "Witness Signature (if applicable)",
+          "_____________________________",
+          "{{witness_date}}"
+        ],
+        [
+          "Witness Printed Name",
+          "{{witness_name}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "FOR PLATFORM USE ONLY",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Date Claim Received",
+          "{{platform_date_received}}"
+        ],
+        [
+          "Received By",
+          "{{platform_received_by}}"
+        ],
+        [
+          "Claim Number (assigned by Platform)",
+          "{{platform_claim_number}}"
+        ],
+        [
+          "Claim Status",
+          "{{platform_claim_status}} (Open / Under Review / Investigating / Denied / Approved / Settled / Closed)"
+        ],
+        [
+          "Assigned Adjuster / Investigator",
+          "{{platform_adjuster}}"
+        ],
+        [
+          "Decision",
+          "{{platform_decision}} (Approved / Partial Approval / Denied / Pending More Info)"
+        ],
+        [
+          "Decision Amount",
+          "{{platform_decision_amount}}"
+        ],
+        [
+          "Reason for Decision",
+          "{{platform_decision_reason}}"
+        ],
+        [
+          "Date of Decision",
+          "{{platform_decision_date}}"
+        ],
+        [
+          "Approved By",
+          "{{platform_decision_approver}}"
+        ],
+        [
+          "Payment Date",
+          "{{platform_payment_date}}"
+        ],
+        [
+          "Payment Method",
+          "{{platform_payment_method}}"
+        ],
+        [
+          "Payment Amount",
+          "{{platform_payment_amount}}"
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

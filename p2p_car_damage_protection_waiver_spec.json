@@ -1,0 +1,323 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "P2P CAR RENTAL \u2014 DAMAGE PROTECTION / EXCESS INSURANCE WAIVER",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "P2P CAR RENTAL \u2014 DAMAGE PROTECTION / EXCESS INSURANCE WAIVER",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Damage Protection Addendum is attached to the Peer-to-Peer Car Rental Agreement dated {{agreement_date}} between {{owner_name}} (\"Owner\") and {{renter_name}} (\"Renter\").",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "1. DAMAGE PROTECTION OPTIONS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Renter may purchase damage protection through {{insurance_provider}} or directly through the rental platform. The following options are available:",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Protection Plan",
+        "Coverage Description",
+        "Cost",
+        "Deductible Covered",
+        "Coverage Limits",
+        "Exclusions"
+      ],
+      "rows": [
+        [
+          "Option A \u2014 {{coverage_a_name}}",
+          "{{coverage_a_description}}",
+          "{{coverage_a_cost}}",
+          "{{coverage_a_deductible}}",
+          "{{coverage_a_limits}}",
+          "{{coverage_a_exclusions}}"
+        ],
+        [
+          "Option B \u2014 {{coverage_b_name}}",
+          "{{coverage_b_description}}",
+          "{{coverage_b_cost}}",
+          "{{coverage_b_deductible}}",
+          "{{coverage_b_limits}}",
+          "{{coverage_b_exclusions}}"
+        ],
+        [
+          "Option C \u2014 {{coverage_c_name}}",
+          "{{coverage_c_description}}",
+          "{{coverage_c_cost}}",
+          "{{coverage_c_deductible}}",
+          "{{coverage_c_limits}}",
+          "{{coverage_c_exclusions}}"
+        ],
+        [
+          "No Protection (Base Option)",
+          "Renter is responsible for the full deductible under Owner's insurance policy, plus any damage exceeding insurance limits and loss of use.",
+          "$0",
+          "None",
+          "N/A",
+          "All damage responsibility falls on Renter per the main rental agreement."
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "2. PURCHASED PROTECTION PLAN",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Protection Plan Selected",
+          "{{selected_plan_name}} (Option A / B / C / No Protection)"
+        ],
+        [
+          "Plan Purchased Through",
+          "{{plan_provider}}"
+        ],
+        [
+          "Plan Purchase Date",
+          "{{plan_purchase_date}}"
+        ],
+        [
+          "Plan Purchase Price",
+          "{{plan_purchase_price}}"
+        ],
+        [
+          "Plan Confirmation / Reference #",
+          "{{plan_confirmation_number}}"
+        ],
+        [
+          "Coverage Period",
+          "{{coverage_start_date}} at {{coverage_start_time}} to {{coverage_end_date}} at {{coverage_end_time}}"
+        ],
+        [
+          "Deductible Covered",
+          "{{selected_plan_deductible}}"
+        ],
+        [
+          "Coverage Limit (max payout)",
+          "{{coverage_limit}}"
+        ],
+        [
+          "Personal Items / Contents Coverage",
+          "{{personal_items_coverage}} (Yes / No / Limited)"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "3. WHAT IS AND IS NOT COVERED",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "heading",
+      "text": "TYPICALLY COVERED (check plan details)",
+      "level": 3,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "{{covered_item_1}}",
+        "{{covered_item_2}}",
+        "{{covered_item_3}}",
+        "{{covered_item_4}}",
+        "{{covered_item_5}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "TYPICALLY NOT COVERED (exclusions \u2014 check plan details)",
+      "level": 3,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "{{excluded_item_1}}",
+        "{{excluded_item_2}}",
+        "{{excluded_item_3}}",
+        "{{excluded_item_4}}",
+        "{{excluded_item_5}}",
+        "Loss of use / rental income during repairs (unless specifically included)",
+        "Damage to tires, wheels, glass, undercarriage, or roof (unless specifically included)",
+        "Damage from racing, off-road driving, or use outside allowed geographic area",
+        "Damage from driving under the influence, reckless driving, or violating traffic laws",
+        "Mechanical or electrical failures not caused by collision or accident",
+        "Theft of personal belongings from the Vehicle"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "4. RENTER'S REMAINING RESPONSIBILITY",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Even with damage protection, Renter remains responsible for:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "{{renter_remaining_responsibility_1}}",
+        "{{renter_remaining_responsibility_2}}",
+        "{{renter_remaining_responsibility_3}}",
+        "Any damage exceeding the coverage limit of the protection plan.",
+        "Any damage not covered by the protection plan (per the exclusions above).",
+        "Any deductible or co-pay required under the protection plan.",
+        "Loss of use / rental income if not covered by the protection plan.",
+        "Any administrative or claims processing fees.",
+        "Fines, tickets, or penalties incurred during the rental.",
+        "{{renter_remaining_responsibility_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "5. CLAIMS PROCESS WITH PROTECTION PLAN",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "In the event of damage, Renter must follow the claims process in the main rental agreement (stop immediately, ensure safety, exchange information, take photos, notify Owner within {{accident_notification_hours}} hours, file police report if required).",
+        "Renter must also notify the protection plan provider: {{plan_provider_notification}}.",
+        "Renter should not admit fault or settle privately without consulting the protection plan provider.",
+        "Renter must cooperate fully with the claims adjuster and provide all requested documentation.",
+        "The protection plan provider will assess the claim and determine coverage.",
+        "{{claims_process_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "6. PROTECTION PLAN PROVIDER INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Provider Name",
+          "{{plan_provider_name}}"
+        ],
+        [
+          "Provider Phone",
+          "{{plan_provider_phone}}"
+        ],
+        [
+          "Provider Email",
+          "{{plan_provider_email}}"
+        ],
+        [
+          "Provider Website",
+          "{{plan_provider_website}}"
+        ],
+        [
+          "Policy / Plan Number",
+          "{{plan_policy_number}}"
+        ],
+        [
+          "Claims Department Contact",
+          "{{claims_department_contact}}"
+        ],
+        [
+          "24/7 Emergency / Claims Hotline",
+          "{{claims_hotline}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "7. ACKNOWLEDGMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Renter acknowledges having read, understood, and agreed to this Damage Protection Addendum. Renter confirms that they understand the coverage, limitations, and exclusions of the selected protection plan.",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Renter",
+          "_____________________________",
+          "{{renter_date}}"
+        ],
+        [
+          "Owner",
+          "_____________________________",
+          "{{owner_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

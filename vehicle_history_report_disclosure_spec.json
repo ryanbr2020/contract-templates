@@ -1,0 +1,357 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "VEHICLE HISTORY REPORT DISCLOSURE",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "VEHICLE HISTORY REPORT DISCLOSURE",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This History Report Disclosure is provided by {{seller_name}} (\"Seller\") to {{buyer_name}} (\"Buyer\") on {{disclosure_date}} in connection with the sale of the vehicle described below.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "VEHICLE IDENTIFICATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Make",
+          "{{vehicle_make}}"
+        ],
+        [
+          "Model",
+          "{{vehicle_model}}"
+        ],
+        [
+          "Year",
+          "{{vehicle_year}}"
+        ],
+        [
+          "VIN",
+          "{{vehicle_vin}}"
+        ],
+        [
+          "Odometer at Disclosure",
+          "{{odometer}} miles"
+        ],
+        [
+          "Seller Name",
+          "{{seller_name}}"
+        ],
+        [
+          "Seller Address",
+          "{{seller_address}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "HISTORY REPORT DETAILS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "History Report Name / Service",
+          "{{history_report_name}} (CarFax / AutoCheck / VINcheck / Other)"
+        ],
+        [
+          "Report Number / VIN Check ID",
+          "{{history_report_number}}"
+        ],
+        [
+          "Report Date",
+          "{{history_report_date}}"
+        ],
+        [
+          "Report URL (if available)",
+          "{{history_report_url}}"
+        ],
+        [
+          "Report Provided By",
+          "{{history_report_provider}}"
+        ],
+        [
+          "Was the report purchased by Seller or Buyer?",
+          "{{report_purchased_by}}"
+        ],
+        [
+          "Was the report provided to Buyer before the sale?",
+          "{{report_pre_sale}} (Yes / No)"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "REPORTED HISTORY (as shown on the report attached / referenced below)",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Event Type",
+        "Reported?",
+        "Date (if available)",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Accident / Crash",
+          "{{accident_reported}}",
+          "{{accident_date}}",
+          "{{accident_details}}"
+        ],
+        [
+          "Total Loss / Salvage Title",
+          "{{total_loss_reported}}",
+          "{{total_loss_date}}",
+          "{{total_loss_details}}"
+        ],
+        [
+          "Flood Damage",
+          "{{flood_reported}}",
+          "{{flood_date}}",
+          "{{flood_details}}"
+        ],
+        [
+          "Fire Damage",
+          "{{fire_reported}}",
+          "{{fire_date}}",
+          "{{fire_details}}"
+        ],
+        [
+          "Lemon Law Buyback",
+          "{{lemon_law_reported}}",
+          "{{lemon_law_date}}",
+          "{{lemon_law_details}}"
+        ],
+        [
+          "Rebuilt / Reconstructed Title",
+          "{{rebuilt_reported}}",
+          "{{rebuilt_date}}",
+          "{{rebuilt_details}}"
+        ],
+        [
+          "Number of Previous Owners",
+          "{{owner_count}}",
+          "\u2014",
+          "{{owner_details}}"
+        ],
+        [
+          "Service / Maintenance Records",
+          "{{service_records_reported}}",
+          "\u2014",
+          "{{service_records_details}}"
+        ],
+        [
+          "Title Transfers",
+          "{{title_transfers_reported}}",
+          "\u2014",
+          "{{title_transfers_details}}"
+        ],
+        [
+          "Odometer Readings",
+          "{{odometer_readings_reported}}",
+          "\u2014",
+          "{{odometer_readings_details}}"
+        ],
+        [
+          "Open Recalls",
+          "{{open_recalls_reported}}",
+          "\u2014",
+          "{{open_recalls_details}} (see recall list below)"
+        ],
+        [
+          "Use as Rental / Taxi / Fleet",
+          "{{fleet_use_reported}}",
+          "\u2014",
+          "{{fleet_use_details}}"
+        ],
+        [
+          "Use as Police / Emergency Vehicle",
+          "{{police_use_reported}}",
+          "\u2014",
+          "{{police_use_details}}"
+        ],
+        [
+          "Other Reported Events",
+          "{{other_events_reported}}",
+          "\u2014",
+          "{{other_events_details}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "OPEN RECALLS (if any)",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Recall #",
+        "Description",
+        "Component",
+        "Remediation",
+        "Status"
+      ],
+      "rows": [
+        [
+          "{{recall_1_number}}",
+          "{{recall_1_desc}}",
+          "{{recall_1_component}}",
+          "{{recall_1_remediation}}",
+          "{{recall_1_status}}"
+        ],
+        [
+          "{{recall_2_number}}",
+          "{{recall_2_desc}}",
+          "{{recall_2_component}}",
+          "{{recall_2_remediation}}",
+          "{{recall_2_status}}"
+        ],
+        [
+          "{{recall_3_number}}",
+          "{{recall_3_desc}}",
+          "{{recall_3_component}}",
+          "{{recall_3_remediation}}",
+          "{{recall_3_status}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "SELLER'S DISCLOSURE STATEMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Seller makes the following disclosures regarding the vehicle's history:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Seller has provided the attached/referenced history report to Buyer.",
+        "Seller has reviewed the history report and is aware of the events reported.",
+        "Seller has disclosed all known material facts about the vehicle's history that are not reflected in the history report, including: {{additional_disclosures}}",
+        "To Seller's knowledge, the vehicle has not been: {{known_clean_history}}",
+        "Buyer acknowledges having received and reviewed the history report.",
+        "Buyer has the right to obtain an independent history report or vehicle inspection.",
+        "Seller makes no representation about the completeness or accuracy of the history report.",
+        "{{seller_disclosure_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "BUYER'S ACKNOWLEDGMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Buyer acknowledges:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Having received the history report and this disclosure.",
+        "Having had the opportunity to review the report.",
+        "{{buyer_acknowledgment_1}}",
+        "That the purchase decision is Buyer's own, based on all available information."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Seller",
+        "Buyer"
+      ],
+      "rows": [
+        [
+          "Signature",
+          "_____________________________",
+          "_____________________________"
+        ],
+        [
+          "Printed Name",
+          "{{seller_name}}",
+          "{{buyer_name}}"
+        ],
+        [
+          "Date",
+          "{{seller_date}}",
+          "{{buyer_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

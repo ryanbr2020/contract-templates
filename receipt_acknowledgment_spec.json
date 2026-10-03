@@ -1,0 +1,161 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    },
+    {
+      "name": "FL",
+      "font": "Calibri",
+      "size_pt": 11,
+      "bold": true
+    }
+  ],
+  "header": "RECEIPT AND ACKNOWLEDGMENT OF AGREEMENT",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "RECEIPT AND ACKNOWLEDGMENT OF AGREEMENT",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Receipt and Acknowledgment is made on {{acknowledgment_date}} by {{recipient_name}} (\"Recipient\").",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Sender / Owner of Agreement",
+          "{{sender_name}}"
+        ],
+        [
+          "Agreement Title",
+          "{{agreement_title}}"
+        ],
+        [
+          "Agreement Date",
+          "{{agreement_date}}"
+        ],
+        [
+          "Agreement Between",
+          "{{party_a}} and {{party_b}}"
+        ],
+        [
+          "Recipient's Role (if a Party)",
+          "{{recipient_role}}"
+        ],
+        [
+          "Recipient's Relationship to Agreement (if not a Party)",
+          "{{recipient_relationship}} (Witness / Representative / Agent / Other)"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "RECEIPT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Recipient acknowledges having received a copy of the above-referenced Agreement on {{receipt_date}} via {{receipt_method}}.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "ACKNOWLEDGMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Recipient Acknowledges:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Having received a complete and accurate copy of the Agreement.",
+        "Having had the opportunity to review the Agreement.",
+        "{{acknowledgment_item_1}}",
+        "{{acknowledgment_item_2}}",
+        "That the signature on the copy received matches the signature of the Party signing the original Agreement."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "NOT A PARTY ACKNOWLEDGMENT (if Recipient is not a Party)",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Recipient is not a party to the Agreement and does not intend to be bound by its terms. This Acknowledgment confirms only receipt and the authenticity of the copy received.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Recipient",
+          "_____________________________",
+          "{{recipient_date}}"
+        ],
+        [
+          "Sender (confirming receipt acknowledgment)",
+          "_____________________________",
+          "{{sender_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

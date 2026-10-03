@@ -1,0 +1,479 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "P2P CAR RENTAL \u2014 CLEANING TURNAROUND CHECKLIST",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "P2P CAR RENTAL \u2014 CLEANING TURNAROUND CHECKLIST",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This checklist is used by the Owner or cleaning crew to ensure the Vehicle is cleaned and ready for the next rental after each trip. Complete this checklist after each rental.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "VEHICLE AND TRIP INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Vehicle Make/Model/Year",
+          "{{vehicle_make}} {{vehicle_model}} {{vehicle_year}}"
+        ],
+        [
+          "VIN",
+          "{{vehicle_vin}}"
+        ],
+        [
+          "License Plate",
+          "{{license_plate}}"
+        ],
+        [
+          "Previous Trip End Date/Time",
+          "{{trip_end_date}} at {{trip_end_time}}"
+        ],
+        [
+          "Next Trip Start Date/Time",
+          "{{next_trip_start_date}} at {{next_trip_start_time}}"
+        ],
+        [
+          "Cleaning Start Time",
+          "{{cleaning_start_time}}"
+        ],
+        [
+          "Cleaning Completed Time",
+          "{{cleaning_completed_time}}"
+        ],
+        [
+          "Cleaner Name",
+          "{{cleaner_name}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "EXTERIOR CLEANING",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "#",
+        "Task",
+        "Completed? (\u2713)",
+        "Notes / Observations"
+      ],
+      "rows": [
+        [
+          "1",
+          "Walk around vehicle and note any new damage",
+          "\u2610",
+          "{{exterior_damage_notes}}"
+        ],
+        [
+          "2",
+          "Wash exterior (hand wash or touchless car wash)",
+          "\u2610",
+          "{{exterior_wash_method}}"
+        ],
+        [
+          "3",
+          "Dry exterior to prevent water spots",
+          "\u2610",
+          ""
+        ],
+        [
+          "4",
+          "Clean wheels and tires (wheel cleaner, tire shine)",
+          "\u2610",
+          "{{wheel_tire_notes}}"
+        ],
+        [
+          "5",
+          "Clean windows, mirrors, and glass (interior and exterior)",
+          "\u2610",
+          "{{glass_cleaning_notes}}"
+        ],
+        [
+          "6",
+          "Remove any stickers, decals, or markings left by previous renter",
+          "\u2610",
+          "{{stickers_removed}}"
+        ],
+        [
+          "7",
+          "Wipe down door jambs, handles, and exterior trim",
+          "\u2610",
+          "{{exterior_trim_notes}}"
+        ],
+        [
+          "8",
+          "Check fuel level \u2014 replenish if below {{fuel_replenish_threshold}}",
+          "\u2610",
+          "{{fuel_action_taken}}"
+        ],
+        [
+          "9",
+          "Check tire pressure (including spare)",
+          "\u2610",
+          "{{tire_pressure_notes}}"
+        ],
+        [
+          "10",
+          "Final exterior inspection \u2014 photos taken",
+          "\u2610",
+          "{{exterior_photos_taken}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "INTERIOR CLEANING",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "#",
+        "Task",
+        "Completed? (\u2713)",
+        "Notes / Observations"
+      ],
+      "rows": [
+        [
+          "1",
+          "Remove all trash and personal items from interior",
+          "\u2610",
+          "{{trash_removed}}"
+        ],
+        [
+          "2",
+          "Vacuum all carpets, mats, seats, and crevices",
+          "\u2610",
+          "{{vacuum_notes}}"
+        ],
+        [
+          "3",
+          "Clean and wipe all hard surfaces (dashboard, console, door panels, cup holders, buttons)",
+          "\u2610",
+          "{{hard_surface_notes}}"
+        ],
+        [
+          "4",
+          "Clean windows and mirrors (interior)",
+          "\u2610",
+          "{{interior_glass_notes}}"
+        ],
+        [
+          "5",
+          "Wipe steering wheel, gear shift, and controls",
+          "\u2610",
+          "{{controls_cleaned}}"
+        ],
+        [
+          "6",
+          "Clean seat belts (wipe down all belts)",
+          "\u2610",
+          "{{seatbelts_cleaned}}"
+        ],
+        [
+          "7",
+          "Clean and sanitize high-touch surfaces (door handles, key fob, fuel door, etc.)",
+          "\u2610",
+          "{{high_touch_sanitized}}"
+        ],
+        [
+          "8",
+          "Clean floor mats (remove, shake, vacuum, or wash and replace)",
+          "\u2610",
+          "{{floor_mats_notes}}"
+        ],
+        [
+          "9",
+          "Deodorize if needed (ozone treatment, air freshener, etc.)",
+          "\u2610",
+          "{{deodorizing_notes}}"
+        ],
+        [
+          "10",
+          "Check for lingering odors (musty, smoke, pet, food, etc.)",
+          "\u2610",
+          "{{odor_check_notes}}"
+        ],
+        [
+          "11",
+          "Restock any consumables provided (maps, owner's manual, etc.)",
+          "\u2610",
+          "{{consumables_restocked}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "INTERIOR DETAILING (if needed)",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "#",
+        "Task",
+        "Completed? (\u2713)",
+        "Notes / Observations"
+      ],
+      "rows": [
+        [
+          "1",
+          "Spot clean upholstery (stains, spills)",
+          "\u2610",
+          "{{upholstery_spot_cleaning}}"
+        ],
+        [
+          "2",
+          "Shampoo carpets (if needed)",
+          "\u2610",
+          "{{carpet_shampoo}}"
+        ],
+        [
+          "3",
+          "Clean leather seats (if leather)",
+          "\u2610",
+          "{{leather_cleaning}}"
+        ],
+        [
+          "4",
+          "Clean headliner (if needed)",
+          "\u2610",
+          "{{headliner_cleaning}}"
+        ],
+        [
+          "5",
+          "Clean vents and air conditioning intake",
+          "\u2610",
+          "{{vents_cleaned}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "FINAL INSPECTION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "#",
+        "Task",
+        "Completed? (\u2713)",
+        "Notes / Observations"
+      ],
+      "rows": [
+        [
+          "1",
+          "All trash removed and bags disposed of",
+          "\u2610",
+          ""
+        ],
+        [
+          "2",
+          "Vehicle is clean inside and out to standard",
+          "\u2610",
+          "{{cleanliness_standard_met}}"
+        ],
+        [
+          "3",
+          "No new damage found (or damage noted for claim)",
+          "\u2610",
+          "{{damage_found_notes}}"
+        ],
+        [
+          "4",
+          "Fuel level is adequate for next trip",
+          "\u2610",
+          "{{fuel_level_ok}}"
+        ],
+        [
+          "5",
+          "Odometer reading: {{odometer}} miles",
+          "\u2610",
+          ""
+        ],
+        [
+          "6",
+          "All accessories present and accounted for",
+          "\u2610",
+          "{{accessories_check}}"
+        ],
+        [
+          "7",
+          "Vehicle is ready for next rental",
+          "\u2610",
+          "{{ready_for_rental}}"
+        ],
+        [
+          "8",
+          "Photos taken for documentation",
+          "\u2610",
+          "{{final_photos_taken}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "CLEANING SUPPLIES USED",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Quantity Used",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "All-purpose cleaner",
+          "{{all_purpose_cleaner_qty}}",
+          ""
+        ],
+        [
+          "Glass cleaner",
+          "{{glass_cleaner_qty}}",
+          ""
+        ],
+        [
+          "Interior cleaner / detailer",
+          "{{interior_cleaner_qty}}",
+          ""
+        ],
+        [
+          "Tire shine / wheel cleaner",
+          "{{tire_shine_qty}}",
+          ""
+        ],
+        [
+          "Floor mat cleaner / hose",
+          "{{mat_cleaner_qty}}",
+          ""
+        ],
+        [
+          "Trash bags",
+          "{{trash_bags_qty}}",
+          ""
+        ],
+        [
+          "Microfiber towels",
+          "{{microfiber_towels_qty}}",
+          ""
+        ],
+        [
+          "Odor eliminator / ozone treatment",
+          "{{odor_eliminator_qty}}",
+          ""
+        ],
+        [
+          "Other: {{other_supply}}",
+          "{{other_supply_qty}}",
+          "{{other_supply_notes}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "CLEANER'S SIGNATURE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Cleaner",
+        "Date",
+        "Time"
+      ],
+      "rows": [
+        [
+          "Cleaner Signature",
+          "_____________________________",
+          "{{cleaning_date}}",
+          "{{cleaning_completed_time}}"
+        ],
+        [
+          "Printed Name",
+          "{{cleaner_name}}",
+          "",
+          ""
+        ],
+        [
+          "Owner Review (if applicable)",
+          "_____________________________",
+          "{{review_date}}",
+          "{{review_time}}"
+        ],
+        [
+          "Reviewed By (Printed Name)",
+          "{{reviewer_name}}",
+          "",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

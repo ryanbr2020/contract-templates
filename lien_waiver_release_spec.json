@@ -1,0 +1,239 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "LIEN WAIVER / LIEN RELEASE FORM",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "LIEN WAIVER / LIEN RELEASE FORM",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Lien Waiver (\"Waiver\") is provided by {{waiving_party_name}} (\"Waiving Party\") to {{receiving_party_name}} (\"Receiving Party\") on {{waiver_date}}.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "LIEN INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Project / Vehicle / Property Description",
+          "{{project_description}}"
+        ],
+        [
+          "Address / Location",
+          "{{project_address}}"
+        ],
+        [
+          "Original Contract / Invoice Date",
+          "{{original_contract_date}}"
+        ],
+        [
+          "Original Contract / Invoice Amount",
+          "{{original_contract_amount}}"
+        ],
+        [
+          "Amount Paid",
+          "{{amount_paid}}"
+        ],
+        [
+          "Remaining Balance (if any)",
+          "{{remaining_balance}} (Waived / Not waived \u2014 specify: {{balance_treatment}})"
+        ],
+        [
+          "Date of Payment",
+          "{{payment_date}}"
+        ],
+        [
+          "Payment Method",
+          "{{payment_method}}"
+        ],
+        [
+          "Check / Transaction #",
+          "{{transaction_number}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "WAIVER TYPE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Waiver is (check one):",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "CONDITIONAL LIEN WAIVER \u2014 Waiving Party waives lien rights upon receipt of the payment described above, AND only if the payment has been collected and has not been reversed, stopped, or returned.",
+        "UNCONDITIONAL LIEN WAIVER \u2014 Waiving Party irrevocably waives all lien rights for the described work, regardless of whether the payment has been collected. This waiver is effective immediately upon signing.",
+        "PROGRESS PAYMENT LIEN WAIVER \u2014 Waiving Party waives lien rights for all work performed up to and including the date of this waiver ({{waiver_effective_date}}), in exchange for payment of {{amount_paid}}.",
+        "FINAL LIEN WAIVER \u2014 Waiving Party waives ALL lien rights for ALL work performed under the contract identified above, in exchange for full and final payment of {{amount_paid}}.",
+        "PARTIAL LIEN WAIVER \u2014 Waiving Party waives lien rights only to the extent of the payment described above, for work performed during the period {{waiver_period_start}} through {{waiver_period_end}}."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "WAIVER STATEMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "For valuable consideration received, the receipt and sufficiency of which are hereby acknowledged, {{waiving_party_name}} hereby:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Waives, releases, and forever discharges all mechanic's lien, materialman's lien, artisan's lien, and other lien rights against the property described above, and against the Owner and any other party liable for the payment of the contract price.",
+        "Waives lien rights for all work, labor, services, materials, equipment, and supplies provided by Waiving Party (and its subcontractors and suppliers) through {{waiver_effective_date}}.",
+        "Agrees that no lien, claim, or encumbrance shall be filed against the property for the work covered by this waiver.",
+        "{{waiver_statement_extra}}"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "This waiver does not affect any rights Waiving Party may have against Receiving Party for claims not covered by lien rights (e.g., contract claims, breach of contract, warranty claims).",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "NON-WAIVER OF OTHER RIGHTS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Except as expressly stated above, this waiver does not waive any other rights or claims of Waiving Party, including but not limited to: rights under the contract, claims for defective work, warranty claims, or claims for additional compensation. Waiving Party expressly reserves all rights not waived herein.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "REPRESENTATIONS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Waiving Party represents that:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "All work covered by this waiver has been completed and delivered.",
+        "All subcontractors and suppliers have been paid for their work and materials (or their lien rights have been waived separately).",
+        "There are no outstanding claims, disputes, or offsets related to the work covered by this waiver.",
+        "The information provided in this waiver is true and accurate.",
+        "{{waiver_representations_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Waiving Party",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Waiving Party Signature",
+          "_____________________________",
+          "{{waiver_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{waiving_party_name}}",
+          ""
+        ],
+        [
+          "Title (if applicable)",
+          "{{waiving_party_title}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "paragraph",
+      "text": "Receiving Party (acknowledgment of receipt \u2014 optional):",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Receiving Party",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Signature",
+          "_____________________________",
+          "{{receiving_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{receiving_party_name}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

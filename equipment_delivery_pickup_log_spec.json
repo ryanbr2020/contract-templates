@@ -1,0 +1,388 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "EQUIPMENT DELIVERY / PICKUP LOG",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "EQUIPMENT DELIVERY / PICKUP LOG",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This log records the chain of custody for Equipment being delivered to or picked up from the Renter.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "DELIVERY / PICKUP INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Log Entry #",
+          "{{log_entry_number}}"
+        ],
+        [
+          "Date",
+          "{{log_date}}"
+        ],
+        [
+          "Time",
+          "{{log_time}}"
+        ],
+        [
+          "Log Type",
+          "{{log_type}} (Delivery to Renter / Pickup from Renter / Return to Owner / Other)"
+        ],
+        [
+          "Equipment Type / Model",
+          "{{equipment_type}} \u2014 {{equipment_model}}"
+        ],
+        [
+          "Serial Number",
+          "{{equipment_serial}}"
+        ],
+        [
+          "Equipment ID / Asset Tag",
+          "{{equipment_asset_tag}}"
+        ],
+        [
+          "Rental Agreement Reference",
+          "{{rental_agreement_ref}}"
+        ],
+        [
+          "Renter Name",
+          "{{renter_name}}"
+        ],
+        [
+          "Renter Contact",
+          "{{renter_contact}}"
+        ],
+        [
+          "Delivered/Received By",
+          "{{delivered_by}}"
+        ],
+        [
+          "Received/Returned By",
+          "{{received_by}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "CHAIN OF CUSTODY",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Event",
+        "Date",
+        "Time",
+        "From",
+        "To",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "{{custody_event_1}}",
+          "{{custody_event_1_date}}",
+          "{{custody_event_1_time}}",
+          "{{custody_event_1_from}}",
+          "{{custody_event_1_to}}",
+          "{{custody_event_1_notes}}"
+        ],
+        [
+          "{{custody_event_2}}",
+          "{{custody_event_2_date}}",
+          "{{custody_event_2_time}}",
+          "{{custody_event_2_from}}",
+          "{{custody_event_2_to}}",
+          "{{custody_event_2_notes}}"
+        ],
+        [
+          "{{custody_event_3}}",
+          "{{custody_event_3_date}}",
+          "{{custody_event_3_time}}",
+          "{{custody_event_3_from}}",
+          "{{custody_event_3_to}}",
+          "{{custody_event_3_notes}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "CONDITION AT DELIVERY / PICKUP",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Inspection Item",
+        "Pass",
+        "Fail",
+        "N/A",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "No visible damage, cracks, or structural issues",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{equip_damage_notes}}"
+        ],
+        [
+          "All guards, shields, and safety devices in place",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{guards_notes}}"
+        ],
+        [
+          "All controls and functions operate correctly",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{controls_notes}}"
+        ],
+        [
+          "No fluid leaks",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{leaks_notes}}"
+        ],
+        [
+          "Tires / tracks / wheels in good condition",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{wheels_notes}}"
+        ],
+        [
+          "Lights and warning devices functional",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{lights_notes}}"
+        ],
+        [
+          "No loose parts, missing bolts, or unusual wear",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{loose_parts_notes}}"
+        ],
+        [
+          "Operator manual and safety instructions included",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{manual_included}}"
+        ],
+        [
+          "Calibration certificate (if applicable) included and current",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{calibration_notes}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "ACCESSORIES AND COMPONENTS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Quantity",
+        "Present? (Y/N)",
+        "Condition",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "{{accessory_1}}",
+          "{{accessory_1_qty}}",
+          "{{accessory_1_present}}",
+          "{{accessory_1_condition}}",
+          "{{accessory_1_notes}}"
+        ],
+        [
+          "{{accessory_2}}",
+          "{{accessory_2_qty}}",
+          "{{accessory_2_present}}",
+          "{{accessory_2_condition}}",
+          "{{accessory_2_notes}}"
+        ],
+        [
+          "{{accessory_3}}",
+          "{{accessory_3_qty}}",
+          "{{accessory_3_present}}",
+          "{{accessory_3_condition}}",
+          "{{accessory_3_notes}}"
+        ],
+        [
+          "{{accessory_4}}",
+          "{{accessory_4_qty}}",
+          "{{accessory_4_present}}",
+          "{{accessory_4_condition}}",
+          "{{accessory_4_notes}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURE OF DELIVERING / RECEIVING PARTY",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "By signing below, the delivering party certifies that the Equipment has been delivered in the condition described above. The receiving party certifies that the Equipment has been received in the condition described above.",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Date",
+        "Time"
+      ],
+      "rows": [
+        [
+          "Delivering Party",
+          "_____________________________",
+          "{{log_date}}",
+          "{{log_time}}"
+        ],
+        [
+          "Printed Name",
+          "{{delivered_by}}",
+          "",
+          ""
+        ],
+        [
+          "Receiving Party",
+          "_____________________________",
+          "{{log_date}}",
+          "{{log_time}}"
+        ],
+        [
+          "Printed Name",
+          "{{received_by}}",
+          "",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "paragraph",
+      "text": "Any discrepancies must be reported within {{discrepancy_reporting_hours}} hours. Failure to report discrepancies may be deemed acceptance of the Equipment in the condition reported.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "PHOTO DOCUMENTATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Photo #",
+        "File Name / Reference",
+        "Description",
+        "Date/Time Taken"
+      ],
+      "rows": [
+        [
+          "1",
+          "",
+          "",
+          ""
+        ],
+        [
+          "2",
+          "",
+          "",
+          ""
+        ],
+        [
+          "3",
+          "",
+          "",
+          ""
+        ],
+        [
+          "4",
+          "",
+          "",
+          ""
+        ],
+        [
+          "5",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

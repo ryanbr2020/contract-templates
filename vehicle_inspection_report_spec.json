@@ -1,0 +1,670 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "VEHICLE PRE-PURCHASE INSPECTION REPORT",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "VEHICLE PRE-PURCHASE INSPECTION REPORT",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This inspection report is prepared by {{inspector_name}} (\"Inspector\") on {{inspection_date}} for {{buyer_name}} (\"Buyer\") regarding the vehicle described below.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "VEHICLE INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Make",
+          "{{vehicle_make}}"
+        ],
+        [
+          "Model",
+          "{{vehicle_model}}"
+        ],
+        [
+          "Year",
+          "{{vehicle_year}}"
+        ],
+        [
+          "VIN",
+          "{{vehicle_vin}}"
+        ],
+        [
+          "Odometer",
+          "{{odometer}} miles"
+        ],
+        [
+          "License Plate",
+          "{{license_plate}}"
+        ],
+        [
+          "Color",
+          "{{vehicle_color}}"
+        ],
+        [
+          "Seller / Seller's Dealer",
+          "{{seller_name}}"
+        ],
+        [
+          "Sale Price (if known)",
+          "{{sale_price}}"
+        ],
+        [
+          "Inspection Location",
+          "{{inspection_location}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "INSPECTOR CREDENTIALS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Inspector / Shop Name",
+          "{{inspector_name}}"
+        ],
+        [
+          "Inspector Certification / License",
+          "{{inspector_certification}}"
+        ],
+        [
+          "Shop Address",
+          "{{shop_address}}"
+        ],
+        [
+          "Shop Phone",
+          "{{shop_phone}}"
+        ],
+        [
+          "Inspection Type",
+          "{{inspection_type}} (Pre-purchase / Comprehensive / Safety / Emissions / Other)"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "INSPECTION SCOPE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "This inspection covers:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "{{inspection_scope_1}}",
+        "{{inspection_scope_2}}",
+        "{{inspection_scope_3}}",
+        "{{inspection_scope_4}}",
+        "Visual inspection only \u2014 no disassembly or removal of components unless specified.",
+        "Test drive conducted? {{test_drive_conducted}} (Yes / No \u2014 if No, reason: {{test_drive_reason}})"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "EXTERIOR INSPECTION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Component",
+        "Condition",
+        "Notes / Findings"
+      ],
+      "rows": [
+        [
+          "Paint / Body",
+          "{{exterior_paint}}",
+          "{{exterior_paint_notes}}"
+        ],
+        [
+          "Bumper(s)",
+          "{{bumper_condition}}",
+          "{{bumper_notes}}"
+        ],
+        [
+          "Fenders / Quarter panels",
+          "{{fender_condition}}",
+          "{{fender_notes}}"
+        ],
+        [
+          "Hood",
+          "{{hood_condition}}",
+          "{{hood_notes}}"
+        ],
+        [
+          "Trunk / Liftgate",
+          "{{trunk_condition}}",
+          "{{trunk_notes}}"
+        ],
+        [
+          "Doors (all)",
+          "{{doors_condition}}",
+          "{{doors_notes}}"
+        ],
+        [
+          "Window glass / Windshield",
+          "{{glass_condition}}",
+          "{{glass_notes}}"
+        ],
+        [
+          "Mirrors",
+          "{{mirrors_condition}}",
+          "{{mirrors_notes}}"
+        ],
+        [
+          "Lights \u2014 headlights",
+          "{{headlights_condition}}",
+          "{{headlights_notes}}"
+        ],
+        [
+          "Lights \u2014 taillights",
+          "{{taillights_condition}}",
+          "{{taillights_notes}}"
+        ],
+        [
+          "Lights \u2014 turn signals",
+          "{{turn_signal_condition}}",
+          "{{turn_signal_notes}}"
+        ],
+        [
+          "Lights \u2014 brake lights",
+          "{{brake_lights_condition}}",
+          "{{brake_lights_notes}}"
+        ],
+        [
+          "Tires \u2014 front",
+          "{{tires_front}}",
+          "{{tires_front_notes}} (tread depth: {{tire_tread_front}})"
+        ],
+        [
+          "Tires \u2014 rear",
+          "{{tires_rear}}",
+          "{{tires_rear_notes}} (tread depth: {{tire_tread_rear}})"
+        ],
+        [
+          "Spare tire / spare kit",
+          "{{spare_condition}}",
+          "{{spare_notes}}"
+        ],
+        [
+          "Wheels / rims",
+          "{{wheels_condition}}",
+          "{{wheels_notes}}"
+        ],
+        [
+          "Wipers",
+          "{{wipers_condition}}",
+          "{{wipers_notes}}"
+        ],
+        [
+          "Fuel tank / fuel filler",
+          "{{fuel_tank_condition}}",
+          "{{fuel_tank_notes}}"
+        ],
+        [
+          "Exhaust system",
+          "{{exhaust_condition}}",
+          "{{exhaust_notes}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "INTERIOR INSPECTION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Component",
+        "Condition",
+        "Notes / Findings"
+      ],
+      "rows": [
+        [
+          "Seats (all)",
+          "{{seats_condition}}",
+          "{{seats_notes}}"
+        ],
+        [
+          "Seat belts",
+          "{{seatbelts_condition}}",
+          "{{seatbelts_notes}}"
+        ],
+        [
+          "Dashboard / instrument cluster",
+          "{{dash_condition}}",
+          "{{dash_notes}}"
+        ],
+        [
+          "Electrical \u2014 all switches/controls",
+          "{{electrical_condition}}",
+          "{{electrical_notes}}"
+        ],
+        [
+          "HVAC \u2014 heat",
+          "{{heat_condition}}",
+          "{{heat_notes}}"
+        ],
+        [
+          "HVAC \u2014 air conditioning",
+          "{{ac_condition}}",
+          "{{ac_notes}}"
+        ],
+        [
+          "Infotainment / audio / navigation",
+          "{{infotainment_condition}}",
+          "{{infotainment_notes}}"
+        ],
+        [
+          "Lights \u2014 interior",
+          "{{interior_lights_condition}}",
+          "{{interior_lights_notes}}"
+        ],
+        [
+          "Carpet / floor mats",
+          "{{carpet_condition}}",
+          "{{carpet_notes}}"
+        ],
+        [
+          "Upholstery / headliner",
+          "{{upholstery_condition}}",
+          "{{upholstery_notes}}"
+        ],
+        [
+          "Odor",
+          "{{odor_condition}}",
+          "{{odor_notes}}"
+        ],
+        [
+          "Owner's manual / documents",
+          "{{documents_condition}}",
+          "{{documents_notes}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "MECHANICAL INSPECTION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Component",
+        "Condition",
+        "Notes / Findings"
+      ],
+      "rows": [
+        [
+          "Engine \u2014 cold start",
+          "{{engine_cold_start}}",
+          "{{engine_cold_start_notes}}"
+        ],
+        [
+          "Engine \u2014 running",
+          "{{engine_running}}",
+          "{{engine_running_notes}}"
+        ],
+        [
+          "Engine \u2014 leaks",
+          "{{engine_leaks}}",
+          "{{engine_leaks_notes}}"
+        ],
+        [
+          "Transmission \u2014 shift quality",
+          "{{transmission_condition}}",
+          "{{transmission_notes}}"
+        ],
+        [
+          "Transmission \u2014 fluid",
+          "{{transmission_fluid}}",
+          "{{transmission_fluid_notes}} (level: {{transmission_fluid_level}})"
+        ],
+        [
+          "Brakes \u2014 pedal feel",
+          "{{brakes_pedal}}",
+          "{{brakes_pedal_notes}}"
+        ],
+        [
+          "Brakes \u2014 visual inspection",
+          "{{brakes_visual}}",
+          "{{brakes_visual_notes}}"
+        ],
+        [
+          "Suspension \u2014 front",
+          "{{suspension_front}}",
+          "{{suspension_front_notes}}"
+        ],
+        [
+          "Suspension \u2014 rear",
+          "{{suspension_rear}}",
+          "{{suspension_rear_notes}}"
+        ],
+        [
+          "Steering",
+          "{{steering_condition}}",
+          "{{steering_notes}}"
+        ],
+        [
+          "Axles / CV joints",
+          "{{axles_condition}}",
+          "{{axles_notes}} (clicking on turns: {{cv_click}})"
+        ],
+        [
+          "Fluids \u2014 oil",
+          "{{oil_condition}}",
+          "{{oil_notes}} (level: {{oil_level}})"
+        ],
+        [
+          "Fluids \u2014 coolant",
+          "{{coolant_condition}}",
+          "{{coolant_notes}}"
+        ],
+        [
+          "Fluids \u2014 brake fluid",
+          "{{brake_fluid_condition}}",
+          "{{brake_fluid_notes}}"
+        ],
+        [
+          "Fluids \u2014 power steering",
+          "{{power_steering_condition}}",
+          "{{power_steering_notes}}"
+        ],
+        [
+          "Belts",
+          "{{belts_condition}}",
+          "{{belts_notes}}"
+        ],
+        [
+          "Hoses",
+          "{{hoses_condition}}",
+          "{{hoses_notes}}"
+        ],
+        [
+          "Battery",
+          "{{battery_condition}}",
+          "{{battery_notes}} (voltage: {{battery_voltage}}V)"
+        ],
+        [
+          "Exhaust \u2014 emissions / smoke",
+          "{{exhaust_smoke}}",
+          "{{exhaust_smoke_notes}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "TEST DRIVE FINDINGS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Assessment",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "Acceleration",
+          "{{test_drive_acceleration}}",
+          "{{test_drive_acceleration_notes}}"
+        ],
+        [
+          "Braking",
+          "{{test_drive_braking}}",
+          "{{test_drive_braking_notes}}"
+        ],
+        [
+          "Steering / handling",
+          "{{test_drive_steering}}",
+          "{{test_drive_steering_notes}}"
+        ],
+        [
+          "Transmission shifts",
+          "{{test_drive_transmission}}",
+          "{{test_drive_transmission_notes}}"
+        ],
+        [
+          "Noises / vibrations",
+          "{{test_drive_noises}}",
+          "{{test_drive_noises_notes}}"
+        ],
+        [
+          "Highway performance",
+          "{{test_drive_highway}}",
+          "{{test_drive_highway_notes}}"
+        ],
+        [
+          "Parking / low-speed maneuvering",
+          "{{test_drive_parking}}",
+          "{{test_drive_parking_notes}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "VEHICLE HISTORY REVIEW (if performed)",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Result",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "VIN check / history report",
+          "{{history_report_result}}",
+          "{{history_report_notes}} (Report: {{history_report_name}})"
+        ],
+        [
+          "Title check \u2014 clean?",
+          "{{title_check_result}}",
+          "{{title_check_notes}}"
+        ],
+        [
+          "Lien check",
+          "{{lien_check_result}}",
+          "{{lien_check_notes}}"
+        ],
+        [
+          "Recall check",
+          "{{recall_check_result}}",
+          "{{recall_check_notes}} (open recalls: {{open_recalls}})"
+        ],
+        [
+          "Service history",
+          "{{service_history_result}}",
+          "{{service_history_notes}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "OVERALL ASSESSMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Assessment",
+        "Rating",
+        "Comments"
+      ],
+      "rows": [
+        [
+          "Overall condition",
+          "{{overall_condition_rating}}",
+          "{{overall_condition_comments}}"
+        ],
+        [
+          "Estimated immediate repairs needed",
+          "{{estimated_repairs}}",
+          "{{repairs_comments}}"
+        ],
+        [
+          "Estimated future maintenance (next 12 months)",
+          "{{future_maintenance}}",
+          "{{future_maintenance_comments}}"
+        ],
+        [
+          "Safety concerns",
+          "{{safety_concerns_rating}}",
+          "{{safety_concerns_comments}}"
+        ],
+        [
+          "Recommendation",
+          "{{recommendation}}",
+          "{{recommendation_comments}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "RECOMMENDATION SUMMARY",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Based on the inspection performed on {{inspection_date}}, the Inspector provides the following recommendation:",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "{{final_recommendation}}",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Estimated repair cost to bring vehicle to good condition: {{estimated_repair_cost}}",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Estimated value of vehicle in current condition (based on inspection): {{estimated_value}}",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Buyer should consider negotiating the purchase price by: {{negotiation_suggestion}}",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "INSPECTOR'S SIGNATURE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Inspector Authorization"
+      ],
+      "rows": [
+        [
+          "Inspector Signature",
+          "_____________________________"
+        ],
+        [
+          "Printed Name",
+          "{{inspector_name}}"
+        ],
+        [
+          "Date",
+          "{{inspection_date}}"
+        ],
+        [
+          "Shop Stamp / Seal (if applicable)",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "paragraph",
+      "text": "This report is for the Buyer's use only. It does not constitute a guarantee or warranty. The Inspector is not responsible for any issues not identified during this inspection. Buy at your own risk.",
+      "style": "BT"
+    }
+  ]
+}

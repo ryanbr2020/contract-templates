@@ -1,0 +1,452 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "EQUIPMENT PRE-OPERATION SAFETY CHECKLIST",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "EQUIPMENT PRE-OPERATION SAFETY CHECKLIST",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This checklist must be completed by the Operator before each use of the Equipment. Failure to complete this checklist may result in liability for any accident or damage that occurs.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "EQUIPMENT INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Equipment Type / Model",
+          "{{equipment_type}} \u2014 {{equipment_model}}"
+        ],
+        [
+          "Serial Number",
+          "{{equipment_serial}}"
+        ],
+        [
+          "Equipment ID / Asset Tag",
+          "{{equipment_asset_tag}}"
+        ],
+        [
+          "Date of Checklist",
+          "{{checklist_date}}"
+        ],
+        [
+          "Time of Checklist",
+          "{{checklist_time}}"
+        ],
+        [
+          "Operator Name",
+          "{{operator_name}}"
+        ],
+        [
+          "Operator Certification / License #",
+          "{{operator_cert_number}}"
+        ],
+        [
+          "Rental / Job Site",
+          "{{job_site_location}}"
+        ],
+        [
+          "Rental Agreement Reference",
+          "{{rental_agreement_ref}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "PRE-USE INSPECTION \u2014 VISUAL CHECK",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Check each item. If any item is checked \"Fail\" or \"N/A \u2014 Concern,\" do NOT operate the equipment. Report the issue to the Owner immediately.",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "#",
+        "Inspection Item",
+        "Pass",
+        "Fail",
+        "N/A",
+        "Notes / Observations"
+      ],
+      "rows": [
+        [
+          "1",
+          "Equipment is on level, stable ground",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          ""
+        ],
+        [
+          "2",
+          "No visible damage, cracks, or structural issues",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          ""
+        ],
+        [
+          "3",
+          "All guards, shields, and safety devices are in place",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          ""
+        ],
+        [
+          "4",
+          "No exposed wires, loose connections, or frayed cables",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          ""
+        ],
+        [
+          "5",
+          "Fluid levels are adequate (oil, hydraulic fluid, coolant, etc.)",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{fluid_levels}}"
+        ],
+        [
+          "6",
+          "No fluid leaks visible underneath the equipment",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          ""
+        ],
+        [
+          "7",
+          "Tires / tracks / wheels are in good condition and properly inflated",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          ""
+        ],
+        [
+          "8",
+          "All lights (warning, work, headlights) are functioning",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          ""
+        ],
+        [
+          "9",
+          "Horn / warning device is functioning",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          ""
+        ],
+        [
+          "10",
+          "Emergency stop button / kill switch is accessible and functional",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          ""
+        ],
+        [
+          "11",
+          "Safety labels and warning decals are legible and in place",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          ""
+        ],
+        [
+          "12",
+          "No loose parts, missing bolts, or unusual wear",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          ""
+        ],
+        [
+          "13",
+          "Fuel/battery level is adequate for the planned task",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{fuel_battery_status}}"
+        ],
+        [
+          "14",
+          "Any required PPE is available and in good condition",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          "{{ppe_available}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "PRE-USE INSPECTION \u2014 FUNCTIONAL CHECK",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "#",
+        "Functional Test",
+        "Pass",
+        "Fail",
+        "N/A",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "1",
+          "Engine / motor starts normally",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          ""
+        ],
+        [
+          "2",
+          "All controls respond correctly (levers, pedals, switches)",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          ""
+        ],
+        [
+          "3",
+          "Brakes / stopping mechanism functions properly",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          ""
+        ],
+        [
+          "4",
+          "Steering / direction control functions properly",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          ""
+        ],
+        [
+          "5",
+          "Hydraulic functions (if applicable) operate smoothly",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          ""
+        ],
+        [
+          "6",
+          "Any measuring / monitoring instruments read correctly",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          ""
+        ],
+        [
+          "7",
+          "Safety devices activate correctly (limit switches, overload protection, etc.)",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          ""
+        ],
+        [
+          "8",
+          "Equipment operates without unusual noise, vibration, or odor",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          ""
+        ],
+        [
+          "9",
+          "Equipment can be safely maneuvered in the intended work area",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          ""
+        ],
+        [
+          "10",
+          "Equipment can be safely stopped in an emergency",
+          "\u2610",
+          "\u2610",
+          "\u2610",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "OPERATOR CERTIFICATION VERIFICATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Confirmed",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "Operator has valid certification / license for this equipment type",
+          "\u2610 Yes  \u2610 No",
+          "{{operator_cert_validity}}"
+        ],
+        [
+          "Certification is not expired",
+          "\u2610 Yes  \u2610 No",
+          "Expires: {{cert_expiration_date}}"
+        ],
+        [
+          "Operator has read and understands the equipment's operator manual",
+          "\u2610 Yes  \u2610 No",
+          ""
+        ],
+        [
+          "Operator is trained on the specific model of this equipment",
+          "\u2610 Yes  \u2610 No",
+          ""
+        ],
+        [
+          "Operator understands the safety procedures and emergency protocols",
+          "\u2610 Yes  \u2610 No",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "OPERATOR'S DECLARATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "I, {{operator_name}}, certify that I have completed the above pre-operation safety checklist. I confirm that:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "I am certified / licensed to operate this type of equipment.",
+        "I have inspected the equipment as listed above.",
+        "I have not found any condition that would make the equipment unsafe to operate.",
+        "I understand the safety procedures and emergency protocols for this equipment.",
+        "If I discover any unsafe condition during operation, I will stop using the equipment immediately and report it.",
+        "I will wear all required personal protective equipment (PPE) while operating this equipment.",
+        "{{operator_declaration_extra}}"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "If any item above is marked \"Fail\" or if I have any doubt about the safety of this equipment, I will NOT operate it and will notify the Owner immediately.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Operator",
+        "Date",
+        "Time"
+      ],
+      "rows": [
+        [
+          "Operator Signature",
+          "_____________________________",
+          "{{checklist_date}}",
+          "{{checklist_time}}"
+        ],
+        [
+          "Printed Name",
+          "{{operator_name}}",
+          "",
+          ""
+        ],
+        [
+          "Owner / Supervisor Review (if applicable)",
+          "_____________________________",
+          "{{review_date}}",
+          "{{review_time}}"
+        ],
+        [
+          "Reviewed By (Printed Name)",
+          "{{reviewer_name}}",
+          "",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

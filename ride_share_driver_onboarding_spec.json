@@ -1,0 +1,321 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "RIDE-SHARE DRIVER ONBOARDING \u2014 OPERATIONS MANUAL ACKNOWLEDGMENT",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "RIDE-SHARE DRIVER ONBOARDING \u2014 OPERATIONS MANUAL ACKNOWLEDGMENT",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Onboarding Acknowledgment is part of the Ride-Share Driver Agreement dated {{agreement_date}} between {{platform_name}} (\"Platform\") and {{driver_name}} (\"Driver\").",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "DOCUMENTS RECEIVED AND ACKNOWLEDGED",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Document",
+        "Acknowledged? (Y/N)",
+        "Date Received"
+      ],
+      "rows": [
+        [
+          "Ride-Share Driver Agreement",
+          "{{driver_agreement_ack}}",
+          "{{agreement_received_date}}"
+        ],
+        [
+          "Driver Operations Manual",
+          "{{ops_manual_ack}}",
+          "{{ops_manual_received_date}}"
+        ],
+        [
+          "Safety Policies and Procedures",
+          "{{safety_policies_ack}}",
+          "{{safety_policies_received_date}}"
+        ],
+        [
+          "Community Guidelines / Driver Code of Conduct",
+          "{{community_guidelines_ack}}",
+          "{{guidelines_received_date}}"
+        ],
+        [
+          "Insurance Information (Personal + Platform Coverage)",
+          "{{insurance_info_ack}}",
+          "{{insurance_info_received_date}}"
+        ],
+        [
+          "Background Check Results / Status",
+          "{{background_check_ack}}",
+          "{{background_check_received_date}}"
+        ],
+        [
+          "Vehicle Inspection Form / Requirements",
+          "{{vehicle_inspection_ack}}",
+          "{{vehicle_inspection_received_date}}"
+        ],
+        [
+          "In-Vehicle Technology Guide (app, tablet, etc.)",
+          "{{tech_guide_ack}}",
+          "{{tech_guide_received_date}}"
+        ],
+        [
+          "Cancellation and No-Show Policies",
+          "{{cancellation_policy_ack}}",
+          "{{cancellation_policy_received_date}}"
+        ],
+        [
+          "Pricing and Surge Policies",
+          "{{pricing_policy_ack}}",
+          "{{pricing_policy_received_date}}"
+        ],
+        [
+          "Termination and Deactivation Policies",
+          "{{termination_policy_ack}}",
+          "{{termination_policy_received_date}}"
+        ],
+        [
+          "Privacy Policy",
+          "{{privacy_policy_ack}}",
+          "{{privacy_policy_received_date}}"
+        ],
+        [
+          "Driver Earnings and Payout Information",
+          "{{earnings_info_ack}}",
+          "{{earnings_info_received_date}}"
+        ],
+        [
+          "Tax and 1099 Information",
+          "{{tax_info_ack}}",
+          "{{tax_info_received_date}}"
+        ],
+        [
+          "Other: {{other_doc}}",
+          "{{other_doc_ack}}",
+          "{{other_doc_received_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "DRIVER ACKNOWLEDGMENT OF POLICIES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Driver acknowledges that they have received, read, and understood the following key policies:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Driver must maintain a valid driver's license and adequate insurance as specified in the Driver Agreement.",
+        "Driver must maintain the Vehicle in a safe and clean condition, with all safety equipment functional.",
+        "Driver must complete a vehicle inspection before commencing operations and periodically thereafter.",
+        "Driver must comply with all traffic laws and drive safely and responsibly at all times.",
+        "Driver must not engage in any violent, threatening, or harassing behavior toward passengers, other drivers, or Platform personnel.",
+        "Driver must not discriminate against passengers on the basis of race, color, religion, national origin, sex, disability, or any other protected characteristic.",
+        "Driver must not use alcohol or drugs while operating the Vehicle or while on a trip.",
+        "Driver must not operate the Vehicle if they feel unwell, fatigued, or otherwise impaired.",
+        "Driver must report any accidents, incidents, or safety concerns to Platform immediately or within {{incident_report_hours}} hours.",
+        "Driver must not charge passengers any amount beyond the fare calculated by the Platform.",
+        "Driver must comply with all local laws, regulations, and permit requirements applicable to ride-share operations.",
+        "Driver understands that Platform may deactivate Driver's account for violations of these policies.",
+        "{{onboarding_ack_items_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "TECHNICAL SETUP AND TEST",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Status",
+        "Date Completed",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "Driver app downloaded and installed on device",
+          "{{app_downloaded}}",
+          "{{app_downloaded_date}}",
+          "{{app_downloaded_notes}}"
+        ],
+        [
+          "Driver account created and profile completed",
+          "{{account_created}}",
+          "{{account_created_date}}",
+          "{{account_created_notes}}"
+        ],
+        [
+          "Driver photo / profile picture uploaded",
+          "{{photo_uploaded}}",
+          "{{photo_uploaded_date}}",
+          "{{photo_uploaded_notes}}"
+        ],
+        [
+          "Payment / payout method set up",
+          "{{payment_setup}}",
+          "{{payment_setup_date}}",
+          "{{payment_setup_notes}}"
+        ],
+        [
+          "Device compatibility with Platform app verified",
+          "{{device_compat}}",
+          "{{device_compat_date}}",
+          "{{device_compat_notes}}"
+        ],
+        [
+          "GPS / location services tested and working",
+          "{{gps_tested}}",
+          "{{gps_tested_date}}",
+          "{{gps_tested_notes}}"
+        ],
+        [
+          "In-app emergency / SOS features reviewed",
+          "{{emergency_features}}",
+          "{{emergency_features_date}}",
+          "{{emergency_features_notes}}"
+        ],
+        [
+          "Trip features (accept, start, end, rate) tested",
+          "{{trip_features_tested}}",
+          "{{trip_features_tested_date}}",
+          "{{trip_features_tested_notes}}"
+        ],
+        [
+          "Initial test trip completed (if required)",
+          "{{test_trip_done}}",
+          "{{test_trip_date}}",
+          "{{test_trip_notes}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "ONBOARDING COMPLETION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Onboarding completed by Driver",
+          "{{driver_onboarding_complete}}"
+        ],
+        [
+          "Onboarding completed by Platform representative",
+          "{{platform_onboarding_complete}}"
+        ],
+        [
+          "Driver cleared to begin accepting trips?",
+          "{{driver_cleared}}"
+        ],
+        [
+          "Any outstanding requirements?",
+          "{{outstanding_requirements}}"
+        ],
+        [
+          "Driver portal / dashboard access granted?",
+          "{{portal_access_granted}}"
+        ],
+        [
+          "Welcome orientation / training session completed?",
+          "{{orientation_completed}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "DRIVER AND PLATFORM SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Driver",
+          "_____________________________",
+          "{{driver_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{driver_full_name}}",
+          ""
+        ],
+        [
+          "Platform Representative",
+          "_____________________________",
+          "{{platform_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{platform_rep_name}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

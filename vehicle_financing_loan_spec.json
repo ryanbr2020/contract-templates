@@ -1,0 +1,283 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "VEHICLE FINANCING / LOAN AGREEMENT",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "VEHICLE FINANCING / LOAN AGREEMENT",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Vehicle Financing Agreement (\"Loan Agreement\") is made as of {{loan_date}} between:",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lender: {{lender_name}}, located at {{lender_address}} (\"Lender\")",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Borrower: {{borrower_name}}, located at {{borrower_address}} (\"Borrower\")",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "1. VEHICLE SECURITY",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Make",
+          "{{vehicle_make}}"
+        ],
+        [
+          "Model",
+          "{{vehicle_model}}"
+        ],
+        [
+          "Year",
+          "{{vehicle_year}}"
+        ],
+        [
+          "VIN",
+          "{{vehicle_vin}}"
+        ],
+        [
+          "Odometer at Loan Origination",
+          "{{odometer}} miles"
+        ],
+        [
+          "License Plate",
+          "{{license_plate}}"
+        ],
+        [
+          "Title Number",
+          "{{title_number}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Vehicle is the primary collateral for this loan. Lender will hold a lien on the Vehicle's title until the loan is fully paid.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "2. LOAN AMOUNT AND TERMS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Amount / Details"
+      ],
+      "rows": [
+        [
+          "Principal Loan Amount",
+          "{{principal_amount}}"
+        ],
+        [
+          "Annual Percentage Rate (APR)",
+          "{{apr}}%"
+        ],
+        [
+          "Finance Charge (total interest)",
+          "{{finance_charge}}"
+        ],
+        [
+          "Loan Term",
+          "{{loan_term_months}} months"
+        ],
+        [
+          "Monthly Payment",
+          "{{monthly_payment}} due on {{payment_due_day}} of each month"
+        ],
+        [
+          "First Payment Due",
+          "{{first_payment_date}}"
+        ],
+        [
+          "Final Payment Date",
+          "{{final_payment_date}}"
+        ],
+        [
+          "Total of Payments (principal + finance charge)",
+          "{{total_of_payments}}"
+        ],
+        [
+          "Payment Method",
+          "{{payment_method}}"
+        ],
+        [
+          "Prepayment Penalty",
+          "{{prepayment_penalty}} (None / {{prepayment_fee}} if prepaid before {{prepayment_period}})"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "3. USE OF PROCEEDS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "The loan proceeds will be used to: {{loan_use}} (purchase the Vehicle from {{seller_name}} / refinance existing loan with {{existing_lender}} / other: {{other_use}}).",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "4. SECURITY AND LIEN",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Borrower grants Lender a security interest in the Vehicle as collateral for this loan.",
+        "Lender will perfect its security interest by holding the Vehicle's title or filing a lien on the title with the DMV.",
+        "Borrower will not sell, transfer, lease, or encumber the Vehicle without Lender's prior written consent.",
+        "Borrower must maintain the Vehicle in good condition and not commit any act that impairs Lender's security interest.",
+        "If Borrower sells the Vehicle before the loan is paid, Borrower must pay off the loan in full before transferring title.",
+        "{{security_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "5. INSURANCE REQUIREMENTS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Borrower must maintain comprehensive and collision insurance on the Vehicle throughout the loan term.",
+        "Lender must be named as loss payee on the insurance policy.",
+        "Coverage limits: liability \u2014 {{liability_minimum}} per person / {{liability_per_accident}} per accident; collision deductible \u2014 {{collision_deductible}}; comprehensive deductible \u2014 {{comprehensive_deductible}}.",
+        "Borrower must provide proof of insurance to Lender before taking possession and annually thereafter.",
+        "If insurance lapses, Lender may purchase force-placed insurance at Borrower's expense.",
+        "{{insurance_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "6. DEFAULT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Failure to make a payment within {{grace_period}} days of the due date constitutes default.",
+        "Failure to maintain insurance constitutes default.",
+        "Bankruptcy or insolvency of Borrower constitutes default.",
+        "Unauthorized sale, transfer, or encumbrance of the Vehicle constitutes default.",
+        "Upon default, Lender may declare the full remaining balance immediately due and payable (acceleration).",
+        "Upon default, Lender may repossess the Vehicle, sell it, and apply proceeds to the loan balance. Borrower is responsible for any deficiency.",
+        "{{default_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "7. PAYOFF STATEMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Upon Borrower's request, Lender will provide a payoff statement showing the total amount required to pay off the loan in full as of a given date. Payoff statements are valid for {{payoff_statement_validity}} days.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "8. GOVERNING LAW",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Loan Agreement is governed by the laws of {{governing_state}}.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Lender",
+        "Borrower"
+      ],
+      "rows": [
+        [
+          "Signature",
+          "_____________________________",
+          "_____________________________"
+        ],
+        [
+          "Printed Name",
+          "{{lender_name}}",
+          "{{borrower_name}}"
+        ],
+        [
+          "Date",
+          "{{lender_date}}",
+          "{{borrower_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

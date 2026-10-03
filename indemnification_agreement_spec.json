@@ -1,0 +1,226 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "INDEMNIFICATION AGREEMENT",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "INDEMNIFICATION AGREEMENT",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Indemnification Agreement (\"Agreement\") is made as of {{indemnity_date}} between:",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "{{indemnitor_name}}, located at {{indemnitor_address}} (\"Indemnitor\")",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "{{indemnitee_name}}, located at {{indemnitee_address}} (\"Indemnitee\")",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Collectively referred to as the \"Parties.\"",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "1. INDEMNIFICATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Indemnitor hereby agrees to indemnify, defend, and hold harmless Indemnitee and its officers, directors, employees, agents, affiliates, successors, and assigns (collectively, the \"Indemnitees\") from and against any and all claims, demands, actions, causes of action, losses, damages, liabilities, costs, and expenses (including reasonable attorney fees and court costs) arising from or related to:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "{{indemnification_basis_1}}",
+        "{{indemnification_basis_2}}",
+        "{{indemnification_basis_3}}",
+        "{{indemnification_basis_4}}",
+        "Any breach of this Agreement by Indemnitor.",
+        "Any negligent or wrongful act or omission of Indemnitor or its employees, agents, or subcontractors.",
+        "{{indemnification_basis_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "2. DUTY TO DEFEND",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Upon receipt of a claim, demand, or suit covered by this Agreement, Indemnitee shall promptly notify Indemnitor in writing. Indemnitor shall, at its own expense, assume the defense of the claim with counsel of Indemnitor's choice. Indemnitee may participate in the defense with its own counsel at its own expense.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "If Indemnitor fails to assume the defense within {{defense_assumption_period}} days of notice, Indemnitee may defend the claim at Indemnitor's expense, but Indemnitor shall remain liable for the costs of defense and any settlement or judgment.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "3. SETTLEMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Indemnitor shall not settle, compromise, or admit liability in any claim without Indemnitee's prior written consent, which shall not be unreasonably withheld. Any settlement that imposes any non-monetary obligation on Indemnitee requires Indemnitee's consent.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "4. COOPERATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Indemnitee shall cooperate fully with Indemnitor in the defense of any claim. Indemnitee's failure to cooperate shall not relieve Indemnitor of its obligations hereunder, but Indemnitor's liability shall be reduced to the extent the failure to cooperate prejudices Indemnitor.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "5. LIMITATION (OPTIONAL)",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "The indemnification obligations under this Agreement are subject to the following limitation: {{limitation_of_indemnity}}.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "If no limitation is agreed, delete this Section.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "6. NOTICE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Any notice under this Agreement shall be in writing and delivered to the address below:",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Notice Address"
+      ],
+      "rows": [
+        [
+          "Indemnitor",
+          "{{indemnitor_notice_address}}"
+        ],
+        [
+          "Indemnitee",
+          "{{indemnitee_notice_address}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "7. GOVERNING LAW",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Agreement is governed by the laws of {{governing_state}}.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "8. ENTIRE AGREEMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Agreement constitutes the entire agreement between the Parties regarding indemnification and supersedes all prior agreements and understandings.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Indemnitor",
+        "Indemnitee"
+      ],
+      "rows": [
+        [
+          "Signature",
+          "_____________________________",
+          "_____________________________"
+        ],
+        [
+          "Printed Name",
+          "{{indemnitor_name}}",
+          "{{indemnitee_name}}"
+        ],
+        [
+          "Date",
+          "{{indemnitor_date}}",
+          "{{indemnitee_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

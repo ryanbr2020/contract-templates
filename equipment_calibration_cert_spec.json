@@ -1,0 +1,364 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "EQUIPMENT CALIBRATION CERTIFICATE \u2014 ATTACHMENT TO RENTAL AGREEMENT",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "EQUIPMENT CALIBRATION CERTIFICATE",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Calibration Certificate is attached to the Equipment Rental Agreement dated {{agreement_date}} between {{renter_name}} (\"Renter\") and {{owner_name}} (\"Owner\"). This certificate documents the calibration status of the Equipment at the time of rental.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "EQUIPMENT IDENTIFICATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Equipment Type / Model",
+          "{{equipment_type}} \u2014 {{equipment_model}}"
+        ],
+        [
+          "Serial Number",
+          "{{equipment_serial}}"
+        ],
+        [
+          "Equipment ID / Asset Tag",
+          "{{equipment_asset_tag}}"
+        ],
+        [
+          "Calibration Due Date",
+          "{{calibration_due_date}}"
+        ],
+        [
+          "Rental Agreement Reference",
+          "{{rental_agreement_ref}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "CALIBRATION INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Calibration Performed By",
+          "{{calibration_performed_by}} (Owner / Third-party calibration service / Manufacturer)"
+        ],
+        [
+          "Calibration Laboratory Name",
+          "{{calibration_lab_name}}"
+        ],
+        [
+          "Calibration Laboratory Accreditation",
+          "{{calibration_lab_accreditation}} (ISO/IEC 17025 / A2LA / NIST / Other / Not accredited)"
+        ],
+        [
+          "Calibration Date",
+          "{{calibration_date}}"
+        ],
+        [
+          "Calibration Due Date",
+          "{{calibration_due_date}}"
+        ],
+        [
+          "Next Calibration Due",
+          "{{next_calibration_due}}"
+        ],
+        [
+          "Calibration Standard Used",
+          "{{calibration_standard}} (e.g., NIST-traceable standard, reference instrument)"
+        ],
+        [
+          "Measurement Uncertainty",
+          "{{measurement_uncertainty}} (e.g., \u00b10.5% of reading, \u00b10.01 units)"
+        ],
+        [
+          "Environmental Conditions at Calibration",
+          "{{calibration_environment}} (temperature: {{calibration_temp}}, humidity: {{calibration_humidity}})"
+        ],
+        [
+          "Calibration Method / Procedure",
+          "{{calibration_method}} (internal procedure #{{calibration_procedure_number}} / manufacturer procedure / ISO standard)"
+        ],
+        [
+          "Pass/Fail Result",
+          "{{calibration_result}} (Pass / Fail \u2014 if Fail, equipment must not be used until recalibrated)"
+        ],
+        [
+          "As-Found Calibration Data",
+          "{{as_found_data}} (measurements before adjustment)"
+        ],
+        [
+          "As-Left Calibration Data",
+          "{{as_left_data}} (measurements after adjustment)"
+        ],
+        [
+          "Adjustment Made?",
+          "{{adjustment_made}} (Yes / No \u2014 if Yes, describe: {{adjustment_description}})"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "MEASUREMENT POINTS (if applicable)",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "List each measurement point or function calibrated. For multi-function equipment, attach a separate calibration data sheet.",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Measurement Point / Function",
+        "Nominal Value",
+        "As-Found Reading",
+        "As-Left Reading",
+        "Tolerance",
+        "Pass/Fail"
+      ],
+      "rows": [
+        [
+          "{{meas_1_function}}",
+          "{{meas_1_nominal}}",
+          "{{meas_1_as_found}}",
+          "{{meas_1_as_left}}",
+          "{{meas_1_tolerance}}",
+          "{{meas_1_result}}"
+        ],
+        [
+          "{{meas_2_function}}",
+          "{{meas_2_nominal}}",
+          "{{meas_2_as_found}}",
+          "{{meas_2_as_left}}",
+          "{{meas_2_tolerance}}",
+          "{{meas_2_result}}"
+        ],
+        [
+          "{{meas_3_function}}",
+          "{{meas_3_nominal}}",
+          "{{meas_3_as_found}}",
+          "{{meas_3_as_left}}",
+          "{{meas_3_tolerance}}",
+          "{{meas_3_result}}"
+        ],
+        [
+          "{{meas_4_function}}",
+          "{{meas_4_nominal}}",
+          "{{meas_4_as_found}}",
+          "{{meas_4_as_left}}",
+          "{{meas_4_tolerance}}",
+          "{{meas_4_result}}"
+        ],
+        [
+          "{{meas_5_function}}",
+          "{{meas_5_nominal}}",
+          "{{meas_5_as_found}}",
+          "{{meas_5_as_left}}",
+          "{{meas_5_tolerance}}",
+          "{{meas_5_result}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "CALIBRATION LAB'S CERTIFICATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "The undersigned calibration laboratory certifies that the Equipment identified above was calibrated in accordance with the stated procedure and standards on the date stated above. The Equipment was found to be within specified tolerances (or not, as noted).",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Calibration Lab Authorization",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Technician Name",
+          "{{technician_name}}"
+        ],
+        [
+          "Technician Signature",
+          "_____________________________"
+        ],
+        [
+          "Date",
+          "{{calibration_date}}"
+        ],
+        [
+          "Lab Stamp / Seal",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "OWNER'S CERTIFICATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Owner certifies that the Equipment was delivered to the Renter with the above calibration status. The Owner is not responsible for any calibration drift, damage, or out-of-tolerance condition that occurs during the Renter's use of the Equipment.",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Owner Authorization",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Owner Signature",
+          "_____________________________"
+        ],
+        [
+          "Printed Name",
+          "{{owner_name}}"
+        ],
+        [
+          "Date",
+          "{{owner_calibration_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "RENTER'S ACKNOWLEDGMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Renter acknowledges:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Having received the Equipment with the calibration status stated above.",
+        "That the Equipment was within calibration tolerance at the time of delivery (or not, as stated).",
+        "That Renter is responsible for verifying calibration before each use if the equipment is used for measurements where accuracy is critical.",
+        "That Renter will not use the Equipment for measurements requiring known accuracy if the Equipment's calibration is expired or if the Equipment shows signs of misalignment or damage.",
+        "That any measurements taken with this Equipment are the responsibility of the Renter.",
+        "{{renter_calibration_ack}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "IMPORTANT NOTES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "This certificate is valid only for the Equipment identified by serial number.",
+        "If the Equipment is repaired, modified, dropped, or subjected to an impact, it must be recalibrated before use for critical measurements.",
+        "Renter should perform a zero/check verification before each use if the equipment has that capability.",
+        "This certificate does not guarantee that the Equipment will maintain its calibration during the rental period.",
+        "The Renter should return the Equipment with all calibration records and any as-found data from use."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Renter",
+        "Owner"
+      ],
+      "rows": [
+        [
+          "Signature",
+          "_____________________________",
+          "_____________________________"
+        ],
+        [
+          "Printed Name",
+          "{{renter_name}}",
+          "{{owner_name}}"
+        ],
+        [
+          "Date",
+          "{{renter_date}}",
+          "{{owner_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

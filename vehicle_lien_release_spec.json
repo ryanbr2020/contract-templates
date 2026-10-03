@@ -1,0 +1,223 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "VEHICLE LIEN RELEASE",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "VEHICLE LIEN RELEASE",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Lien Release is issued on {{release_date}} by {{lienholder_name}}, located at {{lienholder_address}} (\"Lienholder\").",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "VEHICLE IDENTIFICATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Make",
+          "{{vehicle_make}}"
+        ],
+        [
+          "Model",
+          "{{vehicle_model}}"
+        ],
+        [
+          "Year",
+          "{{vehicle_year}}"
+        ],
+        [
+          "VIN",
+          "{{vehicle_vin}}"
+        ],
+        [
+          "Odometer at Release",
+          "{{odometer}} miles"
+        ],
+        [
+          "License Plate",
+          "{{license_plate}}"
+        ],
+        [
+          "Title Number (if known)",
+          "{{title_number}}"
+        ],
+        [
+          "Owner Name (as on title)",
+          "{{title_owner_name}}"
+        ],
+        [
+          "Owner Address",
+          "{{title_owner_address}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "LIEN INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Original Loan Date",
+          "{{original_loan_date}}"
+        ],
+        [
+          "Original Loan Amount",
+          "{{original_loan_amount}}"
+        ],
+        [
+          "Lienholder Name",
+          "{{lienholder_name}}"
+        ],
+        [
+          "Lienholder Address",
+          "{{lienholder_address}}"
+        ],
+        [
+          "Lienholder Account / Loan Number",
+          "{{loan_account_number}}"
+        ],
+        [
+          "Date of Full Payoff",
+          "{{payoff_date}}"
+        ],
+        [
+          "Amount Paid to Satisfy Lien",
+          "{{payoff_amount}}"
+        ],
+        [
+          "Payment Method",
+          "{{payoff_payment_method}}"
+        ],
+        [
+          "Condition of Lien Release",
+          "The lien described above has been SATISFIED IN FULL. Lienholder releases all rights, claims, and security interests in the Vehicle."
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "LIENHOLDER'S CERTIFICATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lienholder hereby certifies that:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The loan secured by the Vehicle has been paid in full.",
+        "Lienholder has no further interest in or claim against the Vehicle.",
+        "Lienholder releases all liens, security interests, and encumbrances on the Vehicle.",
+        "Lienholder will not file any further liens or claims against the Vehicle based on the discharged loan.",
+        "Lienholder authorizes the release of the title to the titled owner or the DMV as required."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "DMV SUBMISSION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Lien Release should be submitted to the DMV along with the title application. Lienholder authorizes title release to: {{title_release_recipient}}.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "LIENHOLDER SIGNATURE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Lienholder Authorization"
+      ],
+      "rows": [
+        [
+          "Authorized Signature",
+          "_____________________________"
+        ],
+        [
+          "Printed Name",
+          "{{lienholder_authorized_name}}"
+        ],
+        [
+          "Title",
+          "{{lienholder_title}}"
+        ],
+        [
+          "Date",
+          "{{release_date}}"
+        ],
+        [
+          "Lienholder Seal / Stamp (if applicable)",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

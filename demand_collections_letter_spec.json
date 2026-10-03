@@ -1,0 +1,279 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "DEMAND LETTER \u2014 PAYMENT REQUIRED",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "DEMAND LETTER",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Demand Letter is sent by {{sender_name}} (\"Creditor\") to {{recipient_name}} (\"Debtor\") on {{demand_date}}.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "VIA: {{delivery_method}} (Certified Mail / Email / Personal Delivery / Other)",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "DEBT INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Original Agreement / Contract Date",
+          "{{agreement_date}}"
+        ],
+        [
+          "Original Agreement / Contract Title",
+          "{{agreement_title}}"
+        ],
+        [
+          "Original Amount Due",
+          "{{original_amount_due}}"
+        ],
+        [
+          "Date Payment Was Due",
+          "{{payment_due_date}}"
+        ],
+        [
+          "Days Past Due",
+          "{{days_past_due}} days"
+        ],
+        [
+          "Interest / Late Fee Accrued",
+          "{{interest_late_fee}} (at {{interest_rate}}% per {{interest_period}})"
+        ],
+        [
+          "Total Amount Currently Due",
+          "{{total_amount_due}}"
+        ],
+        [
+          "Account / Invoice / Case #",
+          "{{account_number}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "DESCRIPTION OF DEBT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Debtor owes Creditor the amount stated above for the following:",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "{{debt_description}}",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Despite previous requests for payment ({{previous_request_dates}}), Debtor has failed to pay the amount due.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "DEMAND FOR PAYMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Creditor hereby demands that Debtor pay the total amount of {{total_amount_due}} within {{payment_deadline_days}} days of receipt of this letter (the \"Payment Deadline\").",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Payment must be made by: {{payment_methods}}.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Payment should be sent to: {{payment_address}}.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "If paying by check, make payable to: {{payable_to}}.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "CONSEQUENCES OF NON-PAYMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "If Debtor fails to pay the full amount due by the Payment Deadline, Creditor will take the following actions:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Refer the debt to a collections agency.",
+        "File a lawsuit in {{court_name}} for the amount due, plus interest, late fees, court costs, and attorney's fees (if recoverable).",
+        "Report the delinquency to credit reporting bureaus (Equifax, Experian, TransUnion).",
+        "Seek a judgment against Debtor, which may result in wage garnishment, bank account levy, or property lien.",
+        "Pursue any other legal remedies available under the Agreement or applicable law.",
+        "{{consequences_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "SETTLEMENT OFFER (optional)",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Creditor is willing to consider a settlement for a reduced amount. If Debtor wishes to settle, Creditor will accept {{settlement_amount}} as full payment if paid by {{settlement_deadline}}. This settlement offer expires on {{settlement_expiration_date}}.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "To accept this settlement offer, Debtor must: {{settlement_acceptance_instructions}}.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "PRESERVATION OF RIGHTS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "This letter is a formal demand for payment and is not a waiver of any rights or remedies. Creditor reserves all rights under the Agreement and applicable law. This letter does not constitute a waiver of any default or breach by Debtor.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "DEBT VALIDATION RIGHTS (if applicable)",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "If this debt is being collected by a third-party collections agency, Debtor has the right to request validation of the debt within 30 days of receipt of this letter, under the Fair Debt Collection Practices Act (FDCPA). To request validation, write to: {{collections_validation_address}}.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "CONTACT INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Contact",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Creditor Name",
+          "{{sender_name}}"
+        ],
+        [
+          "Creditor Address",
+          "{{sender_address}}"
+        ],
+        [
+          "Creditor Phone",
+          "{{sender_phone}}"
+        ],
+        [
+          "Creditor Email",
+          "{{sender_email}}"
+        ],
+        [
+          "Attorney Representing Creditor (if any)",
+          "{{attorney_name}}, {{attorney_firm}}, {{attorney_phone}}, {{attorney_email}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Creditor / Authorized Representative",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Signature",
+          "_____________________________",
+          "{{demand_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{sender_name}}",
+          ""
+        ],
+        [
+          "Title (if applicable)",
+          "{{sender_title}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

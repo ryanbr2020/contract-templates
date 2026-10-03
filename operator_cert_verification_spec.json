@@ -1,0 +1,262 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "OPERATOR CERTIFICATION / LICENSE VERIFICATION",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "OPERATOR CERTIFICATION / LICENSE VERIFICATION",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This form documents the verification of an Operator's certification, license, or qualification to operate specific equipment. Complete this form before allowing any Operator to use the Equipment.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "OPERATOR INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Operator Full Name",
+          "{{operator_name}}"
+        ],
+        [
+          "Operator Address",
+          "{{operator_address}}"
+        ],
+        [
+          "Operator Phone",
+          "{{operator_phone}}"
+        ],
+        [
+          "Operator Email",
+          "{{operator_email}}"
+        ],
+        [
+          "Date of Verification",
+          "{{verification_date}}"
+        ],
+        [
+          "Verified By",
+          "{{verifier_name}}"
+        ],
+        [
+          "Verifier Title / Role",
+          "{{verifier_title}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "EQUIPMENT FOR WHICH CERTIFICATION IS REQUIRED",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Equipment Type",
+          "{{equipment_type}}"
+        ],
+        [
+          "Equipment Model",
+          "{{equipment_model}}"
+        ],
+        [
+          "Serial Number",
+          "{{equipment_serial}}"
+        ],
+        [
+          "Rental / Job Reference",
+          "{{rental_agreement_ref}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "CERTIFICATION / LICENSE DETAILS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Certification / License Type",
+          "{{cert_type}} (e.g., Forklift Operator Certification, Crane Operator License, CDL, Scissor Lift Certification, etc.)"
+        ],
+        [
+          "Certifying Body / Issuing Organization",
+          "{{cert_issuing_body}}"
+        ],
+        [
+          "Certification / License Number",
+          "{{cert_number}}"
+        ],
+        [
+          "Date of Issuance",
+          "{{cert_issuance_date}}"
+        ],
+        [
+          "Expiration Date",
+          "{{cert_expiration_date}}"
+        ],
+        [
+          "Is certification current and not expired?",
+          "{{cert_current}} (Yes / No)"
+        ],
+        [
+          "Is certification appropriate for this specific equipment model?",
+          "{{cert_model_specific}} (Yes / No / Not applicable)"
+        ],
+        [
+          "Does certification require a medical examination or physical?",
+          "{{cert_medical}} (Yes / No \u2014 if Yes, date of last exam: {{medical_exam_date}})"
+        ],
+        [
+          "Copy of certification on file?",
+          "{{cert_copy_on_file}} (Yes / No \u2014 file location: {{cert_file_location}})"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "OPERATOR'S ACKNOWLEDGMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "I, {{operator_name}}, acknowledge that:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "I hold a valid {{cert_type}} issued by {{cert_issuing_body}}.",
+        "My certification is current and has not expired.",
+        "I have read and understand the operator's manual for the equipment listed above.",
+        "I am trained and competent to operate this equipment safely.",
+        "I understand the safety procedures, emergency protocols, and PPE requirements for this equipment.",
+        "I will not operate this equipment if I am fatigued, under the influence of alcohol or drugs, or otherwise impaired.",
+        "I will follow all safety instructions and will stop operation immediately if any unsafe condition arises.",
+        "I am responsible for any damage caused by my operation of this equipment.",
+        "{{operator_ack_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "VERIFIER'S CERTIFICATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "I, {{verifier_name}}, certify that I have verified the Operator's certification as described above. I have reviewed the certification document(s) and confirm that the information provided is accurate to the best of my knowledge.",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Verifier",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Verifier Signature",
+          "_____________________________",
+          "{{verification_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{verifier_name}}",
+          ""
+        ],
+        [
+          "Title / Role",
+          "{{verifier_title}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Operator",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Operator Signature",
+          "_____________________________",
+          "{{operator_signature_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{operator_name}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

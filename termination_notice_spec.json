@@ -1,0 +1,221 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    },
+    {
+      "name": "FL",
+      "font": "Calibri",
+      "size_pt": 11,
+      "bold": true
+    }
+  ],
+  "header": "TERMINATION NOTICE LETTER",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "TERMINATION NOTICE",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Termination Notice is sent by {{sender_name}} (\"Terminating Party\") to {{recipient_name}} (\"Recipient\") on {{notice_date}}.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "VIA: {{delivery_method}}",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "REFERENCE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Agreement Date",
+          "{{agreement_date}}"
+        ],
+        [
+          "Agreement Title",
+          "{{agreement_title}}"
+        ],
+        [
+          "Agreement Between",
+          "{{party_a}} and {{party_b}}"
+        ],
+        [
+          "Recipient's Role",
+          "{{recipient_role}}"
+        ],
+        [
+          "Terminating Party's Role",
+          "{{terminating_party_role}}"
+        ],
+        [
+          "Section Authorizing Termination",
+          "{{termination_section}}"
+        ],
+        [
+          "Termination Type",
+          "{{termination_type}} (For Cause / Without Cause / Expiration / Mutual Agreement)"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "TERMINATION STATEMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Terminating Party hereby terminates the Agreement, effective {{termination_effective_date}} (the \"Termination Date\").",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "{{termination_reason}}",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "EFFECTS OF TERMINATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Upon the Termination Date:",
+      "style": "BT"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "All obligations of the Parties under the Agreement cease, except for obligations that expressly survive termination (including but not limited to: payment obligations, confidentiality, indemnification, return of property, dispute resolution, and any other survival clauses).",
+        "{{termination_effect_1}}",
+        "{{termination_effect_2}}",
+        "{{termination_effect_3}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "POST-TERMINATION OBLIGATIONS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Parties must complete the following after termination:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "{{post_termination_obligation_1}}",
+        "{{post_termination_obligation_2}}",
+        "{{post_termination_obligation_3}}",
+        "Return of any keys, access codes, equipment, documents, or property exchanged under the Agreement.",
+        "Final payment of any amounts due up to the Termination Date.",
+        "{{post_termination_final}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "RETURN OF PROPERTY / DOCUMENTATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Within {{post_termination_return_days}} days of the Termination Date, the Recipient must return or deliver:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "{{return_item_1}}",
+        "{{return_item_2}}",
+        "{{return_item_3}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "DISPUTE RESOLUTION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Any disputes arising from this termination or the Agreement shall be resolved per the dispute resolution provisions of the Agreement. The Terminating Party encourages the Recipient to contact {{dispute_contact}} to resolve any questions.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Terminating Party",
+          "_____________________________",
+          "{{terminating_party_signature_date}}"
+        ],
+        [
+          "Recipient (acknowledgment of receipt, if delivered personally)",
+          "_____________________________",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

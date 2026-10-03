@@ -1,0 +1,235 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "DMV NOTICE OF TRANSFER AND RELEASE OF LIABILITY",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "NOTICE OF TRANSFER AND RELEASE OF LIABILITY",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Notice is filed with the DMV within 5 days of the sale or transfer of a vehicle, as required by state law. Complete and submit to the DMV immediately after the sale.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "SELLER INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Seller Full Name",
+          "{{seller_name}}"
+        ],
+        [
+          "Seller Address",
+          "{{seller_address}}"
+        ],
+        [
+          "Seller Driver's License / ID Number",
+          "{{seller_id_number}}"
+        ],
+        [
+          "Seller Phone",
+          "{{seller_phone}}"
+        ],
+        [
+          "Seller Email",
+          "{{seller_email}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "VEHICLE INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Make",
+          "{{vehicle_make}}"
+        ],
+        [
+          "Model",
+          "{{vehicle_model}}"
+        ],
+        [
+          "Year",
+          "{{vehicle_year}}"
+        ],
+        [
+          "VIN",
+          "{{vehicle_vin}}"
+        ],
+        [
+          "Odometer at Sale",
+          "{{odometer}} miles"
+        ],
+        [
+          "License Plate / Registration Number",
+          "{{license_plate}}"
+        ],
+        [
+          "Title Number",
+          "{{title_number}}"
+        ],
+        [
+          "Color",
+          "{{vehicle_color}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "BUYER INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Buyer Full Name",
+          "{{buyer_name}}"
+        ],
+        [
+          "Buyer Address",
+          "{{buyer_address}}"
+        ],
+        [
+          "Buyer Driver's License / ID Number",
+          "{{buyer_id_number}}"
+        ],
+        [
+          "Date of Sale",
+          "{{sale_date}}"
+        ],
+        [
+          "Sale Price",
+          "{{sale_price}}"
+        ],
+        [
+          "Buyer's Relationship to Seller",
+          "{{buyer_relationship}} (Individual / Dealer / Family / Gift / Other)"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "SELLER'S CERTIFICATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Seller certifies that:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The Vehicle has been sold/transferred to the Buyer as of the date of sale above.",
+        "The Buyer has paid the agreed purchase price (or has entered into a financing agreement).",
+        "The title has been properly assigned to the Buyer.",
+        "The Seller is no longer the legal owner of the Vehicle as of the date of sale.",
+        "The Seller is not responsible for any tickets, tolls, accidents, or violations occurring after the date of sale.",
+        "The information provided in this Notice is true and correct."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "SELLER'S SIGNATURE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Seller Signature"
+      ],
+      "rows": [
+        [
+          "Signature",
+          "_____________________________"
+        ],
+        [
+          "Printed Name",
+          "{{seller_name}}"
+        ],
+        [
+          "Date",
+          "{{seller_signature_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "paragraph",
+      "text": "Submit this Notice to: {{dmv_submission_address}} or file online at {{dmv_online_portal}}. Keep a copy for your records.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Note: Filing this Notice does not transfer title. The title must be properly assigned and submitted to the DMV by the Buyer separately.",
+      "style": "BT"
+    }
+  ]
+}

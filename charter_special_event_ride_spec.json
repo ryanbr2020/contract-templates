@@ -1,0 +1,374 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "CHARTER / SPECIAL EVENT RIDE AGREEMENT",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "CHARTER / SPECIAL EVENT RIDE AGREEMENT",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Charter Agreement (\"Agreement\") is made as of {{charter_date}} between:",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "{{charter_provider_name}}, located at {{charter_provider_address}} (\"Provider\")",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "{{charter_customer_name}}, located at {{charter_customer_address}} (\"Customer\")",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "1. EVENT DETAILS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Event Name / Description",
+          "{{event_name}}"
+        ],
+        [
+          "Event Date",
+          "{{event_date}}"
+        ],
+        [
+          "Event Location / Venue",
+          "{{event_location}}"
+        ],
+        [
+          "Customer Contact Name",
+          "{{customer_contact_name}}"
+        ],
+        [
+          "Customer Contact Phone",
+          "{{customer_contact_phone}}"
+        ],
+        [
+          "Customer Contact Email",
+          "{{customer_contact_email}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "2. CHARTER DETAILS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Service Type",
+          "{{service_type}} (Sedan / SUV / Van / Bus / Limousine / Other)"
+        ],
+        [
+          "Vehicle Description",
+          "{{vehicle_description}}"
+        ],
+        [
+          "Number of Passengers",
+          "{{passenger_count}}"
+        ],
+        [
+          "Pickup Date / Time",
+          "{{pickup_date}} at {{pickup_time}}"
+        ],
+        [
+          "Pickup Location",
+          "{{pickup_location}}"
+        ],
+        [
+          "Drop-off Date / Time",
+          "{{dropoff_date}} at {{dropoff_time}}"
+        ],
+        [
+          "Drop-off Location",
+          "{{dropoff_location}}"
+        ],
+        [
+          "Round Trip?",
+          "{{round_trip}} (Yes / No)"
+        ],
+        [
+          "Intermediate Stops",
+          "{{intermediate_stops}} (list below or 'None')"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "3. CHARGES AND PAYMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Amount",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "Hourly Rate",
+          "{{hourly_rate}} per hour",
+          "{{hourly_notes}}"
+        ],
+        [
+          "Estimated Duration",
+          "{{estimated_duration}} hours",
+          ""
+        ],
+        [
+          "Estimated Total (hours \u00d7 rate)",
+          "{{estimated_total}}",
+          ""
+        ],
+        [
+          "Flat Rate (if applicable)",
+          "{{flat_rate}}",
+          "{{flat_rate_notes}}"
+        ],
+        [
+          "Gratuity / Tip",
+          "{{gratuity}}",
+          "{{gratuity_notes}} (Not included / Expected / Optional)"
+        ],
+        [
+          "Fuel Surcharge",
+          "{{fuel_surcharge}}",
+          "{{fuel_surcharge_notes}}"
+        ],
+        [
+          "Vehicle Reservation Fee / Deposit",
+          "{{reservation_fee}}",
+          "Non-refundable deposit to hold Vehicle."
+        ],
+        [
+          "Additional Charges (if applicable)",
+          "{{additional_charges}}",
+          "{{additional_charges_notes}}"
+        ],
+        [
+          "TOTAL ESTIMATED CHARGE",
+          "{{total_estimated}}",
+          "Final charge based on actual hours/distance used."
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "paragraph",
+      "text": "Payment terms: {{payment_terms}} (deposit due on signing, balance due after trip / before trip / upon completion). Payment method: {{payment_method}}.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "4. CUSTOMER RESPONSIBILITIES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Provide accurate pickup and drop-off information and contact details.",
+        "Be ready at the pickup location at the scheduled time. Provider will wait {{wait_time}} minutes after the scheduled pickup time before departing.",
+        "Ensure all passengers are aware of the pickup time and location.",
+        "Not exceed the maximum passenger capacity of the Vehicle.",
+        "Not engage in disruptive, unsafe, or illegal behavior during the trip.",
+        "Not damage or vandalize the Vehicle.",
+        "Pay all charges as agreed.",
+        "{{customer_charter_reps}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "5. PROVIDER RESPONSIBILITIES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Provide a clean, safe, and reliable Vehicle for the charter.",
+        "Arrive at the pickup location at the scheduled time.",
+        "Provide professional and courteous service.",
+        "Comply with all traffic laws and regulations.",
+        "Not deviate from the agreed route without Customer's consent (except for safety or traffic reasons).",
+        "Not subcontract the charter to another driver or provider without Customer's consent.",
+        "{{provider_charter_reps}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "6. CANCELLATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Cancellation Timing",
+        "Fee / Treatment"
+      ],
+      "rows": [
+        [
+          "More than {{cancellation_early_days}} days before pickup",
+          "Full refund of deposit / No charge."
+        ],
+        [
+          "{{cancellation_mid_days}}\u2013{{cancellation_early_days}} days before pickup",
+          "{{cancellation_mid_percent}}% refund of deposit / {{cancellation_mid_fee}} cancellation fee."
+        ],
+        [
+          "Less than {{cancellation_mid_days}} days before pickup",
+          "No refund of deposit / {{cancellation_late_fee}} cancellation fee."
+        ],
+        [
+          "No-show at pickup location",
+          "Full charge for the scheduled duration / No refund."
+        ],
+        [
+          "Provider cancels",
+          "Full refund of all payments / Compensation of {{provider_cancellation_compensation}}."
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "7. FORCE MAJEURE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Neither Party is liable for failure to perform due to causes beyond reasonable control, including natural disasters, acts of God, government travel restrictions, or similar circumstances. If the event is cancelled due to force majeure, the Customer receives a full refund of all payments.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "8. LIABILITY AND INSURANCE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Provider maintains commercial auto liability insurance covering the Vehicle for the charter. Provider's insurance information: {{insurance_details}}. Customer is responsible for the conduct of their passengers. Provider is not liable for personal belongings left in the Vehicle.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "9. SPECIAL INSTRUCTIONS / REQUESTS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Special instructions for this charter (leisurely route, music, temperature preference, child seats needed, etc.):",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "{{special_instructions}}",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "10. GOVERNING LAW",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Agreement is governed by the laws of {{governing_state}}.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Provider",
+        "Customer"
+      ],
+      "rows": [
+        [
+          "Signature",
+          "_____________________________",
+          "_____________________________"
+        ],
+        [
+          "Printed Name",
+          "{{charter_provider_name}}",
+          "{{charter_customer_name}}"
+        ],
+        [
+          "Date",
+          "{{provider_date}}",
+          "{{customer_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}
