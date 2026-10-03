@@ -1,0 +1,306 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "MOTORCYCLE / MOTORScooter RENTAL AGREEMENT",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "MOTORCYCLE / MOTOR SCOOTER RENTAL AGREEMENT",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Motorcycle Rental Agreement is entered into on {{agreement_date}} between {{owner_name}} (\"Owner\") and {{renter_name}} (\"Renter\"). Owner agrees to rent to Renter, and Renter agrees to rent from Owner, the following motorcycle/motor scooter:",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Vehicle Make/Model/Year",
+          "{{vehicle_make}} {{vehicle_model}} {{vehicle_year}}"
+        ],
+        [
+          "VIN",
+          "{{vehicle_vin}}"
+        ],
+        [
+          "License Plate / Registration",
+          "{{license_plate}} \u2014 State: {{registration_state}}"
+        ],
+        [
+          "Vehicle Type",
+          "{{vehicle_type}} (Motorcycle / Motor Scooter / Moped / Dirt Bike / ATV / Snowmobile / Other)"
+        ],
+        [
+          "Engine / CC",
+          "{{engine_cc}} cc"
+        ],
+        [
+          "Helmet Included?",
+          "{{helmet_included}} (Yes / No \u2014 Helmets provided: {{helmets_provided}})"
+        ],
+        [
+          "Other Safety Gear Included?",
+          "{{safety_gear_included}} (Yes / No \u2014 Gear provided: {{safety_gear_provided}})"
+        ],
+        [
+          "Acceptance of Agreement",
+          "By signing below, both parties agree to all terms and conditions of this Motorcycle Rental Agreement."
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "RENTAL PERIOD",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Rental Start Date/Time",
+          "{{rental_start_date}} at {{rental_start_time}}"
+        ],
+        [
+          "Rental End Date/Time",
+          "{{rental_end_date}} at {{rental_end_time}}"
+        ],
+        [
+          "Total Rental Hours/Days",
+          "{{total_rental_hours}} hours / {{total_rental_days}} days"
+        ],
+        [
+          "Pickup Location",
+          "{{pickup_location}}"
+        ],
+        [
+          "Return Location",
+          "{{return_location}} (Same as pickup / Different)"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "RENTER QUALIFICATIONS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Requirement",
+        "Met? (Y/N)",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "Valid motorcycle endorsement / license (if required)",
+          "{{license_met}}",
+          "{{license_notes}}"
+        ],
+        [
+          "Age minimum met ({{minimum_age}} years)",
+          "{{age_met}}",
+          "{{age_notes}}"
+        ],
+        [
+          "Valid motorcycle helmet (if Renter has own)",
+          "{{helmet_own_met}}",
+          "{{helmet_own_notes}}"
+        ],
+        [
+          "Experience / riding test (if required by Owner)",
+          "{{experience_met}}",
+          "{{experience_notes}}"
+        ],
+        [
+          "Valid insurance or damage waiver purchased",
+          "{{insurance_met}}",
+          "{{insurance_notes}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "RENTER RESPONSIBILITIES AND RULES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Renter must have a valid driver's license with motorcycle endorsement (if required by state law for the Vehicle type).",
+        "Renter must be at least {{minimum_age}} years old.",
+        "Renter must wear a DOT-approved helmet at all times while operating the Vehicle. If Renter does not have their own helmet, Owner-provided helmets must be used.",
+        "Renter must wear appropriate protective gear (gloves, eye protection, sturdy footwear, reflective clothing, etc.) as recommended by the manufacturer and applicable laws.",
+        "Renter must not operate the Vehicle while intoxicated, under the influence of drugs or alcohol, or otherwise impaired.",
+        "Renter is responsible for the Vehicle from the time of pickup until return, including all damage, loss, theft, fines, tickets, and accidents.",
+        "Renter must not operate the Vehicle outside of {{allowed_geographic_area}} without Owner's written consent.",
+        "Renter must not use the Vehicle for racing, off-road driving (unless equipped and approved for off-road use), stunts, or any illegal or reckless purpose.",
+        "Renter must not allow any person not listed on the agreement to operate the Vehicle.",
+        "Renter must not carry passengers unless the Vehicle is designed and equipped for passenger carriage and it is legal to do so.",
+        "Renter must follow all traffic laws and manufacturer instructions.",
+        "Renter must report any accidents, incidents, or mechanical issues to Owner immediately.",
+        "{{renter_rules_moto_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "INSURANCE AND DAMAGE WAIVER",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Option",
+        "Coverage",
+        "Cost",
+        "Deductible"
+      ],
+      "rows": [
+        [
+          "Option 1 \u2014 Renter's Own Insurance",
+          "Renter uses their own motorcycle insurance. Renter is responsible for deductible and any amounts not covered.",
+          "$0",
+          "{{renter_own_deductible}}"
+        ],
+        [
+          "Option 2 \u2014 Damage Waiver (CDW/LDW)",
+          "Covers damage to the Vehicle from collision or theft, subject to exclusions. Does not cover personal belongings, third-party liability, or medical expenses.",
+          "{{cdw_cost}}",
+          "{{cdw_deductible}}"
+        ],
+        [
+          "Option 3 \u2014 No Coverage",
+          "Renter is fully responsible for all damage, loss, theft, and liability.",
+          "$0",
+          "Full amount"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "MILEAGE AND FUEL",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Mileage Included",
+          "{{mileage_included}} miles"
+        ],
+        [
+          "Mileage Overage Rate",
+          "{{mileage_overage_rate}} per mile beyond allowance"
+        ],
+        [
+          "Fuel Policy",
+          "{{fuel_policy}} (Return with same fuel level / Renter pays for refueling)"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Renter",
+          "_____________________________",
+          "{{renter_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{renter_name}}",
+          ""
+        ],
+        [
+          "Renter Phone",
+          "{{renter_phone}}",
+          ""
+        ],
+        [
+          "Renter Email",
+          "{{renter_email}}",
+          ""
+        ],
+        [
+          "Owner / Agent",
+          "_____________________________",
+          "{{owner_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{owner_name}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

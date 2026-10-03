@@ -1,0 +1,318 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "VEHICLE LEASE TERMINATION / EARLY BUYOUT NOTICE AND AGREEMENT",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "VEHICLE LEASE TERMINATION / EARLY BUYOUT NOTICE AND AGREEMENT",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Vehicle Lease Termination / Early Buyout Notice is issued by {{lessor_name}} (\"Lessor\") on {{notice_date}} to {{lessee_name}} (\"Lessee\") regarding Vehicle: {{vehicle_make}} {{vehicle_model}} {{vehicle_year}}, VIN: {{vehicle_vin}}, License Plate: {{license_plate}}.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This notice relates to the Lease Agreement dated {{lease_agreement_date}} between Lessor and Lessee (the \"Lease\").",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "LEASE INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Lease Agreement Date",
+          "{{lease_agreement_date}}"
+        ],
+        [
+          "Lease Start Date",
+          "{{lease_start_date}}"
+        ],
+        [
+          "Lease End Date (Original)",
+          "{{lease_end_date}}"
+        ],
+        [
+          "Vehicle Description",
+          "{{vehicle_make}} {{vehicle_model}} {{vehicle_year}} \u2014 VIN: {{vehicle_vin}} \u2014 License Plate: {{license_plate}}"
+        ],
+        [
+          "Lease Term",
+          "{{lease_term}} months"
+        ],
+        [
+          "Monthly Payment",
+          "{{monthly_payment}}"
+        ],
+        [
+          "Remaining Lease Payments",
+          "{{remaining_payments}} payments \u00d7 ${{monthly_payment}} = {{remaining_total}}"
+        ],
+        [
+          "Current Balance (if applicable)",
+          "{{current_balance}}"
+        ],
+        [
+          "Residual Value (Buyout Price)",
+          "{{buyout_price}} (as stated in the Lease Agreement)"
+        ],
+        [
+          "Current Mileage",
+          "{{current_mileage}} miles"
+        ],
+        [
+          "Mileage Allowance Remaining",
+          "{{mileage_remaining}} miles (Total allowance: {{total_mileage_allowance}} \u2014 Miles used: {{mileage_used}})"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "REASON FOR TERMINATION / BUYOUT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Option",
+        "Select",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Option A \u2014 Early Lease Termination (by Lessee)",
+          "\u2610",
+          "Lessee wishes to terminate the Lease before the end of the Lease Term. Lessee understands that early termination may result in early termination charges, as stated in the Lease Agreement and calculated below."
+        ],
+        [
+          "Option B \u2014 Lease buyout at end of Term (Lessee wants to purchase the Vehicle at the end of the Lease)",
+          "\u2610",
+          "Lessee wishes to purchase the Vehicle at the end of the Lease Term for the residual value of {{buyout_price}}."
+        ],
+        [
+          "Option C \u2014 Early Lease buyout (Lessee wants to purchase the Vehicle before the end of the Lease Term)",
+          "\u2610",
+          "Lessee wishes to purchase the Vehicle before the end of the Lease Term. The buyout price is {{early_buyout_price}} (which may include early termination charges, sales tax, registration fees, and other applicable charges)."
+        ],
+        [
+          "Option D \u2014 Lease termination by Lessor (for cause)",
+          "\u2610",
+          "Lessor is terminating the Lease due to Lessee's breach (e.g., non-payment, excessive mileage, excessive wear and tear, violation of Lease terms)."
+        ],
+        [
+          "Option E \u2014 Mutual termination (Lessor and Lessee agree to terminate the Lease)",
+          "\u2610",
+          "Lessor and Lessee mutually agree to terminate the Lease under the terms described below."
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "EARLY TERMINATION / BUYOUT CALCULATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "If Lessee is terminating the Lease early or buying out the Lease early, the following calculations apply:",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Amount"
+      ],
+      "rows": [
+        [
+          "Remaining Lease Payments (if any)",
+          "{{remaining_payments_total}}"
+        ],
+        [
+          "Early Termination Charge (if applicable)",
+          "{{early_termination_charge}}"
+        ],
+        [
+          "Mileage Overage Charge (if applicable)",
+          "{{mileage_overage_charge}} \u2014 Excess miles: {{excess_miles}} miles \u00d7 ${{mileage_rate}} per mile"
+        ],
+        [
+          "Excess Wear and Tear Charge (if applicable)",
+          "{{excess_wear_charge}} \u2014 Details: {{excess_wear_details}}"
+        ],
+        [
+          "Disposition Fee (if applicable)",
+          "{{disposition_fee}}"
+        ],
+        [
+          "Sales Tax on Buyout (if applicable)",
+          "{{sales_tax}}"
+        ],
+        [
+          "Registration / Title / Other Fees",
+          "{{other_fees}}"
+        ],
+        [
+          "Buyout Price (Total Due to Lessor)",
+          "{{buyout_price_total}}"
+        ],
+        [
+          "Less: Payments Already Made / Credits",
+          "({{payments_already_made}})"
+        ],
+        [
+          "Net Amount Due (if Lessee is purchasing)",
+          "{{net_amount_due}}"
+        ],
+        [
+          "Less: Vehicle Trade-In Credit (if applicable)",
+          "({{trade_in_credit}})"
+        ],
+        [
+          "Net Amount Due After Trade-In (if applicable)",
+          "{{net_after_trade_in}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "LESSEE'S OBLIGATIONS AT TERMINATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Lessee must return the Vehicle to {{return_location}} on or before {{return_date}} at {{return_time}}.",
+        "Lessee must return the Vehicle with {{fuel_level}} (fuel policy at termination).",
+        "Lessee must return all keys, remotes, fobs, owner's manual, and other accessories that came with the Vehicle.",
+        "Lessee must ensure the Vehicle is reasonably clean (normal wear and tear excepted).",
+        "Lessee must provide proof of insurance for the Vehicle until the date of return.",
+        "Lessee must pay all amounts due under the Lease, including any early termination charges, mileage overage charges, excess wear and tear charges, disposition fees, and any other amounts stated in this notice.",
+        "Lessee must return the Vehicle in the condition required by the Lease Agreement, ordinary wear and tear excepted.",
+        "{{lessee_termination_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "LESSOR'S ACKNOWLEDGMENT AND AGREEMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lessor acknowledges receipt of this notice and agrees to the termination/buyout terms stated above, subject to the following conditions:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "{{lessor_acknowledgment_1}}",
+        "{{lessor_acknowledgment_2}}",
+        "{{lessor_acknowledgment_3}}",
+        "{{lessor_acknowledgment_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Lessee",
+          "_____________________________",
+          "{{lessee_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{lessee_name}}",
+          ""
+        ],
+        [
+          "Lessee Phone",
+          "{{lessee_phone}}",
+          ""
+        ],
+        [
+          "Lessee Email",
+          "{{lessee_email}}",
+          ""
+        ],
+        [
+          "Lessor / Leasing Company",
+          "_____________________________",
+          "{{lessor_date}}"
+        ],
+        [
+          "Authorized Signature",
+          "{{lessor_rep_name}}",
+          ""
+        ],
+        [
+          "Title",
+          "{{lessor_rep_title}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

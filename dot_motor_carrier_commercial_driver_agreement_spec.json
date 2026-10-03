@@ -1,0 +1,361 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "DOT / MOTOR CARRIER COMMERCIAL DRIVER / CONTRACTOR AGREEMENT",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "DOT / MOTOR CARRIER COMMERCIAL DRIVER / CONTRACTOR AGREEMENT",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Commercial Driver Agreement is entered into on {{agreement_date}} between {{carrier_name}} (\"Motor Carrier\" / \"Company\") and {{driver_name}} (\"Driver\"). This Agreement is subject to all applicable federal motor carrier safety regulations (FMCSRs) issued by the Federal Motor Carrier Safety Administration (FMCSA), state laws, and any applicable provisions of 49 CFR Parts 382, 383, 387, 390-399, and other relevant regulations.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "DRIVER QUALIFICATIONS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Driver represents and warrants that Driver meets all qualifications required to operate a commercial motor vehicle (CMV) under federal and state law, including:",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Qualification",
+        "Confirmed? (Y/N)",
+        "Details / Expiration Date"
+      ],
+      "rows": [
+        [
+          "Valid Commercial Driver's License (CDL) \u2014 Class {{cdl_class}}",
+          "{{cdl_valid}}",
+          "CDL State: {{cdl_state}} / License #: {{cdl_number}} / Expiration: {{cdl_expiration}}"
+        ],
+        [
+          "CDL Endorsements (as required)",
+          "{{cdl_endorsements}}",
+          "Endorsements: {{cdl_endorsement_details}}"
+        ],
+        [
+          "Medical Examiner's Certificate (DOT medical card)",
+          "{{medical_cert_valid}}",
+          "Exam Date: {{medical_exam_date}} / Expiration: {{medical_cert_expiration}} / Examiner: {{medical_examiner}}"
+        ],
+        [
+          "DOT Medical Examination Report",
+          "{{medical_report_on_file}}",
+          "Report on file with Company \u2014 Date: {{medical_report_date}}"
+        ],
+        [
+          "Valid Driver's License (non-CDL, if applicable)",
+          "{{regular_license_valid}}",
+          "License #: {{regular_license_number}} / State: {{regular_license_state}} / Expiration: {{regular_license_expiration}}"
+        ],
+        [
+          "Drug and Alcohol Testing \u2014 Pre-Employment",
+          "{{drug_test_pre_emp}}",
+          "Test Date: {{drug_test_date}} / Result: {{drug_test_result}} / TPA: {{drug_test_tpa}}"
+        ],
+        [
+          "Drug and Alcohol Testing \u2014 Clearance (if applicable)",
+          "{{drug_test_clearance}}",
+          "Clearance Date: {{clearance_date}}"
+        ],
+        [
+          "Motor Carrier Driver Qualification File (DQ File) established",
+          "{{dq_file_established}}",
+          "DQ File initiated on: {{dq_file_date}}"
+        ],
+        [
+          "Medical Review Officer (MRO) verification (if applicable)",
+          "{{mro_verified}}",
+          "MRO: {{mro_name}} / Verified: {{mro_date}}"
+        ],
+        [
+          "Exploring / testing for other conditions (sleep apnea, etc.)",
+          "{{sleep_apnea_testing}}",
+          "Status: {{sleep_apnea_status}} \u2014 Follow-up: {{sleep_apnea_followup}}"
+        ],
+        [
+          "24-month DLP (Driving Record / MVR) check completed",
+          "{{mvr_check_done}}",
+          "Last MVR check: {{mvr_check_date}} \u2014 Results: {{mvr_results}}"
+        ],
+        [
+          "12-month employment history / reference checks completed",
+          "{{emp_history_done}}",
+          "Check Date: {{emp_history_date}} \u2014 Results: {{emp_history_results}}"
+        ],
+        [
+          "Road test / skills test completed (if required)",
+          "{{road_test_done}}",
+          "Test Date: {{road_test_date}} \u2014 Result: {{road_test_result}}"
+        ],
+        [
+          "Driver's Education / Training (if applicable)",
+          "{{driver_training_done}}",
+          "Training Date: {{driver_training_date}} \u2014 Provider: {{driver_training_provider}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "DRIVER RESPONSIBILITIES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Driver must maintain a valid CDL and DOT medical certificate at all times. Driver must notify Company immediately if the CDL or medical certificate is suspended, revoked, disqualified, or expires.",
+        "Driver must comply with all federal motor carrier safety regulations (FMCSRs), state and local laws, company policies, and any additional requirements of the shipper, receiver, or other parties.",
+        "Driver must not operate a CMV while under the influence of alcohol, drugs, or any impairing substance. Driver must not have any alcohol or illegal drugs in the CMV.",
+        "Driver must not operate a CMV if Driver is fatigued, ill, or otherwise impaired in a way that affects Driver's ability to operate safely.",
+        "Driver must comply with all hours of service (HOS) regulations, including maximum driving time, on-duty time, and rest break requirements per 49 CFR Part 395.",
+        "Driver must accurately and timely complete all required logs (ELD logs, paper logs, or other required documentation) and must not falsify, alter, or obscure any log entries.",
+        "Driver must participate in the company's drug and alcohol testing program as required by 49 CFR Part 382 and must submit to all required tests (pre-employment, random, reasonable suspicion, post-accident, return-to-duty, and follow-up).",
+        "Driver must not report to work, operate a CMV, or remain on duty if Driver has violated the alcohol or drug prohibitions under 49 CFR Part 382 (e.g., alcohol concentration of 0.04% or greater, use of any illegal drug, or misuse of a prescribed controlled substance).",
+        "Driver must immediately notify Company if Driver is convicted of any traffic violation (except parking), is arrested for any offense involving alcohol or drugs, or has their CDL suspended, revoked, or disqualified.",
+        "Driver must immediately notify Company of any accidents, incidents, or safety events involving a CMV operated by Driver.",
+        "Driver must perform pre-trip and post-trip vehicle inspections and must accurately complete and submit all required inspection reports (DVIRs) per 49 CFR Part 396.",
+        "Driver must not operate a CMV that has a known mechanical defect or deficiency that would make it unsafe to operate, and must report any such defects to Company.",
+        "Driver must secure all cargo properly, in accordance with load securement regulations (49 CFR Part 393, Subpart I), and must not operate a CMV with improperly secured or shifting cargo.",
+        "Driver must not engage in any activity while driving that distracts from driving, including but not limited to use of a handheld mobile phone (per 49 CFR Part 392).",
+        "Driver must use the company's electronic logging device (ELD) or paper logs as instructed, must not tamper with or disable the ELD, and must provide logs to Company as requested.",
+        "Driver must wear a seat belt at all times while operating the CMV.",
+        "Driver must maintain a valid medical insurance card or proof of medical insurance.",
+        "{{driver_responsibilities_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "DRUG AND ALCOHOL TESTING PROGRAM",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Driver acknowledges and agrees to participate in Company's drug and alcohol testing program in accordance with 49 CFR Part 382. Company maintains a drug and alcohol testing program that includes:",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Testing Type",
+        "Description",
+        "When Required"
+      ],
+      "rows": [
+        [
+          "Pre-Employment Testing",
+          "Drug test (5-panel or more, as required): marijuana, cocaine, amphetamines, opiates, phencyclidine (PCP), and any additional substances required.",
+          "Before Driver's first performance of safety-sensitive functions for Company."
+        ],
+        [
+          "Random Testing",
+          "Drug testing (unannounced selection) and alcohol testing.",
+          "At least 50% of average number of driver positions per year for drugs; at least 10% for alcohol. Company uses a scientifically valid method for random selection."
+        ],
+        [
+          "Reasonable Suspicion Testing",
+          "Drug and alcohol testing when a trained supervisor or Company official has reasonable suspicion that Driver has used alcohol or drugs in violation of the regulations.",
+          "When reasonable suspicion exists that Driver has used alcohol or drugs while performing safety-sensitive functions or just before performing such functions."
+        ],
+        [
+          "Post-Accident Testing",
+          "Drug and alcohol testing after an accident meeting the thresholds of 49 CFR \u00a7 382.303.",
+          "As soon as practicable after an accident, but within 32 hours for alcohol testing and within 24 hours for drug testing (or as soon as practicable if this is not possible)."
+        ],
+        [
+          "Return-to-Duty Testing",
+          "Drug test (negative) before Driver returns to safety-sensitive functions after a violation of the alcohol or drug prohibitions.",
+          "Before Driver returns to duty after a violation."
+        ],
+        [
+          "Follow-Up Testing",
+          "Alcohol and/or drug testing for at least 6 tests in the first 12 months after return to duty, as determined by the Substance Abuse Professional (SAP).",
+          "For at least 6 tests in 12 months, or longer if required by the SAP."
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "COMPANY RESPONSIBILITIES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Company will maintain Driver's complete Driver Qualification File (DQ File) in accordance with 49 CFR \u00a7 391.23 and will retain all required records for the required periods.",
+        "Company will ensure that Driver's CDL, medical certificate, and other required credentials are checked and verified at the required intervals.",
+        "Company will provide Driver with a copy of Company's drug and alcohol testing policy and will provide Driver with any required information about the testing program.",
+        "Company will ensure that all required testing is conducted by a certified collector, laboratory, and MRO, as applicable.",
+        "Company will provide Driver with any necessary training on safety regulations, Hazmat requirements (if applicable), and Company policies.",
+        "Company will not require or permit Driver to violate any federal, state, or local law or regulation.",
+        "Company will maintain all required insurance coverage for operations.",
+        "{{company_responsibilities_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "PAYMENT AND COMPENSATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Compensation Type",
+          "{{compensation_type}} (Hourly rate / Per-mile rate / Percentage of load / Salary / Other)"
+        ],
+        [
+          "Base Rate",
+          "{{base_rate}} (per hour / per mile / per load)"
+        ],
+        [
+          "Overtime Rate",
+          "{{overtime_rate}} (if applicable \u2014 per FLSA and applicable state laws)"
+        ],
+        [
+          "Hazardous Materials / Hazmat Pay (if applicable)",
+          "{{hazmat_pay}} (additional pay for Hazmat transportation per 49 CFR Part 172, Subpart F)"
+        ],
+        [
+          "Detention Pay",
+          "{{detention_pay}} (compensation for waiting time exceeding {{detention_threshold}} hours at shipper/receiver)"
+        ],
+        [
+          "Layover Pay",
+          "{{layover_pay}} (compensation for overnight stays required by Company or shipper/receiver)"
+        ],
+        [
+          "Per Diem / Meal Allowance",
+          "{{per_diem}} (if applicable)"
+        ],
+        [
+          "Fuel / Vehicle Allowance",
+          "{{fuel_allowance}} (if applicable)"
+        ],
+        [
+          "Pay Schedule",
+          "{{pay_schedule}} (Weekly / Bi-weekly / Semi-monthly / Monthly)"
+        ],
+        [
+          "Pay Method",
+          "{{pay_method}} (Direct deposit / Physical check / Other)"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Driver",
+          "_____________________________",
+          "{{driver_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{driver_name}}",
+          ""
+        ],
+        [
+          "Date of Birth",
+          "{{driver_dob}}",
+          ""
+        ],
+        [
+          "Driver Address",
+          "{{driver_address}}",
+          ""
+        ],
+        [
+          "Driver Phone",
+          "{{driver_phone}}",
+          ""
+        ],
+        [
+          "Driver Email",
+          "{{driver_email}}",
+          ""
+        ],
+        [
+          "Motor Carrier / Company",
+          "_____________________________",
+          "{{company_date}}"
+        ],
+        [
+          "Authorized Signature",
+          "{{company_rep_name}}",
+          ""
+        ],
+        [
+          "Title",
+          "{{company_rep_title}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

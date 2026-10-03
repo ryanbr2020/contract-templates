@@ -1,0 +1,423 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "LIVERY / CHAUFFEUR / CAR SERVICE AGREEMENT",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "LIVERY / CHAUFFEUR / CAR SERVICE AGREEMENT",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Livery Services Agreement is entered into on {{agreement_date}} between {{company_name}} (\"Company\") and {{client_name}} (\"Client\"). Company agrees to provide livery/chauffeur car services to Client, and Client agrees to engage Company for such services, under the following terms and conditions.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "SERVICES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Company will provide the following services to Client:",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Service",
+        "Description",
+        "Vehicle Type",
+        "Rate / Fee"
+      ],
+      "rows": [
+        [
+          "Airport Transfer",
+          "Pickup and delivery to/from {{airport_name}} and {{airport_location}}",
+          "{{airport_vehicle}}",
+          "{{airport_rate}}"
+        ],
+        [
+          "Corporate / Business Travel",
+          "Transportation for business meetings, conferences, events",
+          "{{business_vehicle}}",
+          "{{business_rate}}"
+        ],
+        [
+          "Special Events (Weddings, Parties, etc.)",
+          "Transportation for weddings, parties, galas, and other special events",
+          "{{event_vehicle}}",
+          "{{event_rate}}"
+        ],
+        [
+          "Hourly Charter",
+          "Vehicle and chauffeur available for an agreed number of hours for any lawful purpose",
+          "{{hourly_vehicle}}",
+          "{{hourly_rate}} per hour"
+        ],
+        [
+          "Point-to-Point",
+          "One-way transportation between two locations",
+          "{{point_to_point_vehicle}}",
+          "{{point_to_point_rate}} per trip"
+        ],
+        [
+          "Regular Commute / Scheduled Service",
+          "Regular, recurring transportation service on an agreed schedule",
+          "{{commute_vehicle}}",
+          "{{commute_rate}} per trip"
+        ],
+        [
+          "Other: {{other_service}}",
+          "{{other_service_description}}",
+          "{{other_service_vehicle}}",
+          "{{other_service_rate}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "ENGAGEMENT AND BOOKING",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Booking Method",
+          "{{booking_method}} (Phone / Email / Online booking system / App / Other)"
+        ],
+        [
+          "Reservation Lead Time",
+          "{{lead_time}} (minimum hours/days before service)"
+        ],
+        [
+          "Cancellation Policy",
+          "{{cancellation_policy}} (Full refund if cancelled more than {{cancel_window}} hours before scheduled service; {{cancellation_fee}} if within {{cancel_window}} hours)"
+        ],
+        [
+          "Wait Time Policy",
+          "{{wait_time_policy}} (Complimentary wait time: {{complimentary_wait}} minutes; additional wait time charged at {{wait_time_rate}} per minute)"
+        ],
+        [
+          "Flight / Schedule Monitoring",
+          "{{flight_monitoring}} (Yes \u2014 Company monitors flight arrival/departure times / No \u2014 Renter must notify Company of delays)"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "VEHICLE AND CHAUFFEUR",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Company will provide a professional chauffeur and a clean, well-maintained vehicle appropriate for the service requested. Vehicle and chauffeur specifications:",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Vehicle Make/Model/Year",
+          "{{vehicle_make}} {{vehicle_model}} {{vehicle_year}}"
+        ],
+        [
+          "Vehicle License Plate",
+          "{{license_plate}}"
+        ],
+        [
+          "Vehicle Color",
+          "{{vehicle_color}}"
+        ],
+        [
+          "Vehicle Capacity (persons)",
+          "{{vehicle_capacity}} persons"
+        ],
+        [
+          "Vehicle Amenities",
+          "{{vehicle_amenities}} (Wi-Fi / Water / Phone charger / Refreshments / Newspapers / Other)"
+        ],
+        [
+          "Chauffeur Name",
+          "{{chauffeur_name}}"
+        ],
+        [
+          "Chauffeur License",
+          "{{chauffeur_license}} (Valid driver's license, chauffeur license, livery endorsement, etc.)"
+        ],
+        [
+          "Chauffeur Experience",
+          "{{chauffeur_experience}} years"
+        ],
+        [
+          "Chauffeur Rating",
+          "{{chauffeur_rating}} / 5 (if available)"
+        ],
+        [
+          "Other: {{other_spec}}",
+          "{{other_spec_details}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "CHAUFFEUR CONDUCT AND RESPONSIBILITIES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Chauffeur will arrive on time and will wait for Client at the agreed pickup location and time.",
+        "Chauffeur will be professionally dressed ({{chauffeur_dress_code}} \u2014 e.g., business attire, uniform, suit, etc.).",
+        "Chauffeur will be courteous, professional, and helpful at all times.",
+        "Chauffeur will assist Client with loading and unloading luggage, packages, and other items (up to {{luggage_help_limit}} lbs per item).",
+        "Chauffeur will not consume alcohol, tobacco, or any impairing substance while on duty.",
+        "Chauffeur will not use a mobile phone for personal purposes while driving.",
+        "Chauffeur will follow all traffic laws and drive safely and responsibly.",
+        "Chauffeur will respect Client's privacy and will not make personal calls or visits to Client's home, office, or other locations without Client's consent.",
+        "Chauffeur will not make any unscheduled stops without Client's consent.",
+        "Chauffeur will provide a receipt for each trip/service upon request.",
+        "{{chauffeur_conduct_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "CLIENT RESPONSIBILITIES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Client must provide accurate pickup and drop-off addresses, times, and any special instructions at the time of booking.",
+        "Client must be ready at the agreed pickup time. Client is responsible for any delays caused by Client's failure to be ready.",
+        "Client must provide clear access to the pickup and drop-off locations (e.g., building entry instructions, parking instructions, security procedures).",
+        "Client must not ask the chauffeur to perform any illegal, unsafe, or inappropriate acts.",
+        "Client must not consume alcohol, drugs, or any impairing substance to a degree that makes the chauffeur uncomfortable or that violates the law.",
+        "Client must not smoke, vape, or have open containers of alcohol in the vehicle.",
+        "Client must not exceed the vehicle's passenger capacity.",
+        "Client is responsible for damage caused by Client, Client's guests, or Client's property to the vehicle.",
+        "Client is responsible for any fines, tickets, or penalties incurred during the service.",
+        "Client must pay all agreed fees plus any additional charges (extra stops, extended hours, tolls, parking, tips, etc.) at the end of the service.",
+        "{{client_responsibilities_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "PRICING, PAYMENT, AND TIPS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Rates",
+          "{{rates}} (Hourly rate: {{hourly_rate}} / Point-to-point rate: {{point_to_point_rate}} / Airport rate: {{airport_rate}} / Special event rate: {{event_rate}} / Other: {{other_rate}})"
+        ],
+        [
+          "Payment Methods",
+          "{{payment_methods}} (Credit card / Cash / Check / Other)"
+        ],
+        [
+          "Payment Due",
+          "{{payment_due}} (At the end of each trip / In advance / Per invoice / Other)"
+        ],
+        [
+          "Additional Charges",
+          "{{additional_charges}} (Tolls: {{tolls_policy}} / Parking: {{parking_policy}} / Airport fees: {{airport_fees_policy}} / Traffic congestion fees: {{congestion_fee_policy}} / Cleaning fees: {{cleaning_fee_policy}} / Other: {{other_charges}})"
+        ],
+        [
+          "Gratuity / Tip",
+          "{{gratuity_policy}} (Gratuity of {{gratuity_percentage}}% included in the rate / Gratuity not included \u2014 discretionary / Other)"
+        ],
+        [
+          "Billing for Corporate Clients",
+          "{{corporate_billing}} (Net-30 / Net-15 / Upon receipt / Other \u2014 Invoice address: {{invoice_address}})"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "INSURANCE AND LIABILITY",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Company maintains commercial auto liability insurance with limits of {{insurance_limits}} and commercial general liability insurance with limits of {{general_liability_limits}}. Company's insurance is primary for claims arising from the provision of services by Company or its chauffeurs.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Client is responsible for their own personal property and for any damage caused by Client or Client's guests to the vehicle or to third parties.",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Insurance Type",
+        "Carrier",
+        "Policy #",
+        "Limits"
+      ],
+      "rows": [
+        [
+          "Commercial Auto Liability",
+          "{{auto_liability_carrier}}",
+          "{{auto_liability_policy}}",
+          "{{auto_liability_limits}}"
+        ],
+        [
+          "Commercial General Liability",
+          "{{general_liability_carrier}}",
+          "{{general_liability_policy}}",
+          "{{general_liability_limits}}"
+        ],
+        [
+          "Workers' Compensation",
+          "{{workers_comp_carrier}}",
+          "{{workers_comp_policy}}",
+          "{{workers_comp_limits}}"
+        ],
+        [
+          "Other: {{other_insurance_type}}",
+          "{{other_insurance_carrier}}",
+          "{{other_insurance_policy}}",
+          "{{other_insurance_limits}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "INDEMNIFICATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Client agrees to indemnify, defend, and hold harmless Company, its owners, officers, employees, and agents from and against any claims, damages, losses, liabilities, fines, penalties, costs, and expenses (including reasonable attorneys' fees) arising out of or related to: (a) Client's use of the services; (b) Client's acts or omissions; (c) Client's guests' acts or omissions; (d) Client's property; or (e) any breach by Client of this Agreement.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "TERMINATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Either party may terminate this Agreement at any time upon {{termination_notice}} hours/days written notice. Company may terminate or suspend services immediately for any breach of this Agreement by Client, including but not limited to: non-payment, abusive behavior toward chauffeur or Company staff, illegal conduct, or any conduct that causes safety concerns.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Company",
+          "_____________________________",
+          "{{company_date}}"
+        ],
+        [
+          "Authorized Signature",
+          "{{company_rep_name}}",
+          ""
+        ],
+        [
+          "Title",
+          "{{company_rep_title}}",
+          ""
+        ],
+        [
+          "Client",
+          "_____________________________",
+          "{{client_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{client_name}}",
+          ""
+        ],
+        [
+          "Client Phone",
+          "{{client_phone}}",
+          ""
+        ],
+        [
+          "Client Email",
+          "{{client_email}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

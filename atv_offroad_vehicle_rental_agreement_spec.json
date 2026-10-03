@@ -1,0 +1,253 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "ATV / OFF-ROAD VEHICLE RENTAL AGREEMENT",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "ATV / OFF-ROAD VEHICLE RENTAL AGREEMENT",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This ATV / Off-Road Vehicle Rental Agreement is entered into on {{agreement_date}} between {{owner_name}} (\"Owner\") and {{renter_name}} (\"Renter\"). Owner agrees to rent to Renter, and Renter agrees to rent from Owner, the following off-road vehicle:",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Vehicle Make/Model/Year",
+          "{{vehicle_make}} {{vehicle_model}} {{vehicle_year}}"
+        ],
+        [
+          "VIN / Serial Number",
+          "{{vehicle_vin}}"
+        ],
+        [
+          "Vehicle Type",
+          "{{vehicle_type}} (ATV / UTV / Side-by-Side / Dirt Bike / Off-Road Motorcycle / Go-Kart / 4-Wheeler / Other)"
+        ],
+        [
+          "Engine / CC",
+          "{{engine_cc}} cc"
+        ],
+        [
+          "Passenger Capacity",
+          "{{passenger_capacity}} person(s)"
+        ],
+        [
+          "Safety Gear Included?",
+          "{{safety_gear_included}} (Yes / No \u2014 Gear provided: {{safety_gear_provided}})"
+        ],
+        [
+          "Acceptance of Agreement",
+          "By signing below, both parties agree to all terms and conditions of this ATV / Off-Road Vehicle Rental Agreement."
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "RENTAL PERIOD",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Rental Start Date/Time",
+          "{{rental_start_date}} at {{rental_start_time}}"
+        ],
+        [
+          "Rental End Date/Time",
+          "{{rental_end_date}} at {{rental_end_time}}"
+        ],
+        [
+          "Pickup Location",
+          "{{pickup_location}}"
+        ],
+        [
+          "Designated Riding Area",
+          "{{riding_area}} (Owner-designated trail / Off-road park / Renter's own property / Other \u2014 details: {{riding_area_details}})"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "RENTER RESPONSIBILITIES AND RULES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Renter must have a valid driver's license and any required off-road vehicle license or safety certificate required by state law.",
+        "Renter must be at least {{minimum_age}} years old and must complete a safety orientation/briefing provided by Owner before operating the Vehicle.",
+        "Renter must wear a DOT-approved helmet, eye protection, gloves, sturdy boots, and other protective gear at all times while operating the Vehicle.",
+        "Renter must not operate the Vehicle while intoxicated, under the influence of drugs or alcohol, or otherwise impaired.",
+        "Renter is responsible for the Vehicle from the time of pickup until return, including all damage, loss, theft, fines, tickets, and accidents.",
+        "Renter must not operate the Vehicle outside of the designated riding area or {{allowed_geographic_area}} without Owner's written consent.",
+        "Renter must not operate the Vehicle on public roads, highways, or paved surfaces unless the Vehicle is street-legal and Renter has the required license and registration.",
+        "Renter must not allow any person not listed on the agreement or not briefed by Owner to operate the Vehicle.",
+        "Renter must not carry passengers unless the Vehicle is designed and equipped for passenger carriage and the passenger area is equipped with seat belts or restraints.",
+        "Renter must follow all safety guidelines, manufacturer instructions, and applicable laws.",
+        "Renter must not operate the Vehicle in a reckless, careless, or dangerous manner.",
+        "Renter must not modify, tamper with, or remove any equipment, safety devices, or parts of the Vehicle.",
+        "Renter must report any accidents, incidents, injury, near-miss, or mechanical issues to Owner immediately.",
+        "Renter assumes all risks associated with off-road vehicle operation, including but not limited to: injury, death, property damage, and environmental damage.",
+        "{{renter_rules_atv_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "INHERENT RISKS ACKNOWLEDGMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Renter acknowledges and agrees that operating an ATV / off-road vehicle involves inherent risks, including but not limited to:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The risk of injury, paralysis, or death from crashes, rollovers, falls, collisions, or other accidents.",
+        "The risk of injury from operating on uneven, unstable, slippery, steep, or rough terrain.",
+        "The risk of injury from operating near obstacles, trees, rocks, water, cliffs, or other hazards.",
+        "The risk of mechanical failure or malfunction.",
+        "The risk of inclement weather, changing conditions, and environmental hazards.",
+        "The risk that the Vehicle may be damaged, destroyed, or stolen.",
+        "Renter voluntarily assumes all such risks and agrees that Owner is not liable for any injury, death, damage, or loss arising from or related to Renter's use of the Vehicle, except to the extent caused by Owner's gross negligence or willful misconduct."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "INSURANCE AND DAMAGE WAIVER",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Option",
+        "Coverage",
+        "Cost",
+        "Deductible"
+      ],
+      "rows": [
+        [
+          "Option 1 \u2014 Renter's Own Insurance",
+          "Renter uses their own insurance (if available for off-road vehicles). Renter is responsible for deductible and any amounts not covered.",
+          "$0",
+          "{{renter_own_deductible}}"
+        ],
+        [
+          "Option 2 \u2014 Damage Waiver (CDW/LDW)",
+          "Covers damage to the Vehicle from collision, rollover, or theft, subject to exclusions.",
+          "{{cdw_cost}}",
+          "{{cdw_deductible}}"
+        ],
+        [
+          "Option 3 \u2014 No Coverage",
+          "Renter is fully responsible for all damage, loss, theft, and liability.",
+          "$0",
+          "Full amount"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Renter",
+          "_____________________________",
+          "{{renter_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{renter_name}}",
+          ""
+        ],
+        [
+          "Renter Phone",
+          "{{renter_phone}}",
+          ""
+        ],
+        [
+          "Renter Email",
+          "{{renter_email}}",
+          ""
+        ],
+        [
+          "Owner / Agent",
+          "_____________________________",
+          "{{owner_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{owner_name}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

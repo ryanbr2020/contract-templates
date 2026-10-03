@@ -1,0 +1,344 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "CARGO / FREIGHT TRANSPORTATION AGREEMENT",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "CARGO / FREIGHT TRANSPORTATION AGREEMENT",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Cargo Transportation Agreement (\"Agreement\") is entered into on {{agreement_date}} between {{carrier_name}} (\"Carrier\" / \"Transportation Provider\") and {{shipper_name}} (\"Shipper\" / \"Customer\"). Carrier agrees to transport cargo for Shipper, and Shipper agrees to engage Carrier for such transportation, under the following terms and conditions.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "SHIPMENT DETAILS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Shipment Description",
+          "{{shipment_description}} (Type of cargo, quantity, packaging, special handling requirements)"
+        ],
+        [
+          "Cargo Type / Commodity",
+          "{{cargo_type}} (General freight / Refrigerated / Hazmat / Oversized / Perishable / High-value / Other)"
+        ],
+        [
+          "Hazmat Class / UN Number (if applicable)",
+          "{{hazmat_class}} \u2014 UN Number: {{hazmat_un_number}} \u2014 Proper Shipping Name: {{hazmat_proper_shipping_name}}"
+        ],
+        [
+          "Package Type",
+          "{{package_type}} (Pallets / Boxes / Crates / Containers / Bulk / Other)"
+        ],
+        [
+          "Number of Packages",
+          "{{package_count}}"
+        ],
+        [
+          "Total Weight",
+          "{{total_weight}} lbs / kg"
+        ],
+        [
+          "Total Volume",
+          "{{total_volume}} cubic feet / cubic meters"
+        ],
+        [
+          "Piece Count",
+          "{{piece_count}} pieces"
+        ],
+        [
+          "Special Handling Requirements",
+          "{{special_handling}} (Fragile / High-value / Temperature-controlled / No-stack / Securement requirements / Other)"
+        ],
+        [
+          "Declared Value",
+          "{{declared_value}} (for insurance / liability purposes)"
+        ],
+        [
+          "Pickup Location",
+          "{{pickup_location}} (Address: {{pickup_address}})"
+        ],
+        [
+          "Pickup Date/Time",
+          "{{pickup_date}} at {{pickup_time}} (Window: {{pickup_window}})"
+        ],
+        [
+          "Delivery Location",
+          "{{delivery_location}} (Address: {{delivery_address}})"
+        ],
+        [
+          "Delivery Date/Time",
+          "{{delivery_date}} at {{delivery_time}} (Window: {{delivery_window}})"
+        ],
+        [
+          "Delivery Requirements",
+          "{{delivery_requirements}} (Liftgate required / Inside delivery / Unloading required / Appointment required / Other)"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "CARRIER RESPONSIBILITIES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Carrier will transport the cargo from the pickup location to the delivery location in a safe, timely, and professional manner.",
+        "Carrier will use vehicles and equipment that are appropriate for the cargo and in good working condition.",
+        "Carrier will comply with all federal, state, and local laws and regulations applicable to the transportation of the cargo, including but not limited to FMCSRs, hours of service regulations, cargo securement regulations, and any Hazmat transportation regulations.",
+        "Carrier will properly and securely load, strap, block, brace, and protect the cargo in accordance with 49 CFR Part 393, Subpart I (cargo securement) and any other applicable regulations.",
+        "Carrier will not load or transport any cargo that is prohibited by law, that is improperly packaged, or that presents a safety hazard.",
+        "Carrier will not make any unauthorized stops, detours, or changes to the route without Shipper's consent.",
+        "Carrier will provide a Bill of Lading (BOL) or other shipping document for the shipment and will obtain Shipper's signature or acknowledgment at pickup and delivery.",
+        "Carrier will inspect the cargo at pickup for visible damage, improper packaging, or other issues and will note any such issues on the BOL.",
+        "Carrier will not knowingly accept or transport cargo that has been damaged, is leaking, is improperly packaged, or poses any safety or security risk.",
+        "Carrier will maintain the confidentiality and security of the cargo and will not disclose the contents or nature of the cargo to any unauthorized person.",
+        "Carrier will notify Shipper immediately of any delays, accidents, incidents, damage, mechanical issues, or other events that may affect the shipment.",
+        "{{carrier_responsibilities_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "SHIPPER RESPONSIBILITIES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Shipper must provide accurate and complete information about the cargo at the time of booking and at pickup.",
+        "Shipper must properly package, label, and prepare the cargo for transportation. Cargo must be packaged in a manner that is safe, secure, and appropriate for the type of cargo and the mode of transportation.",
+        "Shipper must provide all required documentation for the cargo, including but not limited to: Bill of Lading, hazardous materials shipping papers (if applicable), certificates of insurance, permits, and any other required documents.",
+        "Shipper must accurately describe the cargo, including weight, dimensions, quantity, and any special handling requirements.",
+        "Shipper must properly declare any hazardous materials in accordance with 49 CFR Parts 171-180, including proper classification, packaging, labeling, marking, and documentation.",
+        "Shipper is responsible for any inaccuracy in the cargo description or any failure to properly prepare the cargo for transportation.",
+        "Shipper must have the cargo ready and available at the pickup location at the agreed pickup time or within the pickup window.",
+        "Shipper must ensure that the pickup and delivery locations are accessible (e.g., loading dock, door, parking, security procedures) and that any required equipment (forklift, pallet jack, liftgate) is available.",
+        "Shipper is responsible for any damage to the cargo caused by improper packaging, improper loading, or failure to comply with Shipper's obligations under this Agreement.",
+        "Shipper must pay all agreed fees plus any additional charges (fuel surcharges, detention, layover, special handling, etc.) in accordance with the payment terms.",
+        "Shipper is responsible for the accuracy and completeness of all shipping documents provided to Carrier.",
+        "{{shipper_responsibilities_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "BILLING AND PAYMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Base Rate",
+          "{{base_rate}} (Flat rate / Per mile / Per load / Percentage of declared value / Other)"
+        ],
+        [
+          "Fuel Surcharge",
+          "{{fuel_surcharge}} (Percentage of base rate / Per-mile surcharge / Other \u2014 based on national or regional fuel price index)"
+        ],
+        [
+          "Additional Charges",
+          "{{additional_charges}} (Detention: {{detention_rate}} per hour after {{detention_free_hours}} hours / Layover: {{layover_rate}} per day / Liftgate: {{liftgate_rate}} / Inside delivery: {{inside_delivery_rate}} / Unloading: {{unloading_rate}} / Waiting time: {{waiting_rate}} / Other: {{other_charges}})"
+        ],
+        [
+          "Total Estimated Cost",
+          "{{total_estimated_cost}}"
+        ],
+        [
+          "Actual Cost (if different)",
+          "{{actual_cost}} (if actual cost differs from estimated, Carrier will provide an adjusted invoice)"
+        ],
+        [
+          "Payment Terms",
+          "{{payment_terms}} (Due on receipt / Net-15 / Net-30 / Other)"
+        ],
+        [
+          "Payment Method",
+          "{{payment_method}} (Credit card / ACH / Check / Invoice / Other)"
+        ],
+        [
+          "Freight Collect (if applicable)",
+          "{{freight_collect}} (Yes \u2014 Shipper pays at delivery / No \u2014 Shipper pays Carrier directly)"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "LIABILITY AND INSURANCE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Carrier's liability for loss or damage to the cargo is limited to the following, unless otherwise agreed in writing:",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Liability Category",
+        "Limitation"
+      ],
+      "rows": [
+        [
+          "Liability per pound/kg",
+          "{{liability_per_lb}} per pound (${{liability_per_lb_val}} / ${{liability_per_kg_val}} per kg) \u2014 per 49 CFR Part 375 or other applicable regulation"
+        ],
+        [
+          "Liability per package / shipment",
+          "{{liability_per_package}} per package or shipment (maximum: {{max_liability}} )"
+        ],
+        [
+          "Declared value coverage",
+          "If Shipper declares a value of {{declared_value}} and pays the required additional charge, Carrier's liability will be up to the declared value (less any deductible)."
+        ],
+        [
+          "Exclusions from liability",
+          "Carrier is not liable for: (a) damage caused by acts of God, weather, or natural disasters; (b) inherent vice or nature of the cargo (e.g., spoilage, leakage, deterioration); (c) improper packaging by Shipper; (d) incorrect weight or dimensions provided by Shipper; (e) lateness or failure to deliver due to causes beyond Carrier's control (force majeure); (f) war, terrorism, civil unrest, or government action; (g) driver's compliance with a law enforcement order."
+        ],
+        [
+          "Cargo insurance (if purchased by Carrier)",
+          "{{cargo_insurance_info}} (Carrier maintains cargo insurance with limits of {{cargo_insurance_limits}} \u2014 Carrier: {{cargo_insurance_carrier}} \u2014 Policy: {{cargo_insurance_policy}})"
+        ],
+        [
+          "Shipper's insurance",
+          "Shipper is encouraged to maintain its own cargo insurance for full coverage of the declared value. Carrier's liability is limited as stated above unless Shipper purchases declared value coverage."
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "BILL OF LADING",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "A Bill of Lading (BOL) will be issued for each shipment. The BOL will contain:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Shipper's name, address, and contact information.",
+        "Carrier's name, address, and contact information.",
+        "Pickup location and date/time.",
+        "Delivery location and date/time.",
+        "Description of the cargo (type, quantity, weight, packaging).",
+        "Number of packages and any special handling instructions.",
+        "Any visible damage or discrepancies noted at pickup.",
+        "Proof of delivery (signature of recipient at delivery).",
+        "Any exceptions, delays, or other notes.",
+        "{{bol_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Carrier",
+          "_____________________________",
+          "{{carrier_date}}"
+        ],
+        [
+          "Authorized Signature",
+          "{{carrier_rep_name}}",
+          ""
+        ],
+        [
+          "Title",
+          "{{carrier_rep_title}}",
+          ""
+        ],
+        [
+          "Shipper",
+          "_____________________________",
+          "{{shipper_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{shipper_name}}",
+          ""
+        ],
+        [
+          "Shipper Phone",
+          "{{shipper_phone}}",
+          ""
+        ],
+        [
+          "Shipper Email",
+          "{{shipper_email}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

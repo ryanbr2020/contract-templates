@@ -1,0 +1,248 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "DOT DRUG AND ALCOHOL TESTING PROGRAM \u2014 CONSENT AND ACKNOWLEDGMENT",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "DOT DRUG AND ALCOHOL TESTING PROGRAM \u2014 CONSENT AND ACKNOWLEDGMENT",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Drug and Alcohol Testing Consent and Acknowledgment is part of the {{carrier_name}} (\"Company\") employment/contractor agreement with {{driver_name}} (\"Driver\"), dated {{agreement_date}}. This document is provided in accordance with 49 CFR Part 382 \u2014 Controlled Substances and Alcohol Use and Testing.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "DRIVER CONSENT TO TESTING",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Driver consents and agrees to the following:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Driver consents to participate in Company's drug and alcohol testing program as required by 49 CFR Part 382.",
+        "Driver consents to provide samples for drug and alcohol testing at any time as required by Company's testing program, including pre-employment, random, reasonable suspicion, post-accident, return-to-duty, and follow-up testing.",
+        "Driver acknowledges that refusal to submit to any required test will be treated as a positive test result and will result in Driver's immediate removal from safety-sensitive functions and may result in termination of employment or contract.",
+        "Driver consents to the release of test results to Company and to any other entity as required by law or regulation.",
+        "Driver consents to Company contacting the Substance Abuse Professional (SAP), Medical Review Officer (MRO), and any other relevant parties regarding Driver's test results and any required evaluations or treatment.",
+        "Driver consents to Company maintaining records of all test results, as required by 49 CFR Part 40 and 382.",
+        "Driver acknowledges that Company maintains a drug and alcohol testing program and that Driver's test results will be kept in a confidential manner, as required by law.",
+        "{{consent_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "ALCOHOL PROHIBITIONS \u2014 DRIVER ACKNOWLEDGMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Driver acknowledges and understands the following alcohol prohibitions under 49 CFR Part 382:",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Prohibition",
+        "Explanation"
+      ],
+      "rows": [
+        [
+          "No alcohol use within 4 hours of going on duty",
+          "Driver must not use alcohol within 4 hours of going on duty. This includes alcohol in any form (beer, wine, liquor, etc.)."
+        ],
+        [
+          "No alcohol use while performing safety-sensitive functions",
+          "Driver must not use alcohol while performing safety-sensitive functions or during the 4-hour period before performing such functions."
+        ],
+        [
+          "No alcohol concentration of 0.04% or greater",
+          "Driver must not perform safety-sensitive functions if Driver's alcohol concentration is 0.04% or greater (as measured by an alcohol test). This is the federal standard for commercial drivers."
+        ],
+        [
+          "No use of alcohol while on duty",
+          "Driver must not use alcohol at any time while on duty, performing safety-sensitive functions, or while in the CMV."
+        ],
+        [
+          "No presence of alcohol in the CMV",
+          "Driver must not have any alcohol (open or closed containers) in the CMV while performing safety-sensitive functions."
+        ],
+        [
+          "Reporting alcohol-related convictions or disciplinary actions",
+          "Driver must report any conviction for driving under the influence of alcohol or any disciplinary action related to alcohol use to Company within 3 business days."
+        ],
+        [
+          "Consequences of violation",
+          "Violation of any alcohol prohibition will result in Driver's immediate removal from safety-sensitive functions (for at least 24 hours) and may result in further action up to and including termination of employment or contract, as well as referral to a SAP for evaluation and treatment."
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "CONTROLLED SUBSTANCES PROHIBITIONS \u2014 DRIVER ACKNOWLEDGMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Driver acknowledges and understands the following controlled substances prohibitions under 49 CFR Part 382:",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Prohibition",
+        "Explanation"
+      ],
+      "rows": [
+        [
+          "No use of any illegal drug",
+          "Driver must not use any Schedule I controlled substance (as defined in 21 CFR 1708). This includes marijuana (even if legal under state law \u2014 federal law prohibits its use by safety-sensitive drivers)."
+        ],
+        [
+          "No misuse of prescribed controlled substances",
+          "Driver must not misuse any prescribed controlled substance (e.g., taking more than prescribed, taking someone else's prescription, using a prescription not prescribed to Driver)."
+        ],
+        [
+          "No use of any drug that impairs ability to drive safely",
+          "Driver must not use any drug (prescribed or over-the-counter) that may impair Driver's ability to safely operate a CMV. Driver must consult with Company or a medical professional if unsure about any medication."
+        ],
+        [
+          "No positive drug test",
+          "Driver must not perform safety-sensitive functions if Driver has tested positive for any prohibited drug (as defined by the DOT 5-panel or more drug test)."
+        ],
+        [
+          "Reporting drug-related convictions or disciplinary actions",
+          "Driver must report any conviction for a drug-related offense or any disciplinary action related to drug use to Company within 3 business days."
+        ],
+        [
+          "Consequences of violation",
+          "Violation of any controlled substances prohibition will result in Driver's immediate removal from safety-sensitive functions and referral to a SAP for evaluation and treatment. Driver may not return to safety-sensitive functions until completing the SAP's requirements and passing a return-to-duty drug test."
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "DRIVER ACKNOWLEDGMENT OF COMPANY POLICY",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Driver acknowledges that they have received, read, and understood Company's drug and alcohol testing policy and that they have had the opportunity to ask questions about the policy. Driver acknowledges that they understand the consequences of violating the alcohol and drug prohibitions and the testing program requirements.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Driver further acknowledges that they will comply with all requirements of Company's drug and alcohol testing program and all applicable federal and state laws.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "SAP EVALUATION AND FOLLOW-UP \u2014 ACKNOWLEDGMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "If Driver is found to have violated the alcohol or drug prohibitions, Driver may be required to be evaluated by a Substance Abuse Professional (SAP) and to complete any education, training, or treatment recommended by the SAP. Driver must complete the SAP's requirements and pass a return-to-duty test before returning to safety-sensitive functions. Driver must also complete any follow-up testing as determined by the SAP (at least 6 tests in the first 12 months after return to duty, and possibly longer).",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Driver acknowledges that failure to comply with SAP requirements or follow-up testing may result in termination of employment or contract and will prevent Driver from returning to safety-sensitive functions.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Driver",
+          "_____________________________",
+          "{{driver_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{driver_name}}",
+          ""
+        ],
+        [
+          "Date of Birth",
+          "{{driver_dob}}",
+          ""
+        ],
+        [
+          "Company Representative",
+          "_____________________________",
+          "{{company_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{company_rep_name}}",
+          ""
+        ],
+        [
+          "Title",
+          "{{company_rep_title}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

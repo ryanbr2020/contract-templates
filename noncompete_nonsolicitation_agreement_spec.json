@@ -1,0 +1,265 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "NON-COMPETE AND NON-SOLICITATION AGREEMENT \u2014 VEHICLE / TRANSPORTATION SECTOR",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "NON-COMPETE AND NON-SOLICITATION AGREEMENT \u2014 VEHICLE / TRANSPORTATION SECTOR",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Non-Compete and Non-Solicitation Agreement (\"Agreement\") is entered into on {{agreement_date}} between {{company_name}} (\"Company\") and {{individual_name}} (\"Individual\").",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Company and Individual acknowledge that Company has an interest in protecting its legitimate business interests, including its customer relationships, confidential information, goodwill, and trade secrets.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "DEFINITIONS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Term",
+        "Definition"
+      ],
+      "rows": [
+        [
+          "Competitive Business",
+          "{{competitive_business}} (Any business engaged in: (a) vehicle rental, car sharing, ride-share, livery, taxi, chauffeur, or other passenger transportation services; (b) vehicle sales, leasing, or financing; (c) vehicle maintenance, repair, or service; (d) vehicle towing, storage, or impound; (e) cargo/freight transportation; (f) fleet management; (g) motor carrier or DOT-regulated transportation; (h) RV, boat, motorcycle, ATV, or other recreational vehicle rental; or (i) any other vehicle-related or transportation-related business that competes with Company's business.)"
+        ],
+        [
+          "Competitive Activities",
+          "{{competitive_activities}} (Any work, employment, consulting, ownership, investment, or involvement with a Competitive Business, including but not limited to: driving for, working for, consulting for, owning, investing in, or otherwise participating in a Competitive Business in any capacity.)"
+        ],
+        [
+          "Restricted Area",
+          "{{restricted_area}} (County/ies: {{restricted_counties}} / State(s): {{restricted_states}} / Radius: {{restricted_radius}} miles from any Company location / Other: {{restricted_other}})"
+        ],
+        [
+          "Restricted Period",
+          "{{restricted_period}} (The {{restricted_period_length}} months/years following the end of Individual's employment or engagement with Company \u2014 starting on {{restricted_period_start}})"
+        ],
+        [
+          "Company Customers",
+          "{{company_customers}} (Any person, business, or entity that has been a customer, client, or user of Company's services within the {{customer_lookback_period}} months/years prior to the end of Individual's employment or engagement.)"
+        ],
+        [
+          "Confidential Information",
+          "{{confidential_info}} (Any non-public information, data, or materials relating to Company's business, including but not limited to: customer lists, pricing, rates, fees, discounts, terms, vehicle inventories, maintenance records, driver/employee information, insurance information, business plans, strategies, procedures, software, systems, financial information, and any other information that is confidential or proprietary to Company.)"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "NON-COMPETE COVENANT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "During the Restricted Period, Individual agrees not to engage in Competitive Activities within the Restricted Area. This means that Individual will not:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Work for, be employed by, consult for, or provide services to any Competitive Business within the Restricted Area.",
+        "Own, invest in, manage, operate, or participate in any Competitive Business within the Restricted Area.",
+        "Solicit, recruit, or hire any employee, driver, contractor, or other worker of Company to work for a Competitive Business.",
+        "{{noncompete_covenant_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "NON-SOLICITATION COVENANT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "During the Restricted Period, Individual agrees not to:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Solicit, divert, or take away any Company Customer for the purpose of providing services to that Customer through a Competitive Business or otherwise.",
+        "Solicit, encourage, or induce any Company Customer to terminate, reduce, or change their relationship with Company.",
+        "Solicit, contact, or communicate with any Company Customer for the purpose of competing with Company, unless the Customer initiates the contact and the contact is not in furtherance of a Competitive Business.",
+        "Use or disclose any Confidential Information of Company for the benefit of a Competitive Business or for any purpose other than the continued operation of Company (if Individual is still employed or engaged by Company).",
+        "{{nonsolicit_covenant_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "CONSIDERATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "In consideration for Individual's agreement to the restrictions in this Agreement, Company provides the following consideration:",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Consideration Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Initial consideration (at signing)",
+          "{{consideration_initial}} (Signing bonus / Employment / Engagement / Continued employment / Other \u2014 Amount: {{consideration_initial_amount}})"
+        ],
+        [
+          "Ongoing consideration",
+          "{{consideration_ongoing}} (Continued employment / Continued engagement / Other)"
+        ],
+        [
+          "Additional consideration (if applicable)",
+          "{{consideration_additional}} (Additional bonus / Stock / Equity / Other \u2014 Amount: {{consideration_additional_amount}})"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "ENFORCEABILITY",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "The parties acknowledge and agree that the restrictions in this Agreement are reasonable in scope, duration, and geography in order to protect Company's legitimate business interests. If any provision of this Agreement is found to be unenforceable, the remaining provisions will continue to be enforceable, and the unenforceable provision will be modified to the minimum extent necessary to make it enforceable.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "EASEMENT AND RELIEF",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "If Individual breaches this Agreement, Company may seek injunctive relief (a court order preventing or stopping the breach), damages, and any other remedies available at law or in equity, including but not limited to:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "A court order (injunction) prohibiting Individual from engaging in Competitive Activities or violating the non-solicitation covenant.",
+        "Monetary damages for any losses Company suffers as a result of Individual's breach.",
+        "Recovery of attorneys' fees and costs if Company prevails in enforcing this Agreement.",
+        "Any other remedies available to Company under the law.",
+        "{{easement_relief_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "GOVERNING LAW",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Agreement is governed by and construed in accordance with the laws of the State of {{governing_law_state}}, without regard to its conflicts of law principles. The parties agree to submit to the jurisdiction of the courts located in {{jurisdiction_courts}} for any disputes arising under this Agreement.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Company",
+          "_____________________________",
+          "{{company_date}}"
+        ],
+        [
+          "Authorized Signature",
+          "{{company_rep_name}}",
+          ""
+        ],
+        [
+          "Title",
+          "{{company_rep_title}}",
+          ""
+        ],
+        [
+          "Individual",
+          "_____________________________",
+          "{{individual_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{individual_name}}",
+          ""
+        ],
+        [
+          "Individual Phone",
+          "{{individual_phone}}",
+          ""
+        ],
+        [
+          "Individual Email",
+          "{{individual_email}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

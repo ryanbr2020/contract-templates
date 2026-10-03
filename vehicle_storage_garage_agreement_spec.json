@@ -1,0 +1,332 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "VEHICLE STORAGE / GARAGE AGREEMENT",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "VEHICLE STORAGE / GARAGE AGREEMENT",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Vehicle Storage Agreement is entered into on {{agreement_date}} between {{storage_facility_name}} (\"Facility\") and {{customer_name}} (\"Customer\"). Facility agrees to store Customer's Vehicle, and Customer agrees to pay for storage services, under the following terms and conditions.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "VEHICLE AND STORAGE INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Vehicle Make/Model/Year",
+          "{{vehicle_make}} {{vehicle_model}} {{vehicle_year}}"
+        ],
+        [
+          "VIN",
+          "{{vehicle_vin}}"
+        ],
+        [
+          "License Plate",
+          "{{license_plate}} \u2014 State: {{registration_state}}"
+        ],
+        [
+          "Vehicle Color",
+          "{{vehicle_color}}"
+        ],
+        [
+          "Odometer",
+          "{{odometer}} miles"
+        ],
+        [
+          "Storage Type",
+          "{{storage_type}} (Indoor garage / Covered parking / Outdoor lot / Driveway / Other)"
+        ],
+        [
+          "Storage Location",
+          "{{storage_location}} (Specific space/area: {{storage_space}})"
+        ],
+        [
+          "Storage Start Date",
+          "{{storage_start_date}}"
+        ],
+        [
+          "Storage End Date",
+          "{{storage_end_date}} (Open-ended / Fixed term \u2014 Estimated duration: {{storage_duration}})"
+        ],
+        [
+          "Reason for Storage",
+          "{{storage_reason}} (Long-term storage / Seasonal storage / Repair / Legal hold / Abandoned vehicle / Other)"
+        ],
+        [
+          "Customer Contact",
+          "{{customer_contact}} (Name: {{customer_name}} \u2014 Phone: {{customer_phone}} \u2014 Email: {{customer_email}})"
+        ],
+        [
+          "Alternate Contact",
+          "{{alternate_contact}} (Name: {{alternate_contact_name}} \u2014 Phone: {{alternate_contact_phone}} \u2014 Relationship: {{alternate_contact_relationship}})"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "STORAGE FEES AND PAYMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Monthly Storage Fee",
+          "{{monthly_fee}} per month"
+        ],
+        [
+          "Daily Rate (if applicable)",
+          "{{daily_rate}} per day"
+        ],
+        [
+          "Initial Payment Due",
+          "{{initial_payment_due}}"
+        ],
+        [
+          "Payment Due Date",
+          "{{payment_due_date}} (Monthly / Weekly / Daily)"
+        ],
+        [
+          "Payment Method",
+          "{{payment_method}} (Credit card on file / Cash / Check / Other \u2014 Card on file: {{card_last_four}})"
+        ],
+        [
+          "Late Fee",
+          "{{late_fee}} (if payment is not received by {{late_fee_grace_period}} days after due date)"
+        ],
+        [
+          "Additional Fees",
+          "{{additional_fees}} (Cleaning fee: {{cleaning_fee}} / Battery maintenance fee: {{battery_maintenance_fee}} / Tow-in fee: {{tow_in_fee}} / Lockout service: {{lockout_fee}})"
+        ],
+        [
+          "Total Estimated Charges",
+          "{{total_estimated_charges}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "CUSTOMER RESPONSIBILITIES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Customer is responsible for all storage fees as stated above.",
+        "Customer must provide accurate and complete Vehicle information and contact information.",
+        "Customer must maintain adequate insurance coverage on the Vehicle at all times during storage. Customer must provide proof of insurance to Facility upon request.",
+        "Customer must provide Facility with a current, valid registration for the Vehicle.",
+        "Customer must not store any personal belongings, cargo, or flammable/hazardous materials in or on the Vehicle (except for the Vehicle's standard equipment and any personal items that are securely stored and do not pose a fire or safety risk).",
+        "Customer must ensure the Vehicle is in a condition suitable for storage (e.g., adequate tire pressure, proper fluid levels, no leaks, no mechanical issues that could worsen during storage).",
+        "Customer is responsible for any damage to the Vehicle caused by improper preparation for storage or failure to maintain the Vehicle during storage.",
+        "Customer must not attempt to start, move, or operate the Vehicle while it is stored at Facility without Facility's prior written consent.",
+        "Customer must provide at least {{notice_of_removal}} hours/days notice before removing the Vehicle from storage.",
+        "Customer is responsible for any damage caused by unauthorized removal or attempted removal of the Vehicle.",
+        "Customer must pay all fees due before removing the Vehicle from storage.",
+        "{{customer_storage_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "FACILITY RESPONSIBILITIES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Facility will provide secure storage for the Vehicle at the storage location stated above.",
+        "Facility will maintain the storage area in a clean and reasonably safe condition.",
+        "Facility will not intentionally damage, deface, or misuse the Vehicle.",
+        "Facility will not start, move, or operate the Vehicle without Customer's prior written consent, except as necessary to protect the Vehicle or Facility (e.g., moving the Vehicle to protect it from a natural disaster or other emergency).",
+        "Facility will maintain the Vehicle's battery (if applicable) by starting the Vehicle periodically or using a battery maintainer/charger, if agreed by Customer and Facility.",
+        "Facility will check the Vehicle periodically for leaks, damage, or other issues and will notify Customer of any issues discovered.",
+        "Facility is not responsible for any mechanical or electrical failures of the Vehicle that occur during storage, except to the extent caused by Facility's negligence or willful misconduct.",
+        "Facility is not responsible for loss of or damage to personal belongings stored in or on the Vehicle.",
+        "{{facility_storage_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "VEHICLE CONDITION AT STORAGE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Facility and Customer jointly inspected the Vehicle at the time it was placed in storage. The Vehicle's condition at that time:",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Inspection Item",
+        "Condition",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "Exterior condition (body, paint, glass)",
+          "{{ext_condition}}",
+          "{{ext_notes}}"
+        ],
+        [
+          "Interior condition (seats, carpets, dash)",
+          "{{int_condition}}",
+          "{{int_notes}}"
+        ],
+        [
+          "Tires",
+          "{{tires_condition}}",
+          "{{tires_notes}}"
+        ],
+        [
+          "Battery",
+          "{{battery_condition}}",
+          "{{battery_notes}}"
+        ],
+        [
+          "Fluids (oil, coolant, brake fluid, etc.)",
+          "{{fluids_condition}}",
+          "{{fluids_notes}}"
+        ],
+        [
+          "Leaks",
+          "{{leaks_condition}}",
+          "{{leaks_notes}}"
+        ],
+        [
+          "Any existing damage or defects",
+          "{{existing_damage}} (None / Described below)",
+          "{{existing_damage_notes}}"
+        ],
+        [
+          "Photos taken",
+          "{{photos_taken}} (Yes / No \u2014 Photo reference: {{photo_reference}})",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "LIEN AND RIGHT TO SELL (IF APPLICABLE)",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "{{lien_notice}} (If Customer fails to pay storage fees for {{lien_period}} days, Facility may have a lien on the Vehicle and may be entitled to sell the Vehicle to satisfy the unpaid fees, as provided by state law. State lien law: {{state_lien_law}}. Facility will provide Customer with written notice of the lien sale, as required by law.)",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "DISPUTE RESOLUTION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Any disputes arising under this Agreement shall be resolved by {{dispute_resolution}} (Mediation / Arbitration / Small claims court / Other \u2014 Venue: {{dispute_venue}}).",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Customer",
+          "_____________________________",
+          "{{customer_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{customer_name}}",
+          ""
+        ],
+        [
+          "Facility Representative",
+          "_____________________________",
+          "{{facility_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{facility_rep_name}}",
+          ""
+        ],
+        [
+          "Title",
+          "{{facility_rep_title}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

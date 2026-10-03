@@ -1,0 +1,296 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "VEHICLE REPOSESSION AUTHORIZATION AND NOTICE",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "VEHICLE REPOSESSION AUTHORIZATION AND NOTICE",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Vehicle Repossession Authorization and Notice is issued by {{lender_name}} (\"Lender\") on {{notice_date}} to {{borrower_name}} (\"Borrower\") regarding Vehicle: {{vehicle_make}} {{vehicle_model}} {{vehicle_year}}, VIN: {{vehicle_vin}}, License Plate: {{license_plate}}.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This notice is issued in connection with the loan/financing agreement dated {{loan_agreement_date}} between Lender and Borrower (the \"Loan Agreement\").",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "DEFAULT INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Loan / Account Number",
+          "{{loan_account_number}}"
+        ],
+        [
+          "Original Loan Amount",
+          "{{original_loan_amount}}"
+        ],
+        [
+          "Current Balance Due",
+          "{{current_balance_due}} (as of {{balance_date}})"
+        ],
+        [
+          "Past Due Amount",
+          "{{past_due_amount}}"
+        ],
+        [
+          "Number of Payments Past Due",
+          "{{payments_past_due}} payments"
+        ],
+        [
+          "Date of First Default",
+          "{{first_default_date}}"
+        ],
+        [
+          "Date of This Notice",
+          "{{notice_date}}"
+        ],
+        [
+          "Default Reason",
+          "{{default_reason}} (Non-payment of installment(s) / Failure to maintain insurance / Failure to make required repairs / Other \u2014 details: {{default_details}})"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "RIGHT TO REPOSESSION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lender hereby notifies Borrower that, due to Borrower's default under the Loan Agreement, Lender has the right to take possession of the Vehicle (repossession) in accordance with the terms of the Loan Agreement and applicable state and federal laws.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lender's right to repossess the Vehicle is based on the following:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The Loan Agreement dated {{loan_agreement_date}}, which provides that Lender may take possession of the Vehicle upon Borrower's default.",
+        "Applicable state law governing repossession of motor vehicles ({{state_repossession_law}}) \u2014 including but not limited to the Uniform Commercial Code (UCC) Article 9 and state motor vehicle repossession statutes.",
+        "Federal law, including the Truth in Lending Act (TILA) and the Fair Debt Collection Practices Act (FDCPA).",
+        "Any security interest or lien held by Lender on the Vehicle, as evidenced by the title, lien entry, or other documentation."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "REPOSESSION PROCEDURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lender or Lender's authorized agent may repossess the Vehicle as follows:",
+      "style": "BT"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "{{repo_procedure_1}}",
+        "{{repo_procedure_2}}",
+        "{{repo_procedure_3}}",
+        "{{repo_procedure_4}}",
+        "{{repo_procedure_5}}",
+        "{{repo_procedure_6}}",
+        "{{repo_procedure_7}}",
+        "{{repo_procedure_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "NOTICE OF RIGHT TO CURE (if applicable)",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "{{cure_notice}} (State law may require Lender to provide Borrower with an opportunity to cure the default before repossession. If applicable, Borrower may have the right to cure the default by paying the past due amount plus any applicable fees and charges within {{cure_period}} days of this notice. If Borrower does not cure the default, Lender may proceed with repossession.)",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "AFTER REPOSESSION \u2014 NOTICE OF SALE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "If the Vehicle is repossessed, Lender will provide Borrower with a notice of the sale of the Vehicle, as required by law. The Vehicle will be sold at {{sale_method}} (Public auction / Private sale / Other). The sale will be conducted on {{sale_date}} at {{sale_location}}.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Borrower may be liable for any deficiency (the difference between the amount owed on the Loan and the sale proceeds, less any allowable deductions).",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Estimated Sale Date",
+          "{{sale_date}}"
+        ],
+        [
+          "Sale Location",
+          "{{sale_location}}"
+        ],
+        [
+          "Minimum Bid (if applicable)",
+          "{{minimum_bid}}"
+        ],
+        [
+          "Borrower's Right to Redeem",
+          "{{right_to_redeem}} (Borrower may redeem the Vehicle by paying the full amount owed plus repossession and storage costs before the sale \u2014 Redemption deadline: {{redemption_deadline}})"
+        ],
+        [
+          "Borrower's Right to Bid",
+          "{{right_to_bid}} (Borrower may bid at the sale \u2014 state law: {{state_bidding_law}})"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "FORWARDING ADDRESS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Borrower must provide Lender with a forwarding address where all notices, including the notice of sale, can be sent.",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Forwarding Address",
+          "{{forwarding_address}}"
+        ],
+        [
+          "Forwarding Phone",
+          "{{forwarding_phone}}"
+        ],
+        [
+          "Forwarding Email",
+          "{{forwarding_email}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "LEGAL NOTICES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "This notice is provided for informational purposes only and does not constitute legal advice. Borrower is advised to consult with an attorney regarding their rights and obligations. Nothing in this notice waives any rights or obligations of Lender or Borrower under the Loan Agreement or applicable law.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Lender (or Authorized Agent)",
+          "_____________________________",
+          "{{notice_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{lender_rep_name}}",
+          ""
+        ],
+        [
+          "Title",
+          "{{lender_rep_title}}",
+          ""
+        ],
+        [
+          "Borrower Acknowledgment of Receipt (if received)",
+          "_____________________________",
+          "{{borrower_acknowledgment_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{borrower_name}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

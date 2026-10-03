@@ -1,0 +1,585 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "RV / CAMPER VEHICLE RENTAL AGREEMENT",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "RV / CAMPER VEHICLE RENTAL AGREEMENT",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This RV Rental Agreement is entered into on {{agreement_date}} between {{owner_name}} (\"Owner\") and {{renter_name}} (\"Renter\"). Owner agrees to rent to Renter, and Renter agrees to rent from Owner, the following recreational vehicle:",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Vehicle Make/Model/Year",
+          "{{vehicle_make}} {{vehicle_model}} {{vehicle_year}}"
+        ],
+        [
+          "VIN",
+          "{{vehicle_vin}}"
+        ],
+        [
+          "License Plate / Registration",
+          "{{license_plate}} \u2014 State: {{registration_state}}"
+        ],
+        [
+          "Vehicle Type",
+          "{{vehicle_type}} (Class A Motorhome / Class B Camper Van / Class C Mini Motorhome / Travel Trailer / Fifth Wheel / Pop-up Camper / Other)"
+        ],
+        [
+          "RV Length",
+          "{{rv_length}} feet"
+        ],
+        [
+          "Sleeping Capacity",
+          "{{sleeping_capacity}} people"
+        ],
+        [
+          "Acceptance of Agreement",
+          "By signing below, both parties agree to all terms and conditions of this RV Rental Agreement."
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "RENTAL PERIOD",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Rental Start Date/Time",
+          "{{rental_start_date}} at {{rental_start_time}}"
+        ],
+        [
+          "Rental End Date/Time",
+          "{{rental_end_date}} at {{rental_end_time}}"
+        ],
+        [
+          "Total Rental Days",
+          "{{total_rental_days}} days"
+        ],
+        [
+          "Pickup Location",
+          "{{pickup_location}}"
+        ],
+        [
+          "Return Location",
+          "{{return_location}} (Same as pickup / Different \u2014 details: {{return_location_details}})"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "PAYMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Amount"
+      ],
+      "rows": [
+        [
+          "Base Rental Rate",
+          "{{base_rental_rate}}"
+        ],
+        [
+          "Cleaning Fee",
+          "{{cleaning_fee}}"
+        ],
+        [
+          "Security Deposit",
+          "{{security_deposit}} (Refundable upon satisfactory return)"
+        ],
+        [
+          "Insurance / Damage Waiver (if purchased)",
+          "{{insurance_cost}}"
+        ],
+        [
+          "Additional Driver Fee (if applicable)",
+          "{{additional_driver_fee}}"
+        ],
+        [
+          "Mileage Allowance (included)",
+          "{{mileage_included}} miles"
+        ],
+        [
+          "Mileage Overage Rate",
+          "{{mileage_overage_rate}} per mile beyond allowance"
+        ],
+        [
+          "Total Due Before Pickup",
+          "{{total_due}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "RENTER RESPONSIBILITIES AND RULES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Renter must have a valid driver's license appropriate for the Vehicle type. If the Vehicle is a large RV, Renter may need a special license depending on state law and Vehicle weight.",
+        "Renter must be at least {{minimum_age}} years old and must not be intoxicated or under the influence of drugs or alcohol while operating the Vehicle.",
+        "Renter is responsible for the Vehicle from the time of pickup until the time of return, including all damage, loss, theft, fines, tickets, and accidents.",
+        "Renter must not drive the Vehicle outside of {{allowed_geographic_area}} without Owner's written consent.",
+        "Renter must not use the Vehicle for any illegal purpose, towing of other vehicles (unless equipped and approved), off-road driving, racing, or any purpose not consistent with the Vehicle's intended recreational use.",
+        "Renter must not allow any person not listed on the agreement to drive the Vehicle.",
+        "Renter must not smoke inside the Vehicle. Smoking damage is not covered by insurance and will be charged to Renter.",
+        "Renter must not have pets in the Vehicle unless approved by Owner in writing. Pet damage will be charged to Renter.",
+        "Renter must not leave the Vehicle unattended with the keys in it or with any person not authorized to have them.",
+        "Renter must follow all manufacturer instructions and safety guidelines for the Vehicle, including proper hookup of utilities (electricity, water, sewer, propane), leveling, and use of all systems.",
+        "Renter is responsible for proper disposal of waste (gray water, black water, trash) at approved dump stations.",
+        "Renter must not modify, tamper with, or remove any equipment, accessories, or systems of the Vehicle.",
+        "Renter must maintain adequate propane, fuel, and battery levels during the rental period.",
+        "Renter must check and maintain appropriate tire pressure and perform pre-trip and post-trip inspections.",
+        "Renter must report any accidents, incidents, or mechanical issues to Owner immediately.",
+        "{{renter_rules_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "MILEAGE AND FUEL",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Mileage Included",
+          "{{mileage_included}} miles for the rental period"
+        ],
+        [
+          "Mileage Overage Rate",
+          "{{mileage_overage_rate}} per mile beyond {{mileage_included}} miles"
+        ],
+        [
+          "Odometer at Pickup",
+          "{{odometer_start}} miles"
+        ],
+        [
+          "Odometer at Return",
+          "{{odometer_end}} miles"
+        ],
+        [
+          "Total Miles Driven",
+          "{{total_miles}} miles"
+        ],
+        [
+          "Miles Over Allowance",
+          "{{miles_over}} miles"
+        ],
+        [
+          "Overage Charge",
+          "{{overage_charge}}"
+        ],
+        [
+          "Fuel Level at Pickup",
+          "{{fuel_start_level}}"
+        ],
+        [
+          "Fuel Level at Return",
+          "{{fuel_end_level}}"
+        ],
+        [
+          "Fuel Policy",
+          "{{fuel_policy}} (Return with same fuel level / Renter pays for refueling / Owner refuels at cost)"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "INSURANCE AND DAMAGE WAIVER",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Renter must have adequate insurance coverage or purchase the damage waiver offered by Owner. Options:",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Option",
+        "Coverage",
+        "Cost",
+        "Deductible"
+      ],
+      "rows": [
+        [
+          "Option 1 \u2014 Renter's Own Insurance",
+          "Renter uses their own personal RV/trailer insurance. Renter is responsible for their deductible and any amounts not covered by their policy.",
+          "$0",
+          "{{renter_own_deductible}}"
+        ],
+        [
+          "Option 2 \u2014 Owner's Insurance (Primary)",
+          "Owner's insurance is primary. Renter pays a damage waiver fee and is responsible for a per-claim deductible.",
+          "{{owner_policy_cost}}",
+          "{{owner_policy_deductible}}"
+        ],
+        [
+          "Option 3 \u2014 Damage Waiver (CDW/LDW)",
+          "Collision Damage Waiver / Loss Damage Waiver. Covers damage to the Vehicle from collision or theft, subject to exclusions. Does not cover personal belongings or third-party liability.",
+          "{{cdw_cost}}",
+          "{{cdw_deductible}}"
+        ],
+        [
+          "Option 4 \u2014 No Coverage",
+          "Renter is fully responsible for all damage, loss, theft, and liability.",
+          "$0",
+          "Full amount"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "CAMPSITE AND UTILITIES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "If the RV is equipped with utility hookups (electricity, water, sewer, propane), Renter acknowledges:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Renter is responsible for proper setup and takedown of all utility connections.",
+        "Renter must use only approved campgrounds, RV parks, or legal overnight parking locations.",
+        "Renter must not hook up to utilities that are not rated for the Vehicle's requirements.",
+        "Renter is responsible for any damage caused by improper utility hookup.",
+        "Renter must dispose of waste water and sewage only at approved dump stations.",
+        "{{campsite_utilities_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "CANCELLATION POLICY",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Cancellation Timing",
+        "Refund"
+      ],
+      "rows": [
+        [
+          "More than {{cancel_window_1}} days before pickup",
+          "{{cancel_refund_1}} (Full refund / Full refund minus {{cancel_fee_1}})"
+        ],
+        [
+          "{{cancel_window_2}} to {{cancel_window_1}} days before pickup",
+          "{{cancel_refund_2}} (50% refund / No refund / Other)"
+        ],
+        [
+          "Less than {{cancel_window_2}} days before pickup",
+          "{{cancel_refund_3}} (No refund / Other)"
+        ],
+        [
+          "Renter cancels due to illness, emergency, or other force majeure",
+          "{{cancel_force_majeure}} (Per the force majeure clause)"
+        ],
+        [
+          "Owner cancels (e.g., Vehicle not available)",
+          "{{cancel_owner}} (Full refund + {{owner_cancel_compensation}})"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "SECURITY DEPOSIT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "A security deposit of {{security_deposit}} will be charged to Renter's payment method on file. The deposit will be refunded within {{refund_timeline}} after the Vehicle is returned and inspected, less any deductions for damage, excessive mileage, excessive cleaning, missing items, fines, or other charges.",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Deduction Category",
+        "Amount"
+      ],
+      "rows": [
+        [
+          "Damage repair",
+          "{{damage_deduction}}"
+        ],
+        [
+          "Excessive cleaning",
+          "{{cleaning_deduction}}"
+        ],
+        [
+          "Missing items",
+          "{{missing_items_deduction}}"
+        ],
+        [
+          "Fines / tickets",
+          "{{fines_deduction}}"
+        ],
+        [
+          "Excessive mileage",
+          "{{mileage_deduction}}"
+        ],
+        [
+          "Late return",
+          "{{late_return_deduction}}"
+        ],
+        [
+          "Smoking damage",
+          "{{smoking_deduction}}"
+        ],
+        [
+          "Pet damage",
+          "{{pet_deduction}}"
+        ],
+        [
+          "Other",
+          "{{other_deduction}}"
+        ],
+        [
+          "Total Deductions",
+          "{{total_deductions}}"
+        ],
+        [
+          "Refund Amount",
+          "{{refund_amount}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "SPECIAL EQUIPMENT AND ACCESSORIES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Included? (Y/N)",
+        "Condition at Pickup",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "Generators",
+          "{{equip_generator}}",
+          "{{generator_condition}}",
+          "{{generator_notes}}"
+        ],
+        [
+          "Solar panels",
+          "{{equip_solar}}",
+          "{{solar_condition}}",
+          "{{solar_notes}}"
+        ],
+        [
+          "Air conditioning",
+          "{{equip_ac}}",
+          "{{ac_condition}}",
+          "{{ac_notes}}"
+        ],
+        [
+          "Heating / furnace",
+          "{{equip_heating}}",
+          "{{heating_condition}}",
+          "{{heating_notes}}"
+        ],
+        [
+          "Refrigerator",
+          "{{equip_fridge}}",
+          "{{fridge_condition}}",
+          "{{fridge_notes}}"
+        ],
+        [
+          "Stove / oven / microwave",
+          "{{equip_stove}}",
+          "{{stove_condition}}",
+          "{{stove_notes}}"
+        ],
+        [
+          "Water heater",
+          "{{equip_water_heater}}",
+          "{{water_heater_condition}}",
+          "{{water_heater_notes}}"
+        ],
+        [
+          "Toilet / waste system",
+          "{{equip_toilet}}",
+          "{{toilet_condition}}",
+          "{{toilet_notes}}"
+        ],
+        [
+          "Slide-outs",
+          "{{equip_slides}}",
+          "{{slideouts_condition}}",
+          "{{slideouts_notes}}"
+        ],
+        [
+          "Leveling jacks",
+          "{{equip_jacks}}",
+          "{{jacks_condition}}",
+          "{{jacks_notes}}"
+        ],
+        [
+          "Roof ladder / roof access",
+          "{{equip_ladder}}",
+          "{{ladder_condition}}",
+          "{{ladder_notes}}"
+        ],
+        [
+          "Outdoor furniture (chairs, table)",
+          "{{equip_outdoor_furniture}}",
+          "{{outdoor_furniture_condition}}",
+          "{{outdoor_furniture_notes}}"
+        ],
+        [
+          "Propane tanks",
+          "{{equip_propane}}",
+          "{{propane_condition}}",
+          "{{propane_notes}}"
+        ],
+        [
+          "Other: {{other_equipment}}",
+          "{{other_equipment_included}}",
+          "{{other_equipment_condition}}",
+          "{{other_equipment_notes}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Renter",
+          "_____________________________",
+          "{{renter_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{renter_name}}",
+          ""
+        ],
+        [
+          "Renter Phone",
+          "{{renter_phone}}",
+          ""
+        ],
+        [
+          "Renter Email",
+          "{{renter_email}}",
+          ""
+        ],
+        [
+          "Additional Driver (if any)",
+          "_____________________________",
+          "{{additional_driver_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{additional_driver_name}}",
+          ""
+        ],
+        [
+          "Owner / Agent",
+          "_____________________________",
+          "{{owner_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{owner_name}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

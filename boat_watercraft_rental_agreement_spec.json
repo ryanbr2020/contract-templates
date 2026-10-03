@@ -1,0 +1,483 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "BOAT / WATERCRAFT RENTAL AGREEMENT",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "BOAT / WATERCRAFT RENTAL AGREEMENT",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Boat Rental Agreement is entered into on {{agreement_date}} between {{owner_name}} (\"Owner\") and {{renter_name}} (\"Renter\"). Owner agrees to rent to Renter, and Renter agrees to rent from Owner, the following watercraft:",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Vessel Make/Model/Year",
+          "{{vessel_make}} {{vessel_model}} {{vessel_year}}"
+        ],
+        [
+          "Hull ID / VIN / CF Number",
+          "{{vessel_id}}"
+        ],
+        [
+          "State Registration / Certificate",
+          "{{state_registration}} \u2014 State: {{registration_state}}"
+        ],
+        [
+          "Vessel Type",
+          "{{vessel_type}} (Sailboat / Powerboat / Pontoon / Jet Ski / PWC / Kayak / Canoe / Paddleboard / Fishing Boat / Yacht / Other)"
+        ],
+        [
+          "Length overall",
+          "{{vessel_length}} feet"
+        ],
+        [
+          "Engine Type / HP",
+          "{{engine_type}} \u2014 {{engine_hp}} HP"
+        ],
+        [
+          "Capacity (persons)",
+          "{{vessel_capacity}} persons"
+        ],
+        [
+          "Acceptance of Agreement",
+          "By signing below, both parties agree to all terms and conditions of this Boat Rental Agreement."
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "RENTAL PERIOD",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Rental Start Date/Time",
+          "{{rental_start_date}} at {{rental_start_time}}"
+        ],
+        [
+          "Rental End Date/Time",
+          "{{rental_end_date}} at {{rental_end_time}}"
+        ],
+        [
+          "Total Rental Hours/Days",
+          "{{total_rental_hours}} hours / {{total_rental_days}} days"
+        ],
+        [
+          "Pickup / Launch Location",
+          "{{pickup_location}} (Marina / Dock / Beach / Ramp / Other)"
+        ],
+        [
+          "Return / Pickup Location",
+          "{{return_location}} (Same as pickup / Different \u2014 details: {{return_location_details}})"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "PAYMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Amount"
+      ],
+      "rows": [
+        [
+          "Base Rental Rate",
+          "{{base_rental_rate}}"
+        ],
+        [
+          "Cleaning Fee",
+          "{{cleaning_fee}}"
+        ],
+        [
+          "Security Deposit",
+          "{{security_deposit}} (Refundable upon satisfactory return)"
+        ],
+        [
+          "Fuel (if not included)",
+          "{{fuel_cost}}"
+        ],
+        [
+          "Insurance / Damage Waiver (if purchased)",
+          "{{insurance_cost}}"
+        ],
+        [
+          "Captain / Operator (if provided by Owner)",
+          "{{captain_cost}}"
+        ],
+        [
+          "Additional Rider / Passenger Fee (if applicable)",
+          "{{additional_rider_fee}}"
+        ],
+        [
+          "Total Due Before Pickup",
+          "{{total_due}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "RENTER RESPONSIBILITIES AND RULES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Renter must have a valid driver's license and any required boater's safety certificate or license required by state law for the Vessel type.",
+        "Renter must be at least {{minimum_age}} years old and must not be intoxicated, under the influence of drugs or alcohol, or otherwise impaired while operating the Vessel.",
+        "Renter is responsible for the Vessel from the time of pickup until return, including all damage, loss, theft, fines, tickets, citations, and accidents.",
+        "Renter must not operate the Vessel outside of {{allowed_waters}} without Owner's written consent.",
+        "Renter must not use the Vessel for any illegal purpose, racing, towing of other vehicles or persons (unless equipped and approved), jumping waves, or any dangerous or reckless operation.",
+        "Renter must not allow any person not listed on the agreement to operate the Vessel.",
+        "Renter must not smoke on the Vessel. Smoking damage is not covered by insurance and will be charged to Renter.",
+        "Renter must not have pets on the Vessel unless approved by Owner in writing.",
+        "Renter must not leave the Vessel unattended without securing it properly and removing keys.",
+        "Renter must follow all Coast Guard safety regulations and state/local boating laws, including wearing a properly fitted life jacket (PFD) at all times while on the Vessel.",
+        "Renter must have all required safety equipment on board (life jackets/PFDs, fire extinguisher, visual distress signals, sound-producing device, navigation lights, throwable flotation device, etc.).",
+        "Renter must check weather and water conditions before and during the trip. Renter must not operate the Vessel in unsafe conditions.",
+        "Renter must not exceed the Vessel's capacity (persons or weight).",
+        "Renter must not anchor in prohibited areas or damage docks, moorings, buoys, or other property.",
+        "Renter must report any accidents, incidents, mechanical issues, or violations to Owner immediately.",
+        "Renter is responsible for environmental compliance (no dumping of waste, fuel, oil, or trash into the water).",
+        "{{renter_rules_boat_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "SAFETY EQUIPMENT CHECKLIST",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Required? (Y/N)",
+        "Present? (Y/N)",
+        "Condition",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "Life jackets / PFDs (one per person + 1 throwable)",
+          "{{pfd_required}}",
+          "{{pfd_present}}",
+          "{{pfd_condition}}",
+          "{{pfd_notes}}"
+        ],
+        [
+          "Fire extinguisher (charged, accessible)",
+          "{{fire_ext_required}}",
+          "{{fire_ext_present}}",
+          "{{fire_ext_condition}}",
+          "{{fire_ext_notes}}"
+        ],
+        [
+          "Visual distress signals (flares, flags, lights)",
+          "{{distress_sig_required}}",
+          "{{distress_sig_present}}",
+          "{{distress_sig_condition}}",
+          "{{distress_sig_notes}}"
+        ],
+        [
+          "Sound-producing device (horn, whistle)",
+          "{{sound_device_required}}",
+          "{{sound_device_present}}",
+          "{{sound_device_condition}}",
+          "{{sound_device_notes}}"
+        ],
+        [
+          "Navigation lights (if operating at night or low visibility)",
+          "{{nav_lights_required}}",
+          "{{nav_lights_present}}",
+          "{{nav_lights_condition}}",
+          "{{nav_lights_notes}}"
+        ],
+        [
+          "Throwable flotation device (ring buoy, cushion)",
+          "{{throwable_required}}",
+          "{{throwable_present}}",
+          "{{throwable_condition}}",
+          "{{throwable_notes}}"
+        ],
+        [
+          "Ventilation (if fueled vessel)",
+          "{{vent_required}}",
+          "{{vent_present}}",
+          "{{vent_condition}}",
+          "{{vent_notes}}"
+        ],
+        [
+          "Bilge pump (operational)",
+          "{{bilge_pump_required}}",
+          "{{bilge_pump_present}}",
+          "{{bilge_pump_condition}}",
+          "{{bilge_pump_notes}}"
+        ],
+        [
+          "First aid kit",
+          "{{first_aid_required}}",
+          "{{first_aid_present}}",
+          "{{first_aid_condition}}",
+          "{{first_aid_notes}}"
+        ],
+        [
+          "Flashlight / searchlight",
+          "{{flashlight_required}}",
+          "{{flashlight_present}}",
+          "{{flashlight_condition}}",
+          "{{flashlight_notes}}"
+        ],
+        [
+          "Anchor and rope/chain",
+          "{{anchor_required}}",
+          "{{anchor_present}}",
+          "{{anchor_condition}}",
+          "{{anchor_notes}}"
+        ],
+        [
+          "Tool kit / spare parts",
+          "{{tool_kit_required}}",
+          "{{tool_kit_present}}",
+          "{{tool_kit_condition}}",
+          "{{tool_kit_notes}}"
+        ],
+        [
+          "VHF marine radio / communication device",
+          "{{radio_required}}",
+          "{{radio_present}}",
+          "{{radio_condition}}",
+          "{{radio_notes}}"
+        ],
+        [
+          "Kill switch / engine safety lanyard",
+          "{{kill_switch_required}}",
+          "{{kill_switch_present}}",
+          "{{kill_switch_condition}}",
+          "{{kill_switch_notes}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "INSURANCE AND DAMAGE WAIVER",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Option",
+        "Coverage",
+        "Cost",
+        "Deductible"
+      ],
+      "rows": [
+        [
+          "Option 1 \u2014 Renter's Own Insurance",
+          "Renter uses their own boat/watercraft insurance. Renter is responsible for deductible and any amounts not covered.",
+          "$0",
+          "{{renter_own_deductible}}"
+        ],
+        [
+          "Option 2 \u2014 Owner's Insurance (Primary)",
+          "Owner's insurance is primary. Renter pays a damage waiver fee and is responsible for a per-claim deductible.",
+          "{{owner_policy_cost}}",
+          "{{owner_policy_deductible}}"
+        ],
+        [
+          "Option 3 \u2014 Damage Waiver (CDW/LDW)",
+          "Covers damage to the Vessel from collision, grounding, or theft, subject to exclusions. Does not cover personal belongings, third-party liability, or environmental damage.",
+          "{{cdw_cost}}",
+          "{{cdw_deductible}}"
+        ],
+        [
+          "Option 4 \u2014 No Coverage",
+          "Renter is fully responsible for all damage, loss, theft, liability, and environmental penalties.",
+          "$0",
+          "Full amount"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "FUEL POLICY",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Fuel Included?",
+          "{{fuel_included}} (Yes \u2014 included in rental rate / No \u2014 Renter pays)"
+        ],
+        [
+          "Fuel Type",
+          "{{fuel_type}} (Regular gasoline / Premium gasoline / Diesel / Other)"
+        ],
+        [
+          "Fuel Level at Pickup",
+          "{{fuel_start_level}}"
+        ],
+        [
+          "Fuel Level at Return",
+          "{{fuel_end_level}}"
+        ],
+        [
+          "Fuel Policy",
+          "{{fuel_policy}} (Return with same fuel level / Renter pays for refueling at marina price / Owner refuels at cost / Renter refuels before return)"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "CANCELLATION POLICY",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Cancellation Timing",
+        "Refund"
+      ],
+      "rows": [
+        [
+          "More than {{cancel_window_1}} days before pickup",
+          "{{cancel_refund_1}}"
+        ],
+        [
+          "{{cancel_window_2}} to {{cancel_window_1}} days before pickup",
+          "{{cancel_refund_2}}"
+        ],
+        [
+          "Less than {{cancel_window_2}} days before pickup",
+          "{{cancel_refund_3}}"
+        ],
+        [
+          "Cancellation due to weather / unsafe conditions (Renter's decision)",
+          "{{cancel_weather}} (Full refund / Partial refund / No refund)"
+        ],
+        [
+          "Owner cancels (e.g., Vessel not available, weather unsafe for operation)",
+          "{{cancel_owner}} (Full refund + {{owner_cancel_compensation}})"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Renter",
+          "_____________________________",
+          "{{renter_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{renter_name}}",
+          ""
+        ],
+        [
+          "Renter Phone",
+          "{{renter_phone}}",
+          ""
+        ],
+        [
+          "Renter Email",
+          "{{renter_email}}",
+          ""
+        ],
+        [
+          "Owner / Agent",
+          "_____________________________",
+          "{{owner_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{owner_name}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

@@ -1,0 +1,502 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "VEHICLE REPAIR / SERVICE AUTHORIZATION AND WORK ORDER",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "VEHICLE REPAIR / SERVICE AUTHORIZATION AND WORK ORDER",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Repair Authorization and Work Order is completed on {{work_order_date}} by {{customer_name}} (\"Customer\") for Vehicle: {{vehicle_make}} {{vehicle_model}} {{vehicle_year}}, VIN: {{vehicle_vin}}, License Plate: {{license_plate}}.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Repair Shop: {{shop_name}} (\"Shop\"), located at {{shop_address}}. Shop Phone: {{shop_phone}}.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "CUSTOMER INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Customer Name",
+          "{{customer_name}}"
+        ],
+        [
+          "Customer Phone",
+          "{{customer_phone}}"
+        ],
+        [
+          "Customer Email",
+          "{{customer_email}}"
+        ],
+        [
+          "Customer Address",
+          "{{customer_address}}"
+        ],
+        [
+          "Relationship to Vehicle",
+          "{{vehicle_relationship}} (Owner / Lessee / Agent / Other \u2014 Agent Name: {{agent_name}})"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "VEHICLE INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Vehicle Make/Model/Year",
+          "{{vehicle_make}} {{vehicle_model}} {{vehicle_year}}"
+        ],
+        [
+          "VIN",
+          "{{vehicle_vin}}"
+        ],
+        [
+          "License Plate",
+          "{{license_plate}} \u2014 State: {{registration_state}}"
+        ],
+        [
+          "Odometer at Check-In",
+          "{{odometer_checkin}} miles"
+        ],
+        [
+          "Check-In Date/Time",
+          "{{checkin_date}} at {{checkin_time}}"
+        ],
+        [
+          "Color",
+          "{{vehicle_color}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "REASON FOR REPAIR / SERVICE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Customer's Description of Problem",
+          "{{customer_description}}"
+        ],
+        [
+          "Check Engine Light On?",
+          "{{check_engine_light}} (Yes / No \u2014 steady or flashing: {{cel_status}})"
+        ],
+        [
+          "Other Warning Lights / Messages",
+          "{{other_warning_lights}}"
+        ],
+        [
+          "Diagnostic Codes (if any)",
+          "{{diagnostic_codes}} (OBD-II codes read by Shop)"
+        ],
+        [
+          "Shop's Preliminary Diagnosis",
+          "{{shop_diagnosis}}"
+        ],
+        [
+          "Repairs / Services Recommended",
+          "{{recommended_repairs}}"
+        ],
+        [
+          "Urgency / Priority",
+          "{{urgency}} (Routine / Moderate / Urgent / Emergency \u2014 Vehicle may not be safe to drive: {{unsafe_to_drive}})"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "AUTHORIZED REPAIRS AND SERVICES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Customer authorizes Shop to perform the following repairs and services:",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "#",
+        "Service / Repair Item",
+        "Parts Required",
+        "Labor (Hours)",
+        "Labor Rate",
+        "Parts Cost",
+        "Total Cost",
+        "Priority"
+      ],
+      "rows": [
+        [
+          "1",
+          "{{repair_1_item}}",
+          "{{repair_1_parts}}",
+          "{{repair_1_labor_hours}}",
+          "{{labor_rate}}",
+          "{{repair_1_parts_cost}}",
+          "{{repair_1_total}}",
+          "{{repair_1_priority}}"
+        ],
+        [
+          "2",
+          "{{repair_2_item}}",
+          "{{repair_2_parts}}",
+          "{{repair_2_labor_hours}}",
+          "{{labor_rate}}",
+          "{{repair_2_parts_cost}}",
+          "{{repair_2_total}}",
+          "{{repair_2_priority}}"
+        ],
+        [
+          "3",
+          "{{repair_3_item}}",
+          "{{repair_3_parts}}",
+          "{{repair_3_labor_hours}}",
+          "{{labor_rate}}",
+          "{{repair_3_parts_cost}}",
+          "{{repair_3_total}}",
+          "{{repair_3_priority}}"
+        ],
+        [
+          "4",
+          "{{repair_4_item}}",
+          "{{repair_4_parts}}",
+          "{{repair_4_labor_hours}}",
+          "{{labor_rate}}",
+          "{{repair_4_parts_cost}}",
+          "{{repair_4_total}}",
+          "{{repair_4_priority}}"
+        ],
+        [
+          "5",
+          "{{repair_5_item}}",
+          "{{repair_5_parts}}",
+          "{{repair_5_labor_hours}}",
+          "{{labor_rate}}",
+          "{{repair_5_parts_cost}}",
+          "{{repair_5_total}}",
+          "{{repair_5_priority}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "ESTIMATED COST SUMMARY",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Amount"
+      ],
+      "rows": [
+        [
+          "Parts Total",
+          "{{parts_total}}"
+        ],
+        [
+          "Labor Total",
+          "{{labor_total}}"
+        ],
+        [
+          "Diagnostic Fee (if applicable)",
+          "{{diagnostic_fee}}"
+        ],
+        [
+          "Shop Supplies / Shop Materials Fee",
+          "{{shop_supplies_fee}}"
+        ],
+        [
+          "Environmental / Disposal Fees",
+          "{{environmental_fees}}"
+        ],
+        [
+          "Taxes (if applicable)",
+          "{{taxes}}"
+        ],
+        [
+          "Other Charges",
+          "{{other_charges}}"
+        ],
+        [
+          "Estimated Total",
+          "{{estimated_total}}"
+        ],
+        [
+          "Additional charges that may arise",
+          "{{additional_charges_notice}} \u2014 Customer agrees to be contacted for authorization before any additional work is performed."
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "CUSTOMER'S AUTHORIZATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Customer authorizes Shop to perform the repairs and services listed above, up to the estimated total cost of {{estimated_total}}. Customer understands and agrees that:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Shop will begin work on {{work_start_date}} (or as soon as possible after check-in).",
+        "If additional repairs or services are needed beyond those authorized, Shop will contact Customer for authorization before performing the additional work. Customer can be reached at {{customer_phone}}.",
+        "If Customer cannot be reached, Shop may (at its discretion) either (a) hold the Vehicle until Customer authorizes the additional work, or (b) perform necessary safety repairs and charge Customer.",
+        "Customer understands that the actual cost of repairs may differ from the estimate. A final invoice will be provided upon completion.",
+        "Customer is responsible for all authorized charges, including parts, labor, diagnostic fees, shop supplies, environmental fees, taxes, and any other charges agreed to.",
+        "Work will be performed using {{parts_quality}} (New OEM / New aftermarket / Used / Reconditioned / Remanufactured) parts.",
+        "{{customer_auth_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "PICKUP AND PAYMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Estimated Completion Date/Time",
+          "{{estimated_completion_date}} at {{estimated_completion_time}}"
+        ],
+        [
+          "Customer's Preferred Contact for Pickup",
+          "{{pickup_contact}} (Name: {{pickup_contact_name}} \u2014 Phone: {{pickup_contact_phone}})"
+        ],
+        [
+          "Payment Methods Accepted",
+          "{{payment_methods}} (Cash / Credit card / Debit card / Check / Financing / Other)"
+        ],
+        [
+          "Payment Due",
+          "{{payment_due}} (At pickup / Upon completion / Prior to pickup)"
+        ],
+        [
+          "Vehicle Release",
+          "Vehicle will not be released until all charges are paid in full (unless otherwise agreed in writing)."
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "SHOP'S REPRESENTATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Shop represents that:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Shop is a licensed and registered automotive repair facility in {{shop_state}} (License #: {{shop_license_number}} \u2014 Expiration: {{shop_license_expiration}}).",
+        "Work will be performed by qualified, trained technicians using appropriate tools, equipment, and procedures.",
+        "Shop will use {{parts_quality}} parts as stated above.",
+        "Shop will provide a warranty on parts and labor for {{warranty_period}} (e.g., 12 months / 12,000 miles, whichever comes first).",
+        "{{shop_representation_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "CUSTOMER'S SIGNATURE (AUTHORIZATION)",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "By signing below, Customer authorizes Shop to perform the repairs and services listed above and agrees to all terms and conditions of this Repair Authorization and Work Order.",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Customer",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Customer Signature",
+          "_____________________________",
+          "{{customer_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{customer_name}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "SHOP'S SIGNATURE (RECEIPT OF VEHICLE)",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "By signing below, Shop acknowledges receipt of the Vehicle and agrees to perform the repairs and services listed above, subject to the terms of this Repair Authorization and Work Order.",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Shop",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Shop Signature",
+          "_____________________________",
+          "{{shop_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{shop_rep_name}}",
+          ""
+        ],
+        [
+          "Title",
+          "{{shop_rep_title}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "COMPLETION AND INSPECTION (to be completed at pickup)",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Vehicle Returned to Customer on",
+          "{{return_date}} at {{return_time}}"
+        ],
+        [
+          "Work Completed",
+          "{{work_completed}} (All authorized work completed / Some work not completed \u2014 items not completed: {{work_not_completed}})"
+        ],
+        [
+          "Customer Inspected Vehicle",
+          "{{customer_inspected}} (Yes / No \u2014 Customer's comments: {{customer_comments}})"
+        ],
+        [
+          "Customer Satisfied",
+          "{{customer_satisfied}} (Yes / No \u2014 If No, describe concerns: {{customer_concerns}})"
+        ],
+        [
+          "Final Invoice Amount",
+          "{{final_invoice_amount}} (Parts: {{final_parts}} / Labor: {{final_labor}} / Other: {{final_other}})"
+        ],
+        [
+          "Payment Received",
+          "{{payment_received}} (Amount: {{payment_amount}} \u2014 Method: {{payment_method_used}} \u2014 Date: {{payment_date}})"
+        ],
+        [
+          "Warranty Provided",
+          "{{warranty_provided}} (Yes \u2014 Warranty period: {{warranty_period_given}})"
+        ],
+        [
+          "Customer Signature at Pickup",
+          "_____________________________ \u2014 {{pickup_signature_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

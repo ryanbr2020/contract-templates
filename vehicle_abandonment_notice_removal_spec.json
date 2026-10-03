@@ -1,0 +1,262 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "VEHICLE ABANDONMENT NOTICE AND REMOVAL AUTHORIZATION",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "VEHICLE ABANDONMENT NOTICE AND REMOVAL AUTHORIZATION",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Vehicle Abandonment Notice is issued by {{property_owner_name}} (\"Property Owner\" / \"Landlord\") on {{notice_date}} to {{vehicle_owner_name}} (\"Vehicle Owner\") regarding Vehicle: {{vehicle_make}} {{vehicle_model}} {{vehicle_year}}, VIN: {{vehicle_vin}}, License Plate: {{license_plate}}.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Vehicle is located at {{vehicle_location}} (Address: {{location_address}}).",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "NOTICE OF ABANDONMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Property Owner hereby notifies Vehicle Owner that the Vehicle located at {{vehicle_location}} is believed to have been abandoned, based on the following grounds:",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Grounds for Abandonment",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Vehicle has been stationary / not moved for more than {{abandonment_period}} consecutive days",
+          "{{abandonment_period_details}} (Date noticed: {{abandonment_notice_date}})"
+        ],
+        [
+          "Vehicle appears to be inoperable, disabled, or wrecked",
+          "{{inoperable_details}} (Description: {{inoperable_description}})"
+        ],
+        [
+          "Vehicle has expired registration or license plate",
+          "{{expired_reg_details}} (Registration expired on: {{registration_expiration_date}})"
+        ],
+        [
+          "Vehicle has no insurance or expired insurance",
+          "{{insurance_details}} (Last known insurance: {{last_known_insurance}})"
+        ],
+        [
+          "Vehicle is causing a nuisance, hazard, or obstruction",
+          "{{nuisance_details}} (Description: {{nuisance_description}})"
+        ],
+        [
+          "Vehicle is on private property without permission",
+          "{{no_permission_details}} (Permission was granted until: {{permission_end_date}} \u2014 Permission was revoked on: {{permission_revoked_date}})"
+        ],
+        [
+          "Other grounds",
+          "{{other_grounds}} (Details: {{other_grounds_details}})"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "DEMAND TO REMOVE VEHICLE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Property Owner demands that Vehicle Owner immediately remove the Vehicle from {{vehicle_location}} within {{removal_deadline}} days of this notice (by {{removal_deadline_date}}). If Vehicle Owner fails or refuses to remove the Vehicle within this time period, Property Owner may take the following actions:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Tow the Vehicle from the property at Vehicle Owner's expense, using a licensed towing company. Vehicle Owner will be responsible for all towing, storage, and related costs.",
+        "Store the Vehicle at a storage facility. Vehicle Owner will be responsible for all storage fees, which will accrue daily until the Vehicle is removed.",
+        "Sell, dispose of, or otherwise dispose of the Vehicle in accordance with applicable state law, after providing any required notices and after any required holding period.",
+        "Charge Vehicle Owner for any damages caused by the Vehicle to the property.",
+        "Take any other action permitted by applicable law.",
+        "{{removal_actions_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "VEHICLE OWNER'S RESPONSIBILITIES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Vehicle Owner's Name",
+          "{{vehicle_owner_name}}"
+        ],
+        [
+          "Vehicle Owner's Address",
+          "{{vehicle_owner_address}}"
+        ],
+        [
+          "Vehicle Owner's Phone",
+          "{{vehicle_owner_phone}}"
+        ],
+        [
+          "Vehicle Owner's Email",
+          "{{vehicle_owner_email}}"
+        ],
+        [
+          "Towing Company (if used)",
+          "{{towing_company}} \u2014 Phone: {{towing_company_phone}}"
+        ],
+        [
+          "Storage Facility (if used)",
+          "{{storage_facility}} \u2014 Phone: {{storage_facility_phone}}"
+        ],
+        [
+          "Estimated Towing Cost",
+          "{{estimated_towing_cost}}"
+        ],
+        [
+          "Estimated Storage Cost",
+          "{{estimated_storage_cost}} per day \u2014 Estimated daily storage from: {{storage_start_date}}"
+        ],
+        [
+          "Vehicle Owner's Right to Retrieve Vehicle",
+          "{{right_to_retrieve}} (Vehicle Owner may retrieve the Vehicle at any time before it is sold or disposed of, upon payment of all towing, storage, and related fees)"
+        ],
+        [
+          "Estimated Total Charges",
+          "{{estimated_total_charges}} (Towing: {{towing_cost}} + Storage: {{storage_cost}} = {{total_cost}} \u2014 Additional fees may apply)"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "LEGAL NOTICE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "This notice is provided in accordance with {{state_abandonment_law}} (State law regarding abandoned vehicles on private property). Vehicle Owner is advised to consult with an attorney regarding their rights and obligations. Nothing in this notice waives any rights or obligations of Property Owner or Vehicle Owner under applicable law.",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Legal Notice",
+        "Details"
+      ],
+      "rows": [
+        [
+          "State Abandoned Vehicle Law",
+          "{{state_abandonment_law}}"
+        ],
+        [
+          "Required Notice Period",
+          "{{required_notice_period}} days (State law requires at least {{required_notice_period}} days notice before towing or disposing of an abandoned vehicle)"
+        ],
+        [
+          "Required Contents of Notice",
+          "{{required_notice_contents}} (State law requires the notice to include: description of the vehicle, location, date of notice, deadline to remove, and consequences of failure to remove)"
+        ],
+        [
+          "Disposal / Sale Requirements",
+          "{{disposal_sale_requirements}} (State law requires: {{disposal_sale_details}})"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Property Owner (or Authorized Agent)",
+          "_____________________________",
+          "{{notice_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{property_owner_rep_name}}",
+          ""
+        ],
+        [
+          "Title",
+          "{{property_owner_rep_title}}",
+          ""
+        ],
+        [
+          "Vehicle Owner Acknowledgment of Receipt (if received)",
+          "_____________________________",
+          "{{vehicle_owner_acknowledgment_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{vehicle_owner_name}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}
