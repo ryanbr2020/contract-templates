@@ -1,0 +1,189 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 25,
+      "bottom": 25,
+      "left": 25,
+      "right": 25
+    }
+  },
+  "styles": [
+    {
+      "name": "ContractTitle",
+      "font": "Calibri",
+      "size_pt": 24,
+      "bold": true
+    },
+    {
+      "name": "SectionHeading",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BodyText",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WarningText",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "VEHICLE BILL OF SALE",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "VEHICLE BILL OF SALE",
+      "level": 1,
+      "style": "ContractTitle"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Bill of Sale (\"Bill\") is made on {{date}} between:",
+      "style": "BodyText"
+    },
+    {
+      "type": "paragraph",
+      "text": "Seller: {{seller_name}}, {{seller_address}}",
+      "style": "BodyText"
+    },
+    {
+      "type": "paragraph",
+      "text": "Buyer: {{buyer_name}}, {{buyer_address}}",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "VEHICLE PARTICULARS",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Seller",
+        "Buyer"
+      ],
+      "rows": [
+        [
+          "Make",
+          "{{vehicle_make}}",
+          ""
+        ],
+        [
+          "Model",
+          "{{vehicle_model}}",
+          ""
+        ],
+        [
+          "Year",
+          "{{vehicle_year}}",
+          ""
+        ],
+        [
+          "VIN",
+          "{{vehicle_vin}}",
+          ""
+        ],
+        [
+          "Odometer at Sale",
+          "{{odometer_reading}} miles",
+          ""
+        ],
+        [
+          "License Plate",
+          "{{license_plate}}",
+          ""
+        ],
+        [
+          "Title Number",
+          "{{title_number}}",
+          ""
+        ],
+        [
+          "Color",
+          "{{vehicle_color}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "SALE DETAILS",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Purchase Price: {{purchase_price}}",
+        "Payment Method: {{payment_method}}",
+        "Payment Date: {{payment_date}}",
+        "Transaction completed at: {{location}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "SELLER'S REPRESENTATIONS",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Seller is the lawful owner of the Vehicle.",
+        "The Vehicle is free of all liens and encumbrances.",
+        "The odometer reading is true and accurate to the best of Seller's knowledge.",
+        "Seller has the legal right to transfer ownership."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "BUYER'S ACKNOWLEDGMENT",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Buyer acknowledges receipt of the Vehicle in its current condition.",
+        "Buyer acknowledges having inspected the Vehicle prior to purchase.",
+        "Buyer accepts the Vehicle \"as-is\" with no warranties from Seller unless stated otherwise."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Seller",
+        "Buyer"
+      ],
+      "rows": [
+        [
+          "",
+          "Signature",
+          "_____________________________"
+        ],
+        [
+          "",
+          "Date",
+          "{{seller_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

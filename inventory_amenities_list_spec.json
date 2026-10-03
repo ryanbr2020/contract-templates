@@ -1,0 +1,577 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "ContractTitle",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SectionHeading",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BodyText",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WarningText",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "INVENTORY AND AMENITIES LIST \u2014 SHORT TERM RENTAL",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "INVENTORY AND AMENITIES LIST",
+      "level": 1,
+      "style": "ContractTitle"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Inventory and Amenities List is attached to the Short Term Rental Agreement dated {{agreement_date}} between {{host_name}} (\"Host\") and {{guest_name}} (\"Guest\") for the property at {{property_address}}.",
+      "style": "BodyText"
+    },
+    {
+      "type": "paragraph",
+      "text": "The following items are provided as part of the rental. Guest acknowledges having inspected and received these items in good condition. Any missing, damaged, or unusable items discovered at checkout must be reported immediately.",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "FURNITURE",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Quantity",
+        "Condition at Check-In",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "{{furniture_1}}",
+          "{{furniture_1_qty}}",
+          "{{furniture_1_condition}}",
+          ""
+        ],
+        [
+          "{{furniture_2}}",
+          "{{furniture_2_qty}}",
+          "{{furniture_2_condition}}",
+          ""
+        ],
+        [
+          "{{furniture_3}}",
+          "{{furniture_3_qty}}",
+          "{{furniture_3_condition}}",
+          ""
+        ],
+        [
+          "{{furniture_4}}",
+          "{{furniture_4_qty}}",
+          "{{furniture_4_condition}}",
+          ""
+        ],
+        [
+          "{{furniture_5}}",
+          "{{furniture_5_qty}}",
+          "{{furniture_5_condition}}",
+          ""
+        ],
+        [
+          "{{furniture_6}}",
+          "{{furniture_6_qty}}",
+          "{{furniture_6_condition}}",
+          ""
+        ],
+        [
+          "{{furniture_7}}",
+          "{{furniture_7_qty}}",
+          "{{furniture_7_condition}}",
+          ""
+        ],
+        [
+          "{{furniture_8}}",
+          "{{furniture_8_qty}}",
+          "{{furniture_8_condition}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "KITCHEN AND APPLIANCES",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Quantity",
+        "Working?",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "{{appliance_1}}",
+          "{{appliance_1_qty}}",
+          "{{appliance_1_working}}",
+          ""
+        ],
+        [
+          "{{appliance_2}}",
+          "{{appliance_2_qty}}",
+          "{{appliance_2_working}}",
+          ""
+        ],
+        [
+          "{{appliance_3}}",
+          "{{appliance_3_qty}}",
+          "{{appliance_3_working}}",
+          ""
+        ],
+        [
+          "{{appliance_4}}",
+          "{{appliance_4_qty}}",
+          "{{appliance_4_working}}",
+          ""
+        ],
+        [
+          "{{appliance_5}}",
+          "{{appliance_5_qty}}",
+          "{{appliance_5_working}}",
+          ""
+        ],
+        [
+          "Dishwasher",
+          "{{dishwasher}}",
+          "{{dishwasher_working}}",
+          ""
+        ],
+        [
+          "Microwave",
+          "{{microwave}}",
+          "{{microwave_working}}",
+          ""
+        ],
+        [
+          "Coffee maker / machine",
+          "{{coffee_maker}}",
+          "{{coffee_maker_working}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "LINENS AND BEDDING",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Quantity",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "{{linen_1}}",
+          "{{linen_1_qty}}",
+          ""
+        ],
+        [
+          "{{linen_2}}",
+          "{{linen_2_qty}}",
+          ""
+        ],
+        [
+          "{{linen_3}}",
+          "{{linen_3_qty}}",
+          ""
+        ],
+        [
+          "{{linen_4}}",
+          "{{linen_4_qty}}",
+          ""
+        ],
+        [
+          "{{linen_5}}",
+          "{{linen_5_qty}}",
+          ""
+        ],
+        [
+          "Towels \u2014 bath",
+          "{{bath_towels}}",
+          ""
+        ],
+        [
+          "Towels \u2014 hand",
+          "{{hand_towels}}",
+          ""
+        ],
+        [
+          "Towels \u2014 washcloth",
+          "{{washcloths}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "BATHROOM ITEMS",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Quantity",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "{{bathroom_1}}",
+          "{{bathroom_1_qty}}",
+          ""
+        ],
+        [
+          "{{bathroom_2}}",
+          "{{bathroom_2_qty}}",
+          ""
+        ],
+        [
+          "{{bathroom_3}}",
+          "{{bathroom_3_qty}}",
+          ""
+        ],
+        [
+          "Toilet paper (provided at check-in)",
+          "{{toilet_paper_roll_count}} rolls",
+          "Restock available at {{toilet_paper_location}}"
+        ],
+        [
+          "Shampoo / conditioner",
+          "{{shampoo_provided}}",
+          ""
+        ],
+        [
+          "Soap / hand soap",
+          "{{soap_provided}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "ENTERTAINMENT AND ELECTRONICS",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Quantity",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "{{entertainment_1}}",
+          "{{entertainment_1_qty}}",
+          ""
+        ],
+        [
+          "{{entertainment_2}}",
+          "{{entertainment_2_qty}}",
+          ""
+        ],
+        [
+          "{{entertainment_3}}",
+          "{{entertainment_3_qty}}",
+          ""
+        ],
+        [
+          "{{entertainment_4}}",
+          "{{entertainment_4_qty}}",
+          ""
+        ],
+        [
+          "Gaming console / accessories",
+          "{{gaming_console}}",
+          ""
+        ],
+        [
+          "Bluetooth speaker",
+          "{{bluetooth_speaker}}",
+          ""
+        ],
+        [
+          "TV \u2014 Living room",
+          "{{living_room_tv}}",
+          "Smart TV: {{smart_tv}}"
+        ],
+        [
+          "TV \u2014 Bedroom(s)",
+          "{{bedroom_tv}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "CONNECTIVITY AND UTILITIES",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "WiFi Network Name",
+          "{{wifi_ssid}}"
+        ],
+        [
+          "WiFi Password",
+          "{{wifi_password}}"
+        ],
+        [
+          "WiFi Speed / Bandwidth",
+          "{{wifi_speed}}"
+        ],
+        [
+          "WiFi Coverage",
+          "{{wifi_coverage}}"
+        ],
+        [
+          "Air conditioning",
+          "{{air_conditioning}} (type / thermostat instructions)"
+        ],
+        [
+          "Heating",
+          "{{heating}} (type / instructions)"
+        ],
+        [
+          "Hot water",
+          "{{hot_water}} (tankless / tank / instructions)"
+        ],
+        [
+          "Electricity",
+          "{{electricity_notes}}"
+        ],
+        [
+          "Internet-capable devices provided",
+          "{{internet_devices}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "OUTDOOR AND PROPERTY AMENITIES",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details",
+        "Rules / Notes"
+      ],
+      "rows": [
+        [
+          "{{outdoor_1}}",
+          "{{outdoor_1_details}}",
+          "{{outdoor_1_rules}}"
+        ],
+        [
+          "{{outdoor_2}}",
+          "{{outdoor_2_details}}",
+          "{{outdoor_2_rules}}"
+        ],
+        [
+          "{{outdoor_3}}",
+          "{{outdoor_3_details}}",
+          "{{outdoor_3_rules}}"
+        ],
+        [
+          "{{outdoor_4}}",
+          "{{outdoor_4_details}}",
+          "{{outdoor_4_rules}}"
+        ],
+        [
+          "{{outdoor_5}}",
+          "{{outdoor_5_details}}",
+          "{{outdoor_5_rules}}"
+        ],
+        [
+          "Parking",
+          "{{parking_details}}",
+          "{{parking_rules}}"
+        ],
+        [
+          "Storage / luggage area",
+          "{{storage_details}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "OTHER PROVIDED ITEMS",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Quantity",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "{{other_1}}",
+          "{{other_1_qty}}",
+          ""
+        ],
+        [
+          "{{other_2}}",
+          "{{other_2_qty}}",
+          ""
+        ],
+        [
+          "{{other_3}}",
+          "{{other_3_qty}}",
+          ""
+        ],
+        [
+          "Beach chairs",
+          "{{beach_chairs}}",
+          ""
+        ],
+        [
+          "Beach towels",
+          "{{beach_towels}}",
+          ""
+        ],
+        [
+          "Cooler(s)",
+          "{{coolers}}",
+          ""
+        ],
+        [
+          "First aid kit",
+          "{{first_aid_kit}}",
+          ""
+        ],
+        [
+          "Fire extinguisher",
+          "{{fire_extinguisher}}",
+          "Location: {{fire_extinguisher_location}}"
+        ],
+        [
+          "Flashlight(s)",
+          "{{flashlights}}",
+          ""
+        ],
+        [
+          "Iron / ironing board",
+          "{{iron}}",
+          ""
+        ],
+        [
+          "Hair dryer",
+          "{{hair_dryer}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "ITEMS NOT PROVIDED / NOT AVAILABLE",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "The following are NOT included in the rental. Guests should bring their own:",
+      "style": "BodyText"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "{{not_provided_1}}",
+        "{{not_provided_2}}",
+        "{{not_provided_3}}",
+        "Toilet paper beyond the initial supply (restock available at {{toilet_paper_location}}),{{restock_note}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "GUEST ACKNOWLEDGMENT",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Guest acknowledges having reviewed this Inventory and Amenities List. Guest confirms that all items listed were present and in working order at check-in (or notes any exceptions below). Any unlisted items found missing at checkout may result in a charge to Guest.",
+      "style": "BodyText"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Guest",
+          "_____________________________",
+          "{{guest_date}}"
+        ],
+        [
+          "Host",
+          "_____________________________",
+          "{{host_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "OCCUPANCY AND ADDITIONAL GUEST AGREEMENT \u2014 SHORT TERM RENTAL",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "OCCUPANCY AND ADDITIONAL GUEST AGREEMENT",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Attached to the Short Term Rental Agreement dated {{agreement_date}} between {{host_name}} (\"Host\") and {{guest_name}} (\"Guest\").",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "REGISTERED GUESTS",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "The following individuals are registered as guests for this stay. Each registered guest is bound by the Short Term Rental Agreement and all addenda:",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "#",
+        "Full Legal Name (as on ID)",
+        "Date of Birth",
+        "Relationship to Lead Guest",
+        "Phone",
+        "Email"
+      ],
+      "rows": [
+        [
+          "1",
+          "{{guest_1_name}}",
+          "{{guest_1_dob}}",
+          "{{guest_1_relationship}}",
+          "{{guest_1_phone}}",
+          "{{guest_1_email}}"
+        ],
+        [
+          "2",
+          "{{guest_2_name}}",
+          "{{guest_2_dob}}",
+          "{{guest_2_relationship}}",
+          "{{guest_2_phone}}",
+          "{{guest_2_email}}"
+        ],
+        [
+          "3",
+          "{{guest_3_name}}",
+          "{{guest_3_dob}}",
+          "{{guest_3_relationship}}",
+          "{{guest_3_phone}}",
+          "{{guest_3_email}}"
+        ],
+        [
+          "4",
+          "{{guest_4_name}}",
+          "{{guest_4_dob}}",
+          "{{guest_4_relationship}}",
+          "{{guest_4_phone}}",
+          "{{guest_4_email}}"
+        ],
+        [
+          "5",
+          "{{guest_5_name}}",
+          "{{guest_5_dob}}",
+          "{{guest_5_relationship}}",
+          "{{guest_5_phone}}",
+          "{{guest_5_email}}"
+        ],
+        [
+          "6",
+          "{{guest_6_name}}",
+          "{{guest_6_dob}}",
+          "{{guest_6_relationship}}",
+          "{{guest_6_phone}}",
+          "{{guest_6_email}}"
+        ],
+        [
+          "7",
+          "{{guest_7_name}}",
+          "{{guest_7_dob}}",
+          "{{guest_7_relationship}}",
+          "{{guest_7_phone}}",
+          "{{guest_7_email}}"
+        ],
+        [
+          "8",
+          "{{guest_8_name}}",
+          "{{guest_8_dob}}",
+          "{{guest_8_relationship}}",
+          "{{guest_8_phone}}",
+          "{{guest_8_email}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "OCCUPANCY LIMITS",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Limit Type",
+        "Maximum",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Maximum overnight guests",
+          "{{max_overnight_guests}}",
+          "Including children and infants. Infants under {{infant_age_threshold}} months count toward the limit."
+        ],
+        [
+          "Maximum adults",
+          "{{max_adults}}",
+          ""
+        ],
+        [
+          "Maximum children",
+          "{{max_children}}",
+          "Children under {{child_age_threshold}} years."
+        ],
+        [
+          "Maximum infants",
+          "{{max_infants}}",
+          ""
+        ],
+        [
+          "Maximum daytime / non-overnight visitors",
+          "{{max_day_visitors}}",
+          "Day visitors must depart by {{day_visitor_departure_time}}."
+        ],
+        [
+          "Maximum total persons at any one time",
+          "{{max_total_persons}}",
+          "Includes overnight guests and daytime visitors combined."
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "ADDITIONAL GUEST POLICY",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "If Guest wishes to have additional persons stay overnight beyond the registered guest list:",
+      "style": "BT"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Guest must request approval from Host at least {{additional_guest_request_days}} days before the additional guest's arrival.",
+        "Host approval is required in writing (email, Platform message, or signed addendum).",
+        "Additional guests must be added to the registered guest list and must sign the Short Term Rental Agreement or an acknowledgment addendum.",
+        "Each additional overnight guest incurs a fee of {{additional_guest_fee}} per night.",
+        "Additional guests are subject to all the same rules and obligations as the original registered guests.",
+        "If Host does not approve the additional guest, the additional guest may not stay at the property.",
+        "If an unapproved guest stays at the property, Host may:"
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Charge an unauthorized guest fee of {{unauthorized_guest_fee}} per night.",
+        "Terminate the stay immediately without refund.",
+        "Retain the full security deposit.",
+        "Contact law enforcement if the unapproved guest refuses to leave."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "DAY VISITORS",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Day visitors (non-overnight) are limited to {{max_day_visitors}} at any one time.",
+        "Day visitors must depart by {{day_visitor_departure_time}}.",
+        "Day visitors are not registered and are not bound by the Short Term Rental Agreement, but Guest remains responsible for their conduct.",
+        "Day visitors may not use the property in a manner that violates house rules, disturbs neighbors, or exceeds occupancy limits.",
+        "If day visitors cause damage, Host will charge Guest for all resulting costs."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "VIOLATIONS",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Occupancy limit violations are among the most common causes of STR disputes, neighbor complaints, and insurance claim denials. Host takes occupancy violations seriously:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "If Host or HOA discovers unregistered guests, Host will first attempt to contact the lead guest.",
+        "If the violation is not resolved within 1 hour, Host may terminate the stay without refund.",
+        "Repeated violations may result in Guest being banned from future bookings."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "GUEST ACKNOWLEDGMENT",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Guest acknowledges the occupancy limits and additional guest policy. Guest agrees to register all guests and to ensure all persons at the property comply with the Short Term Rental Agreement.",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Guest",
+          "_____________________________",
+          "{{guest_date}}"
+        ],
+        [
+          "Host",
+          "_____________________________",
+          "{{host_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

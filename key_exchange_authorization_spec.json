@@ -1,0 +1,248 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "ContractTitle",
+      "font": "Calibri",
+      "size_pt": 24,
+      "bold": true
+    },
+    {
+      "name": "SectionHeading",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BodyText",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WarningText",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    },
+    {
+      "name": "FormLabel",
+      "font": "Calibri",
+      "size_pt": 11,
+      "bold": true
+    },
+    {
+      "name": "FormValue",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "SmallText",
+      "font": "Calibri",
+      "size_pt": 9
+    }
+  ],
+  "header": "KEY EXCHANGE / DELIVERY AUTHORIZATION",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "KEY EXCHANGE / DELIVERY AUTHORIZATION",
+      "level": 1,
+      "style": "ContractTitle"
+    },
+    {
+      "type": "paragraph",
+      "text": "This document records the method by which the Renter received access to the Vehicle. Complete at the time of key handoff or access code delivery.",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "VEHICLE AND RENTAL INFORMATION",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Vehicle Make/Model/Year",
+          "{{vehicle_make}} {{vehicle_model}} {{vehicle_year}}"
+        ],
+        [
+          "VIN",
+          "{{vehicle_vin}}"
+        ],
+        [
+          "License Plate",
+          "{{license_plate}}"
+        ],
+        [
+          "Rental Period",
+          "{{rental_start_date}} to {{rental_end_date}}"
+        ],
+        [
+          "Owner Name",
+          "{{owner_name}}"
+        ],
+        [
+          "Renter Name",
+          "{{renter_name}}"
+        ],
+        [
+          "Renter License #",
+          "{{renter_license_number}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "ACCESS METHOD (check one)",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "\u2610 In-person key handoff \u2014 Owner physically handed keys to Renter at {{pickup_location}} on {{handoff_date}} at {{handoff_time}}.",
+        "\u2610 Lockbox / key safe \u2014 Renter received lockbox code: {{lockbox_code}}. Lockbox location: {{lockbox_location}}. Code valid from {{code_valid_from}} to {{code_valid_to}}.",
+        "\u2610 Remote key / keyless entry \u2014 Renter received access via {{remote_access_method}}. Instructions sent via {{instructions_method}} on {{instructions_date}}.",
+        "\u2610 Valet / third-party delivery \u2014 Keys delivered by {{delivery_person}} on {{delivery_date}} at {{delivery_time}}. Delivery method: {{delivery_method}}.",
+        "\u2610 Platform-managed (Turo Go / similar) \u2014 Access managed through {{platform_name}} app. Renter confirms receipt via app on {{app_confirmation_date}}."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "KEY / ACCESS ITEM INVENTORY",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Quantity",
+        "Condition",
+        "Serial/ID (if applicable)"
+      ],
+      "rows": [
+        [
+          "Vehicle key(s) \u2014 front door / trunk",
+          "{{key_count}}",
+          "{{key_condition}}",
+          ""
+        ],
+        [
+          "Vehicle key(s) \u2014 ignition / smart key / fob",
+          "{{smart_key_count}}",
+          "{{smart_key_condition}}",
+          ""
+        ],
+        [
+          "Spare key(s) (if provided)",
+          "{{spare_key_count}}",
+          "{{spare_key_condition}}",
+          ""
+        ],
+        [
+          "Lockbox / key safe (if applicable)",
+          "1",
+          "{{lockbox_condition}}",
+          "{{lockbox_id}}"
+        ],
+        [
+          "Other: {{other_item}}",
+          "{{other_item_qty}}",
+          "{{other_item_condition}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "RENTER ACKNOWLEDGMENT",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "I acknowledge receipt of the Vehicle keys / access method listed above. I understand I am responsible for:",
+      "style": "BodyText"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Returning all keys and access items at the end of the rental period.",
+        "Not duplicating, sharing, or altering any keys, codes, or access devices.",
+        "Reporting lost or stolen keys immediately to the Owner.",
+        "Paying the cost of replacement or re-coding for any lost keys, lockboxes, or access devices.",
+        "{{key_responsibilities}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "LOST KEY / ACCESS DEVICE PROTOCOL",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "If keys or access devices are lost or stolen during the rental period:",
+      "style": "BodyText"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Renter must notify Owner within 1 hour of discovering the loss.",
+        "Owner will arrange for key replacement, lock re-coding, or lockbox replacement.",
+        "Renter is responsible for all costs associated with replacement.",
+        "Estimated cost of key replacement: {{key_replacement_cost}}.",
+        "Estimated cost of lockbox replacement: {{lockbox_replacement_cost}}.",
+        "Estimated cost of lock re-coding: {{lock_re_code_cost}}."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Date",
+        "Time"
+      ],
+      "rows": [
+        [
+          "Owner",
+          "_____________________________",
+          "{{owner_key_date}}",
+          "{{owner_key_time}}"
+        ],
+        [
+          "Renter",
+          "_____________________________",
+          "{{renter_key_date}}",
+          "{{renter_key_time}}"
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

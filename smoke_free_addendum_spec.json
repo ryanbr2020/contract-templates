@@ -1,0 +1,133 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "ContractTitle",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SectionHeading",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BodyText",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WarningText",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "SMOKE-FREE / NON-SMOKING ADDENDUM TO SHORT TERM RENTAL AGREEMENT",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "SMOKE-FREE / NON-SMOKING ADDENDUM",
+      "level": 1,
+      "style": "ContractTitle"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Addendum is attached to the Short Term Rental Agreement dated {{agreement_date}} between {{host_name}} (\"Host\") and {{guest_name}} (\"Guest\").",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "SMOKING POLICY",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "SMOKING IS PROHIBITED INSIDE THE PROPERTY. This includes all indoor areas: bedrooms, living rooms, kitchens, bathrooms, hallways, and closets.",
+        "Smoking includes: cigarettes, cigars, pipes, e-cigarettes / vaping devices, marijuana / cannabis (regardless of legal status), hookahs, and any other smoking or vaping device that produces smoke, vapor, or odor.",
+        "DESIGNATED SMOKING AREA: {{smoking_area_description}}. Smoking is permitted ONLY in this designated area.",
+        "Guests must dispose of all smoking materials (cigarette butts, cigar wrappers, etc.) in the designated receptacle. Littering smoking materials on the property or in common areas is prohibited.",
+        "Marijuana/cannabis: Regardless of state or local legality, smoking or vaping cannabis inside the property is strictly prohibited. Cannabis use outside the designated smoking area is prohibited. Guests must comply with all applicable laws regarding possession and use."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "SMOKE DETECTION AND MONITORING",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The property is equipped with smoke detectors. Tampering with, disabling, or covering smoke detectors is strictly prohibited and is grounds for immediate termination of the stay.",
+        "Host may use smoke detection technology (air quality sensors, smoke alarms with connectivity) to monitor for smoking activity.",
+        "If smoking is detected inside the property, Host will investigate and may charge the guest for smoke removal, deep cleaning, and odor treatment."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "CONSEQUENCES OF SMOKING INSIDE THE PROPERTY",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "If smoking occurs inside the property (regardless of whether the Guest, a guest's visitor, or an unknown party did it):",
+      "style": "BodyText"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "First occurrence: Guest will be charged a smoke remediation fee of {{smoke_remediation_fee}}, which covers: professional ozone/hydroxyl treatment, deep cleaning of all fabric surfaces (curtains, carpets, upholstery), repainting of affected walls (if needed), and replacement of smoke-damaged items.",
+        "If smoke odor persists after professional remediation (defined as being detectable by Host or cleaning service within 48 hours of treatment): Guest will be charged an additional smoke damage fee of {{additional_smoke_fee}} and may be asked to cover the cost of replacing smoke-absorbing materials (carpets, curtains, etc.).",
+        "Smoke detector tampering: An additional fee of {{detector_tampering_fee}} applies, and Host may terminate the stay immediately.",
+        "Repeated violations: Host reserves the right to terminate the stay without refund and ban the Guest from future bookings."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "GUEST ACKNOWLEDGMENT",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Guest acknowledges having read and understood this Smoke-Free / Non-Smoking Addendum. Guest agrees to the smoking policy and the consequences listed above. Guest is responsible for ensuring that all members of Guest's party comply with this policy.",
+      "style": "BodyText"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Guest",
+          "_____________________________",
+          "{{guest_date}}"
+        ],
+        [
+          "Host",
+          "_____________________________",
+          "{{host_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

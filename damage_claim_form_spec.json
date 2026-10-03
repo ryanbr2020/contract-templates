@@ -1,0 +1,508 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "ContractTitle",
+      "font": "Calibri",
+      "size_pt": 24,
+      "bold": true
+    },
+    {
+      "name": "SectionHeading",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BodyText",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WarningText",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    },
+    {
+      "name": "FormLabel",
+      "font": "Calibri",
+      "size_pt": 11,
+      "bold": true
+    },
+    {
+      "name": "FormValue",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "SmallText",
+      "font": "Calibri",
+      "size_pt": 9
+    }
+  ],
+  "header": "VEHICLE DAMAGE CLAIM / INCIDENT REPORT",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "VEHICLE DAMAGE CLAIM / INCIDENT REPORT",
+      "level": 1,
+      "style": "ContractTitle"
+    },
+    {
+      "type": "paragraph",
+      "text": "Use this form to report vehicle damage or an incident that occurred during a rental period. Submit within 24 hours of the incident or trip end. Late reports may not be eligible for coverage.",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "CLAIM REPORTER INFORMATION",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Reporter Name",
+          "{{reporter_name}}"
+        ],
+        [
+          "Reporter Role",
+          "{{reporter_role}} (Owner / Renter / Other)"
+        ],
+        [
+          "Email",
+          "{{reporter_email}}"
+        ],
+        [
+          "Phone",
+          "{{reporter_phone}}"
+        ],
+        [
+          "Date of Report",
+          "{{report_date}}"
+        ],
+        [
+          "Time of Report",
+          "{{report_time}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "VEHICLE AND TRIP INFORMATION",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Vehicle Make",
+          "{{vehicle_make}}"
+        ],
+        [
+          "Vehicle Model",
+          "{{vehicle_model}}"
+        ],
+        [
+          "Vehicle Year",
+          "{{vehicle_year}}"
+        ],
+        [
+          "VIN",
+          "{{vehicle_vin}}"
+        ],
+        [
+          "License Plate",
+          "{{license_plate}}"
+        ],
+        [
+          "Trip Start Date",
+          "{{trip_start_date}}"
+        ],
+        [
+          "Trip End Date",
+          "{{trip_end_date}}"
+        ],
+        [
+          "Pickup Location",
+          "{{pickup_location}}"
+        ],
+        [
+          "Return Location",
+          "{{return_location}}"
+        ],
+        [
+          "Owner Name",
+          "{{owner_name}}"
+        ],
+        [
+          "Renter Name(s)",
+          "{{renter_name}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "INCIDENT DETAILS",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Date of Incident",
+          "{{incident_date}}"
+        ],
+        [
+          "Time of Incident",
+          "{{incident_time}}"
+        ],
+        [
+          "Location of Incident",
+          "{{incident_location}}"
+        ],
+        [
+          "Description of Incident",
+          "{{incident_description}}"
+        ],
+        [
+          "Were there other vehicles/persons involved?",
+          "{{other_parties_involved}}"
+        ],
+        [
+          "Was anyone injured?",
+          "{{injuries_involved}}"
+        ],
+        [
+          "Was police involved?",
+          "{{police_involved}}"
+        ],
+        [
+          "Police Report Number (if applicable)",
+          "{{police_report_number}}"
+        ],
+        [
+          "Police Department",
+          "{{police_department}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "DAMAGE DESCRIPTION",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Describe all damage in detail. Include location on vehicle, size, type, and any photos taken.",
+      "style": "BodyText"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Damage Item #",
+        "Location on Vehicle",
+        "Description (type, size, severity)",
+        "Photo Reference",
+        "Estimated Repair Cost"
+      ],
+      "rows": [
+        [
+          "1",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "2",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "3",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "4",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "PHOTO DOCUMENTATION",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Attach clear, in-focus photos showing the damage. Pre-trip and post-trip comparison photos are essential. List all photo files below:",
+      "style": "BodyText"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Photo #",
+        "File Name / Reference",
+        "Description of What Photo Shows",
+        "Date/Time Taken"
+      ],
+      "rows": [
+        [
+          "1",
+          "",
+          "",
+          ""
+        ],
+        [
+          "2",
+          "",
+          "",
+          ""
+        ],
+        [
+          "3",
+          "",
+          "",
+          ""
+        ],
+        [
+          "4",
+          "",
+          "",
+          ""
+        ],
+        [
+          "5",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "WITNESS INFORMATION (if any)",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Witness #",
+        "Full Name",
+        "Phone",
+        "Email",
+        "Statement Summary"
+      ],
+      "rows": [
+        [
+          "1",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "2",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "INSURANCE INFORMATION",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Renter's Insurance Company",
+          "{{renter_insurance_company}}"
+        ],
+        [
+          "Renter's Policy Number",
+          "{{renter_policy_number}}"
+        ],
+        [
+          "Renter's Claim Number (if filed)",
+          "{{renter_claim_number}}"
+        ],
+        [
+          "Owner's Insurance Company",
+          "{{owner_insurance_company}}"
+        ],
+        [
+          "Owner's Policy Number",
+          "{{owner_policy_number}}"
+        ],
+        [
+          "Protection Plan Purchased (if P2P platform)",
+          "{{protection_plan_type}}"
+        ],
+        [
+          "Platform Claim Reference (if applicable)",
+          "{{platform_claim_reference}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "REPAIR ESTIMATE (if available)",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Repair Shop Name",
+          "{{repair_shop_name}}"
+        ],
+        [
+          "Repair Shop Phone",
+          "{{repair_shop_phone}}"
+        ],
+        [
+          "Estimate Amount",
+          "{{repair_estimate_amount}}"
+        ],
+        [
+          "Estimate Date",
+          "{{estimate_date}}"
+        ],
+        [
+          "Estimate Provided By",
+          "{{estimate_provider}}"
+        ],
+        [
+          "Estimate Attachment",
+          "Attach estimate document or invoice"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "RESOLUTION PREFERENCE",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "I prefer to resolve this directly with the other party (agree on cost, exchange payment).",
+        "I want the Platform/Insurer to handle the claim.",
+        "I have already resolved this directly \u2014 see details below."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "ADDITIONAL COMMENTS",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "{{additional_comments}}",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "REPORT SUBMISSION",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "By submitting this report, I attest that the information provided is true and accurate to the best of my knowledge. I understand that false or misleading information may result in denial of coverage or other consequences.",
+      "style": "BodyText"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Report Preparer",
+          "_____________________________",
+          "{{report_date}}"
+        ],
+        [
+          "Owner (if renter filed)",
+          "_____________________________",
+          "{{owner_claim_date}}"
+        ],
+        [
+          "Renter (if owner filed)",
+          "_____________________________",
+          "{{renter_claim_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "paragraph",
+      "text": "Submit this form via: {{submission_method}} | Questions: {{support_contact}}",
+      "style": "BodyText"
+    }
+  ]
+}

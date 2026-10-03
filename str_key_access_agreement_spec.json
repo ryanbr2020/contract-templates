@@ -1,0 +1,311 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "ContractTitle",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SectionHeading",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BodyText",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WarningText",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "KEY / ACCESS CODE AGREEMENT \u2014 SHORT TERM RENTAL",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "KEY / ACCESS CODE AGREEMENT \u2014 SHORT TERM RENTAL",
+      "level": 1,
+      "style": "ContractTitle"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Key / Access Code Agreement is attached to the Short Term Rental Agreement dated {{agreement_date}} between {{host_name}} (\"Host\") and {{guest_name}} (\"Guest\").",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "ACCESS METHOD",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Access Method",
+          "{{access_method}} (In-person key handoff / Lockbox / Smart lock / Keyless entry / Other)"
+        ],
+        [
+          "Property Address",
+          "{{property_address}}"
+        ],
+        [
+          "Check-in Date",
+          "{{check_in_date}}"
+        ],
+        [
+          "Check-in Time",
+          "{{check_in_time}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "IF IN-PERSON KEY HANDOFF",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Key handoff location",
+          "{{key_handoff_location}}"
+        ],
+        [
+          "Key handoff date/time",
+          "{{key_handoff_date}} at {{key_handoff_time}}"
+        ],
+        [
+          "Number of keys provided",
+          "{{key_count}}"
+        ],
+        [
+          "Key description",
+          "{{key_description}}"
+        ],
+        [
+          "Spare key provided?",
+          "{{spare_key}} (Yes / No)"
+        ],
+        [
+          "Keyring / keybox provided?",
+          "{{keyring}} (Yes / No)"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "IF LOCKBOX",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Lockbox type",
+          "{{lockbox_type}}"
+        ],
+        [
+          "Lockbox location",
+          "{{lockbox_location}} (be specific and discreet)"
+        ],
+        [
+          "Lockbox code",
+          "{{lockbox_code}}"
+        ],
+        [
+          "Code valid from",
+          "{{code_valid_from}}"
+        ],
+        [
+          "Code valid until",
+          "{{code_valid_until}}"
+        ],
+        [
+          "Instructions for using lockbox",
+          "{{lockbox_instructions}}"
+        ],
+        [
+          "Code changed after checkout?",
+          "{{code_changed_after}} (Yes / No \u2014 if Yes, new code will be provided for next guest)"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "IF SMART LOCK / KEYLESS ENTRY",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Lock brand/model",
+          "{{lock_brand}}"
+        ],
+        [
+          "Access method",
+          "{{access_method_detail}} (app code / keypad code / fingerprint / card / Bluetooth)"
+        ],
+        [
+          "Code or access credential",
+          "{{access_credential}}"
+        ],
+        [
+          "Code valid from",
+          "{{code_valid_from}}"
+        ],
+        [
+          "Code valid until",
+          "{{code_valid_until}}"
+        ],
+        [
+          "Instructions for locking / unlocking",
+          "{{lock_instructions}}"
+        ],
+        [
+          "Back entrance / secondary access",
+          "{{secondary_access}}"
+        ],
+        [
+          "Code deactivated after checkout?",
+          "{{code_deactivated_after}} (Yes / No)"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "GUEST RESPONSIBILITIES",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Guest agrees to:",
+      "style": "BodyText"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "Keep all keys, access codes, and access devices secure and private.",
+        "Not share access codes or keys with any person not listed on the Short Term Rental Agreement.",
+        "Not duplicate, photograph, or record access codes for use after the rental period.",
+        "Use the access method only as instructed. Do not force, probe, or tamper with locks, lockboxes, or smart lock mechanisms.",
+        "Lock the property securely upon each exit and at check-out.",
+        "Return all keys at check-out (if key handoff).",
+        "Not change the lock, lock code, or access settings.",
+        "Report lost or stolen keys / compromised codes immediately to Host.",
+        "If lockbox code or smart lock code is compromised, Guest is responsible for the cost of changing the code and any resulting locksmith or re-coding charges."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "LOST KEY / COMPROMISED ACCESS PROTOCOL",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "If a key is lost or an access code is compromised during the rental period:",
+      "style": "BodyText"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Guest must notify Host within 1 hour of discovery.",
+        "Host will arrange for key replacement, lock re-coding, or lockbox code change.",
+        "Guest is responsible for all costs: key replacement ({{key_replacement_cost}}), lock re-coding ({{lock_re_code_cost}}), locksmith call-out ({{locksmith_fee}}), lockbox replacement ({{lockbox_replacement_cost}}).",
+        "If access is lost and the Vehicle/property cannot be accessed, Guest may need to arrange alternative accommodation at Guest's expense."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "HOST RIGHT OF ENTRY",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Host may enter the property under the following conditions:",
+      "style": "BodyText"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Emergency: Immediately, without prior notice (fire, flood, gas leak, security threat, injury, or other urgent safety concern).",
+        "Non-emergency maintenance/repair: With at least {{notice_hours}} hours notice, during reasonable hours ({{entry_hours}}).",
+        "Between-guest turnover: Host or cleaning crew will access the property after checkout and before the next guest's check-in. This is not considered a violation of Guest's privacy."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "GUEST ACKNOWLEDGMENT",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Guest acknowledges having read, understood, and agreed to this Key / Access Code Agreement. Guest confirms receipt of the access method and agrees to the responsibilities listed above.",
+      "style": "BodyText"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Guest",
+          "_____________________________",
+          "{{guest_date}}"
+        ],
+        [
+          "Host",
+          "_____________________________",
+          "{{host_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

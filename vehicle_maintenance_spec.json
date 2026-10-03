@@ -1,0 +1,256 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 25,
+      "bottom": 25,
+      "left": 25,
+      "right": 25
+    }
+  },
+  "styles": [
+    {
+      "name": "ContractTitle",
+      "font": "Calibri",
+      "size_pt": 24,
+      "bold": true
+    },
+    {
+      "name": "SectionHeading",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BodyText",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WarningText",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "VEHICLE MAINTENANCE AGREEMENT",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "VEHICLE MAINTENANCE AGREEMENT",
+      "level": 1,
+      "style": "ContractTitle"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Vehicle Maintenance Agreement (\"Agreement\") is entered into as of {{date}}, by and between:",
+      "style": "BodyText"
+    },
+    {
+      "type": "paragraph",
+      "text": "Service Provider: {{service_provider_name}}, located at {{service_provider_address}} (\"Provider\")",
+      "style": "BodyText"
+    },
+    {
+      "type": "paragraph",
+      "text": "Vehicle Owner: {{vehicle_owner_name}}, located at {{vehicle_owner_address}} (\"Owner\")",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "1. VEHICLE",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Provider",
+        "Owner"
+      ],
+      "rows": [
+        [
+          "Make",
+          "{{vehicle_make}}",
+          ""
+        ],
+        [
+          "Model",
+          "{{vehicle_model}}",
+          ""
+        ],
+        [
+          "Year",
+          "{{vehicle_year}}",
+          ""
+        ],
+        [
+          "VIN",
+          "{{vehicle_vin}}",
+          ""
+        ],
+        [
+          "License Plate",
+          "{{license_plate}}",
+          ""
+        ],
+        [
+          "Current Odometer",
+          "{{odometer_reading}} miles",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "2. SCOPE OF SERVICES",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Provider agrees to perform the following maintenance and repair services on the Vehicle:",
+      "style": "BodyText"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "{{scope_of_services}}",
+        "Provider shall use new OEM or equivalent-quality parts unless otherwise approved by Owner.",
+        "Provider shall perform all work in a professional and workmanlike manner."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "3. SERVICE SCHEDULE",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Service Start Date: {{service_start_date}}",
+        "Service Frequency: {{service_frequency}}",
+        "Estimated Service Duration: {{service_duration}}",
+        "Service Location: {{service_location}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "4. PAYMENT TERMS",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Total Contract Value: {{total_contract_value}}",
+        "Payment Schedule: {{payment_schedule}}",
+        "Payment Method: {{payment_method}}",
+        "Provider shall invoice Owner {{invoice_frequency}} for services rendered.",
+        "Owner agrees to pay all invoices within {{payment_terms}} days of receipt."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "5. OWNER'S RESPONSIBILITIES",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Provide Vehicle in safe, accessible condition for service.",
+        "Maintain valid insurance and registration.",
+        "Notify Provider of any changes in Vehicle ownership or condition.",
+        "Grant Provider reasonable access to the Vehicle for scheduled services.",
+        "Comply with all terms of this Agreement."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "6. PROVIDER'S WARRANTIES",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Provider warrants that all parts and labor will be free from defects for a period of {{warranty_period}} from the date of service.",
+        "Provider warrants that services will be performed in a professional manner consistent with industry standards.",
+        "Provider will provide written estimates for any repair work exceeding {{estimate_threshold}}."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "7. LIMITATION OF LIABILITY",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Provider's total liability under this Agreement shall not exceed {{liability_cap}} or the total amount paid by Owner to Provider under this Agreement, whichever is less.",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "8. TERMINATION",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Either Party may terminate this Agreement with {{termination_notice}} days written notice.",
+        "Upon termination, Owner shall pay Provider for all services performed up to the termination date.",
+        "Provider shall return the Vehicle in the condition required by this Agreement."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "9. DISPUTE RESOLUTION",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Any disputes arising from this Agreement shall be resolved through {{dispute_resolution}} in {{governing_state}}.",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Provider",
+        "Owner"
+      ],
+      "rows": [
+        [
+          "",
+          "Signature",
+          "_____________________________"
+        ],
+        [
+          "",
+          "Printed Name",
+          "{{service_provider_name}}"
+        ],
+        [
+          "",
+          "Date",
+          "{{provider_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 25,
+      "bottom": 25,
+      "left": 25,
+      "right": 25
+    }
+  },
+  "styles": [
+    {
+      "name": "ContractTitle",
+      "font": "Calibri",
+      "size_pt": 24,
+      "bold": true
+    },
+    {
+      "name": "SectionHeading",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BodyText",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WarningText",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "PASSENGER LIABILITY WAIVER AND RELEASE",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "PASSENGER LIABILITY WAIVER AND RELEASE OF LIABILITY",
+      "level": 1,
+      "style": "ContractTitle"
+    },
+    {
+      "type": "paragraph",
+      "text": "*** PLEASE READ CAREFULLY BEFORE SIGNING ***",
+      "style": "WarningText"
+    },
+    {
+      "type": "heading",
+      "text": "PARTIES",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Passenger Waiver and Release (\"Waiver\") is entered into on {{date}} between:",
+      "style": "BodyText"
+    },
+    {
+      "type": "paragraph",
+      "text": "Operator: {{operator_name}}, {{operator_address}} (\"Operator\")",
+      "style": "BodyText"
+    },
+    {
+      "type": "paragraph",
+      "text": "Passenger: {{passenger_name}}, {{passenger_address}} (\"Passenger\")",
+      "style": "BodyText"
+    },
+    {
+      "type": "paragraph",
+      "text": "Vehicle: {{vehicle_description}}",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "1. ASSUMPTION OF RISK",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Passenger acknowledges that transportation services involve inherent risks, including but not limited to:",
+      "style": "BodyText"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Traffic accidents, collisions, and related injuries.",
+        "Mechanical failures or vehicle malfunctions.",
+        "Weather-related hazards and road conditions.",
+        "Negligence or actions of other drivers, passengers, pedestrians, or third parties.",
+        "Sudden stops, starts, or changes in direction.",
+        "Injury from objects within the vehicle.",
+        "{{risk_factors}}"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Passenger voluntarily accepts and assumes all such risks, known and unknown, even if caused by the negligence of the Operator.",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "2. RELEASE OF LIABILITY",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "To the fullest extent permitted by law, Passenger hereby releases, waives, and discharges:",
+      "style": "BodyText"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The Operator, its owners, operators, employees, agents, and affiliates (collectively, \"Released Parties\").",
+        "Any claim, demand, action, or cause of action arising from or related to any loss, damage, injury, or death sustained while using the transportation service.",
+        "Claim for pain and suffering, emotional distress, or punitive damages.",
+        "Any liability for property damage affecting Passenger's personal belongings."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "This release includes claims based on the acts or omissions of any Released Party, even if arising from negligence.",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "3. INDEMNIFICATION",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Passenger agrees to indemnify and hold harmless the Released Parties from any claims, losses, or expenses (including attorney fees) arising from:",
+      "style": "BodyText"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Passenger's own negligence or misconduct.",
+        "Passenger's violation of any law, rule, or regulation.",
+        "Passenger's damage to the Vehicle or property.",
+        "Passenger's interference with the Operator's safe operation of the Vehicle.",
+        "{{indemnification_scope}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "4. MEDICAL CERTIFICATION",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Passenger certifies that:",
+      "style": "BodyText"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Passenger is in good physical health and capable of using transportation services.",
+        "Passenger has no medical condition that could be aggravated by transportation.",
+        "Passenger is not under the influence of alcohol or drugs.",
+        "Passenger has no contagious disease that could endanger others.",
+        "{{medical_certification}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "5. INSURANCE DISCLOSURE",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Passenger acknowledges that:",
+      "style": "BodyText"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Operator may carry insurance coverage, but Passenger is not a named insured.",
+        "Passenger is encouraged to maintain personal health insurance and/or travel insurance.",
+        "This Waiver does not affect Passenger's insurance coverage from other sources.",
+        "Operator's insurance coverage, if any, is subject to its terms, conditions, and exclusions."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "6. NO CONSEQUENTIAL DAMAGES",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Passenger waives any claim for consequential, indirect, incidental, special, or punitive damages.",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "7. SEVERABILITY",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "If any provision of this Waiver is held invalid or unenforceable, the remaining provisions shall remain in full force and effect.",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "8. GOVERNING LAW",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Waiver is governed by the laws of {{governing_state}}. The parties agree to submit to the exclusive jurisdiction of the courts located in {{governing_state}}.",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "9. ENTIRE AGREEMENT AND ACKNOWLEDGMENT",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Waiver constitutes the entire agreement between the parties regarding the subject matter and supersedes all prior agreements. Passenger acknowledges having read, understood, and voluntarily signed this Waiver.",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "PASSENGER'S STATEMENT",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "I HAVE READ THIS WAIVER, UNDERSTAND ITS TERMS, AND VOLUNTARILY AGREE TO ITS CONDITIONS. I UNDERSTAND THAT I AM GIVING UP SUBSTANTIAL RIGHTS AND RELEASING THE OPERATOR FROM LIABILITY FOR INJURY OR DEATH, EVEN IF CAUSED BY THE OPERATOR'S NEGLIGENCE.",
+      "style": "WarningText"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Passenger",
+        "Date of Birth",
+        "Emergency Contact"
+      ],
+      "rows": [
+        [
+          "",
+          "Signature",
+          "{{passenger_signature}}",
+          "{{passenger_dob}}"
+        ],
+        [
+          "",
+          "Printed Name",
+          "{{passenger_name}}",
+          ""
+        ],
+        [
+          "",
+          "Date",
+          "{{passenger_date}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

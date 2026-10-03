@@ -1,0 +1,256 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "ContractTitle",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SectionHeading",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BodyText",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WarningText",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "CLEANING CHECKLIST AND FEE BREAKDOWN \u2014 SHORT TERM RENTAL",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "CLEANING CHECKLIST AND FEE BREAKDOWN",
+      "level": 1,
+      "style": "ContractTitle"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Cleaning Checklist is attached to the Short Term Rental Agreement dated {{agreement_date}} between {{host_name}} (\"Host\") and {{guest_name}} (\"Guest\"). It describes the expected cleaning standard and the fees associated with cleaning.",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "CLEANING STANDARD AT CHECK-OUT",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Guest is expected to leave the property in the same condition as at check-in, subject to normal use. The following must be completed by Guest before departure:",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "KITCHEN",
+      "level": 3,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "All dishes washed, dried, and put away.",
+        "Sink emptied and wiped clean.",
+        "Countertops wiped down.",
+        "Stove / cooktop cleaned (no food residue, grease, or spills).",
+        "Microwave cleaned (inside and out).",
+        "Refrigerator: all food removed, shelves wiped, doors closed.",
+        "Trash and recycling removed from kitchen and placed in designated exterior bins.",
+        "Floor swept and spot-mopped if needed.",
+        "Dining table / eating area wiped clean."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "LIVING AREAS AND BEDROOMS",
+      "level": 3,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "All trash and recycling collected and placed in exterior bins.",
+        "Surfaces (tables, shelves, counters) wiped clean.",
+        "Furniture arranged as found at check-in.",
+        "Couches and chairs checked for personal items, trash, food.",
+        "Beds stripped (if Host provides linens \u2014 leave linens on bed unless instructed otherwise).",
+        "Floor swept or vacuumed.",
+        "Windows closed.",
+        "Lights turned off.",
+        "TV and electronics turned off.",
+        "Thermostat set to {{thermostat_checkout_setting}}."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "BATHROOMS",
+      "level": 3,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Toilet flushed and cleaned (no visible residue).",
+        "Sink and counter wiped clean.",
+        "Shower / tub: water spots and hair removed from drain.",
+        "Mirrors wiped clean.",
+        "Towels gathered and placed in designated area (or left as found).",
+        "Toilet paper restocked if below {{toilet_paper_minimum}} rolls."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "GENERAL / ENTRY",
+      "level": 3,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "All personal belongings packed and removed.",
+        "Keys / access cards returned (if applicable).",
+        "Windows and doors closed and locked.",
+        "Alarm set (if applicable) \u2014 instructions: {{alarm_instructions}}.",
+        "Final walk-through completed.",
+        "Check-out photo taken (optional but recommended for documentation)."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "CLEANING FEES",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Fee Type",
+        "Amount",
+        "Refundable?",
+        "Description"
+      ],
+      "rows": [
+        [
+          "Standard Cleaning Fee",
+          "{{standard_cleaning_fee}}",
+          "{{standard_cleaning_refundable}}",
+          "Covers professional cleaning between guests. Includes: floor cleaning, surface wiping, bathroom sanitizing, kitchen cleaning, trash removal, linen change."
+        ],
+        [
+          "Guest Cleaning Responsibility",
+          "$0 (included)",
+          "N/A",
+          "Guest is expected to perform the basic cleaning tasks listed in Section 1. This is a condition of the rental, not an additional charge."
+        ],
+        [
+          "Excessive Cleaning Fee",
+          "{{excessive_cleaning_fee}}",
+          "Non-refundable",
+          "If Guest leaves the property requiring cleaning beyond normal turnover (food spills not cleaned, trash not removed, dishes left, bathroom not cleaned, pet mess, etc.), this fee covers the additional cleaning cost."
+        ],
+        [
+          "Deep Cleaning Surcharge",
+          "{{deep_cleaning_surcharge}}",
+          "Non-refundable",
+          "For severe cases: pet odor treatment, smoke remediation, mold/mildew, hoarding-level mess, biohazard cleanup. Actual cost may exceed this amount; Guest will be billed for the difference."
+        ],
+        [
+          "Carpet Cleaning",
+          "{{carpet_cleaning_fee}}",
+          "{{carpet_cleaning_refundable}}",
+          "If carpets require professional cleaning beyond normal vacuuming and spot cleaning due to Guest's use."
+        ],
+        [
+          "Furniture / Upholstery Cleaning",
+          "{{upholstery_cleaning_fee}}",
+          "Non-refundable",
+          "If furniture or upholstery requires professional cleaning due to stains, spills, or pet hair."
+        ],
+        [
+          "Odor Removal Treatment",
+          "{{odor_removal_fee}}",
+          "Non-refundable",
+          "For smoke, pet, food, or other odors persisting after normal cleaning."
+        ],
+        [
+          "Laundry Service",
+          "{{laundry_fee}}",
+          "{{laundry_fee_refundable}}",
+          "If linens or clothing left behind require professional laundering."
+        ],
+        [
+          "Pest Treatment",
+          "{{pest_treatment_fee}}",
+          "Non-refundable",
+          "If Guest's actions result in pest infestation (ants from food left out, bed bugs from luggage, etc.)."
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "CLEANING FEE REFUND POLICY",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Standard Cleaning Fee is {{standard_cleaning_fee_refundable_note}}.",
+        "If Host cancels the stay, the Standard Cleaning Fee is fully refunded.",
+        "If Guest cancels according to the cancellation policy, the Standard Cleaning Fee is {{cancellation_cleaning_fee_treatment}}.",
+        "Excessive Cleaning Fees are non-refundable and will be charged if the property is left in a condition requiring cleaning beyond normal turnover."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "GUEST ACKNOWLEDGMENT",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Guest acknowledges having read and understood the Cleaning Checklist and Fee Breakdown. Guest agrees to comply with the cleaning standard and understands the fees applicable for failure to do so.",
+      "style": "BodyText"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Guest",
+          "_____________________________",
+          "{{guest_date}}"
+        ],
+        [
+          "Host",
+          "_____________________________",
+          "{{host_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

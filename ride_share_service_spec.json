@@ -1,0 +1,267 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 25,
+      "bottom": 25,
+      "left": 25,
+      "right": 25
+    }
+  },
+  "styles": [
+    {
+      "name": "ContractTitle",
+      "font": "Calibri",
+      "size_pt": 24,
+      "bold": true
+    },
+    {
+      "name": "SectionHeading",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BodyText",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WarningText",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "RIDE SHARE SERVICE AGREEMENT",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "RIDE SHARE SERVICE AGREEMENT",
+      "level": 1,
+      "style": "ContractTitle"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Ride Share Service Agreement (\"Agreement\") is entered into as of {{date}}, between:",
+      "style": "BodyText"
+    },
+    {
+      "type": "paragraph",
+      "text": "Platform Operator: {{platform_name}}, a company organized under the laws of {{jurisdiction}}, with its principal office at {{platform_address}} (\"Platform\")",
+      "style": "BodyText"
+    },
+    {
+      "type": "paragraph",
+      "text": "Driver: {{driver_name}}, residing at {{driver_address}} (\"Driver\")",
+      "style": "BodyText"
+    },
+    {
+      "type": "paragraph",
+      "text": "Passenger: {{passenger_name}}, residing at {{passenger_address}} (\"Passenger\")",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "1. DEFINITIONS",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "\"Ride\" means a single transportation service from a pick-up location to a drop-off location.",
+        "\"Booking\" means a Passenger's request for a Ride through the Platform.",
+        "\"Fare\" means the price charged for a Ride, as calculated by the Platform.",
+        "\"Ride Share Vehicle\" means the Vehicle used by Driver to provide Rides."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "2. PLATFORM SERVICES",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Platform provides a digital marketplace connecting Passengers with Drivers. Platform's obligations include:",
+      "style": "BodyText"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Operating and maintaining the Platform for Driver and Passenger use.",
+        "Processing payments from Passengers to Drivers.",
+        "{{platform_obligations}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "3. DRIVER OBLIGATIONS",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Driver agrees to:",
+      "style": "BodyText"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Maintain a valid driver's license with a clean driving record throughout the Agreement term.",
+        "Maintain valid personal auto insurance covering the Ride Share Vehicle.",
+        "Comply with all traffic laws, regulations, and Platform policies.",
+        "Provide safe, professional, and courteous service to Passengers.",
+        "Maintain the Ride Share Vehicle in good mechanical condition.",
+        "Not transport any illegal items or substances.",
+        "Not exceed the maximum passenger capacity of the Vehicle.",
+        "Accurately disclose availability and pricing to the Platform.",
+        "{{driver_obligations}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "4. PASSENGER OBLIGATIONS",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Passenger agrees to:",
+      "style": "BodyText"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Provide accurate pick-up and drop-off information when booking a Ride.",
+        "Be ready at the designated pick-up location at the scheduled time.",
+        "Treat the Driver and Vehicle with respect.",
+        "Not engage in disruptive, unsafe, or illegal behavior during the Ride.",
+        "Not damage or vandalize the Vehicle.",
+        "Pay the Fare as calculated by the Platform.",
+        "{{passenger_obligations}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "5. FARES AND PAYMENTS",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Fares are calculated by the Platform based on distance, time, demand, and other factors.",
+        "Driver receives {{driver_payout_percentage}} of the Fare; Platform retains {{platform_commission_percentage}}.",
+        "Payment shall be made through the Platform's payment system.",
+        "Driver shall not charge additional fees beyond those set by the Platform unless agreed to by Passenger in advance.",
+        "Tips, if any, are at Passenger's discretion and are not included in the Fare."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "6. SAFETY",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Both Driver and Passenger must comply with all applicable safety regulations.",
+        "Driver must not operate the Vehicle while under the influence of alcohol or drugs.",
+        "Passenger must wear a seatbelt at all times.",
+        "Driver must comply with any background check requirements imposed by the Platform.",
+        "Either Party may terminate a Ride immediately if they feel unsafe."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "7. LIABILITY",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Driver is responsible for any damage caused by Driver's negligence during the Ride.",
+        "Passenger is responsible for any damage caused by Passenger's actions.",
+        "Platform is not liable for any accident, injury, or damage arising from a Ride, except as required by law.",
+        "Each Party acknowledges the risks inherent in ground transportation and assumes those risks."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "8. DISPUTES AND COMPLAINTS",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Any complaints regarding Rides shall be submitted through the Platform. The Platform may suspend or terminate a Driver's access for policy violations. Persistent complaints may result in termination of this Agreement.",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "9. TERMINATION",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Either Party may terminate this Agreement with {{termination_notice}} days written notice.",
+        "Platform may terminate immediately for breach of terms, safety violations, or illegal activity.",
+        "Driver may decline Ride requests at any time, subject to Platform policies."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "10. GOVERNING LAW",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Agreement is governed by the laws of {{governing_state}}. Any disputes shall be resolved in the courts of {{governing_state}}.",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Platform",
+        "Driver",
+        "Passenger"
+      ],
+      "rows": [
+        [
+          "",
+          "Signature",
+          "_________________________",
+          "_________________________"
+        ],
+        [
+          "",
+          "Printed Name",
+          "{{platform_name}}",
+          "{{driver_name}}"
+        ],
+        [
+          "",
+          "Date",
+          "{{platform_date}}",
+          "{{driver_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

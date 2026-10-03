@@ -1,0 +1,350 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 25,
+      "bottom": 25,
+      "left": 25,
+      "right": 25
+    }
+  },
+  "styles": [
+    {
+      "name": "ContractTitle",
+      "font": "Calibri",
+      "size_pt": 24,
+      "bold": true
+    },
+    {
+      "name": "SectionHeading",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BodyText",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WarningText",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "PEER-TO-PEER CAR RENTAL AGREEMENT",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "PEER-TO-PEER CAR RENTAL AGREEMENT",
+      "level": 1,
+      "style": "ContractTitle"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Peer-to-Peer Car Rental Agreement (\"Agreement\") is made as of {{date}}, between:",
+      "style": "BodyText"
+    },
+    {
+      "type": "paragraph",
+      "text": "Owner: {{owner_name}}, {{owner_address}} (\"Owner\")",
+      "style": "BodyText"
+    },
+    {
+      "type": "paragraph",
+      "text": "Renter: {{renter_name}}, {{renter_address}} (\"Renter\")",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "1. VEHICLE",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Owner",
+        "Renter"
+      ],
+      "rows": [
+        [
+          "Make",
+          "{{vehicle_make}}",
+          ""
+        ],
+        [
+          "Model",
+          "{{vehicle_model}}",
+          ""
+        ],
+        [
+          "Year",
+          "{{vehicle_year}}",
+          ""
+        ],
+        [
+          "VIN",
+          "{{vehicle_vin}}",
+          ""
+        ],
+        [
+          "License Plate",
+          "{{license_plate}}",
+          ""
+        ],
+        [
+          "Color",
+          "{{vehicle_color}}",
+          ""
+        ],
+        [
+          "Odometer at Pickup",
+          "{{odometer_pickup}} miles",
+          ""
+        ],
+        [
+          "Fuel Level at Pickup",
+          "{{fuel_level_pickup}}",
+          ""
+        ],
+        [
+          "Transmission",
+          "{{transmission_type}}",
+          ""
+        ],
+        [
+          "Vehicle Count",
+          "{{seat_count}} seats",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "2. RENTAL PERIOD",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Pickup Date/Time: {{pickup_date}} at {{pickup_time}}",
+        "Return Date/Time: {{return_date}} at {{return_time}}",
+        "Total Rental Duration: {{rental_hours}} hours / {{rental_days}} days",
+        "Pickup Location: {{pickup_location}}",
+        "Return Location: {{return_location}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "3. RENTAL FEES",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Daily Rate: {{daily_rate}} per day",
+        "Hourly Rate: {{hourly_rate}} per hour (if applicable)",
+        "Base Rental Charge: {{base_rental_charge}}",
+        "Security Deposit: {{security_deposit}} (authorized on renter's credit card)",
+        "Insurance Option: {{insurance_option}}",
+        "{{additional_fees}}",
+        "Total Estimated Charges: {{total_estimated_charges}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "4. RENTER'S OBLIGATIONS",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Renter agrees to:",
+      "style": "BodyText"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Provide a valid driver's license ({{license_requirement}}) and be at least {{minimum_age}} years old.",
+        "Provide valid insurance coverage meeting the requirements in Section 5.",
+        "Not drive under the influence of alcohol, drugs, or any impairing substance.",
+        "Not drive recklessly, violate traffic laws, or engage in illegal activity.",
+        "Not allow any person not listed on this Agreement to drive the Vehicle.",
+        "Not sublease, lend, or share the Vehicle with any other person.",
+        "Not use the Vehicle for commercial purposes, ride-sharing services, or delivery services.",
+        "Not operate the Vehicle outside of {{allowed_geographic_area}}.",
+        "Not modify, alter, or tamper with the Vehicle in any way.",
+        "Not track or record GPS/location data except as required by Owner's technology.",
+        "Not engage in joyriding, racing, or off-road driving.",
+        "{{renter_obligations}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "5. INSURANCE AND LIABILITY",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Renter must maintain personal auto insurance covering the Vehicle for the rental period.",
+        "Required minimum liability coverage: {{liability_minimum}} per person / {{liability_per_accident}} per accident.",
+        "Renter must provide proof of insurance to Owner before taking possession.",
+        "Owner's insurance (if any) is secondary and covers only damages exceeding Renter's coverage.",
+        "Renter is responsible for: (a) any deductible under Owner's policy, (b) any damage exceeding Renter's insurance limits, (c) loss of use during repairs.",
+        "Renter may purchase supplemental insurance through {{insurance_provider}}.",
+        "{{insurance_terms}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "6. VEHICLE CONDITION AND INSPECTION",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Renter must inspect the Vehicle at pickup and note any existing damage on the inspection form.",
+        "Owner shall disclose all known damage prior to pickup.",
+        "Renter accepts the Vehicle in its current condition, \"as-is.\"",
+        "Any damage occurring during the rental period is Renter's responsibility."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "7. FUEL AND RETURN",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Vehicle must be returned with the same fuel level as at pickup.",
+        "If returned with less fuel, Renter will be charged {{fuel_replenishment_rate}} per gallon for replenishment.",
+        "Vehicle must be returned clean (interior vacuumed, trash removed) or Renter will be charged a cleaning fee of {{cleaning_fee}}.",
+        "Vehicle must be returned at the agreed time and location.",
+        "Late returns: {{late_return_fee}} per hour after the agreed return time."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "8. DAMAGE AND ACCIDENTS",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "In the event of an accident, Renter must:",
+      "style": "BodyText"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Stop immediately and ensure the safety of all persons.",
+        "Call emergency services if necessary.",
+        "Exchange information with other parties involved.",
+        "Take photos of the scene and vehicle damage.",
+        "Notify Owner within {{accident_notification_hours}} hours.",
+        "File a police report if required by law or if damage exceeds {{police_report_threshold}}.",
+        "Not admit fault or settle claims privately without Owner's consent."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "9. SECURITY DEPOSIT",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Security deposit: {{security_deposit}} will be authorized on Renter's credit card.",
+        "Deposit will be released within {{deposit_release_period}} after return, subject to any deductions.",
+        "Owner may deduct from deposit for: vehicle damage, excessive cleaning, smoking, missing items, unpaid fees, late return charges, traffic fines, or other violations."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "10. TERMINATION",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Renter may terminate early by returning the Vehicle and notifying Owner.",
+        "Early termination fee: {{early_termination_fee}}.",
+        "Owner may terminate and retain the deposit if Renter violates any terms.",
+        "If Owner terminates, Renter receives a prorated refund of unused rental charges."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "11. GOVERNING LAW",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Agreement is governed by the laws of {{governing_state}}.",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "12. ENTIRE AGREEMENT",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Agreement constitutes the entire agreement between the parties and supersedes all prior agreements and representations.",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Owner",
+        "Renter"
+      ],
+      "rows": [
+        [
+          "",
+          "Signature",
+          "_____________________________"
+        ],
+        [
+          "",
+          "Printed Name",
+          "{{owner_name}}"
+        ],
+        [
+          "",
+          "Date",
+          "{{owner_date}}"
+        ],
+        [
+          "",
+          "License Number",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

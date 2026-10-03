@@ -1,0 +1,139 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "TRANSIENT OCCUPANCY DECLARATION \u2014 SHORT TERM RENTAL",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "TRANSIENT OCCUPANCY DECLARATION",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Transient Occupancy Declaration is attached to and made part of the Short Term Rental Agreement dated {{agreement_date}} between {{host_name}} (\"Owner\") and {{guest_name}} (\"Guest\").",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "DECLARATION OF TRANSIENT OCCUPANCY",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "OWNER'S DECLARATION:",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Owner declares that the property located at {{property_address}} (the \"Property\") is offered for short-term transient occupancy only. The Guest's occupancy of the Property under this Agreement creates a TEMPORARY LICENSE TO OCCUPY, and NOT a residential tenancy, lease, or landlord-tenant relationship of any kind.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "GUEST'S ACKNOWLEDGMENT:",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Guest acknowledges and agrees that:",
+      "style": "BT"
+    },
+    {
+      "type": "numbered_list",
+      "items": [
+        "This Agreement creates a temporary license to occupy the Property for the period specified in the Agreement. It does NOT create a tenancy, lease, or landlord-tenant relationship.",
+        "The Guest has no right to occupy the Property beyond the period stated in the Agreement. Upon expiration of the check-out date and time, Guest's license to occupy terminates and Guest must vacate the Property.",
+        "The Guest is classified as a TRANSIENT OCCUPANT, not a resident or tenant. The Guest does not establish the Property as their primary residence.",
+        "The Guest has no right to renew this Agreement, to extend the stay beyond the stated checkout date, or to request a new Agreement. Any extension must be a new, separate booking.",
+        "If the Guest remains in the Property after the checkout date and time without a new booking, the Guest becomes a holdover occupant / trespasser. The Owner may pursue all available legal remedies, including eviction, trespass actions, and recovery of damages.",
+        "The Guest is not entitled to any rights or protections under state or local landlord-tenant laws, including but not limited to: notice to quit, eviction procedures, habitability warranties, security deposit interest, rent control, or any other tenant protection.",
+        "The Guest's occupancy is subject to all the terms and conditions of the Short Term Rental Agreement and all attached addenda.",
+        "The Guest agrees that any dispute arising from this Agreement shall be governed by the laws applicable to transient occupancy / vacation rentals, not residential tenancies.",
+        "If any court or tribunal finds that this Agreement created a tenancy despite the terms herein, the Guest immediately surrenders any claim to continued occupancy and must vacate within 24 hours."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "THIRTY-DAY THRESHOLD",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Guest's total stay under this Agreement and any extensions or consecutive bookings MUST NOT exceed {{max_stay_days}} consecutive days. If the Guest's total stay reaches {{max_stay_days}} days, the Guest must vacate the Property. A new stay may be booked after a gap of at least {{minimum_gap_days}} days, subject to Owner's approval and availability.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Stays that exceed the {{max_stay_days}}-day threshold may be reclassified as a residential tenancy under applicable state law (e.g., California Civil Code \u00a71940(b), SB 644). The Owner is not obligated to accept any booking that would cause the threshold to be exceeded.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "GUEST ACKNOWLEDGMENT AND AGREEMENT",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "By signing below, Guest acknowledges having read, understood, and agreed to this Transient Occupancy Declaration. Guest confirms that the Property will not be used as Guest's primary residence during the stay.",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Guest",
+          "_____________________________",
+          "{{guest_date}}"
+        ],
+        [
+          "Owner",
+          "_____________________________",
+          "{{owner_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

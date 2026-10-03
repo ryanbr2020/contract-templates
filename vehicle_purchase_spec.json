@@ -1,0 +1,298 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 25,
+      "bottom": 25,
+      "left": 25,
+      "right": 25
+    }
+  },
+  "styles": [
+    {
+      "name": "ContractTitle",
+      "font": "Calibri",
+      "size_pt": 24,
+      "bold": true
+    },
+    {
+      "name": "SectionHeading",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BodyText",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WarningText",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "VEHICLE PURCHASE AGREEMENT",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "VEHICLE PURCHASE AGREEMENT",
+      "level": 1,
+      "style": "ContractTitle"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Vehicle Purchase Agreement (\"Agreement\") is entered into as of {{date}}, by and between:",
+      "style": "BodyText"
+    },
+    {
+      "type": "paragraph",
+      "text": "Seller: {{seller_name}}, with a principal address at {{seller_address}} (\"Seller\")",
+      "style": "BodyText"
+    },
+    {
+      "type": "paragraph",
+      "text": "Buyer: {{buyer_name}}, with a principal address at {{buyer_address}} (\"Buyer\")",
+      "style": "BodyText"
+    },
+    {
+      "type": "paragraph",
+      "text": "Seller and Buyer may be referred to individually as a \"Party\" and collectively as the \"Parties.\"",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "1. VEHICLE DESCRIPTION",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Parties agree that the vehicle subject to this Agreement is described as follows:",
+      "style": "BodyText"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Seller",
+        "Buyer"
+      ],
+      "rows": [
+        [
+          "Make",
+          "{{vehicle_make}}",
+          ""
+        ],
+        [
+          "Model",
+          "{{vehicle_model}}",
+          ""
+        ],
+        [
+          "Year",
+          "{{vehicle_year}}",
+          ""
+        ],
+        [
+          "VIN",
+          "{{vehicle_vin}}",
+          ""
+        ],
+        [
+          "Odometer Reading",
+          "{{odometer_reading}} miles",
+          ""
+        ],
+        [
+          "Color",
+          "{{vehicle_color}}",
+          ""
+        ],
+        [
+          "Title Number",
+          "{{title_number}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "2. PURCHASE PRICE AND PAYMENT",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "The total purchase price for the Vehicle is {{purchase_price}} (the \"Purchase Price\"), payable as follows:",
+      "style": "BodyText"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Down Payment: {{down_payment}} (paid upon execution of this Agreement)",
+        "Remaining Balance: {{remaining_balance}} (payable on or before {{balance_due_date}})",
+        "Payment Method: {{payment_method}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "3. TITLE AND OWNERSHIP",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Seller represents and warrants that:",
+      "style": "BodyText"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Seller is the legal owner of the Vehicle and has full authority to sell it.",
+        "The Vehicle is free and clear of all liens, encumbrances, and security interests, except as disclosed in writing to Buyer.",
+        "Seller will deliver a valid, properly assigned title to Buyer at the time of sale.",
+        "Seller has not previously sold, offered to sell, or contracted to sell the Vehicle to any other person."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "4. VEHICLE CONDITION",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "{{vehicle_condition_clause}}",
+      "style": "BodyText"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Vehicle is sold \"as-is\" unless otherwise stated in this Agreement. Seller makes no warranties, express or implied, regarding the Vehicle's condition, merchantability, or fitness for a particular purpose.",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "5. ODOMETER DISCLOSURE",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Seller certifies that the odometer reading stated above reflects the actual mileage of the Vehicle to the best of Seller's knowledge.",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "6. DELIVERY AND TRANSFER",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "{{delivery_clause}}",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "7. REPRESENTATIONS AND WARRANTIES",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Seller makes the following representations and warranties:",
+      "style": "BodyText"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "The Vehicle has not been declared a total loss by any insurance company.",
+        "The Vehicle has not been salvaged, reconstructed, or flood-damaged (unless disclosed).",
+        "All information provided by Seller regarding the Vehicle's history and condition is true and accurate.",
+        "Seller has disclosed all known material defects to Buyer."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "8. DEFAULT AND REMEDIES",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "If Buyer fails to pay the remaining balance by the due date, Seller may:",
+      "style": "BodyText"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Declare the Agreement void and retain any down payment as liquidated damages.",
+        "Pursue legal remedies for breach of contract.",
+        "Demand return of the Vehicle if delivered prior to full payment."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "9. GOVERNING LAW",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Agreement shall be governed by the laws of the State of {{governing_state}}.",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "10. ENTIRE AGREEMENT",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Agreement constitutes the entire agreement between the Parties.",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "IN WITNESS WHEREOF, the Parties have executed this Agreement as of the date first written above.",
+      "style": "BodyText"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Seller",
+        "Buyer"
+      ],
+      "rows": [
+        [
+          "",
+          "Signature",
+          "_____________________________"
+        ],
+        [
+          "",
+          "Printed Name",
+          "{{seller_name}}"
+        ],
+        [
+          "",
+          "Date",
+          "{{seller_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

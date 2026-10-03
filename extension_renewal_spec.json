@@ -1,0 +1,241 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "EXTENSION / RENEWAL AGREEMENT \u2014 SHORT TERM RENTAL",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "EXTENSION / RENEWAL AGREEMENT \u2014 SHORT TERM RENTAL",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Extension Agreement is entered into as of {{extension_date}} between {{host_name}} (\"Host\") and {{guest_name}} (\"Guest\"), and extends the Short Term Rental Agreement dated {{original_agreement_date}} for the property at {{property_address}}.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "IMPORTANT: This Extension Agreement creates a NEW, separate license to occupy. It does not amend the original Agreement. The original Agreement's terms remain in effect except as modified below. This Extension must be signed BEFORE the original checkout date. Staying past checkout without a signed extension may result in holdover / trespass status.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "ORIGINAL STAY",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Original Agreement Date",
+          "{{original_agreement_date}}"
+        ],
+        [
+          "Original Check-in Date/Time",
+          "{{original_check_in}}"
+        ],
+        [
+          "Original Check-out Date/Time",
+          "{{original_check_out}}"
+        ],
+        [
+          "Total Original Stay (nights)",
+          "{{original_nights}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "EXTENSION DETAILS",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "New Check-in Date/Time (continuation)",
+          "{{new_check_in}}"
+        ],
+        [
+          "New Check-out Date/Time (hard deadline)",
+          "{{new_check_out}}"
+        ],
+        [
+          "Extension Duration (nights)",
+          "{{extension_nights}}"
+        ],
+        [
+          "Total Combined Stay (original + extension nights)",
+          "{{total_combined_nights}}"
+        ],
+        [
+          "Combined Stay Does Not Exceed 30 Days?",
+          "{{under_30_days}} (Yes / No \u2014 if No, this extension may create a tenancy. Consult Host before signing.)"
+        ],
+        [
+          "Maximum combined stay including future extensions",
+          "{{max_combined_stay}} days"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "RENTAL CHARGES FOR EXTENSION",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Charge",
+        "Amount",
+        "Due Date"
+      ],
+      "rows": [
+        [
+          "Nightly rate for extension",
+          "{{extension_nightly_rate}} per night",
+          ""
+        ],
+        [
+          "Number of extension nights",
+          "{{extension_nights}} nights",
+          ""
+        ],
+        [
+          "Subtotal (nights)",
+          "{{extension_subtotal}}",
+          ""
+        ],
+        [
+          "Cleaning fee (if applicable)",
+          "{{extension_cleaning_fee}}",
+          ""
+        ],
+        [
+          "Additional security deposit (if applicable)",
+          "{{extension_security_deposit}}",
+          ""
+        ],
+        [
+          "Taxes",
+          "{{extension_taxes}}",
+          ""
+        ],
+        [
+          "Total Extension Charge",
+          "{{extension_total}}",
+          "{{extension_payment_due_date}}"
+        ],
+        [
+          "Payment method",
+          "{{extension_payment_method}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "TERMS AND CONDITIONS",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "The following terms apply to this extension:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "All terms of the original Short Term Rental Agreement remain in full force and effect, except as modified by this Extension.",
+        "The Guest must vacate by the new check-out date and time. Failure to do so makes Guest a holdover occupant / trespasser.",
+        "The security deposit from the original stay continues to apply. An additional deposit may be required for the extension.",
+        "House rules, occupancy limits, pet policies, and all addenda remain in effect.",
+        "If the total combined stay (original + extension + any future extensions) exceeds the maximum allowed consecutive days, this extension is void and Guest must vacate at the original checkout time.",
+        "If Host cancels the extension, Guest receives a full refund of the extension charges.",
+        "This Extension may be cancelled by Guest according to the original cancellation policy. If the original policy has expired, this extension is non-cancellable.",
+        "{{extension_extra_terms}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "GUEST ACKNOWLEDGMENT",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Guest acknowledges having read, understood, and agreed to this Extension Agreement. Guest confirms that the combined stay (including this extension and any prior or future stays) will not exceed the maximum allowed consecutive days.",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Guest",
+          "_____________________________",
+          "{{guest_date}}"
+        ],
+        [
+          "Host",
+          "_____________________________",
+          "{{host_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

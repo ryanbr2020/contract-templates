@@ -1,0 +1,348 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 25,
+      "bottom": 25,
+      "left": 25,
+      "right": 25
+    }
+  },
+  "styles": [
+    {
+      "name": "ContractTitle",
+      "font": "Calibri",
+      "size_pt": 24,
+      "bold": true
+    },
+    {
+      "name": "SectionHeading",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BodyText",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WarningText",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "EQUIPMENT SHORT TERM RENTAL AGREEMENT",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "EQUIPMENT SHORT TERM RENTAL AGREEMENT",
+      "level": 1,
+      "style": "ContractTitle"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Equipment Rental Agreement (\"Agreement\") is entered into as of {{date}}, between:",
+      "style": "BodyText"
+    },
+    {
+      "type": "paragraph",
+      "text": "Renter/Operator: {{renter_name}}, {{renter_address}} (\"Renter\")",
+      "style": "BodyText"
+    },
+    {
+      "type": "paragraph",
+      "text": "Owner/Lessor: {{owner_name}}, {{owner_address}} (\"Owner\")",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "1. EQUIPMENT DESCRIPTION",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Equipment covered by this Agreement is described as follows:",
+      "style": "BodyText"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Owner/Lessor",
+        "Renter/Operator"
+      ],
+      "rows": [
+        [
+          "{{item_1_name}}",
+          "{{item_1_desc}}",
+          "{{item_1_serial}}"
+        ],
+        [
+          "{{item_2_name}}",
+          "{{item_2_desc}}",
+          "{{item_2_serial}}"
+        ],
+        [
+          "{{item_3_name}}",
+          "{{item_3_desc}}",
+          "{{item_3_serial}}"
+        ],
+        [
+          "{{item_4_name}}",
+          "{{item_4_desc}}",
+          "{{item_4_serial}}"
+        ],
+        [
+          "{{item_5_name}}",
+          "{{item_5_desc}}",
+          "{{item_5_serial}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "2. RENTAL PERIOD",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Rental Start: {{rental_start_date}} at {{rental_start_time}}",
+        "Rental End: {{rental_end_date}} at {{rental_end_time}}",
+        "Total Rental Period: {{rental_duration}}",
+        "Pickup Location: {{pickup_location}}",
+        "Return Location: {{return_location}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "3. RENTAL FEES",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Hourly Rate: {{hourly_rate}} per hour ({{hourly_rate_notes}})",
+        "Daily Rate: {{daily_rate}} per day",
+        "Weekly Rate: {{weekly_rate}} per week",
+        "Minimum Rental Period: {{minimum_rental_period}}",
+        "Base Rental Charge: {{base_rental_charge}}",
+        "Delivery Fee: {{delivery_fee}}",
+        "Pickup/Delivery Service: {{pickup_delivery_service}}",
+        "Insurance/Waiver Fee: {{insurance_fee}}",
+        "Taxes: {{taxes}}",
+        "Security Deposit: {{security_deposit}} (refundable)",
+        "Grand Total: {{grand_total}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "4. RENTER'S RESPONSIBILITIES",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Renter agrees to:",
+      "style": "BodyText"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Use the Equipment only for its intended purpose and in accordance with the manufacturer's instructions and all applicable laws and regulations.",
+        "Not operate the Equipment while under the influence of alcohol, drugs, or any impairing substance.",
+        "Not allow any unauthorized person to operate or use the Equipment.",
+        "Not modify, alter, or disassemble the Equipment without Owner's written consent.",
+        "Not use the Equipment for illegal purposes or in a negligent, reckless, or improper manner.",
+        "Inspect the Equipment upon delivery and report any damage or malfunction immediately.",
+        "Maintain the Equipment in good condition during the rental period.",
+        "Return the Equipment on time and in the same condition as at pickup (normal wear and tear excepted).",
+        "Not expose the Equipment to extreme conditions, moisture, or hazards beyond its design specifications.",
+        "{{renter_responsibilities}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "5. OPERATOR REQUIREMENTS",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Only persons meeting the following qualifications may operate the Equipment:",
+        "{{qualification_1}}",
+        "{{qualification_2}}",
+        "{{qualification_3}}",
+        "Renter shall ensure all operators are trained and competent to operate the Equipment safely.",
+        "Renter is responsible for any damage caused by any operator."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "6. INSURANCE",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Renter must maintain insurance covering the Equipment for the rental period.",
+        "Required coverage: {{insurance_coverage}}.",
+        "Owner's insurance (if any) is excess and secondary to Renter's coverage.",
+        "Renter must provide proof of insurance before taking possession.",
+        "Renter is responsible for the insurance deductible and any damage exceeding coverage.",
+        "{{insurance_terms}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "7. SAFETY",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Renter must follow all safety instructions provided with the Equipment.",
+        "Renter must wear appropriate personal protective equipment (PPE) when operating the Equipment.",
+        "Renter must inspect the Equipment before each use.",
+        "Renter must immediately stop using the Equipment if any malfunction, unusual noise, or safety concern arises.",
+        "Renter must secure the Equipment when not in use.",
+        "{{safety_requirements}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "8. DAMAGE AND LOSS",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Renter is responsible for:",
+      "style": "BodyText"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Any damage to the Equipment occurring during the rental period.",
+        "Loss or theft of the Equipment.",
+        "The cost of repair or replacement, plus loss of use.",
+        "Any damage to property caused by the Equipment.",
+        "The full replacement value of the Equipment in case of total loss.",
+        "{{damage_terms}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "9. SECURITY DEPOSIT",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Security deposit: {{security_deposit}} held as assurance of Renter's obligations.",
+        "{{deposit_holding_method}}",
+        "Deposit will be refunded within {{deposit_refund_period}} after return and inspection, less any deductions.",
+        "Deductions may include: damage repair, cleaning, replacement costs, late fees, unpaid rental charges."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "10. LATE RETURN",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Late return fee: {{late_return_fee}} per hour or {{late_return_daily}} per day.",
+        "If Equipment is not returned within {{grace_period}} of the agreed return time, Owner may contact law enforcement for assistance.",
+        "Renter remains liable for all charges until Equipment is returned."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "11. CANCELLATION",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Renter may cancel with {{cancellation_days}} days notice for a full refund of prepaid charges.",
+        "Cancellation within {{cancellation_days}} days: {{cancellation_refund_percent}}% refund.",
+        "Cancellation within {{cancellation_short_notice_days}} days: no refund.",
+        "Owner may cancel for any reason and must refund all prepaid charges."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "12. GOVERNING LAW AND DISPUTE RESOLUTION",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Agreement is governed by the laws of {{governing_state}}. Any disputes shall be resolved in the courts of {{governing_state}} or through {{dispute_resolution_method}}.",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "13. ENTIRE AGREEMENT",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Agreement is the entire agreement between the parties and supersedes all prior negotiations, representations, and agreements.",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Owner/Lessor",
+        "Renter/Operator"
+      ],
+      "rows": [
+        [
+          "",
+          "Signature",
+          "_____________________________"
+        ],
+        [
+          "",
+          "Printed Name",
+          "{{owner_name}}"
+        ],
+        [
+          "",
+          "Title",
+          "{{owner_title}}"
+        ],
+        [
+          "",
+          "Date",
+          "{{owner_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

@@ -1,0 +1,310 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 25,
+      "bottom": 25,
+      "left": 25,
+      "right": 25
+    }
+  },
+  "styles": [
+    {
+      "name": "ContractTitle",
+      "font": "Calibri",
+      "size_pt": 24,
+      "bold": true
+    },
+    {
+      "name": "SectionHeading",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BodyText",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WarningText",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "VEHICLE LEASE AGREEMENT",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "VEHICLE LEASE AGREEMENT",
+      "level": 1,
+      "style": "ContractTitle"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Vehicle Lease Agreement (\"Agreement\") is made and entered into as of {{date}}, by and between:",
+      "style": "BodyText"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lessor (Owner): {{lessor_name}}, with a principal address at {{lessor_address}} (\"Lessor\")",
+      "style": "BodyText"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lessee (Renter): {{lessee_name}}, with a principal address at {{lessee_address}} (\"Lessee\")",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "1. VEHICLE",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lessor leases to Lessee, and Lessee leases from Lessor, the following vehicle:",
+      "style": "BodyText"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Lessor",
+        "Lessee"
+      ],
+      "rows": [
+        [
+          "Make",
+          "{{vehicle_make}}",
+          ""
+        ],
+        [
+          "Model",
+          "{{vehicle_model}}",
+          ""
+        ],
+        [
+          "Year",
+          "{{vehicle_year}}",
+          ""
+        ],
+        [
+          "VIN",
+          "{{vehicle_vin}}",
+          ""
+        ],
+        [
+          "License Plate",
+          "{{license_plate}}",
+          ""
+        ],
+        [
+          "Current Odometer",
+          "{{odometer_reading}} miles",
+          ""
+        ],
+        [
+          "Color",
+          "{{vehicle_color}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "2. LEASE TERM",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Commencement Date: {{start_date}}",
+        "Termination Date: {{end_date}}",
+        "Lease Duration: {{lease_months}} months"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "3. LEASE PAYMENTS",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Monthly Lease Payment: {{monthly_payment}} due on the {{payment_due_day}} day of each month",
+        "Security Deposit: {{security_deposit}} (refundable upon lease termination, subject to deductions)",
+        "First Payment Due: {{first_payment_date}}",
+        "Payment Method: {{payment_method}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "4. USE OF VEHICLE",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lessee agrees to:",
+      "style": "BodyText"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Use the Vehicle solely for personal, non-commercial purposes unless otherwise agreed in writing.",
+        "Comply with all applicable traffic laws and regulations.",
+        "Maintain valid auto insurance coverage with minimum limits of {{insurance_minimum}}.",
+        "Not sublease, lend, or permit any other person to use the Vehicle without Lessor's prior written consent.",
+        "Not use the Vehicle for illegal activities or in a reckless, negligent, or improper manner.",
+        "Not operate the Vehicle outside of {{allowed_geographic_area}} without Lessor's permission."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "5. MAINTENANCE AND REPAIRS",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Lessee is responsible for routine maintenance (oil changes, tire rotations, fluid checks) at Lessee's expense.",
+        "Lessee must promptly notify Lessor of any accident, damage, mechanical failure, or needed repairs.",
+        "Major repairs due to normal wear and tear shall be the responsibility of Lessor.",
+        "Repairs due to Lessee's negligence, misuse, or negligence shall be at Lessee's expense.",
+        "Lessee must keep the Vehicle in good condition and shall not modify or alter the Vehicle without Lessor's consent."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "6. MILEAGE LIMIT",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Monthly mileage allowance: {{monthly_mileage_limit}} miles",
+        "Excess mileage charge: {{excess_mileage_rate}} per mile over the allowance",
+        "Lessee must report actual odometer readings monthly to Lessor."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "7. INSURANCE REQUIREMENTS",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lessee must maintain throughout the lease term:",
+      "style": "BodyText"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Liability coverage: minimum {{liability_minimum}} per person / {{liability_per_accident}} per accident",
+        "Collision coverage with a deductible not exceeding {{collision_deductible}}",
+        "Comprehensive coverage with a deductible not exceeding {{comprehensive_deductible}}",
+        "Lessee must provide proof of insurance to Lessor before taking possession and upon renewal."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "8. EARLY TERMINATION",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Either Party may terminate this Agreement early under the following conditions:",
+      "style": "BodyText"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Lessee may terminate with {{early_termination_notice}} days written notice, subject to an early termination fee of {{early_termination_fee}}.",
+        "Lessor may terminate prior to end of term for breach by Lessee (non-payment, violation of terms).",
+        "In case of Lessor's default, Lessee may terminate immediately and recover all payments made."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "9. DEFAULT",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Failure to make lease payments within {{grace_period}} days of due date constitutes default.",
+        "Failure to maintain insurance constitutes default.",
+        "Upon default, Lessor may demand immediate payment of all remaining lease payments and take possession of the Vehicle."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "10. RETURN OF VEHICLE",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "At the end of the lease term, Lessee will return the Vehicle to {{return_location}}.",
+        "Vehicle must be returned with the same fuel level as at delivery, clean inside and out.",
+        "Lessee is responsible for any damage beyond normal wear and tear, deducted from the security deposit.",
+        "Lessee must provide a copy of the final odometer reading and a written condition report."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "11. GOVERNING LAW",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Agreement is governed by the laws of {{governing_state}}.",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Lessor",
+        "Lessee"
+      ],
+      "rows": [
+        [
+          "",
+          "Signature",
+          "_____________________________"
+        ],
+        [
+          "",
+          "Printed Name",
+          "{{lessor_name}}"
+        ],
+        [
+          "",
+          "Date",
+          "{{lessor_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

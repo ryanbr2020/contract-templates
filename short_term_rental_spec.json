@@ -1,0 +1,299 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 25,
+      "bottom": 25,
+      "left": 25,
+      "right": 25
+    }
+  },
+  "styles": [
+    {
+      "name": "ContractTitle",
+      "font": "Calibri",
+      "size_pt": 24,
+      "bold": true
+    },
+    {
+      "name": "SectionHeading",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BodyText",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WarningText",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "SHORT TERM RENTAL AGREEMENT",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "SHORT TERM RENTAL AGREEMENT",
+      "level": 1,
+      "style": "ContractTitle"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Short Term Rental Agreement (\"Agreement\") is entered into as of {{date}}, by and between:",
+      "style": "BodyText"
+    },
+    {
+      "type": "paragraph",
+      "text": "Host/Landlord: {{host_name}}, {{host_address}} (\"Host\")",
+      "style": "BodyText"
+    },
+    {
+      "type": "paragraph",
+      "text": "Guest/Tenant: {{guest_name}}, {{guest_address}} (\"Guest\")",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "1. PROPERTY",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Host rents to Guest the following property:",
+      "style": "BodyText"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Property Address: {{property_address}}",
+        "Property Description: {{property_description}}",
+        "Furnished: {{furnished_status}}",
+        "Included Items: {{included_items}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "2. RENTAL TERM",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Check-in Date: {{check_in_date}}",
+        "Check-in Time: {{check_in_time}}",
+        "Check-out Date: {{check_out_date}}",
+        "Check-out Time: {{check_out_time}}",
+        "Total Rental Days: {{rental_days}} days",
+        "Total Rental Nights: {{rental_nights}} nights"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "3. RENT AND PAYMENT",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Total Rental Amount: {{total_rental_amount}}",
+        "Cleaning Fee: {{cleaning_fee}}",
+        "Security Deposit: {{security_deposit}} (refundable)",
+        "Service/Platform Fee: {{service_fee}}",
+        "Taxes and Fees: {{taxes_and_fees}}",
+        "Grand Total: {{grand_total}}",
+        "Payment Due: {{payment_due_date}}",
+        "Payment Method: {{payment_method}}",
+        "Security deposit to be refunded within {{deposit_refund_period}} days after check-out, less any deductions."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "4. GUEST RESPONSIBILITIES",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Guest agrees to:",
+      "style": "BodyText"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Use the property solely for residential purposes and not for business, commercial, or illegal activities.",
+        "Comply with all House Rules set forth in Section 5.",
+        "Not exceed {{maximum_occupancy}} guests in the property.",
+        "Not disturb neighbors or engage in excessive noise.",
+        "Keep the property clean and sanitary.",
+        "Not damage, deface, or destroy the property or any fixtures, furniture, or appliances.",
+        "Not make any alterations or improvements without Host's consent.",
+        "Not smoke inside the property.",
+        "Not host parties, events, or gatherings without prior written approval.",
+        "Secure the property and not allow unauthorized access.",
+        "Report any damage, malfunction, or issues to Host promptly.",
+        "Leave the property in the same condition as at check-in (normal wear and tear excepted).",
+        "{{guest_responsibilities}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "5. HOUSE RULES",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Quiet hours: {{quiet_hours}}",
+        "No smoking inside the property; designated smoking area: {{smoking_area}}",
+        "No pets unless approved in writing by Host.",
+        "No parties, events, or large gatherings.",
+        "Pool/hot tub rules: {{pool_rules}}",
+        "Parking: {{parking_rules}}",
+        "Checkout procedure: {{checkout_procedure}}",
+        "{{house_rules}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "6. HOST RESPONSIBILITIES",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Host agrees to:",
+      "style": "BodyText"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Provide the property in a clean, safe, and habitable condition.",
+        "Ensure all necessary repairs are completed before Guest's arrival.",
+        "Provide accurate information about the property and amenities.",
+        "Provide working smoke detectors, carbon monoxide detectors (where applicable), and fire extinguisher.",
+        "Comply with all local laws, regulations, and licensing requirements.",
+        "{{host_responsibilities}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "7. SECURITY DEPOSIT",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Security deposit: {{security_deposit}} held by {{deposit_holder}}.",
+        "Deposit will be refunded within {{deposit_refund_period}} days after check-out.",
+        "Host may deduct from the deposit for: damage beyond normal wear and tear, excessive cleaning required, missing items, violations of House Rules, unpaid fees.",
+        "Host must provide an itemized list of deductions with supporting documentation."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "8. CANCELLATION POLICY",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Guest cancellation more than {{cancellation_refund_days}} days before check-in: {{cancellation_refund_percent}}% refund of rental amount.",
+        "Guest cancellation {{cancellation_partial_days}}\u2013{{cancellation_refund_days}} days before check-in: {{cancellation_partial_percent}}% refund.",
+        "Guest cancellation less than {{cancellation_partial_days}} days before check-in: No refund.",
+        "If Host cancels, Guest receives a full refund plus compensation of {{host_cancellation_compensation}}.",
+        "{{cancellation_policy}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "9. FORCE MAJEURE",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Neither Party shall be liable for failure to perform due to causes beyond reasonable control, including natural disasters, acts of God, government orders, pandemic restrictions, or similar circumstances. In such event, Party shall notify the other Party promptly.",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "10. UTILITIES AND SERVICES",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Utilities included: {{utilities_included}}",
+        "Wi-Fi: {{internet_details}}",
+        "Cleaning service: {{cleaning_service}}",
+        "Other services: {{other_services}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "11. GOVERNING LAW",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Agreement is governed by the laws of {{governing_state}}, County of {{governing_county}}. Any disputes shall be resolved in the courts of {{governing_state}}.",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "12. ENTIRE AGREEMENT",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Agreement constitutes the entire agreement between the Parties and supersedes all prior discussions, representations, and agreements.",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Host",
+        "Guest"
+      ],
+      "rows": [
+        [
+          "",
+          "Signature",
+          "_____________________________"
+        ],
+        [
+          "",
+          "Printed Name",
+          "{{host_name}}"
+        ],
+        [
+          "",
+          "Date",
+          "{{host_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

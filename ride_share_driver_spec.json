@@ -1,0 +1,280 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 25,
+      "bottom": 25,
+      "left": 25,
+      "right": 25
+    }
+  },
+  "styles": [
+    {
+      "name": "ContractTitle",
+      "font": "Calibri",
+      "size_pt": 24,
+      "bold": true
+    },
+    {
+      "name": "SectionHeading",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BodyText",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WarningText",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "RIDE SHARE DRIVER AGREEMENT",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "RIDE SHARE DRIVER AGREEMENT",
+      "level": 1,
+      "style": "ContractTitle"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Driver Agreement (\"Agreement\") is made effective as of {{date}}, between:",
+      "style": "BodyText"
+    },
+    {
+      "type": "paragraph",
+      "text": "Platform: {{platform_name}}, {{platform_address}} (\"Platform\")",
+      "style": "BodyText"
+    },
+    {
+      "type": "paragraph",
+      "text": "Driver: {{driver_name}}, {{driver_address}} (\"Driver\")",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "1. INDEPENDENT CONTRACTOR RELATIONSHIP",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Driver is an independent contractor, not an employee, agent, or partner of the Platform. Driver is solely responsible for all taxes, insurance, and benefits. Driver sets their own schedule and is free to provide services to other platforms.",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "2. PLATFORM ACCESS",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Platform grants Driver a limited, non-exclusive, non-transferable license to use the Platform to accept Ride requests.",
+        "Driver must use the Platform's app or website to receive and accept Ride requests.",
+        "Driver must maintain an active Platform account in good standing.",
+        "Platform may suspend or revoke access for violations of these terms."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "3. VEHICLE REQUIREMENTS",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Driver represents that the Vehicle used for Rides:",
+      "style": "BodyText"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Is registered and titled in Driver's name or Driver has written consent from the registered owner.",
+        "Has valid license plates and current registration.",
+        "Is in good mechanical condition with all safety equipment functioning.",
+        "Is no older than {{vehicle_age_max}} years (or meets local requirements).",
+        "Is clean, tidy, and free of odors and hazards.",
+        "{{vehicle_requirements}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "4. DRIVER REQUIREMENTS",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Valid driver's license: {{driver_license_type}} issued by {{license_jurisdiction}}",
+        "Minimum age: {{minimum_driver_age}}",
+        "Clean driving record with no major violations in the past {{driving_record_period}}.",
+        "Pass background check as required by Platform.",
+        "Keeps Driver's license and proof of insurance in the Vehicle while operating.",
+        "Wears a seatbelt and requires passengers to do the same.",
+        "{{driver_requirements}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "5. INSURANCE",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Driver must maintain, at Driver's expense:",
+      "style": "BodyText"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Personal auto liability insurance with minimum coverage of {{insurance_minimum_per_person}} per person / {{insurance_minimum_per_accident}} per accident.",
+        "Collision and comprehensive coverage with a deductible not exceeding {{insurance_deductible}}.",
+        "Provider and policy number must be provided to Platform and kept current.",
+        "Driver must notify Platform within 24 hours of any change in insurance coverage or lapse in coverage.",
+        "Platform's insurance is secondary to Driver's insurance and covers only certain circumstances as defined in Platform's insurance policy."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "6. DRIVER RESPONSIBILITIES",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Provide safe, courteous, and professional transportation services.",
+        "Follow all traffic laws and regulations.",
+        "Accept Ride requests in a timely manner when logged in.",
+        "Not refuse Passengers based on discriminatory grounds.",
+        "Not make unauthorized stops or detours.",
+        "Not carry additional passengers beyond the Vehicle's capacity.",
+        "Not transport pets without Passengers' prior knowledge and consent.",
+        "Not smoke or allow smoking in the Vehicle.",
+        "{{driver_duties}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "7. FEES AND PAYMENTS",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Driver shall pay Platform a service fee of {{service_fee_percentage}}% of each Fare.",
+        "Driver is responsible for all vehicle operating costs including fuel, maintenance, repairs, and insurance.",
+        "Platform provides weekly or on-demand earnings statements.",
+        "{{payout_terms}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "8. CODE OF CONDUCT",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Driver shall not:",
+      "style": "BodyText"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Use the Platform to engage in illegal activities.",
+        "Use threatening, abusive, or discriminatory language toward Passengers.",
+        "Physically contact a Passenger without consent.",
+        "Record audio or video of Passengers without consent and without legal basis.",
+        "Share Passenger personal information with third parties.",
+        "Operate the Vehicle while under the influence of alcohol or drugs.",
+        "{{code_of_conduct}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "9. TERMINATION",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Driver may terminate this Agreement at any time by deleting their Platform account.",
+        "Platform may terminate this Agreement immediately for cause, including repeated violations, safety concerns, or illegal activity.",
+        "Platform may suspend Driver's access pending investigation of a complaint.",
+        "Upon termination, Driver must return any Platform materials and cease use of the Platform."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "10. DISCLAIMER OF WARRANTIES",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Platform makes no warranties, express or implied, regarding the Platform, Ride services, or Driver's business. Platform does not guarantee a minimum number of Rides or income.",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "11. GOVERNING LAW",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Agreement is governed by the laws of {{governing_state}}.",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "",
+        "Platform",
+        "Driver"
+      ],
+      "rows": [
+        [
+          "",
+          "Signature",
+          "_____________________________"
+        ],
+        [
+          "",
+          "Printed Name",
+          "{{platform_name}}"
+        ],
+        [
+          "",
+          "Title",
+          "{{platform_representative_title}}"
+        ],
+        [
+          "",
+          "Date",
+          "{{platform_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

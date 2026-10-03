@@ -1,0 +1,210 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "LOCAL LICENSE AND PERMIT DISCLOSURE \u2014 SHORT TERM RENTAL",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "LOCAL LICENSE AND PERMIT DISCLOSURE \u2014 SHORT TERM RENTAL",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This License and Permit Disclosure is attached to the Short Term Rental Agreement dated {{agreement_date}} between {{host_name}} (\"Host\") and {{guest_name}} (\"Guest\"). This disclosure is provided as required by local short-term rental regulations.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "HOST LICENSE AND REGISTRATION INFORMATION",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Property Address",
+          "{{property_address}}"
+        ],
+        [
+          "Host Legal Name / Business Name",
+          "{{host_legal_name}}"
+        ],
+        [
+          "Host Business License / Tax Certificate Number",
+          "{{host_business_license}}"
+        ],
+        [
+          "STR Registration / Permit Number (if required)",
+          "{{str_registration_number}}"
+        ],
+        [
+          "STR Registration Authority",
+          "{{str_registration_authority}} (e.g., NYC Mayor's Office of Special Enforcement, SF Office of Short Term Rentals, FL DBPR)"
+        ],
+        [
+          "Registration Expiration Date",
+          "{{registration_expiration}}"
+        ],
+        [
+          "Vacation Rental License Number (FL \u2014 DBPR)",
+          "{{fl_dbpr_license}}"
+        ],
+        [
+          "TOT / Occupancy Tax Account Number",
+          "{{tot_account_number}}"
+        ],
+        [
+          "Local Jurisdiction",
+          "{{local_jurisdiction}} (City / County / State)"
+        ],
+        [
+          "Host Contact for Licensing Questions",
+          "{{host_license_contact}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "LOCAL SHORT-TERM RENTAL REQUIREMENTS",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "The following local requirements apply to this rental. Guest acknowledges having been informed of these requirements:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "JURISDICTION: This rental is located in {{local_jurisdiction}}. Short-term rental regulations in this jurisdiction include: {{local_str_regulations}}",
+        "HOST REGISTRATION: Host confirms that the property is registered with the appropriate local authority (if required). STR registration number: {{str_registration_number}}.",
+        "LODGING / OCCUPANCY TAX: {{tax_details}}",
+        "PLATFORM FACILITATOR STATUS: {{platform_facilitator_details}}",
+        "MAXIMUM STAY: This property is subject to a maximum stay of {{max_stay_days_local}} consecutive days per local regulation.",
+        "MINIMUM AGE: Guests must be at least {{minimum_age_local}} years old (if applicable).",
+        "OCCUPANCY LIMIT: The maximum occupancy for this property per local regulation is {{local_occupancy_limit}} persons.",
+        "CONDITION REPORT / INSPECTION: {{inspection_requirements}}",
+        "INSURANCE: {{insurance_requirements}}",
+        "{{local_extra_requirements}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "GUEST OBLIGATIONS",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Guest agrees to:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Comply with all local laws, ordinances, and regulations applicable to the Guest's stay.",
+        "Pay any occupancy / lodging taxes as required by the Agreement.",
+        "Not use the property for any purpose that violates local short-term rental regulations.",
+        "Notify Host immediately if Guest becomes aware of any local regulation violation.",
+        "Provide accurate identification and registration information as required by local law."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "NON-COMPLIANCE",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "If the property is not in compliance with local STR regulations, or if Host fails to maintain required registrations or permits, Guest may:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Terminate this Agreement without penalty.",
+        "Receive a full refund of all charges paid.",
+        "Be eligible for any remedies available under local law."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "However, if the Guest discovers a compliance issue after arrival, Guest must notify Host promptly to allow Host the opportunity to cure the issue.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "GUEST ACKNOWLEDGMENT",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Guest acknowledges having received and reviewed this Local License and Permit Disclosure. Guest confirms that the property is properly registered and licensed for short-term rental use as required by local law.",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Guest",
+          "_____________________________",
+          "{{guest_date}}"
+        ],
+        [
+          "Host",
+          "_____________________________",
+          "{{host_date}}"
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

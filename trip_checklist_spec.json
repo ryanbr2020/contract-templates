@@ -1,0 +1,466 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "ContractTitle",
+      "font": "Calibri",
+      "size_pt": 24,
+      "bold": true
+    },
+    {
+      "name": "SectionHeading",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BodyText",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WarningText",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    },
+    {
+      "name": "FormLabel",
+      "font": "Calibri",
+      "size_pt": 11,
+      "bold": true
+    },
+    {
+      "name": "FormValue",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "SmallText",
+      "font": "Calibri",
+      "size_pt": 9
+    }
+  ],
+  "header": "VEHICLE TRIP CHECKLIST / INSPECTION FORM",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "VEHICLE TRIP CHECKLIST",
+      "level": 1,
+      "style": "ContractTitle"
+    },
+    {
+      "type": "paragraph",
+      "text": "This checklist documents the condition of the Vehicle at the start and end of the rental period. Both Owner and Renter must complete and sign. Complete pre-trip section within 24 hours of pickup. Complete post-trip section immediately upon return.",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "VEHICLE INFORMATION",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Value"
+      ],
+      "rows": [
+        [
+          "Make",
+          "{{vehicle_make}}"
+        ],
+        [
+          "Model",
+          "{{vehicle_model}}"
+        ],
+        [
+          "Year",
+          "{{vehicle_year}}"
+        ],
+        [
+          "VIN",
+          "{{vehicle_vin}}"
+        ],
+        [
+          "License Plate",
+          "{{license_plate}}"
+        ],
+        [
+          "Color",
+          "{{vehicle_color}}"
+        ],
+        [
+          "Trip Start Date/Time",
+          "{{trip_start_date}} at {{trip_start_time}}"
+        ],
+        [
+          "Trip End Date/Time",
+          "{{trip_end_date}} at {{trip_end_time}}"
+        ],
+        [
+          "Owner Name",
+          "{{owner_name}}"
+        ],
+        [
+          "Renter Name",
+          "{{renter_name}}"
+        ],
+        [
+          "Renter License #",
+          "{{renter_license_number}}"
+        ],
+        [
+          "Pickup Location",
+          "{{pickup_location}}"
+        ],
+        [
+          "Return Location",
+          "{{return_location}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "AT THE BEGINNING OF THE RESERVATION",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Complete the following before the Renter drives the Vehicle away:",
+      "style": "BodyText"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Check the Renter's driver's license \u2014 verify it is valid and matches the name on the reservation.",
+        "Walk around the Vehicle. Note mileage, fuel level, and any pre-existing damage below.",
+        "NOTE: The Renter may be held responsible for any damage NOT indicated on this form, documented in trip photos, or emailed to support.",
+        "Take photos of the Vehicle from all angles. Upload to the Platform within 24 hours of trip start."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "PRE-EXISTING DAMAGE / CONCERNS (check all that apply)",
+      "level": 3,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Scratches or chips on paint",
+        "Dents or dings",
+        "Windshield cracks (longer than 2 inches = NOT ELIGIBLE for coverage)",
+        "Interior stains, tears, odors, or missing items",
+        "Mechanical issues (brakes, steering, suspension, engine noise)",
+        "Missing or damaged accessories (floor mats, cargo cover, spare tire, jack)",
+        "Malfunctioning lights, signals, wipers, or electronics",
+        "None \u2014 Vehicle appears in good condition"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "DETAILED DAMAGE NOTES (describe location and size of each item checked above)",
+      "level": 3,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Use descriptions like: \"3-inch scratch on driver-side rear door\", \"small ding on front bumper passenger side\"",
+      "style": "BodyText"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item #",
+        "Location (be specific)",
+        "Type (scratch/dent/crack/stain/etc.)",
+        "Size (inches/cm)",
+        "Photo Taken? (Y/N)"
+      ],
+      "rows": [
+        [
+          "1",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "2",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "3",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "4",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "5",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "6",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "7",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "8",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "MILEAGE AND FUEL",
+      "level": 3,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Measurement",
+        "Before Trip",
+        "After Trip"
+      ],
+      "rows": [
+        [
+          "Odometer Reading",
+          "{{odometer_start}} miles",
+          "{{odometer_end}} miles"
+        ],
+        [
+          "Total Miles Driven",
+          "",
+          "{{total_miles_driven}} miles"
+        ],
+        [
+          "Fuel Level",
+          "{{fuel_level_start}}",
+          "{{fuel_level_end}}"
+        ],
+        [
+          "Fuel Gauge Drawing",
+          "[Draw line showing fuel gauge position]",
+          "[Draw line showing fuel gauge position]"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "TRIP ACKNOWLEDGMENT",
+      "level": 3,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "By signing below, both parties acknowledge the Vehicle condition as documented above.",
+      "style": "BodyText"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Date",
+        "Time"
+      ],
+      "rows": [
+        [
+          "Owner",
+          "_____________________________",
+          "{{owner_sign_date}}",
+          "{{owner_sign_time}}"
+        ],
+        [
+          "Renter",
+          "_____________________________",
+          "{{renter_sign_date}}",
+          "{{renter_sign_time}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "AT THE END OF THE RESERVATION",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Review fuel level and mileage against the pre-trip values above.",
+        "Conduct a walk-around inspection. Compare to the pre-existing damage notes above.",
+        "Check for any new damage, issues, or concerns.",
+        "If no new issues found: Check 'No issues' box below.",
+        "If new issues found: Check 'Found issue' box, describe below, take photos, and report within 24 hours."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "END-OF-TRIP FINDINGS",
+      "level": 3,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "\u2610 NO ISSUES \u2014 Vehicle returned in same condition as documented above. No new damage or concerns.",
+        "\u2610 FOUND ISSUE \u2014 New damage or concern identified. See details below."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "NEW DAMAGE / ISSUES (if any \u2014 required if 'Found issue' checked above)",
+      "level": 3,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item #",
+        "Location",
+        "Type",
+        "Size",
+        "Photo Taken?",
+        "When Discovered"
+      ],
+      "rows": [
+        [
+          "1",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "2",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "3",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "paragraph",
+      "text": "Damage must be reported within 24 hours of trip end to be eligible for coverage. Report via the Platform or email to {{support_email}}.",
+      "style": "BodyText"
+    },
+    {
+      "type": "heading",
+      "text": "FEEDBACK",
+      "level": 3,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Leave each other feedback to help us all maintain a safe and respectful marketplace.",
+      "style": "BodyText"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Feedback / Comments",
+        "Rating (1-5)"
+      ],
+      "rows": [
+        [
+          "Owner feedback for Renter",
+          "",
+          "{{owner_rating}}"
+        ],
+        [
+          "Renter feedback for Owner",
+          "",
+          "{{renter_rating}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES \u2014 END OF TRIP",
+      "level": 3,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Date",
+        "Time"
+      ],
+      "rows": [
+        [
+          "Owner",
+          "_____________________________",
+          "{{owner_end_date}}",
+          "{{owner_end_time}}"
+        ],
+        [
+          "Renter",
+          "_____________________________",
+          "{{renter_end_date}}",
+          "{{renter_end_time}}"
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

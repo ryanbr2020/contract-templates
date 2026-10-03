@@ -1,0 +1,398 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "ContractTitle",
+      "font": "Calibri",
+      "size_pt": 24,
+      "bold": true
+    },
+    {
+      "name": "SectionHeading",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BodyText",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WarningText",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    },
+    {
+      "name": "FormLabel",
+      "font": "Calibri",
+      "size_pt": 11,
+      "bold": true
+    },
+    {
+      "name": "FormValue",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "SmallText",
+      "font": "Calibri",
+      "size_pt": 9
+    }
+  ],
+  "header": "VEHICLE RETURN CHECKLIST",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "VEHICLE RETURN CHECKLIST",
+      "level": 1,
+      "style": "ContractTitle"
+    },
+    {
+      "type": "paragraph",
+      "text": "Complete this checklist at the time of Vehicle return. Both Owner and Renter should review and sign.",
+      "style": "BodyText"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Vehicle Make/Model/Year",
+          "{{vehicle_make}} {{vehicle_model}} {{vehicle_year}}"
+        ],
+        [
+          "VIN",
+          "{{vehicle_vin}}"
+        ],
+        [
+          "License Plate",
+          "{{license_plate}}"
+        ],
+        [
+          "Return Date/Time",
+          "{{return_date}} at {{return_time}}"
+        ],
+        [
+          "Owner Name",
+          "{{owner_name}}"
+        ],
+        [
+          "Renter Name",
+          "{{renter_name}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "RETURN INSPECTION",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Check",
+        "Item",
+        "Status",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "\u2610",
+          "Odometer reading recorded",
+          "{{odometer_end}} miles",
+          ""
+        ],
+        [
+          "\u2610",
+          "Fuel level matches pre-trip ({{fuel_level_start}})",
+          "{{fuel_level_end}}",
+          ""
+        ],
+        [
+          "\u2610",
+          "No new exterior damage (compare to trip checklist)",
+          "",
+          ""
+        ],
+        [
+          "\u2610",
+          "No new interior damage or excessive mess",
+          "",
+          ""
+        ],
+        [
+          "\u2610",
+          "All accessories present (floor mats, spare tire, jack, etc.)",
+          "",
+          ""
+        ],
+        [
+          "\u2610",
+          "Vehicle returned at agreed location",
+          "{{return_location}}",
+          ""
+        ],
+        [
+          "\u2610",
+          "Vehicle returned at agreed time (late fee: {{late_return_fee}}/hr if late)",
+          "",
+          ""
+        ],
+        [
+          "\u2610",
+          "Keys returned (if physical key exchange)",
+          "",
+          ""
+        ],
+        [
+          "\u2610",
+          "Lockbox code / access code deactivated (if applicable)",
+          "",
+          ""
+        ],
+        [
+          "\u2610",
+          "No personal items left in Vehicle",
+          "",
+          ""
+        ],
+        [
+          "\u2610",
+          "Vehicle is clean (or cleaning fee of {{cleaning_fee}} applies)",
+          "",
+          ""
+        ],
+        [
+          "\u2610",
+          "All windows closed, doors locked",
+          "",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "DISCREPANCIES / ISSUES FOUND AT RETURN",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "paragraph",
+      "text": "List any issues found (new damage, low fuel, late return, missing items, excessive dirt, etc.):",
+      "style": "BodyText"
+    },
+    {
+      "type": "table",
+      "header": [
+        "#",
+        "Issue Description",
+        "Category",
+        "Charge/Fee Applicable",
+        "Photo Taken?"
+      ],
+      "rows": [
+        [
+          "1",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "2",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "3",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "FUEL ADJUSTMENT (if applicable)",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Description",
+        "Amount"
+      ],
+      "rows": [
+        [
+          "Fuel level at return: {{fuel_level_end}}",
+          ""
+        ],
+        [
+          "Fuel level expected: {{fuel_level_start}}",
+          ""
+        ],
+        [
+          "Gallons to replenish: {{gallons_to_replenish}}",
+          ""
+        ],
+        [
+          "Replenishment rate: {{fuel_replenishment_rate}} per gallon",
+          ""
+        ],
+        [
+          "Fuel charge: {{fuel_charge}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "LATE RETURN ADJUSTMENT (if applicable)",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Description",
+        "Amount"
+      ],
+      "rows": [
+        [
+          "Expected return time: {{return_time}}",
+          ""
+        ],
+        [
+          "Actual return time: {{actual_return_time}}",
+          ""
+        ],
+        [
+          "Hours late: {{hours_late}}",
+          ""
+        ],
+        [
+          "Late fee rate: {{late_return_fee}} per hour",
+          ""
+        ],
+        [
+          "Late fee total: {{late_fee_total}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "CLEANING FEE (if applicable)",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Description",
+        "Amount"
+      ],
+      "rows": [
+        [
+          "Cleaning required beyond normal turnover: {{cleaning_description}}",
+          ""
+        ],
+        [
+          "Cleaning fee: {{cleaning_fee}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "SECURITY DEPOSIT RELEASE",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Description",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Security deposit held: {{security_deposit}}",
+          ""
+        ],
+        [
+          "Deductions applied: {{deductions}}",
+          ""
+        ],
+        [
+          "Deposit to be released: {{deposit_to_release}}",
+          ""
+        ],
+        [
+          "Release timeline: within {{deposit_release_period}} after return",
+          ""
+        ],
+        [
+          "Release method: {{deposit_release_method}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SectionHeading"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Date",
+        "Time"
+      ],
+      "rows": [
+        [
+          "Owner",
+          "_____________________________",
+          "{{owner_return_date}}",
+          "{{owner_return_time}}"
+        ],
+        [
+          "Renter",
+          "_____________________________",
+          "{{renter_return_date}}",
+          "{{renter_return_time}}"
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}
