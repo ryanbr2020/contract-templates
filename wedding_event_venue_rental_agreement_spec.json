@@ -1,0 +1,342 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "WEDDING / EVENT VENUE RENTAL AGREEMENT \u2014 SHORT-TERM RENTAL",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "WEDDING / EVENT VENUE RENTAL AGREEMENT",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Event Venue Rental Agreement is entered into on {{agreement_date}} between {{venue_owner_name}} (\"Host\" / \"Venue Owner\") and {{client_name}} (\"Client\" / \"Event Host\"). Host agrees to rent to Client the venue located at {{venue_address}} for the event described below, and Client agrees to rent the venue and pay all agreed fees, under the following terms and conditions.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "EVENT DETAILS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Venue Name / Description",
+          "{{venue_name}} \u2014 {{venue_description}}"
+        ],
+        [
+          "Venue Address",
+          "{{venue_address}}"
+        ],
+        [
+          "Event Date",
+          "{{event_date}}"
+        ],
+        [
+          "Event Start Time",
+          "{{event_start_time}} (Setup may begin at {{setup_start_time}})"
+        ],
+        [
+          "Event End Time",
+          "{{event_end_time}} (Teardown must be completed by {{teardown_end_time}})"
+        ],
+        [
+          "Event Type",
+          "{{event_type}} (Wedding / Reception / Party / Corporate event / Concert / Family event / Other \u2014 details: {{event_type_details}})"
+        ],
+        [
+          "Number of Guests / Attendees",
+          "{{number_of_guests}} (Expected / Maximum \u2014 including plus-ones, children, vendors, etc.)"
+        ],
+        [
+          "Client Name",
+          "{{client_name}}"
+        ],
+        [
+          "Client Phone",
+          "{{client_phone}}"
+        ],
+        [
+          "Client Email",
+          "{{client_email}}"
+        ],
+        [
+          "Client Address",
+          "{{client_address}}"
+        ],
+        [
+          "Client's Emergency Contact",
+          "{{emergency_contact}} (Name: {{emergency_contact_name}} \u2014 Phone: {{emergency_contact_phone}})"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "VENUE USAGE AND CANCELLATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Rental Fee",
+          "{{rental_fee}}"
+        ],
+        [
+          "Security Deposit",
+          "{{security_deposit}} (Refundable upon satisfactory completion of event \u2014 Refundable if no damage and event ends by agreed time)"
+        ],
+        [
+          "Setup Time Allowed",
+          "{{setup_time}} (hours \u2014 Free setup time: {{setup_free_time}} hours \u2014 Additional setup time charged at {{setup_overage_rate}} per hour)"
+        ],
+        [
+          "Teardown Time Allowed",
+          "{{teardown_time}} (hours \u2014 Free teardown time: {{teardown_free_time}} hours \u2014 Additional teardown time charged at {{teardown_overage_rate}} per hour)"
+        ],
+        [
+          "Venue Hours (Open/Close)",
+          "{{venue_hours}} (Venue must be vacated by: {{venue_close_time}})"
+        ],
+        [
+          "Overtime Rate",
+          "{{overtime_rate}} per hour (if event runs past agreed end time)"
+        ],
+        [
+          "Cleaning Fee",
+          "{{cleaning_fee}} (If cleaning is not included in rental fee \u2014 refundable if venue is left clean)"
+        ],
+        [
+          "Vendor / Guest Names Required?",
+          "{{vendor_names}} (Yes \u2014 Client must provide names of vendors and key guests / No)"
+        ],
+        [
+          "Permit / License Required?",
+          "{{permit_required}} (Yes \u2014 Client must obtain permit by {{permit_deadline}} / No \u2014 Venue has all required permits)"
+        ],
+        [
+          "Insurance Required?",
+          "{{insurance_required}} (Yes \u2014 Client must provide proof of event insurance by {{insurance_deadline}} / No \u2014 Venue's insurance is primary)"
+        ],
+        [
+          "Cancellation by Client",
+          "{{cancellation_policy}} (Full refund if cancelled more than {{cancel_window}} days before event \u2014 Partial refund: {{partial_refund}} if cancelled within {{cancel_window}} days \u2014 No refund if cancelled within {{no_refund_window}} days \u2014 Force majeure: {{force_majeure_cancellation}})"
+        ],
+        [
+          "Cancellation by Venue",
+          "{{venue_cancellation}} (Venue may cancel if event violates venue policies, if venue becomes unavailable, or if Client breaches this Agreement)"
+        ],
+        [
+          "Rain / Weather Contingency",
+          "{{weather_contingency}} (Indoor backup space available: Yes / No \u2014 Reschedule option: Yes / No \u2014 Refund if cancelled due to weather: {{weather_refund}})"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "CLIENT RESPONSIBILITIES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Client will use the venue only for the event type approved and will not use the venue for any unlawful, hazardous, or prohibited activity.",
+        "Client will not exceed the maximum number of guests / attendees allowed.",
+        "Client will not cause any damage to the venue, its fixtures, furniture, equipment, or property.",
+        "Client will not alter, paint, nail, tape, or attach anything to the walls, floors, or surfaces of the venue without Venue's prior written consent.",
+        "Client will not bring any animals, pets, or livestock onto the venue, except as approved by Venue.",
+        "Client will not smoke, vape, or use open flames (candles, bonfires, etc.) inside the venue, except in designated areas or with Venue's prior written consent.",
+        "Client will not use stoves, ovens, grills, or other cooking equipment inside the venue without Venue's prior written consent and in accordance with venue's kitchen policies.",
+        "Client will not play music at a volume that disturbs neighbors or violates local noise ordinances.",
+        "Client will comply with all local laws, fire codes, health codes, and venue policies.",
+        "Client will provide adequate security to prevent unauthorized entry and to manage event attendees.",
+        "Client is responsible for all personal property brought to the venue and for any damage caused by Client's guests, vendors, or contractors.",
+        "Client will leave the venue in the condition it was in before the event (ordinary wear and tear excepted).",
+        "Client will remove all decorations, flowers, candles, confetti, and other decorations at the end of the event (unless otherwise agreed).",
+        "Client will dispose of all trash and recycling in designated areas.",
+        "Client will ensure that all vendors (caterers, DJs, photographers, florists, etc.) comply with venue policies and leave the venue clean.",
+        "Client will provide Venue with final headcount, vendor list, and any other requested information by {{final_info_deadline}}.",
+        "Client will provide Venue with event timeline and any special instructions by {{timeline_deadline}}.",
+        "{{client_responsibilities_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "VENUE RESPONSIBILITIES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Venue will provide the venue space in the condition agreed upon, clean and ready for the event.",
+        "Venue will provide access to the venue for setup, the event, and teardown as agreed.",
+        "Venue will provide the amenities included in the rental (chairs, tables, lighting, sound system, dance floor, restrooms, kitchen access, water, etc., as applicable).",
+        "Venue will comply with all applicable laws, fire codes, and health codes.",
+        "Venue will have emergency exits clearly marked and accessible.",
+        "Venue will provide the contact information for Venue's on-site contact (if any) for the day of the event.",
+        "Venue will maintain the venue in a safe condition.",
+        "Venue will not be responsible for any personal property brought to the venue by Client or Client's guests.",
+        "Venue will not be responsible for any loss, theft, damage, or injury arising from or related to the event, except to the extent caused by Venue's negligence or willful misconduct.",
+        "{{venue_responsibilities_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "INSURANCE AND LIABILITY",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "{{insurance_clause}} (Client must provide proof of event liability insurance with limits of at least ${{insurance_limits}} for the event date, naming Venue as an additional insured. Venue maintains its own insurance coverage. Venue's insurance is primary for claims arising from Venue's negligence or willful misconduct. Client is responsible for any claims arising from Client's acts or omissions, Client's guests, or Client's vendors.)",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "RESTRICTIONS AND PROHIBITED ITEMS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Restriction",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Glassware (breakable)",
+          "{{glass_restriction}} (Prohibited / Allowed in designated areas / Allowed with extra fee for cleanup \u2014 details: {{glass_details}})"
+        ],
+        [
+          "Candles / open flames",
+          "{{candle_restriction}} (Prohibited / Allowed in designated areas with supervision / LED candles only \u2014 details: {{candle_details}})"
+        ],
+        [
+          "Confetti / balloons / streamers",
+          "{{confetti_restriction}} (Prohibited / Allowed in designated areas / Cleanup required \u2014 details: {{confetti_details}})"
+        ],
+        [
+          "Fog machines / haze machines",
+          "{{fog_restriction}} (Prohibited / Allowed with approval and ventilation requirements \u2014 details: {{fog_details}})"
+        ],
+        [
+          "Pyrotechnics / fireworks",
+          "{{pyro_restriction}} (Prohibited \u2014 no exceptions / Allowed with permit and approval \u2014 details: {{pyro_details}})"
+        ],
+        [
+          "Weapons / firearms",
+          "{{weapons_restriction}} (Prohibited \u2014 no exceptions)"
+        ],
+        [
+          "Drugs / alcohol",
+          "{{alcohol_restriction}} (Allowed with permit and compliance with local laws / Prohibited / Alcohol must be served by licensed bartender / BYOB not allowed \u2014 details: {{alcohol_details}})"
+        ],
+        [
+          "Graffiti / spray paint",
+          "{{graffiti_restriction}} (Prohibited \u2014 no exceptions)"
+        ],
+        [
+          "Drones / aerial devices",
+          "{{drone_restriction}} (Prohibited / Allowed with prior approval \u2014 details: {{drone_details}})"
+        ],
+        [
+          "Other restrictions",
+          "{{other_restrictions}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Client",
+          "_____________________________",
+          "{{client_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{client_name}}",
+          ""
+        ],
+        [
+          "Venue Owner / Representative",
+          "_____________________________",
+          "{{venue_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{venue_rep_name}}",
+          ""
+        ],
+        [
+          "Title",
+          "{{venue_rep_title}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

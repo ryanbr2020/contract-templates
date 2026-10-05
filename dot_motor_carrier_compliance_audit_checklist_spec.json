@@ -1,0 +1,929 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "DOT MOTOR CARRIER COMPLIANCE AUDIT CHECKLIST",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "DOT MOTOR CARRIER COMPLIANCE AUDIT CHECKLIST",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Compliance Audit Checklist is used by {{company_name}} (\"Company\") to audit compliance with federal motor carrier safety regulations (FMCSRs), hazardous materials regulations (HMRs), and other applicable requirements. Audit conducted by: {{auditor_name}} on {{audit_date}}.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Audited Entity: {{audited_entity}} \u2014 USDOT Number: {{usdot_number}} \u2014 MC Number: {{mc_number}} \u2014 Operating Authority: {{operating_authority}}.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "SECTION 1: ADMINISTRATION AND DOCUMENTATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "#",
+        "Requirement",
+        "Compliant? (Y/N/NA)",
+        "Notes / Deficiency",
+        "References (CFR)"
+      ],
+      "rows": [
+        [
+          "1",
+          "USDOT number registered and active on SAFER website",
+          "\u2610",
+          "{{s1_1_notes}}",
+          "49 CFR 390.21"
+        ],
+        [
+          "2",
+          "MCS-15 (DOT application) on file and current",
+          "\u2610",
+          "{{s1_2_notes}}",
+          "49 CFR 390.21"
+        ],
+        [
+          "3",
+          "MCS-90 (insurance certification) on file, current, and applicable coverage levels",
+          "\u2610",
+          "{{s1_3_notes}}",
+          "49 CFR 387.15"
+        ],
+        [
+          "4",
+          "BOC-3 (process agents) filed with FMCSA (if applicable)",
+          "\u2610",
+          "{{s1_4_notes}}",
+          "49 CFR 386"
+        ],
+        [
+          "5",
+          "UCC filings (security interests) maintained (if applicable)",
+          "\u2610",
+          "{{s1_5_notes}}",
+          ""
+        ],
+        [
+          "6",
+          "Business entity documents (Articles of Incorporation, etc.) on file",
+          "\u2610",
+          "{{s1_6_notes}}",
+          ""
+        ],
+        [
+          "7",
+          "Operating authority (MC number) active and applicable commodities listed",
+          "\u2610",
+          "{{s1_7_notes}}",
+          ""
+        ],
+        [
+          "8",
+          "State permits, IRP plates, and IRP account current",
+          "\u2610",
+          "{{s1_8_notes}}",
+          ""
+        ],
+        [
+          "9",
+          "IFTA license and decals current (if applicable)",
+          "\u2610",
+          "{{s1_9_notes}}",
+          ""
+        ],
+        [
+          "10",
+          "BOC-3 filed; registered agents listed",
+          "\u2610",
+          "{{s1_10_notes}}",
+          ""
+        ],
+        [
+          "11",
+          "Annual update filed with FMCSA (within 12 months)",
+          "\u2610",
+          "{{s1_11_notes}}",
+          "49 CFR 390.21"
+        ],
+        [
+          "12",
+          "Pollution (insurance) coverage if required",
+          "\u2610",
+          "{{s1_12_notes}}",
+          ""
+        ],
+        [
+          "13",
+          "Tax ID/EIN documented and on file",
+          "\u2610",
+          "{{s1_13_notes}}",
+          ""
+        ],
+        [
+          "14",
+          "40/60-hour rule / driver team documentation (if using teams)",
+          "\u2610",
+          "{{s1_14_notes}}",
+          ""
+        ],
+        [
+          "15",
+          "Company profile on SAFER website accurate and up to date",
+          "\u2610",
+          "{{s1_15_notes}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "SECTION 2: DRIVER QUALIFICATIONS (DQ)",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "#",
+        "Requirement",
+        "Compliant? (Y/N/NA)",
+        "Notes / Deficiency",
+        "References (CFR)"
+      ],
+      "rows": [
+        [
+          "16",
+          "DQ File established for each driver, per 49 CFR 391.23",
+          "\u2610",
+          "{{s2_1_notes}}",
+          "49 CFR 391.23"
+        ],
+        [
+          "17",
+          "Driver's name, address, and contact information documented",
+          "\u2610",
+          "{{s2_2_notes}}",
+          "49 CFR 391.23"
+        ],
+        [
+          "18",
+          "CDL (or non-CDL DL) verified \u2014 copy on file, current",
+          "\u2610",
+          "{{s2_3_notes}}",
+          "49 CFR 391.33"
+        ],
+        [
+          "19",
+          "CDL endorsements verified ((trailer, hazardous, passenger, tank, etc.) as applicable",
+          "\u2610",
+          "{{s2_4_notes}}",
+          "49 CFR 391.33"
+        ],
+        [
+          "20",
+          "Medical examiner's certificate on file, current (not expired)",
+          "\u2610",
+          "{{s2_5_notes}}",
+          "49 CFR 391.43"
+        ],
+        [
+          "21",
+          "Medical examination report completed and signed by examiner",
+          "\u2610",
+          "{{s2_6_notes}}",
+          "49 CFR 391.43"
+        ],
+        [
+          "22",
+          "MVR (driving record) obtained for preceding 3 years (or more if required)",
+          "\u2610",
+          "{{s2_7_notes}}",
+          "49 CFR 391.23"
+        ],
+        [
+          "23",
+          "MVR reviewed \u2014 no disqualifying violations (per 49 CFR 391.11)",
+          "\u2610",
+          "{{s2_8_notes}}",
+          "49 CFR 391.11"
+        ],
+        [
+          "24",
+          "Road test or equivalent completed and documented (within 12 months of employment)",
+          "\u2610",
+          "{{s2_9_notes}}",
+          "49 CFR 391.13, 391.35"
+        ],
+        [
+          "25",
+          "CDLIS (Commercial Driver's License Information System) check completed",
+          "\u2610",
+          "{{s2_10_notes}}",
+          "49 CFR 391.23"
+        ],
+        [
+          "26",
+          "Alcohol and drug testing records on file \u2014 pre-employment test completed before first driving",
+          "\u2610",
+          "{{s2_11_notes}}",
+          "49 CFR 382.301"
+        ],
+        [
+          "27",
+          "AnnualELD (if applicable) / ELD training completed",
+          "\u2610",
+          "{{s2_12_notes}}",
+          "49 CFR 392, 395, 396"
+        ],
+        [
+          "28",
+          "Hazmat background check / TSA security threat assessment (if Hazmat driver)",
+          "\u2610",
+          "{{s2_13_notes}}",
+          "49 CFR 1572"
+        ],
+        [
+          "29",
+          "Driver's education / training records on file",
+          "\u2610",
+          "{{s2_14_notes}}",
+          ""
+        ],
+        [
+          "30",
+          "DQ file checklist completed and signed",
+          "\u2610",
+          "{{s2_15_notes}}",
+          "49 CFR 391.23"
+        ],
+        [
+          "31",
+          "Driver's annual review of driving record (MVR) completed and on file",
+          "\u2610",
+          "{{s2_16_notes}}",
+          "49 CFR 391.25"
+        ],
+        [
+          "32",
+          "Annual medical qualification review completed",
+          "\u2610",
+          "{{s2_17_notes}}",
+          "49 CFR 391.45"
+        ],
+        [
+          "33",
+          "Driver signed certification of review of safety regulations (annual)",
+          "\u2610",
+          "{{s2_18_notes}}",
+          "49 CFR 391.27"
+        ],
+        [
+          "34",
+          "Driver's qualification file retained for duration of employment + 3 years",
+          "\u2610",
+          "{{s2_19_notes}}",
+          "49 CFR 391.23"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "SECTION 3: DRUG AND ALCOHOL TESTING PROGRAM",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "#",
+        "Requirement",
+        "Compliant? (Y/N/NA)",
+        "Notes / Deficiency",
+        "References (CFR)"
+      ],
+      "rows": [
+        [
+          "35",
+          "Written drug and alcohol policy / testing procedures on file and provided to drivers",
+          "\u2610",
+          "{{s3_1_notes}}",
+          "49 CFR 382.21, 40"
+        ],
+        [
+          "36",
+          "Designated employer representative (DER) identified and trained",
+          "\u2610",
+          "{{s3_2_notes}}",
+          "49 CFR 382.201, 40.51"
+        ],
+        [
+          "37",
+          "Consortium / third-party administrator (TPA) contract in place (if applicable)",
+          "\u2610",
+          "{{s3_3_notes}}",
+          "49 CFR 382.207"
+        ],
+        [
+          "38",
+          "Collectors, laboratories, MROs, and SAPs identified and certified",
+          "\u2610",
+          "{{s3_4_notes}}",
+          "49 CFR 40.3"
+        ],
+        [
+          "39",
+          "Pre-employment drug test completed before first safety-sensitive function (negative result)",
+          "\u2610",
+          "{{s3_5_notes}}",
+          "49 CFR 382.301"
+        ],
+        [
+          "40",
+          "Random drug testing pool established \u2014 at least 50% of drivers tested annually for drugs",
+          "\u2610",
+          "{{s3_6_notes}}",
+          "49 CFR 382.205, 392.5"
+        ],
+        [
+          "41",
+          "Random alcohol testing pool established \u2014 at least 10% of drivers tested annually for alcohol",
+          "\u2610",
+          "{{s3_7_notes}}",
+          "49 CFR 382.205"
+        ],
+        [
+          "42",
+          "Random selection process is scientifically valid and documented",
+          "\u2610",
+          "{{s3_8_notes}}",
+          "49 CFR 382.205"
+        ],
+        [
+          "43",
+          "Reasonable suspicion training completed for supervisors (minimum 60 minutes for alcohol + 60 minutes for drugs)",
+          "\u2610",
+          "{{s3_9_notes}}",
+          "49 CFR 382.603"
+        ],
+        [
+          "44",
+          "Post-accident testing procedures and thresholds documented and followed",
+          "\u2610",
+          "{{s3_10_notes}}",
+          "49 CFR 382.303, 382.305"
+        ],
+        [
+          "45",
+          "Return-to-duty and follow-up testing procedures documented and followed",
+          "\u2610",
+          "{{s3_11_notes}}",
+          "49 CFR 382.307, 382.309"
+        ],
+        [
+          "46",
+          "Testing records maintained and kept confidential \u2014 separate from DQ file",
+          "\u2610",
+          "{{s3_12_notes}}",
+          "49 CFR 40.33"
+        ],
+        [
+          "47",
+          "Federally regulated drivers identified and listed in testing pool",
+          "\u2610",
+          "{{s3_13_notes}}",
+          "49 CFR 382.107"
+        ],
+        [
+          "48",
+          "Testing records and documentation complete and up to date",
+          "\u2610",
+          "{{s3_14_notes}}",
+          "49 CFR 382, 40"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "SECTION 4: HOURS OF SERVICE (HOS) AND LOGS / ELD",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "#",
+        "Requirement",
+        "Compliant? (Y/N/NA)",
+        "Notes / Deficiency",
+        "References (CFR)"
+      ],
+      "rows": [
+        [
+          "49",
+          "ELD registered with FMCSA and installed in each CMV (if required)",
+          "\u2610",
+          "{{s4_1_notes}}",
+          "49 CFR 395.8"
+        ],
+        [
+          "50",
+          "ELD data transferred to enforcement officers upon request (REMOTE WRITE/REQUIRED)",
+          "\u2610",
+          "{{s4_2_notes}}",
+          "49 CFR 395.8"
+        ],
+        [
+          "51",
+          "ELD malfunction procedures documented and followed (8-day replacement window)",
+          "\u2610",
+          "{{s4_3_notes}}",
+          "49 CFR 395.8"
+        ],
+        [
+          "52",
+          "ELD exemption documentation on file (if driver has exemption)",
+          "\u2610",
+          "{{s4_4_notes}}",
+          "49 CFR 395.8"
+        ],
+        [
+          "53",
+          "HOS limits enforced \u2014 11-hour driving limit, 14-hour on-duty limit, 30-minute break (if applicable)",
+          "\u2610",
+          "{{s4_5_notes}}",
+          "49 CFR 395.3"
+        ],
+        [
+          "54",
+          "60/70-hour limit enforced (60 hours in 7 days or 70 hours in 8 days)",
+          "\u2610",
+          "{{s4_6_notes}}",
+          "49 CFR 395.3"
+        ],
+        [
+          "55",
+          "34-hour restart (if used) complies with requirements (2 periods of 1 a.m. to 5 a.m., once per 168 hours)",
+          "\u2610",
+          "{{s4_7_notes}}",
+          "49 CFR 395.3"
+        ],
+        [
+          "56",
+          "Driver logs (paper or ELD) reviewed for compliance \u2014 no falsification, no missing logs",
+          "\u2610",
+          "{{s4_8_notes}}",
+          "49 CFR 395.8, 395.11"
+        ],
+        [
+          "57",
+          "Annual ELD review completed and driver signed certification",
+          "\u2610",
+          "{{s4_9_notes}}",
+          "49 CFR 396.3"
+        ],
+        [
+          "58",
+          "Records of duty status (RODS) retained for 6 months (or per ELD transfer requirements)",
+          "\u2610",
+          "{{s4_10_notes}}",
+          "49 CFR 395.8"
+        ],
+        [
+          "59",
+          "Company review of driver logs conducted \u2014 at least once every 4 months or per company policy",
+          "\u2610",
+          "{{s4_11_notes}}",
+          "49 CFR 395.8, 395.11"
+        ],
+        [
+          "60",
+          "Drug test results not available for review of HOS compliance (but positive tests may indicate safety issue)",
+          "\u2610",
+          "{{s4_12_notes}}",
+          "49 CFR 382"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "SECTION 5: VEHICLE INSPECTION, MAINTENANCE, AND REPAIRS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "#",
+        "Requirement",
+        "Compliant? (Y/N/NA)",
+        "Notes / Deficiency",
+        "References (CFR)"
+      ],
+      "rows": [
+        [
+          "61",
+          "Annual motor vehicle inspection completed for each CMV \u2014 certificate on file (within 12 months)",
+          "\u2610",
+          "{{s5_1_notes}}",
+          "49 CFR 396.17"
+        ],
+        [
+          "62",
+          "Annual inspection stickers / decals affixed (if applicable)",
+          "\u2610",
+          "{{s5_2_notes}}",
+          "49 CFR 396.17"
+        ],
+        [
+          "63",
+          "Pre-trip inspection performed and documented by driver before each trip (DVIR)",
+          "\u2610",
+          "{{s5_3_notes}}",
+          "49 CFR 396.11"
+        ],
+        [
+          "64",
+          "Post-trip inspection performed and documented by driver after each trip (DVIR)",
+          "\u2610",
+          "{{s5_4_notes}}",
+          "49 CFR 396.11"
+        ],
+        [
+          "65",
+          "DVIR reviewed and signed by driver \u2014 defects noted and certified as repaired or not requiring repair",
+          "\u2610",
+          "{{s5_5_notes}}",
+          "49 CFR 396.11"
+        ],
+        [
+          "66",
+          "Defect repair certification completed (by mechanic) if required",
+          "\u2610",
+          "{{s5_6_notes}}",
+          "49 CFR 396.11"
+        ],
+        [
+          "67",
+          "Vehicle maintenance records maintained for each CMV \u2014 12 months minimum",
+          "\u2610",
+          "{{s5_7_notes}}",
+          "49 CFR 396.3"
+        ],
+        [
+          "68",
+          "Preventive maintenance schedule established and followed",
+          "\u2610",
+          "{{s5_8_notes}}",
+          "49 CFR 396.3"
+        ],
+        [
+          "69",
+          "Tire inspection and maintenance documented \u2014 tread depth compliance (4/32 front, 2/32 other)",
+          "\u2610",
+          "{{s5_9_notes}}",
+          "49 CFR 393.75"
+        ],
+        [
+          "70",
+          "Brake inspection and adjustment documented \u2014 no brakes out of adjustment",
+          "\u2610",
+          "{{s5_10_notes}}",
+          "49 CFR 393.40, 393.41"
+        ],
+        [
+          "71",
+          "All lamps, reflectors, and lighting devices in good working order",
+          "\u2610",
+          "{{s5_11_notes}}",
+          "49 CFR 393.9, 393.11"
+        ],
+        [
+          "72",
+          "Horn, mirrors, windshield wipers, and other required safety equipment functional",
+          "\u2610",
+          "{{s5_12_notes}}",
+          "49 CFR 393.10, 393.74"
+        ],
+        [
+          "73",
+          "Cargo securement equipment maintained \u2014 chains, binders, straps, etc. in good condition",
+          "\u2610",
+          "{{s5_13_notes}}",
+          "49 CFR 393, Subpart I"
+        ],
+        [
+          "74",
+          "Fire extinguisher on board and charged (if required)",
+          "\u2610",
+          "{{s5_14_notes}}",
+          "49 CFR 393.1, 393.27"
+        ],
+        [
+          "75",
+          "Spare fuses and other required ancillary equipment on board (if applicable)",
+          "\u2610",
+          "{{s5_15_notes}}",
+          "49 CFR 393.8"
+        ],
+        [
+          "76",
+          "Repair shop / maintenance provider records on file (if outsourced)",
+          "\u2610",
+          "{{s5_16_notes}}",
+          ""
+        ],
+        [
+          "77",
+          "Vehicle registry, registration, and title records on file and current",
+          "\u2610",
+          "{{s5_17_notes}}",
+          ""
+        ],
+        [
+          "78",
+          " vehicle file retained for 12 months (or 6 months after vehicle is removed from service)",
+          "\u2610",
+          "{{s5_18_notes}}",
+          "49 CFR 396.3"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "SECTION 6: CARGO, BILLING, AND OTHER COMPLIANCE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "#",
+        "Requirement",
+        "Compliant? (Y/N/NA)",
+        "Notes / Deficiency",
+        "References (CFR)"
+      ],
+      "rows": [
+        [
+          "79",
+          "Cargo securement plan established and followed for each load",
+          "\u2610",
+          "{{s6_1_notes}}",
+          "49 CFR 393, Subpart I"
+        ],
+        [
+          "80",
+          "Bill of Lading (BOL) or shipping document completed for each shipment (if applicable)",
+          "\u2610",
+          "{{s6_2_notes}}",
+          "49 CFR 373"
+        ],
+        [
+          "81",
+          "Hazmat shipping papers completed and placarding correct (if applicable)",
+          "\u2610",
+          "{{s6_3_notes}}",
+          "49 CFR 172"
+        ],
+        [
+          "82",
+          "Driver has hazmat training and certification (if transporting hazardous materials)",
+          "\u2610",
+          "{{s6_4_notes}}",
+          "49 CFR 172, Subpart H"
+        ],
+        [
+          "83",
+          "IFTA fuel tax returns filed and paid (if applicable)",
+          "\u2610",
+          "{{s6_5_notes}}",
+          ""
+        ],
+        [
+          "84",
+          "IRP apportioned plates and account current (if applicable)",
+          "\u2610",
+          "{{s6_6_notes}}",
+          ""
+        ],
+        [
+          "85",
+          "UCR (Unified Carrier Registration) filed and paid annually",
+          "\u2610",
+          "{{s6_7_notes}}",
+          ""
+        ],
+        [
+          "86",
+          "Agriculture exemption documentation (if applicable)",
+          "\u2610",
+          "{{s6_8_notes}}",
+          "49 CFR 395.1"
+        ],
+        [
+          "87",
+          "Driver files \u2014 payroll records, time records, and other records maintained (2-year minimum)",
+          "\u2610",
+          "{{s6_9_notes}}",
+          "49 CFR 374"
+        ],
+        [
+          "88",
+          "DOT compliance training provided to drivers and staff \u2014 documented",
+          "\u2610",
+          "{{s6_10_notes}}",
+          ""
+        ],
+        [
+          "89",
+          "Company policies and procedures manual updated and provided to drivers",
+          "\u2610",
+          "{{s6_11_notes}}",
+          ""
+        ],
+        [
+          "90",
+          "Any outstanding violations, fines, or penalties tracked and resolved",
+          "\u2610",
+          "{{s6_12_notes}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "AUDIT SUMMARY",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Audit Date",
+          "{{audit_date}}"
+        ],
+        [
+          "Auditor Name",
+          "{{auditor_name}}"
+        ],
+        [
+          "Auditor Title / Role",
+          "{{auditor_title}}"
+        ],
+        [
+          "Audit Type",
+          "{{audit_type}} (Internal self-audit / External third-party audit / FMCSA compliance review / Other)"
+        ],
+        [
+          "Overall Compliance Rating",
+          "{{overall_rating}} (Compliant / Partially Compliant / Non-Compliant \u2014 Areas of concern: {{areas_of_concern}})"
+        ],
+        [
+          "Number of Deficiencies Found",
+          "{{deficiency_count}}"
+        ],
+        [
+          "Critical Deficiencies (must be corrected immediately)",
+          "{{critical_deficiencies}} (List: {{critical_deficiency_list}})"
+        ],
+        [
+          "Non-Critical Deficiencies",
+          "{{non_critical_deficiencies}} (List: {{non_critical_deficiency_list}})"
+        ],
+        [
+          "Corrective Action Plan (CAP) Required?",
+          "{{cap_required}} (Yes / No \u2014 if Yes, CAP due date: {{cap_due_date}})"
+        ],
+        [
+          "Follow-Up Audit Required?",
+          "{{followup_audit}} (Yes / No \u2014 Follow-up date: {{followup_audit_date}})"
+        ],
+        [
+          "Recommendations",
+          "{{recommendations}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "AUDITOR'S CERTIFICATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "I certify that this audit was conducted in accordance with Company procedures and applicable regulations, and that the findings stated above are true and accurate to the best of my knowledge.",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Auditor",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Auditor Signature",
+          "_____________________________",
+          "{{audit_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{auditor_name}}",
+          ""
+        ],
+        [
+          "Title",
+          "{{auditor_title}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "COMPANY OFFICIAL'S REVIEW AND ACKNOWLEDGMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Company Official",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Company Official Signature",
+          "_____________________________",
+          "{{review_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{company_official_name}}",
+          ""
+        ],
+        [
+          "Title",
+          "{{company_official_title}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

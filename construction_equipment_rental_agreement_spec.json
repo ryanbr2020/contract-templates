@@ -1,0 +1,425 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "CONSTRUCTION EQUIPMENT RENTAL AGREEMENT",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "CONSTRUCTION EQUIPMENT RENTAL AGREEMENT",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Construction Equipment Rental Agreement is entered into on {{agreement_date}} between {{owner_name}} (\"Owner\" / \"Rental Company\") and {{renter_name}} (\"Renter\"). Owner agrees to rent to Renter, and Renter agrees to rent from Owner, the construction equipment described below.",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Equipment Type",
+          "{{equipment_type}} (Excavator / Bulldozer / Backhoe / Skid Steer / Forklift / Crane / Concrete Mixer / Generator / Compressor / Airless Sprayer / Other)"
+        ],
+        [
+          "Equipment Make/Model/Year",
+          "{{equipment_make}} {{equipment_model}} {{equipment_year}}"
+        ],
+        [
+          "Serial Number",
+          "{{serial_number}}"
+        ],
+        [
+          "Equipment ID / Asset Tag",
+          "{{equipment_asset_tag}}"
+        ],
+        [
+          "Equipment Description",
+          "{{equipment_description}}"
+        ],
+        [
+          "Equipment Capacity / Size",
+          "{{equipment_capacity}} (e.g., excavator bucket capacity, forklift capacity, crane lift capacity, generator kW, etc.)"
+        ],
+        [
+          "Attachments / Accessories Included",
+          "{{attachments}} (Bucket / forks / breaker / auger / grapple / etc.)"
+        ],
+        [
+          "Operator Required?",
+          "{{operator_required}} (Yes \u2014 Owner will provide operator / No \u2014 Renter will provide operator / Renter must be qualified)"
+        ],
+        [
+          "Operator Name / License",
+          "{{operator_name}} \u2014 License/Qualification: {{operator_license}}"
+        ],
+        [
+          "Pickup Location",
+          "{{pickup_location}}"
+        ],
+        [
+          "Return Location",
+          "{{return_location}} (Same as pickup / Different \u2014 details: {{return_location_details}})"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "RENTAL PERIOD AND PAYMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Rental Start Date/Time",
+          "{{rental_start_date}} at {{rental_start_time}}"
+        ],
+        [
+          "Rental End Date/Time",
+          "{{rental_end_date}} at {{rental_end_time}}"
+        ],
+        [
+          "Rental Type",
+          "{{rental_type}} (Daily / Weekly / Monthly / Project-based / Other)"
+        ],
+        [
+          "Daily Rate",
+          "{{daily_rate}}"
+        ],
+        [
+          "Weekly Rate",
+          "{{weekly_rate}} (if applicable \u2014 includes {{weekly_hours}} hours of use)"
+        ],
+        [
+          "Monthly Rate",
+          "{{monthly_rate}} (if applicable \u2014 includes {{monthly_hours}} hours of use)"
+        ],
+        [
+          "Fuel Policy",
+          "{{fuel_policy}} (Fill up before return / Renter pays for all fuel used / Fuel included / Tractor fuel included \u2014 details: {{fuel_details}})"
+        ],
+        [
+          "Security Deposit",
+          "{{security_deposit}}"
+        ],
+        [
+          "Insurance / Damage Waiver (if purchased)",
+          "{{insurance_cost}}"
+        ],
+        [
+          "Estimated Total",
+          "{{estimated_total}}"
+        ],
+        [
+          "Actual Total (if different)",
+          "{{actual_total}}"
+        ],
+        [
+          "Payment Terms",
+          "{{payment_terms}} (Due on signing / Due at return / Net-15 / Net-30 / Other)"
+        ],
+        [
+          "Payment Method",
+          "{{payment_method}} (Credit card / Check / Invoice / Other)"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "RENTER RESPONSIBILITIES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Renter must be at least {{minimum_age}} years old and must have the knowledge and experience necessary to operate the equipment safely.",
+        "Renter (or Renter's operator) must be qualified and authorized to operate the equipment. If required by law or by Owner, Renter must have any required license, certification, or training.",
+        "Renter must comply with all manufacturer instructions, safety warnings, and applicable laws and regulations.",
+        "Renter must wear appropriate personal protective equipment (PPE) when operating the equipment (hard hat, safety glasses, hearing protection, steel-toed boots, high-visibility vest, gloves, etc.).",
+        "Renter must inspect the equipment before each use and must not operate the equipment if it is not in safe working condition.",
+        "Renter must perform pre-operation safety checks (fluids, tires/tracks, controls, lights, safety devices, etc.) before each use.",
+        "Renter must not operate the equipment under the influence of alcohol, drugs, or any impairing substance.",
+        "Renter must not allow any unauthorized person to operate the equipment.",
+        "Renter is responsible for the equipment from the time of pickup until return, including all damage, loss, theft, fines, tickets, and accidents.",
+        "Renter must not use the equipment for any illegal purpose or in a manner that is unsafe or that violates the equipment's design or intended use.",
+        "Renter must not modify, tamper with, or remove any safety devices, guards, or parts of the equipment.",
+        "Renter must not exceed the equipment's rated capacity, lift capacity, or other specifications.",
+        "Renter must properly secure all loads and must use the equipment only for its intended purpose.",
+        "Renter must keep the equipment in a safe and clean condition during the rental period.",
+        "Renter must follow all safety guidelines for the work site, including but not limited to: keeping a safe distance from utilities, trenches, unstable ground, and other hazards.",
+        "Renter must report any accidents, incidents, or mechanical issues to Owner immediately.",
+        "Renter is responsible for proper disposal of any waste, fluids, or materials used with the equipment.",
+        "{{renter_constr_equip_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "PRE-OPERATION SAFETY CHECKLIST",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "#",
+        "Check Item",
+        "OK",
+        "Needs Attention",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "1",
+          "Walk-around inspection \u2014 no visible damage, cracks, or structural issues",
+          "\u2610",
+          "\u2610",
+          "{{check_1_notes}}"
+        ],
+        [
+          "2",
+          "Fluid levels (engine oil, hydraulic fluid, coolant, fuel) \u2014 adequate",
+          "\u2610",
+          "\u2610",
+          "{{check_2_notes}}"
+        ],
+        [
+          "3",
+          "No fluid leaks (engine, hydraulic, coolant, fuel)",
+          "\u2610",
+          "\u2610",
+          "{{check_3_notes}}"
+        ],
+        [
+          "4",
+          "Tires or tracks \u2014 in good condition, adequate pressure/tension",
+          "\u2610",
+          "\u2610",
+          "{{check_4_notes}}"
+        ],
+        [
+          "5",
+          "All lights, warning devices, and reflectors functional",
+          "\u2610",
+          "\u2610",
+          "{{check_5_notes}}"
+        ],
+        [
+          "6",
+          "All safety devices, guards, and shields in place and functional",
+          "\u2610",
+          "\u2610",
+          "{{check_6_notes}}"
+        ],
+        [
+          "7",
+          "All controls, switches, and levers functional",
+          "\u2610",
+          "\u2610",
+          "{{check_7_notes}}"
+        ],
+        [
+          "8",
+          "Emergency stop / kill switch functional",
+          "\u2610",
+          "\u2610",
+          "{{check_8_notes}}"
+        ],
+        [
+          "9",
+          "Fire extinguisher present and charged (if required)",
+          "\u2610",
+          "\u2610",
+          "{{check_9_notes}}"
+        ],
+        [
+          "10",
+          "Seat belt / restraint functional and in good condition",
+          "\u2610",
+          "\u2610",
+          "{{check_10_notes}}"
+        ],
+        [
+          "11",
+          "Operator's manual and safety instructions available",
+          "\u2610",
+          "\u2610",
+          "{{check_11_notes}}"
+        ],
+        [
+          "12",
+          "Attachments / accessories (bucket, forks, etc.) secure and in good condition",
+          "\u2610",
+          "\u2610",
+          "{{check_12_notes}}"
+        ],
+        [
+          "13",
+          "Equipment clean and free of excessive dirt, debris, or hazards",
+          "\u2610",
+          "\u2610",
+          "{{check_13_notes}}"
+        ],
+        [
+          "14",
+          "No warning lights or error messages on dashboard / display",
+          "\u2610",
+          "\u2610",
+          "{{check_14_notes}}"
+        ],
+        [
+          "15",
+          "Equipment starts and operates without unusual noise, vibration, or odor",
+          "\u2610",
+          "\u2610",
+          "{{check_15_notes}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "INSURANCE AND LIABILITY",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Option",
+        "Coverage",
+        "Cost",
+        "Deductible / Renter Responsibility"
+      ],
+      "rows": [
+        [
+          "Option 1 \u2014 Renter's Own Insurance",
+          "Renter uses their own insurance (contractor's liability, equipment insurance, etc.). Renter is responsible for deductible and any amounts not covered.",
+          "$0",
+          "{{renter_own_deductible}}"
+        ],
+        [
+          "Option 2 \u2014 Owner's Insurance (Primary)",
+          "Owner's insurance is primary for the equipment during the rental. Renter pays a damage waiver fee and is responsible for a per-claim deductible and any amounts not covered.",
+          "{{owner_policy_cost}}",
+          "{{owner_policy_deductible}}"
+        ],
+        [
+          "Option 3 \u2014 Damage Waiver (LDW/EDW)",
+          "Loss Damage Waiver / Equipment Damage Waiver. Covers damage to the equipment from collision, rollover, or theft, subject to exclusions. Does not cover personal injury, third-party property damage, or consequential losses.",
+          "{{cdw_cost}}",
+          "{{cdw_deductible}}"
+        ],
+        [
+          "Option 4 \u2014 No Coverage",
+          "Renter is fully responsible for all damage, loss, theft, and liability.",
+          "$0",
+          "Full amount"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "paragraph",
+      "text": "Renter acknowledges that Owner is not responsible for any injury, death, property damage, or other loss arising from Renter's use of the equipment, except to the extent caused by Owner's gross negligence or willful misconduct. Renter assumes all risks associated with the operation of construction equipment.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Renter",
+          "_____________________________",
+          "{{renter_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{renter_name}}",
+          ""
+        ],
+        [
+          "Renter Phone",
+          "{{renter_phone}}",
+          ""
+        ],
+        [
+          "Renter Email",
+          "{{renter_email}}",
+          ""
+        ],
+        [
+          "Owner / Rental Company",
+          "_____________________________",
+          "{{owner_date}}"
+        ],
+        [
+          "Authorized Signature",
+          "{{owner_rep_name}}",
+          ""
+        ],
+        [
+          "Title",
+          "{{owner_rep_title}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

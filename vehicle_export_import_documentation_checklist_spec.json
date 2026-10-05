@@ -1,0 +1,490 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "VEHICLE EXPORT / IMPORT DOCUMENTATION CHECKLIST",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "VEHICLE EXPORT / IMPORT DOCUMENTATION CHECKLIST",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This checklist is used to ensure that all required documentation is in order for the export or import of a Vehicle. Prepared by: {{prepared_by}} on {{checklist_date}}.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Vehicle: {{vehicle_make}} {{vehicle_model}} {{vehicle_year}} \u2014 VIN: {{vehicle_vin}} \u2014 License Plate: {{license_plate}}.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "VEHICLE INFORMATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Vehicle Make/Model/Year",
+          "{{vehicle_make}} {{vehicle_model}} {{vehicle_year}}"
+        ],
+        [
+          "VIN",
+          "{{vehicle_vin}}"
+        ],
+        [
+          "License Plate / Registration",
+          "{{license_plate}} \u2014 State: {{registration_state}}"
+        ],
+        [
+          "Vehicle Type",
+          "{{vehicle_type}} (Passenger car / Truck / Motorcycle / RV / Boat / Other)"
+        ],
+        [
+          "Vehicle Color",
+          "{{vehicle_color}}"
+        ],
+        [
+          "Odometer",
+          "{{odometer}} miles"
+        ],
+        [
+          "Engine / CC",
+          "{{engine_cc}} cc"
+        ],
+        [
+          "Fuel Type",
+          "{{fuel_type}}"
+        ],
+        [
+          "Vehicle Weight (curb weight)",
+          "{{curb_weight}} lbs / kg"
+        ],
+        [
+          "Vehicle Value (for customs / insurance)",
+          "{{vehicle_value}} USD"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "EXPORT DOCUMENTATION (Vehicle leaving the U.S.)",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "#",
+        "Document / Requirement",
+        "Required? (Y/N)",
+        "Obtained? (Y/N/NA)",
+        "Notes / Reference"
+      ],
+      "rows": [
+        [
+          "1",
+          "Bill of Sale (showing buyer and seller, Vehicle description, price, date)",
+          "{{exp_1_req}}",
+          "{{exp_1_obtained}}",
+          "{{exp_1_notes}}"
+        ],
+        [
+          "2",
+          "Title (or electronic title transfer record) \u2014 properly assigned by Seller to Buyer",
+          "{{exp_2_req}}",
+          "{{exp_2_obtained}}",
+          "{{exp_2_notes}}"
+        ],
+        [
+          "3",
+          "Registration (current, or evidence of registration transfer)",
+          "{{exp_3_req}}",
+          "{{exp_3_obtained}}",
+          "{{exp_3_notes}}"
+        ],
+        [
+          "4",
+          "Release of liability (filed with state DMV, if applicable)",
+          "{{exp_4_req}}",
+          "{{exp_4_obtained}}",
+          "{{exp_4_notes}}"
+        ],
+        [
+          "5",
+          "Smog / emissions certification (if required by state for sale or export)",
+          "{{exp_5_req}}",
+          "{{exp_5_obtained}}",
+          "{{exp_5_notes}}"
+        ],
+        [
+          "6",
+          "Odometer disclosure statement (signed by Seller, on title or separate form)",
+          "{{exp_6_req}}",
+          "{{exp_6_obtained}}",
+          "{{exp_6_notes}}"
+        ],
+        [
+          "7",
+          "Export declaration / AES (Automated Export System) filing \u2014 for vehicles valued over $2,500 (if required)",
+          "{{exp_7_req}}",
+          "{{exp_7_obtained}}",
+          "{{exp_7_notes}} \u2014 Reference: U.S. Census Bureau AES"
+        ],
+        [
+          "8",
+          "U.S. Customs and Border Protection (CBP) export documentation (if required)",
+          "{{exp_8_req}}",
+          "{{exp_8_obtained}}",
+          "{{exp_8_notes}} \u2014 Reference: CBP Form 7501 or other"
+        ],
+        [
+          "9",
+          "Certificate of Origin (if required by destination country)",
+          "{{exp_9_req}}",
+          "{{exp_9_obtained}}",
+          "{{exp_9_notes}}"
+        ],
+        [
+          "10",
+          "Destination country import documents (e.g., customs form, import permit, etc.)",
+          "{{exp_10_req}}",
+          "{{exp_10_obtained}}",
+          "{{exp_10_notes}}"
+        ],
+        [
+          "11",
+          "Insurance (for transit / export \u2014 if applicable)",
+          "{{exp_11_req}}",
+          "{{exp_11_obtained}}",
+          "{{exp_11_notes}}"
+        ],
+        [
+          "12",
+          "Freight / shipping documents (bill of lading, shipping instructions, etc.)",
+          "{{exp_12_req}}",
+          "{{exp_12_obtained}}",
+          "{{exp_12_notes}}"
+        ],
+        [
+          "13",
+          "Compliance with destination country vehicle standards (e.g., EPA, DOT, emissions, safety standards)",
+          "{{exp_13_req}}",
+          "{{exp_13_obtained}}",
+          "{{exp_13_notes}}"
+        ],
+        [
+          "14",
+          "Export license / permit (if required by U.S. or destination country)",
+          "{{exp_14_req}}",
+          "{{exp_14_obtained}}",
+          "{{exp_14_notes}}"
+        ],
+        [
+          "15",
+          "Photographs of Vehicle (exterior, interior, VIN, damage, odometer)",
+          "{{exp_15_req}}",
+          "{{exp_15_obtained}}",
+          "{{exp_15_notes}}"
+        ],
+        [
+          "16",
+          "Vehicle inspection report (if required by destination country or shipping company)",
+          "{{exp_16_req}}",
+          "{{exp_16_obtained}}",
+          "{{exp_16_notes}}"
+        ],
+        [
+          "17",
+          "Power of Attorney (if using a customs broker or freight forwarder)",
+          "{{exp_17_req}}",
+          "{{exp_17_obtained}}",
+          "{{exp_17_notes}}"
+        ],
+        [
+          "18",
+          "Any other documents required by destination country or shipping method",
+          "{{exp_18_req}}",
+          "{{exp_18_obtained}}",
+          "{{exp_18_notes}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "IMPORT DOCUMENTATION (Vehicle entering the U.S.)",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "#",
+        "Document / Requirement",
+        "Required? (Y/N)",
+        "Obtained? (Y/N/NA)",
+        "Notes / Reference"
+      ],
+      "rows": [
+        [
+          "19",
+          "Bill of Sale (showing buyer and seller, Vehicle description, price, date)",
+          "{{imp_1_req}}",
+          "{{imp_1_obtained}}",
+          "{{imp_1_notes}}"
+        ],
+        [
+          "20",
+          "Title (from country of origin) \u2014 properly assigned to Buyer / U.S. importer",
+          "{{imp_2_req}}",
+          "{{imp_2_obtained}}",
+          "{{imp_2_notes}}"
+        ],
+        [
+          "21",
+          "Customs entry / CBP Form 7501 (or equivalent) \u2014 filed by importer or customs broker",
+          "{{imp_3_req}}",
+          "{{imp_3_obtained}}",
+          "{{imp_3_notes}} \u2014 Reference: CBP"
+        ],
+        [
+          "22",
+          "Customs bond (if required for import)",
+          "{{imp_4_req}}",
+          "{{imp_4_obtained}}",
+          "{{imp_4_notes}}"
+        ],
+        [
+          "23",
+          "EPA Form 3520-1 (Import Certification) \u2014 for vehicles that do not comply with U.S. EPA standards",
+          "{{imp_5_req}}",
+          "{{imp_5_obtained}}",
+          "{{imp_5_notes}} \u2014 Reference: EPA"
+        ],
+        [
+          "24",
+          "DOT Form HS-7 (Declaration) \u2014 for vehicles that do not comply with U.S. DOT safety standards",
+          "{{imp_6_req}}",
+          "{{imp_6_obtained}}",
+          "{{imp_6_notes}} \u2014 Reference: NHTSA / DOT"
+        ],
+        [
+          "25",
+          "Imported Vehicle Safety Compliance Act (IVSCA) documentation (if applicable)",
+          "{{imp_7_req}}",
+          "{{imp_7_obtained}}",
+          "{{imp_7_notes}}"
+        ],
+        [
+          "26",
+          "The Imported Vehicle Safety Compliance Act exemption letter (if applicable \u2014 e.g., exhibition, research, etc.)",
+          "{{imp_8_req}}",
+          "{{imp_8_obtained}}",
+          "{{imp_8_notes}}"
+        ],
+        [
+          "27",
+          "Evidence of modifications to comply with U.S. standards (if applicable)",
+          "{{imp_9_req}}",
+          "{{imp_9_obtained}}",
+          "{{imp_9_notes}}"
+        ],
+        [
+          "28",
+          "DOT exemption letter (if applicable \u2014 temporary import, etc.)",
+          "{{imp_10_req}}",
+          "{{imp_10_obtained}}",
+          "{{imp_10_notes}}"
+        ],
+        [
+          "29",
+          "U.S. registration and title application (after import clearance)",
+          "{{imp_11_req}}",
+          "{{imp_11_obtained}}",
+          "{{imp_11_notes}}"
+        ],
+        [
+          "30",
+          "State emissions / smog certification (if required by state of registration)",
+          "{{imp_12_req}}",
+          "{{imp_12_obtained}}",
+          "{{imp_12_notes}}"
+        ],
+        [
+          "31",
+          "Import duties / taxes paid (if applicable)",
+          "{{imp_13_req}}",
+          "{{imp_13_obtained}}",
+          "{{imp_13_notes}} \u2014 HS code: {{hs_code}}"
+        ],
+        [
+          "32",
+          "Freight / shipping documents (bill of lading, manifest, etc.)",
+          "{{imp_14_req}}",
+          "{{imp_14_obtained}}",
+          "{{imp_14_notes}}"
+        ],
+        [
+          "33",
+          "Currency exchange / export documentation from country of origin (if applicable)",
+          "{{imp_15_req}}",
+          "{{imp_15_obtained}}",
+          "{{imp_15_notes}}"
+        ],
+        [
+          "34",
+          "Power of Attorney (if using a customs broker)",
+          "{{imp_16_req}}",
+          "{{imp_16_obtained}}",
+          "{{imp_16_notes}}"
+        ],
+        [
+          "35",
+          "Photographs of Vehicle (exterior, interior, VIN, damage, odometer)",
+          "{{imp_17_req}}",
+          "{{imp_17_obtained}}",
+          "{{imp_17_notes}}"
+        ],
+        [
+          "36",
+          "Any other documents required by U.S. Customs, EPA, DOT, or destination state",
+          "{{imp_18_req}}",
+          "{{imp_18_obtained}}",
+          "{{imp_18_notes}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "CUSTOMS BROKER / FREIGHT FORWARDER INFORMATION (if applicable)",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Customs Broker / Freight Forwarder",
+          "{{customs_broker}}"
+        ],
+        [
+          "Broker Contact",
+          "{{broker_contact}} (Phone: {{broker_phone}} \u2014 Email: {{broker_email}})"
+        ],
+        [
+          "Broker License #",
+          "{{broker_license}}"
+        ],
+        [
+          "Bond / Reference #",
+          "{{bond_reference}}"
+        ],
+        [
+          " Estimated Import/Export Timeline",
+          "{{timeline}} (Estimated export/import date: {{timeline_date}})"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "CHECKLIST COMPLETION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "This checklist has been completed by {{prepared_by}} on {{checklist_date}}. All required documents have been obtained or are in process, as noted above.",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Any items marked \"No\" or \"Not obtained\" must be addressed before the Vehicle can be exported or imported.",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Prepared By",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Prepared By Signature",
+          "_____________________________",
+          "{{checklist_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{prepared_by}}",
+          ""
+        ],
+        [
+          "Title / Role",
+          "{{prepared_by_title}}",
+          ""
+        ],
+        [
+          "Reviewer (if applicable)",
+          "_____________________________",
+          "{{review_date}}"
+        ],
+        [
+          "Reviewer Printed Name",
+          "{{reviewer_name}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

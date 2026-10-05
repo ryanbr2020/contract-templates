@@ -1,0 +1,417 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "TOWING COMPANY SERVICES AGREEMENT AND TOWING LOG",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "TOWING COMPANY SERVICES AGREEMENT AND TOWING LOG",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Towing Services Agreement is entered into on {{agreement_date}} between {{towing_company_name}} (\"Towing Company\") and {{client_name}} (\"Client\").",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "SERVICES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Towing Company agrees to provide the following towing and recovery services to Client:",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Service Type",
+        "Description",
+        "Rate / Fee"
+      ],
+      "rows": [
+        [
+          "Light-Duty Tow (standard vehicle)",
+          "Tow of passenger cars, light trucks, and motorcycles up to {{light_duty_weight}} lbs using a light-duty tow truck.",
+          "{{light_duty_rate}} (Flat rate / Per mile: {{light_duty_per_mile}})"
+        ],
+        [
+          "Medium-Duty Tow (box truck, van, RV)",
+          "Tow of medium-duty vehicles up to {{medium_duty_weight}} lbs using a medium-duty tow truck.",
+          "{{medium_duty_rate}} (Flat rate / Per mile: {{medium_duty_per_mile}})"
+        ],
+        [
+          "Heavy-Duty Tow (semi truck, bus, large equipment)",
+          "Tow of heavy-duty vehicles and equipment using a heavy-duty wrecker or rotators.",
+          "{{heavy_duty_rate}} (Flat rate / Per mile: {{heavy_duty_per_mile}})"
+        ],
+        [
+          "Flatbed Tow",
+          "Tow using a flatbed / roll-back truck \u2014 Vehicle driven onto flatbed.",
+          "{{flatbed_rate}} (Flat rate / Per mile: {{flatbed_per_mile}})"
+        ],
+        [
+          "Winching / Recovery",
+          "Vehicle winching from ditch, embankment, or other difficult location.",
+          "{{winching_rate}} (Flat rate / Per hour: {{winching_per_hour}})"
+        ],
+        [
+          "Lockout / Key Service",
+          "Vehicle lockout service \u2014 provide keys or open locked vehicle.",
+          "{{lockout_rate}} (Flat rate / Per occurrence)"
+        ],
+        [
+          "Roadside Assistance",
+          "Jump start, fuel delivery, tire change, etc. at roadside.",
+          "{{roadside_rate}} (Flat rate / Per service type)"
+        ],
+        [
+          "Impound / Storage",
+          "Tow and store vehicle at towing company's facility.",
+          "{{impound_rate}} (Flat rate for tow + $ {{storage_per_day}} per day for storage)"
+        ],
+        [
+          "Long-Distance Tow",
+          "Tow over long distance (beyond {{local_radius}} miles).",
+          "{{long_distance_rate}} (Flat rate / Per mile: {{long_distance_per_mile}})"
+        ],
+        [
+          "Other: {{other_service}}",
+          "{{other_service_description}}",
+          "{{other_service_rate}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "CLIENT AND SERVICE DETAILS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Client Name",
+          "{{client_name}}"
+        ],
+        [
+          "Client Type",
+          "{{client_type}} (Property owner / Law enforcement / Insurance company / Individual / Fleet / Other)"
+        ],
+        [
+          "Client Contact",
+          "{{client_contact}} (Name: {{client_contact_name}} \u2014 Phone: {{client_contact_phone}} \u2014 Email: {{client_contact_email}})"
+        ],
+        [
+          "Service Request Method",
+          "{{service_request_method}} (Phone / Email / Online dispatch / App / Other)"
+        ],
+        [
+          "Service Area",
+          "{{service_area}} (City/County/Region \u2014 Radius: {{service_radius}} miles)"
+        ],
+        [
+          "Response Time Commitment",
+          "{{response_time}} (within {{response_time_hours}} hours of request \u2014 24/7 availability / Business hours only / Other)"
+        ],
+        [
+          "After-Hours Emergency Contact",
+          "{{emergency_contact}} (Phone: {{emergency_contact_phone}})"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "TOWING COMPANY RESPONSIBILITIES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Towing Company will respond to service requests within the agreed response time.",
+        "Towing Company will provide licensed, trained, and professional towing operators.",
+        "Towing Company will use equipment that is appropriate for the Vehicle and in good working condition.",
+        "Towing Company will tow and handle the Vehicle with reasonable care to avoid damage.",
+        "Towing Company will transport the Vehicle to {{default_destination}} (Client's designated location / Towing Company's facility / Repair shop of Client's choice / Other).",
+        "Towing Company will provide a receipt / invoice for each service upon completion.",
+        "Towing Company will store impounded Vehicles in a secure facility.",
+        "Towing Company will maintain insurance coverage as stated below.",
+        "Towing Company will comply with all applicable laws and regulations.",
+        "{{towing_company_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "CLIENT RESPONSIBILITIES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Client must provide accurate information about the Vehicle and the situation when requesting service.",
+        "Client must provide access to the Vehicle (keys, unlock, etc.) if needed for towing.",
+        "Client is responsible for all fees for services provided, in accordance with the rates stated above.",
+        "Client must pay all invoices within {{payment_terms}} (upon receipt / Net-15 / Net-30 / Other).",
+        "Client is responsible for providing correct destination for Vehicle transport.",
+        "Client is responsible for any damage caused by Client or Client's agents to the Vehicle or to Towing Company's equipment.",
+        "Client is responsible for any fines, tickets, or penalties related to the Vehicle.",
+        "Client must provide accurate Vehicle identification (make, model, year, VIN, license plate, location).",
+        "{{client_towing_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "INSURANCE AND LIABILITY",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Insurance Type",
+        "Carrier",
+        "Policy #",
+        "Limits"
+      ],
+      "rows": [
+        [
+          "Commercial Auto Liability",
+          "{{auto_liability_carrier}}",
+          "{{auto_liability_policy}}",
+          "{{auto_liability_limits}}"
+        ],
+        [
+          "General Liability",
+          "{{general_liability_carrier}}",
+          "{{general_liability_policy}}",
+          "{{general_liability_limits}}"
+        ],
+        [
+          "Inland Marine / Cargo (covering Vehicles in transit)",
+          "{{cargo_carrier}}",
+          "{{cargo_policy}}",
+          "{{cargo_limits}}"
+        ],
+        [
+          "Workers' Compensation",
+          "{{workers_comp_carrier}}",
+          "{{workers_comp_policy}}",
+          "{{workers_comp_limits}}"
+        ],
+        [
+          "Other: {{other_insurance_type}}",
+          "{{other_insurance_carrier}}",
+          "{{other_insurance_policy}}",
+          "{{other_insurance_limits}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "TOWING LOG",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "This log records all towing and recovery services performed for Client. Each entry must be completed at the time of service.",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Entry #",
+        "Date",
+        "Time",
+        "Service Type",
+        "Vehicle Make/Model/Year",
+        "License Plate",
+        "VIN",
+        "Location",
+        "Destination",
+        "Towed By",
+        "Condition at Pickup",
+        "Condition at Delivery",
+        "Fees Charged",
+        "Paid? (Y/N)",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "{{log_1_entry}}",
+          "{{log_1_date}}",
+          "{{log_1_time}}",
+          "{{log_1_service}}",
+          "{{log_1_vehicle}}",
+          "{{log_1_plate}}",
+          "{{log_1_vin}}",
+          "{{log_1_location}}",
+          "{{log_1_destination}}",
+          "{{log_1_towed_by}}",
+          "{{log_1_pickup_condition}}",
+          "{{log_1_delivery_condition}}",
+          "{{log_1_fees}}",
+          "{{log_1_paid}}",
+          "{{log_1_notes}}"
+        ],
+        [
+          "{{log_2_entry}}",
+          "{{log_2_date}}",
+          "{{log_2_time}}",
+          "{{log_2_service}}",
+          "{{log_2_vehicle}}",
+          "{{log_2_plate}}",
+          "{{log_2_vin}}",
+          "{{log_2_location}}",
+          "{{log_2_destination}}",
+          "{{log_2_towed_by}}",
+          "{{log_2_pickup_condition}}",
+          "{{log_2_delivery_condition}}",
+          "{{log_2_fees}}",
+          "{{log_2_paid}}",
+          "{{log_2_notes}}"
+        ],
+        [
+          "{{log_3_entry}}",
+          "{{log_3_date}}",
+          "{{log_3_time}}",
+          "{{log_3_service}}",
+          "{{log_3_vehicle}}",
+          "{{log_3_plate}}",
+          "{{log_3_vin}}",
+          "{{log_3_location}}",
+          "{{log_3_destination}}",
+          "{{log_3_towed_by}}",
+          "{{log_3_pickup_condition}}",
+          "{{log_3_delivery_condition}}",
+          "{{log_3_fees}}",
+          "{{log_3_paid}}",
+          "{{log_3_notes}}"
+        ],
+        [
+          "{{log_4_entry}}",
+          "{{log_4_date}}",
+          "{{log_4_time}}",
+          "{{log_4_service}}",
+          "{{log_4_vehicle}}",
+          "{{log_4_plate}}",
+          "{{log_4_vin}}",
+          "{{log_4_location}}",
+          "{{log_4_destination}}",
+          "{{log_4_towed_by}}",
+          "{{log_4_pickup_condition}}",
+          "{{log_4_delivery_condition}}",
+          "{{log_4_fees}}",
+          "{{log_4_paid}}",
+          "{{log_4_notes}}"
+        ],
+        [
+          "{{log_5_entry}}",
+          "{{log_5_date}}",
+          "{{log_5_time}}",
+          "{{log_5_service}}",
+          "{{log_5_vehicle}}",
+          "{{log_5_plate}}",
+          "{{log_5_vin}}",
+          "{{log_5_location}}",
+          "{{log_5_destination}}",
+          "{{log_5_towed_by}}",
+          "{{log_5_pickup_condition}}",
+          "{{log_5_delivery_condition}}",
+          "{{log_5_fees}}",
+          "{{log_5_paid}}",
+          "{{log_5_notes}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Towing Company",
+          "_____________________________",
+          "{{towing_date}}"
+        ],
+        [
+          "Authorized Signature",
+          "{{towing_rep_name}}",
+          ""
+        ],
+        [
+          "Title",
+          "{{towing_rep_title}}",
+          ""
+        ],
+        [
+          "Client",
+          "_____________________________",
+          "{{client_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{client_name}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

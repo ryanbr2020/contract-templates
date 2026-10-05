@@ -1,0 +1,323 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "SALVAGE / JUNK VEHICLE PURCHASE AGREEMENT",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "SALVAGE / JUNK VEHICLE PURCHASE AGREEMENT",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Salvage Vehicle Purchase Agreement is entered into on {{agreement_date}} between {{seller_name}} (\"Seller\") and {{buyer_name}} (\"Buyer\"). Seller agrees to sell to Buyer, and Buyer agrees to purchase from Seller, the following salvage or junk vehicle:",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Field",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Vehicle Make/Model/Year",
+          "{{vehicle_make}} {{vehicle_model}} {{vehicle_year}}"
+        ],
+        [
+          "VIN",
+          "{{vehicle_vin}}"
+        ],
+        [
+          "License Plate / Registration",
+          "{{license_plate}} \u2014 State: {{registration_state}}"
+        ],
+        [
+          "Vehicle Color",
+          "{{vehicle_color}}"
+        ],
+        [
+          "Odometer",
+          "{{odometer}} miles (if readable) \u2014 if not readable: {{odometer_unreadable}}"
+        ],
+        [
+          "Vehicle Condition",
+          "{{vehicle_condition}} (Total loss / Damaged / Inoperable / Stripped / Parts only / Other)"
+        ],
+        [
+          "Damage Description",
+          "{{damage_description}} (Description of damage, what is missing, what is functional, etc.)"
+        ],
+        [
+          "Title Status",
+          "{{title_status}} (Clean / Salvage / Rebuilt / Junk / Missing / Other \u2014 Title #: {{title_number}} \u2014 Title State: {{title_state}})"
+        ],
+        [
+          "Lienholder (if any)",
+          "{{lienholder}} (Lienholder name: {{lienholder_name}} \u2014 Lien released: {{lien_released}} (Yes / No))"
+        ],
+        [
+          "Auction / Source",
+          "{{auction_source}} (If purchased at auction: Auction name: {{auction_name}} \u2014 Lot #: {{auction_lot}})"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "PURCHASE PRICE AND PAYMENT",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Amount / Details"
+      ],
+      "rows": [
+        [
+          "Purchase Price",
+          "{{purchase_price}}"
+        ],
+        [
+          "Payment Method",
+          "{{payment_method}} (Cash / Wire transfer / Check / Escrow / Other)"
+        ],
+        [
+          "Payment Due",
+          "{{payment_due}} (At signing / Upon transfer / Within {{payment_days}} days)"
+        ],
+        [
+          "Deposit (if applicable)",
+          "{{deposit}} (Due at signing \u2014 Refundable: {{deposit_refundable}} (Yes / No))"
+        ],
+        [
+          "Balance Due",
+          "{{balance_due}} (Due upon transfer)"
+        ],
+        [
+          "Vehicle Pickup / Delivery",
+          "{{pickup_delivery}} (Buyer picks up Vehicle from Seller / Seller delivers Vehicle to Buyer / Third-party pickup \u2014 Details: {{pickup_delivery_details}})"
+        ],
+        [
+          "Pickup Date",
+          "{{pickup_date}}"
+        ],
+        [
+          "Pickup Location",
+          "{{pickup_location}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "SELLER REPRESENTATIONS AND WARRANTIES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Seller represents and warrants to Buyer that:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Seller is the legal owner of the Vehicle and has the right to sell it to Buyer.",
+        "The Vehicle is free of all liens and encumbrances, except as disclosed above. Seller will provide a lien release or evidence of lien satisfaction, if applicable.",
+        "The title is authentic, valid, and free of all liens (or Seller will provide a bonded title, court-ordered title, or other method of establishing ownership, as applicable).",
+        "Seller has disclosed to Buyer all known damage, defects, missing parts, and other issues with the Vehicle.",
+        "The Vehicle has not been reported stolen and is not subject to any repossession, upset lien, or other legal claim.",
+        "Seller has not made any promises or guarantees about the Vehicle's condition, operability, or roadworthiness, except as expressly stated in this Agreement.",
+        "The Vehicle is sold \"as is, where is\" and without any warranty, express or implied, including any warranty of merchantability or fitness for a particular purpose.",
+        "Seller has not concealed any damage, defects, or other issues with the Vehicle.",
+        "{{seller_representations_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "BUYER ACKNOWLEDGMENT AND ACCEPTANCE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Buyer acknowledges that:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Buyer has inspected the Vehicle (or has had the Vehicle inspected by a third party) and is satisfied with its condition.",
+        "Buyer understands that the Vehicle is sold \"as is, where is\" and without any warranty.",
+        "Buyer has had the opportunity to test-drive, inspect, or have the Vehicle inspected by a mechanic, if the Vehicle is operable. If the Vehicle is not operable, Buyer acknowledges that Buyer has not test-driven the Vehicle.",
+        "Buyer is responsible for all transfer fees, taxes, registration fees, and other costs associated with taking ownership of the Vehicle.",
+        "Buyer is responsible for securing a title, registration, and any other required documentation for the Vehicle after purchase.",
+        "Buyer assumes all risks associated with the Vehicle after the date of sale.",
+        "{{buyer_acknowledgment_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "TITLE TRANSFER AND DOCUMENTATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Title Transfer Method",
+          "{{title_transfer_method}} (Assignment of title by Seller / Electronic title transfer / Bonded title application / Court-ordered title / Other)"
+        ],
+        [
+          "Title to be Provided by Seller",
+          "{{title_provided}} (Yes / No \u2014 If Yes, date: {{title_provided_date}} \u2014 If No, explain: {{title_not_provided_reason}})"
+        ],
+        [
+          "Lien Release to be Provided (if applicable)",
+          "{{lien_release_provided}} (Yes / No \u2014 If applicable, date: {{lien_release_date}})"
+        ],
+        [
+          "Bill of Sale",
+          "This document serves as the Bill of Sale, signed by both parties."
+        ],
+        [
+          "Vehicle Keys / Access",
+          "{{keys_provided}} (Number of keys: {{key_count}} \u2014 Keys provided: Yes / No / Partial \u2014 If partial, describe: {{keys_partial}})"
+        ],
+        [
+          "Personal Property / Items in Vehicle",
+          "{{personal_property}} (Items removed by Seller / Items left in Vehicle \u2014 List: {{items_left_list}})"
+        ],
+        [
+          "License Plates",
+          "{{plates_handling}} (Plates removed by Seller / Plates left on Vehicle / Plates transferred to Buyer \u2014 State rules: {{state_plate_rules}})"
+        ],
+        [
+          "Third-Party Purchase / Registration Services",
+          "{{third_party_services}} (If applicable: Service provider: {{service_provider}} \u2014 Contact: {{service_provider_contact}})"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "DISPUTE RESOLUTION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Any disputes arising under this Agreement shall be resolved by {{dispute_resolution}} (Mediation / Arbitration / Small claims court / Other \u2014 Venue: {{dispute_venue}}).",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Seller",
+          "_____________________________",
+          "{{seller_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{seller_name}}",
+          ""
+        ],
+        [
+          "Seller Phone",
+          "{{seller_phone}}",
+          ""
+        ],
+        [
+          "Seller Email",
+          "{{seller_email}}",
+          ""
+        ],
+        [
+          "Seller Address",
+          "{{seller_address}}",
+          ""
+        ],
+        [
+          "Buyer",
+          "_____________________________",
+          "{{buyer_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{buyer_name}}",
+          ""
+        ],
+        [
+          "Buyer Phone",
+          "{{buyer_phone}}",
+          ""
+        ],
+        [
+          "Buyer Email",
+          "{{buyer_email}}",
+          ""
+        ],
+        [
+          "Buyer Address",
+          "{{buyer_address}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

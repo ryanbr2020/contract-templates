@@ -1,0 +1,350 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "LAST-MILE DELIVERY / COURIER DRIVER AGREEMENT",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "LAST-MILE DELIVERY / COURIER DRIVER AGREEMENT",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Courier Driver Agreement is entered into on {{agreement_date}} between {{company_name}} (\"Company\") and {{driver_name}} (\"Driver\"). This Agreement governs Driver's provision of last-mile delivery and courier services to Company's customers.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "SERVICES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Driver agrees to provide the following delivery and courier services to Company:",
+      "style": "BT"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Service Type",
+        "Description",
+        "Vehicle / Method",
+        "Rate / Fee"
+      ],
+      "rows": [
+        [
+          "Standard Delivery",
+          "Delivery of packages, parcels, and small items to residential and commercial addresses within {{service_area}}.",
+          "{{standard_vehicle}}",
+          "{{standard_rate}} (Per delivery / Per hour / Per mile)"
+        ],
+        [
+          "Same-Day / Rush Delivery",
+          "Expedited delivery within the same day, with guaranteed delivery time of {{rush_guaranteed_time}}.",
+          "{{rush_vehicle}}",
+          "{{rush_rate}} (Per delivery / Per hour)"
+        ],
+        [
+          "Scheduled / Recurring Delivery",
+          "Regular, scheduled deliveries on a recurring route or schedule.",
+          "{{scheduled_vehicle}}",
+          "{{scheduled_rate}} (Per delivery / Per route / Per week)"
+        ],
+        [
+          "Heavy / Oversized Item Delivery",
+          "Delivery of items exceeding {{standard_weight}} lbs or {{standard_dimensions}} in size.",
+          "{{heavy_vehicle}}",
+          "{{heavy_rate}} (Per delivery / Per item)"
+        ],
+        [
+          "Temperature-Controlled / Cold Chain Delivery",
+          "Delivery of temperature-sensitive items (food, pharmaceuticals, etc.) using temperature-controlled vehicle or packaging.",
+          "{{temp_vehicle}}",
+          "{{temp_rate}} (Per delivery / Per hour)"
+        ],
+        [
+          "Proof of Delivery Required",
+          "Delivery with signature, photo, or other proof of delivery required.",
+          "{{pod_vehicle}}",
+          "{{pod_rate}} (Per delivery / Per item)"
+        ],
+        [
+          "Inside Delivery / Placement",
+          "Delivery with inside delivery and placement at a specific location within the recipient's premises.",
+          "{{inside_vehicle}}",
+          "{{inside_rate}} (Per delivery / Per item)"
+        ],
+        [
+          "Courier / Messenger Service",
+          "On-foot, bicycle, scooter, or vehicle-based courier service for documents, packages, and small items.",
+          "{{courier_method}}",
+          "{{courier_rate}} (Per delivery / Per hour)"
+        ],
+        [
+          "Other: {{other_service}}",
+          "{{other_service_description}}",
+          "{{other_service_vehicle}}",
+          "{{other_service_rate}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "DRIVER QUALIFICATIONS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Qualification",
+        "Met? (Y/N)",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Valid driver's license (appropriate for Vehicle used)",
+          "{{license_met}}",
+          "License #: {{license_number}} \u2014 State: {{license_state}} \u2014 Expiration: {{license_expiration}}"
+        ],
+        [
+          "Clean driving record (no major violations in past {{clean_record_period}} years)",
+          "{{clean_record_met}}",
+          "MVR check date: {{mvr_date}} \u2014 Results: {{mvr_results}}"
+        ],
+        [
+          "Age minimum met ({{minimum_age}} years)",
+          "{{age_met}}",
+          "Driver's DOB: {{driver_dob}}"
+        ],
+        [
+          "Vehicle meets Company requirements (if using Driver's own Vehicle)",
+          "{{vehicle_met}}",
+          "Vehicle: {{driver_vehicle}} \u2014 Insurance: {{driver_insurance}} \u2014 Inspection: {{vehicle_inspection}}"
+        ],
+        [
+          "Vehicle insured (if using Driver's own Vehicle \u2014 minimum limits: {{insurance_limits}})",
+          "{{insurance_met}}",
+          "Insurance carrier: {{insurance_carrier}} \u2014 Policy #: {{insurance_policy}}"
+        ],
+        [
+          "Smartphone / mobile device with data connection (for navigation, tracking, communication)",
+          "{{phone_met}}",
+          "Device: {{phone_device}} \u2014 Data plan: {{data_plan}}"
+        ],
+        [
+          "Background check completed (if required by Company)",
+          "{{background_check_met}}",
+          "Background check date: {{background_check_date}} \u2014 Provider: {{background_check_provider}}"
+        ],
+        [
+          "Proof of identity (government-issued ID)",
+          "{{identity_met}}",
+          "ID type: {{id_type}} \u2014 ID #: {{id_number}}"
+        ],
+        [
+          "Agreement to Company policies, terms, and conditions",
+          "{{policies_met}}",
+          "Signed and acknowledged"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "DRIVER RESPONSIBILITIES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Driver will pick up packages/items from designated pickup location(s) and deliver them to the designated delivery address(es) within the agreed time frame.",
+        "Driver will verify the package/items at pickup \u2014 check for correct items, proper packaging, labels, and any special handling instructions.",
+        "Driver will handle all packages and items with care and will not damage, lose, or misplace any packages or items.",
+        "Driver will use the assigned or approved route and will not make unauthorized stops or detours.",
+        "Driver will deliver items to the correct address and to the correct recipient.",
+        "Driver will obtain proof of delivery (signature, photo, or other method) for each delivery, as required.",
+        "Driver will communicate with Company, customers, and dispatchers as needed, using Company's designated channels (app, phone, text, email, etc.).",
+        "Driver will report any issues, delays, damages, or exceptions to Company immediately or within {{issue_report_hours}} hours.",
+        "Driver will maintain a professional appearance and demeanor when interacting with customers.",
+        "Driver will not use a handheld mobile phone while driving (per applicable law and Company policy).",
+        "Driver will comply with all traffic laws and drive safely and responsibly at all times.",
+        "Driver must not operate a vehicle while under the influence of alcohol, drugs, or any impairing substance.",
+        "Driver must not carry any weapons or illegal items in the vehicle.",
+        "Driver must not deliver any items that are illegal, hazardous, or that Driver knows or reasonably should know are prohibited.",
+        "Driver must not share any customer information, package contents, or other confidential information with any unauthorized person.",
+        "Driver must wear Company's uniform or branded clothing (if provided or required) and must display any required identification or markings.",
+        "Driver must maintain the Vehicle in a clean, safe, and professional condition (if using Driver's own Vehicle).",
+        "Driver must maintain adequate insurance on the Vehicle (if using Driver's own Vehicle) at all times during the Agreement.",
+        "Driver must not allow any unauthorized person to operate the Vehicle or to make deliveries on Driver's behalf.",
+        "Driver must take reasonable steps to secure the Vehicle and packages when the Vehicle is unattended.",
+        "{{driver_courier_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "PAYMENT AND COMPENSATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Item",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Compensation Type",
+          "{{compensation_type}} (Per delivery / Per hour / Percentage of delivery fee / Salary / Other)"
+        ],
+        [
+          "Base Rate",
+          "{{base_rate}} (Per delivery: ${{per_delivery_rate}} / Per hour: ${{per_hour_rate}} / Other: {{other_rate}})"
+        ],
+        [
+          "Tips / Gratuities",
+          "{{tips_policy}} (Tips retained by Driver / Tips shared with Company / Tips not allowed \u2014 details: {{tips_details}})"
+        ],
+        [
+          "Additional Compensation",
+          "{{additional_compensation}} (Fuel reimbursement / Vehicle reimbursement / Mileage rate: ${{mileage_rate}} per mile / Insurance reimbursement: ${{insurance_reimbursement}} / Other: {{other_compensation}})"
+        ],
+        [
+          "Pay Schedule",
+          "{{pay_schedule}} (Weekly / Bi-weekly / Daily / Per delivery / Other)"
+        ],
+        [
+          "Pay Method",
+          "{{pay_method}} (Direct deposit / Physical check / Other)"
+        ],
+        [
+          "Expense Reimbursement",
+          "{{expense_reimbursement}} (Reimbursement for: {{reimbursable_expenses}} \u2014 Receipts required: {{receipts_required}} \u2014 Reimbursement timeline: {{reimbursement_timeline}})"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "INDEPENDENT CONTRACTOR STATUS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "{{independent_contractor_clause}} (Driver is an independent contractor, not an employee of Company. Driver is responsible for their own taxes, insurance, benefits, and other obligations. Driver is free to provide services to other companies, subject to any non-compete or exclusivity provisions in this Agreement. Driver uses their own Vehicle (if applicable) and sets their own schedule (subject to delivery commitments). Company does not withhold taxes, provide workers' compensation, or provide any employee benefits to Driver.)",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "INSURANCE AND LIABILITY",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "{{liability_clause}} (Driver is responsible for their own insurance, including but not limited to vehicle insurance (if applicable), general liability insurance, and any other insurance required by law or by this Agreement. Company maintains its own insurance. Company's insurance is primary for claims arising from Company's negligence or willful misconduct. Driver is responsible for any loss, damage, or liability arising from Driver's acts or omissions, including but not limited to loss or damage to packages, injury to persons, or damage to property.)",
+      "style": "BT"
+    },
+    {
+      "type": "paragraph",
+      "text": "Driver agrees to indemnify, defend, and hold harmless Company from and against any claims, damages, losses, liabilities, fines, penalties, costs, and expenses (including reasonable attorneys' fees) arising out of or related to: (a) Driver's use of the Vehicle; (b) Driver's delivery services; (c) Driver's acts or omissions; (d) Driver's breach of this Agreement; or (e) any injury or damage caused by Driver, Driver's Vehicle, or Driver's packages.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Driver",
+          "_____________________________",
+          "{{driver_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{driver_name}}",
+          ""
+        ],
+        [
+          "Driver Phone",
+          "{{driver_phone}}",
+          ""
+        ],
+        [
+          "Driver Email",
+          "{{driver_email}}",
+          ""
+        ],
+        [
+          "Driver Address",
+          "{{driver_address}}",
+          ""
+        ],
+        [
+          "Company Representative",
+          "_____________________________",
+          "{{company_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{company_rep_name}}",
+          ""
+        ],
+        [
+          "Title",
+          "{{company_rep_title}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}

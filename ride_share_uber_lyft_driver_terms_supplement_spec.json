@@ -1,0 +1,444 @@
+{
+  "page": {
+    "margins_mm": {
+      "top": 20,
+      "bottom": 20,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "styles": [
+    {
+      "name": "CT",
+      "font": "Calibri",
+      "size_pt": 22,
+      "bold": true
+    },
+    {
+      "name": "SH",
+      "font": "Calibri",
+      "size_pt": 14,
+      "bold": true
+    },
+    {
+      "name": "BT",
+      "font": "Calibri",
+      "size_pt": 11
+    },
+    {
+      "name": "WT",
+      "font": "Calibri",
+      "size_pt": 12,
+      "bold": true,
+      "color": "CC0000"
+    }
+  ],
+  "header": "RIDE-SHARE PLATFORM \u2014 UBER / LYFT DRIVER TERMS SUPPLEMENT",
+  "footer_page_numbers": true,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "RIDE-SHARE PLATFORM \u2014 UBER / LYFT DRIVER TERMS SUPPLEMENT",
+      "level": 1,
+      "style": "CT"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Driver Terms Supplement is entered into on {{agreement_date}} between {{platform_name}} (\"Platform\") and {{driver_name}} (\"Driver\"). This Supplement is part of the Driver Agreement between Platform and Driver and supplements the general ride-share driver terms with platform-specific terms and conditions.",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "PLATFORM-SPECIFIC TERMS",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Driver acknowledges that they will use Platform's mobile application (the \"App\") to receive trip requests, navigate to pickup and drop-off locations, communicate with passengers, and complete other platform functions. Driver agrees to the following platform-specific terms:",
+      "style": "BT"
+    },
+    {
+      "type": "heading",
+      "text": "APP USAGE AND TECHNOLOGY",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "#",
+        "Requirement / Term",
+        "Acknowledged? (Y/N)",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "1",
+          "Driver will download, install, and maintain the latest version of the Platform App on a compatible smartphone or device.",
+          "{{app_1_ack}}",
+          "{{app_1_notes}}"
+        ],
+        [
+          "2",
+          "Driver will maintain a reliable data connection (cellular or Wi-Fi) to use the App at all times while on duty.",
+          "{{app_2_ack}}",
+          "{{app_2_notes}}"
+        ],
+        [
+          "3",
+          "Driver will not share their account, login credentials, or App access with any other person. Driver is responsible for all activity on their account.",
+          "{{app_3_ack}}",
+          "{{app_3_notes}}"
+        ],
+        [
+          "4",
+          "Driver will not use any unauthorized third-party apps, tools, or services to receive, accept, or complete trips (e.g., ride-sharing bots, auto-accept tools, fare optimization tools not approved by Platform).",
+          "{{app_4_ack}}",
+          "{{app_4_notes}}"
+        ],
+        [
+          "5",
+          "Driver will not use the App while driving (except for navigation purposes and minimal interaction necessary to complete the trip). Driver will use hands-free navigation and will not handle the phone while driving.",
+          "{{app_5_ack}}",
+          "{{app_5_notes}}"
+        ],
+        [
+          "6",
+          "Driver will keep their device charged, mounted (if required by state law or Platform policy), and operational at all times while on trips.",
+          "{{app_6_ack}}",
+          "{{app_6_notes}}"
+        ],
+        [
+          "7",
+          "Driver will not attempt to manipulate, hack, or interfere with the App, Platform's systems, or any aspect of the trip fare calculation.",
+          "{{app_7_ack}}",
+          "{{app_7_notes}}"
+        ],
+        [
+          "8",
+          "Driver understands that Platform may update the App and its features at any time, and Driver must keep the App up to date to continue receiving and completing trips.",
+          "{{app_8_ack}}",
+          "{{app_8_notes}}"
+        ],
+        [
+          "9",
+          "Driver will not disable or tamper with any Device Location, GPS, or tracking features of the App. Platform may track Driver's location during trips and while the App is active.",
+          "{{app_9_ack}}",
+          "{{app_9_notes}}"
+        ],
+        [
+          "10",
+          "Driver will not use the App to arrange trips outside of the Platform (e.g., arranging a trip through the App but completing payment or the trip outside the Platform, or taking a trip without using the App).",
+          "{{app_10_ack}}",
+          "{{app_10_notes}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "TRIP ACCEPTANCE AND COMPLETION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "#",
+        "Requirement / Term",
+        "Acknowledged? (Y/N)",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "11",
+          "Driver will accept or decline trip requests through the App. Driver may not accept a trip and then refuse to complete it without a valid reason approved by Platform.",
+          "{{trip_11_ack}}",
+          "{{trip_11_notes}}"
+        ],
+        [
+          "12",
+          "Driver must arrive at the pickup location within the estimated arrival time shown in the App. Driver must not keep the passenger waiting without communicating with the passenger (if safe and appropriate to do so).",
+          "{{trip_12_ack}}",
+          "{{trip_12_notes}}"
+        ],
+        [
+          "13",
+          "Driver will not cancel a trip after arriving at the pickup location without a valid reason (e.g., passenger is not present, pickup location is unsafe, passenger is intoxicated or engaging in illegal activity). Repeated cancellations may result in deactivation.",
+          "{{trip_13_ack}}",
+          "{{trip_13_notes}}"
+        ],
+        [
+          "14",
+          "Driver will complete the trip by navigating to the drop-off location shown in the App. Driver must not take the passenger to a different location without the passenger's consent.",
+          "{{trip_14_ack}}",
+          "{{trip_14_notes}}"
+        ],
+        [
+          "15",
+          "Driver will end the trip in the App at the drop-off location. Driver must not end the trip early or late without a valid reason.",
+          "{{trip_15_ack}}",
+          "{{trip_15_notes}}"
+        ],
+        [
+          "16",
+          "Driver will not route the trip in a way that intentionally increases the fare (e.g., taking a longer route to increase the fare). Driver must use the navigation provided by the App or a reasonable route.",
+          "{{trip_16_ack}}",
+          "{{trip_16_notes}}"
+        ],
+        [
+          "17",
+          "Driver will not charge passengers any amount beyond the fare calculated by the Platform. Driver will not collect cash, card, or other payment directly from passengers (unless specifically allowed by Platform).",
+          "{{trip_17_ack}}",
+          "{{trip_17_notes}}"
+        ],
+        [
+          "18",
+          "Driver must not refuse a trip based on the passenger's race, color, religion, national origin, sex, disability, age, or any other protected characteristic. Driver must not discriminate against passengers.",
+          "{{trip_18_ack}}",
+          "{{trip_18_notes}}"
+        ],
+        [
+          "19",
+          "Driver must not refuse a trip because the passenger has a service animal (in accordance with applicable law). Driver must not refuse a passenger with a disability or requiring accessibility accommodations.",
+          "{{trip_19_ack}}",
+          "{{trip_19_notes}}"
+        ],
+        [
+          "20",
+          "Driver will not bring any unauthorized passenger, pet, or item into the Vehicle during a trip, unless the passenger has specifically agreed to allow it and it does not violate any policy.",
+          "{{trip_20_ack}}",
+          "{{trip_20_notes}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "PASSENGER INTERACTION AND SAFETY",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "#",
+        "Requirement / Term",
+        "Acknowledged? (Y/N)",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "21",
+          "Driver will be courteous, professional, and respectful to all passengers at all times.",
+          "{{pass_21_ack}}",
+          "{{pass_21_notes}}"
+        ],
+        [
+          "22",
+          "Driver will not engage in any physical contact with a passenger that is not consensual, welcome, or appropriate. Driver will not touch a passenger without their consent.",
+          "{{pass_22_ack}}",
+          "{{pass_22_notes}}"
+        ],
+        [
+          "23",
+          "Driver will not make any inappropriate, offensive, or harassing comments or gestures toward a passenger.",
+          "{{pass_23_ack}}",
+          "{{pass_23_notes}}"
+        ],
+        [
+          "24",
+          "Driver will not use alcohol, drugs, or any impairing substance while on a trip or while the App is active. Driver will not have any open container of alcohol in the Vehicle.",
+          "{{pass_24_ack}}",
+          "{{pass_24_notes}}"
+        ],
+        [
+          "25",
+          "Driver will not smoke or vape in the Vehicle while on a trip or while the App is active. Driver will not allow passengers to smoke or vape in the Vehicle, except as permitted by law and Platform policy.",
+          "{{pass_25_ack}}",
+          "{{pass_25_notes}}"
+        ],
+        [
+          "26",
+          "Driver will not discuss any controversial, political, religious, or offensive topics with passengers, unless the passenger initiates the conversation and the conversation is appropriate and respectful.",
+          "{{pass_26_ack}}",
+          "{{pass_26_notes}}"
+        ],
+        [
+          "27",
+          "Driver will not make any unwanted advances, requests for personal information, or invitations to passengers.",
+          "{{pass_27_ack}}",
+          "{{pass_27_notes}}"
+        ],
+        [
+          "28",
+          "Driver will not use any recording device (audio, video, or photo) in the Vehicle without the passenger's consent and without complying with applicable laws. Driver must not record passengers for any purpose other than safety or Platform requirements.",
+          "{{pass_28_ack}}",
+          "{{pass_28_notes}}"
+        ],
+        [
+          "29",
+          "Driver will not carry any weapons (firearms, knives, or other weapons) in the Vehicle while on trips, unless specifically permitted by Platform policy and applicable law. Driver must not display or brandish any weapon.",
+          "{{pass_29_ack}}",
+          "{{pass_29_notes}}"
+        ],
+        [
+          "30",
+          "Driver will not engage in any illegal activity while on a trip. Driver will not use the Vehicle for any illegal purpose.",
+          "{{pass_30_ack}}",
+          "{{pass_30_notes}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "RATING AND PERFORMANCE",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "#",
+        "Requirement / Term",
+        "Acknowledged? (Y/N)",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "31",
+          "Driver understands that passengers rate each trip (typically 1 to 5 stars) and that Driver's overall rating is calculated based on passenger ratings over a recent period of trips.",
+          "{{rating_31_ack}}",
+          "{{rating_31_notes}}"
+        ],
+        [
+          "32",
+          "Driver must maintain a minimum overall rating of {{minimum_rating}} / 5.0 to remain active on the Platform. If Driver's rating falls below this minimum, Platform may take action, including requiring Driver to complete additional training, limiting Driver's ability to receive trips, or deactivating Driver's account.",
+          "{{rating_32_ack}}",
+          "{{rating_32_notes}}"
+        ],
+        [
+          "33",
+          "Driver must not encourage or solicit passengers to give a specific rating (e.g., asking a passenger to give 5 stars). Driver must not offer any incentive in exchange for a rating.",
+          "{{rating_33_ack}}",
+          "{{rating_33_notes}}"
+        ],
+        [
+          "34",
+          "Driver will not retaliate against a passenger for giving a low rating (e.g., refusing future trips to that passenger, giving a low rating to that passenger, or otherwise taking adverse action).",
+          "{{rating_34_ack}}",
+          "{{rating_34_notes}}"
+        ],
+        [
+          "35",
+          "Driver will also rate passengers after each trip. Driver must provide honest and objective ratings. Driver must not give a low rating in retaliation for a low rating received from the passenger.",
+          "{{rating_35_ack}}",
+          "{{rating_35_notes}}"
+        ],
+        [
+          "36",
+          "Driver will not disable, interfere with, or manipulate the rating system. Driver must not use any unauthorized tool or app to view or manipulate ratings.",
+          "{{rating_36_ack}}",
+          "{{rating_36_notes}}"
+        ],
+        [
+          "37",
+          "Driver understands that Platform may review Driver's performance, ratings, trip history, and other data to assess Driver's continued eligibility to use the Platform.",
+          "{{rating_37_ack}}",
+          "{{rating_37_notes}}"
+        ],
+        [
+          "38",
+          "Driver will not create multiple accounts or use multiple devices or phone numbers to bypass any rating, performance, or other requirements.",
+          "{{rating_38_ack}}",
+          "{{rating_38_notes}}"
+        ]
+      ],
+      "style": "Table Grid"
+    },
+    {
+      "type": "heading",
+      "text": "DEACTIVATION AND TERMINATION",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "paragraph",
+      "text": "Platform may deactivate or terminate Driver's account at any time, with or without cause, and with or without notice, subject to applicable law and Platform's policies. Grounds for deactivation or termination include but are not limited to:",
+      "style": "BT"
+    },
+    {
+      "type": "bullet_list",
+      "items": [
+        "Violation of this Supplement or any Platform policy, term, or condition.",
+        "Failure to maintain a minimum rating or other performance standard.",
+        "Violent, threatening, or abusive behavior toward a passenger, another driver, or Platform staff.",
+        "Use of alcohol, drugs, or any impairing substance while on a trip.",
+        "Driving under the influence of alcohol or drugs.",
+        "Any illegal activity while on a trip or while using the App.",
+        "Damage to the Vehicle, passenger's property, or any other property.",
+        "Repeated cancellations, no-shows, or failure to complete trips.",
+        "Refusal to carry passengers based on a protected characteristic or service animal.",
+        "Sharing account, login credentials, or App access with another person.",
+        "Using unauthorized tools, apps, or services to receive or complete trips.",
+        "Fraudulent activity, including but not limited to: manipulating fares, falsifying trip information, or engaging in any scheme to defraud Platform, passengers, or other drivers.",
+        "Any other conduct that Platform reasonably believes is harmful to passengers, other drivers, or Platform.",
+        "{{deactivation_extra}}"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "SIGNATURES",
+      "level": 2,
+      "style": "SH"
+    },
+    {
+      "type": "table",
+      "header": [
+        "Party",
+        "Signature",
+        "Date"
+      ],
+      "rows": [
+        [
+          "Driver",
+          "_____________________________",
+          "{{driver_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{driver_name}}",
+          ""
+        ],
+        [
+          "Driver Phone",
+          "{{driver_phone}}",
+          ""
+        ],
+        [
+          "Driver Email",
+          "{{driver_email}}",
+          ""
+        ],
+        [
+          "Platform Representative",
+          "_____________________________",
+          "{{platform_date}}"
+        ],
+        [
+          "Printed Name",
+          "{{platform_rep_name}}",
+          ""
+        ],
+        [
+          "Title",
+          "{{platform_rep_title}}",
+          ""
+        ]
+      ],
+      "style": "Table Grid"
+    }
+  ]
+}
